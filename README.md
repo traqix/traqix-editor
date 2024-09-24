@@ -91,6 +91,9 @@ Contributions are welcome! To get started:
 ![Page Layout](./screenshot/traqix-v0-generated-2.PNG)
 *Building a page layout with drag-and-drop components.*
 
+![Page Layout](./screenshot/traqix-v0-generated-3.PNG)
+*Customizing a page with drag-and-drop components left-sidebar.*
+
 ### Video Demo
 
 ![](./screenshot/traqix.gif)
