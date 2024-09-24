@@ -5,8 +5,10 @@ import {
   Code,
   Eye,
   Monitor,
+  Moon,
   Redo,
   Smartphone,
+  Sun,
   Tablet,
   Undo,
 } from "lucide-react";
@@ -33,7 +35,7 @@ import { TreeItem } from "./types";
 import { parse } from '@babel/parser';
 import traverse from '@babel/traverse';
 import generator from '@babel/generator';
-
+import { useTheme } from "next-themes"
 
 
 const initialTree: TreeItem[] = [
@@ -3357,6 +3359,8 @@ export default function EnhancedTailwindEditor() {
   const [rawCode, setRawCode] = useState("");
   const [rawCodeTsx, setRawCodeTsx] = useState("");
 
+  const { theme, setTheme } = useTheme()
+
   const handleSelect = useCallback((item: TreeItem) => {
     setSelectedItem(item);
   }, []);
@@ -3816,6 +3820,10 @@ export default function EnhancedTailwindEditor() {
                 }
                 return null
               } else if (child.type === 'JSXElement') {
+                console.log("child", child.openingElement.name.name)
+                if( child.openingElement.name.name == "h2") {
+                  console.log(child)
+                }
                 return tsxStringToJson(generator(child).code); // Gera o código do elemento filho
               }
               return null; // Ignore outros tipos, se necessário
@@ -3860,7 +3868,6 @@ export default function EnhancedTailwindEditor() {
     
   }
   
-
   const applyRawCode = () => {
     try {
       const parsedCode = JSON.parse(rawCode);
@@ -3921,11 +3928,14 @@ export default function EnhancedTailwindEditor() {
 
   return (
     <DndProvider backend={HTML5Backend}>
-      <div className="flex h-screen flex-col bg-gray-50">
-        <header className="flex items-center justify-between bg-white p-4 shadow-sm">
+      <div className="flex h-screen flex-col">
+        <header className="flex items-center justify-between p-4 shadow-sm">
           <div className="flex items-center space-x-2">
             <Button variant="outline" size="icon">
               <Code className="h-4 w-4" />
+            </Button>
+            <Button variant="outline" size="icon" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+              {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </Button>
             <Button
               variant="outline"

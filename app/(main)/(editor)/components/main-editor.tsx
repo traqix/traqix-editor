@@ -2417,7 +2417,7 @@ const MainEditor: React.FC<MainEditorProps> = ({
         <ScrollArea className="h-[calc(100vh-12rem)]">
         <TabsContent value="preview">
           <div
-            className={`w-full mx-auto bg-white min-h-[240px] rounded-lg shadow-md p-0.5 transition-all duration-300 ease-in-out ${
+            className={`w-full mx-auto bg-white dark:bg-black min-h-[240px] rounded-lg shadow-md p-0.5 transition-all duration-300 ease-in-out ${
               previewMode === "desktop"
                 ? "max-w-full"
                 : previewMode === "tablet"

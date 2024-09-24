@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDrag, useDrop } from "react-dnd";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Input } from "@/components/ui/input";
 import {
   Select,
@@ -115,15 +115,15 @@ const TreeNode: React.FC<{
   return (
     <div
       ref={drop}
-      className={`ml-${level * 1} ${isOver ? "bg-blue-100" : ""}`}
+      className={`ml-${level == 0 ? 0 : 1.5} ${isOver ? "bg-blue-100" : ""}`}
     >
       <div
         ref={drag}
-        className={`ml-${level * 1} ${isDragging ? "opacity-50" : ""}`}
+        className={`ml-${level == 0 ? 0 : 1.5} ${isDragging ? "opacity-50" : ""}`}
       >
         <div
-          className={`flex items-center bg-slate-50 border-[0.5px] p-0.5 px-2 my-3.5 rounded-xl ${
-            selectedItemId === item.id ? "bg-gray-200" : ""
+          className={`flex items-center bg-muted border-[0.5px] dark:border-gray-800 p-0.5 px-2 mb-3.5 rounded-xl w-80 ${
+            selectedItemId === item.id ? "bg-gray-200 dark:bg-gray-900" : ""
           }`}
         >
           {hasChildren && (
@@ -151,7 +151,7 @@ const TreeNode: React.FC<{
             </form>
           ) : (
             <span
-              className="ml-2 cursor-pointer flex-1"
+              className="ml-2 cursor-pointer flex-1 font-semibold text-muted-foreground text-md"
               onClick={() => onSelect(item)}
             >
               {item.name}
@@ -200,7 +200,7 @@ const TreeNode: React.FC<{
           )}
         </div>
         {isOpen && hasChildren && (
-          <div className="ml-4">
+          <>
             {item.children!.map((child) => (
               <TreeNode
                 key={child.id}
@@ -215,7 +215,7 @@ const TreeNode: React.FC<{
                 componentLibrary={componentLibrary}
               />
             ))}
-          </div>
+          </>
         )}
       </div>
     </div>
@@ -246,8 +246,8 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
   };
 
   return (
-    <aside className="max-w-96 p-4 pt-0 bg-white border-r border-gray-200">
-      <div className="space-y-2 p-4 pt-2 mb-6 bg-slate-100 rounded-xl border-[0.5px]">
+    <aside className="w-96 p-4 pt-0 space-y-4 border-r border-gray-200 dark:border-gray-800">
+      <div className="space-y-2 p-4 pt-2 bg-slate-100 dark:bg-slate-900 rounded-xl border-[0.5px] dark:border-gray-800">
         <Label>Pages</Label>
         <Select value={currentPage} onValueChange={onSelectPage}>
           <SelectTrigger>
@@ -280,7 +280,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
           </TabsTrigger>
         </TabsList>
         <TabsContent value="layers">
-          <ScrollArea className="h-[calc(100vh-12rem)] w-full">
+          <ScrollArea className="h-[calc(100vh-19rem)]">
             {tree.map((item) => (
               <TreeNode
                 key={item.id}
@@ -295,6 +295,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
                 componentLibrary={componentLibrary}
               />
             ))}
+            <ScrollBar orientation="horizontal" />
           </ScrollArea>
         </TabsContent>
         <TabsContent value="components">

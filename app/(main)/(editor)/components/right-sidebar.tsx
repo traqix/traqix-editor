@@ -307,7 +307,7 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   onUpdate,
 }) => {
   return (
-    <aside className="w-96 p-4 bg-white overflow-y-auto border-l border-gray-200">
+    <aside className="w-96 p-4 overflow-y-auto border-l border-gray-200 dark:border-gray-800">
       <h2 className="text-lg font-semibold mb-4">Component Options</h2>
       <ScrollArea className="h-[calc(100vh-12rem)]">
         <ComponentOptions selectedItem={selectedItem} onUpdate={onUpdate} />

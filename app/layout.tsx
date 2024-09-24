@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import "./build.css";
-import { ToastProvider } from "@radix-ui/react-toast";
 
 import { GeistSans } from 'geist/font/sans';
 import Script from "next/script";
+import { Providers } from "@/components/providers/providers";
 // import { GeistMono } from 'geist/font/mono';
 
 const geistSans = localFont({
@@ -34,9 +34,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${GeistSans.className}  antialiased`}
       >
-        <ToastProvider>
+        <Providers attribute="class" defaultTheme="dark" enableSystem>
           {children}
-        </ToastProvider>
+        </Providers>
         <Script
 					defer
 					src="https://cdn.tailwindcss.com"

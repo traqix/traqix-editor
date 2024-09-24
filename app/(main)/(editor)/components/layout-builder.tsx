@@ -453,7 +453,7 @@ const LayoutBuilder = () => {
   
         {/* Dropdown das classes filtradas */}
         {filteredOptions.length > 0 && (
-          <ul className="absolute z-10 mt-2 w-full bg-white border border-gray-300 rounded-lg shadow-md">
+          <ul className="absolute z-10 mt-2 w-full border border-gray-300 dark:border-gray-700 rounded-lg shadow-md">
             {filteredOptions.map(option => (
               <li
                 key={option}
