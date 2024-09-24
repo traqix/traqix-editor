@@ -93,7 +93,7 @@ Contributions are welcome! To get started:
 
 ### Video Demo
 
-[![Watch the video](./screenshot/traqix-v0-generated-3.PNG)](./screenshot/traqix.gif)
+![](./screenshot/traqix.gif)
 *Click on the image to watch the demo video.*
 
 ---
