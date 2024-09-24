@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Traqix LowCode/NoCode Editor
 
-## Getting Started
+![Editor Screenshot](./screenshot/traqix-rev0.PNG)
 
-First, run the development server:
+Traqix LowCode/NoCode Editor is a powerful tool for designing visual interfaces for systems and websites. Built on **Tailwind CSS** and using **ShadCN-UI** components, it simplifies the creation of layouts and components such as tables, charts, forms, and panels.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+With a modern and intuitive interface, this editor allows developers to create responsive and interactive UI elements visually, while maintaining control over the Tailwind CSS classes. It also integrates with Vercel’s **v0**, enabling the reuse of AI-generated components, allowing seamless import and manipulation of these components within the editor.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Note:** This project is under active development and may contain bugs or unexpected behavior.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features
 
-## Learn More
+- **Visual Component Builder:** Drag and drop UI components like tables, forms, charts, and widgets onto the canvas.
+- **Tailwind CSS Integration:** Complete control over CSS styles with Tailwind's utility-first approach.
+- **ShadCN-UI Components:** Reusable UI components that are easy to customize and integrate.
+- **AI Component Import:** Direct integration with **Vercel v0**, allowing you to import and customize AI-generated UI designs.
+- **Real-Time Code Export:** Export your design as **TSX** code or **JSON** for further integration into your projects.
+- **JSON Import:** Load saved layouts or work on existing designs by importing JSON configurations.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **ShadCN-UI**
+- **Vercel v0** integration
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## How to Use
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/traqix-lowcode-editor.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd traqix-lowcode-editor
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## Project Status
+
+The Traqix LowCode/NoCode Editor is currently in **active development**. While the core functionality is stable, new features are continuously being added, and there may be bugs or areas of improvement. Contributions, feedback, and bug reports are highly appreciated.
+
+---
+
+## Contributing
+
+Contributions are welcome! To get started:
+
+1. **Fork** the repository.
+2. Create a new branch: `git checkout -b feature/new-feature`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature/new-feature`.
+5. Open a **Pull Request**.
+
+---
+
+## Screenshots and Demo
+
+### Editor in Action
+
+![Editor Overview](./screenshot/traqix-v0-generated-0.PNG)
+*An overview of the Traqix LowCode/NoCode Editor interface.*
+
+![Component Customization](./screenshot/traqix-v0-generated-1.PNG)
+*Customizing components with Tailwind CSS classes.*
+
+![Page Layout](./screenshot/traqix-v0-generated-2.PNG)
+*Building a page layout with drag-and-drop components.*
+
+### Video Demo
+
+[![Watch the video](./screenshot/traqix-v0-generated-3.PNG)](./screenshot/traqix.mp4)
+*Click on the image to watch the demo video.*
+
+---
+
+
+## License
+
+This project is licensed under the **MIT License**.
+
+---
+
+This README is now optimized for GitHub and includes all the details for setting up, running, and contributing to the Traqix LowCode/NoCode Editor. You can directly copy it into your repository.
