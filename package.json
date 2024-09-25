@@ -8,6 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "packageManager": "pnpm@9.11.0",
+	"engines": {
+		"node": ">=22.0.0",
+		"pnpm": "9"
+	},
   "dependencies": {
     "@babel/core": "^7.25.2",
     "@babel/generator": "^7.25.6",
