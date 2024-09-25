@@ -23,24 +23,225 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Switch } from "@/components/ui/switch";
 import { Slider } from "@/components/ui/slider";
-import { Trash2, Plus, Move, ArrowLeftRightIcon, ArrowRightIcon, PlusIcon, MinusIcon, SquareDivideIcon, DivideIcon, SmileIcon, PencilIcon, CheckIcon, ExpandIcon, ConstructionIcon, MenuIcon, ArrowLeftIcon, PlayIcon, HomeIcon, WalletIcon, UsersIcon, TrashIcon, DownloadIcon, TicketIcon, MessageCircleIcon, LayersIcon, InboxIcon, ShareIcon, ChevronRightIcon, ChevronLeftIcon, FolderIcon, StickyNoteIcon, CameraIcon, SendIcon, SearchIcon, HeartIcon, ReplyIcon, BookmarkIcon, KanbanIcon, BackpackIcon, ListTodoIcon, ActivityIcon, MergeIcon, LockIcon, SettingsIcon, CombineIcon, RepeatIcon, TwitterIcon, CookieIcon, AlignRightIcon, AlignLeftIcon, UnderlineIcon, ItalicIcon, BoldIcon, AlignCenterIcon, ListIcon, ImageIcon, LinkIcon, LayoutDashboardIcon, MegaphoneIcon, GaugeIcon, ComputerIcon, ComponentIcon, BarChartIcon, CreativeCommonsIcon, FileTextIcon, BellIcon, UserIcon, MailIcon, CircleCheckIcon, FilterIcon, DoorClosedIcon, FlaskConical, FlaskConicalIcon, NewspaperIcon, InfoIcon, MicVocalIcon, DollarSignIcon, TagIcon, Package2Icon, CreditCardIcon, ArrowUpIcon, ArrowDownIcon, Trash2Icon, ForwardIcon, FileIcon, LightbulbIcon, FileTypeIcon, SunDimIcon, PauseIcon, ScanIcon, AirplayIcon, PaperclipIcon, MoveVerticalIcon, PhoneIcon, VideoIcon, MoveHorizontalIcon, ClockIcon, ArrowUpRightIcon, CoinsIcon, BlocksIcon, FuelIcon, MoveUpIcon, KeyIcon, ShuffleIcon, SandwichIcon, BotIcon, TriangleIcon, Tally1Icon, ClipboardIcon, VoteIcon, ChevronDownIcon, XIcon, AppleIcon, ChromeIcon, TextIcon, BrushIcon, CodeIcon, MapPinIcon, NotebookIcon, CalendarIcon, DatabaseIcon, BookIcon, HashIcon, SlackIcon, StarIcon, SpeakerIcon, BatteryIcon, BluetoothIcon, BedIcon, StepBackIcon, SmartphoneIcon, WifiIcon, ThermometerIcon, MountainIcon, FacebookIcon, InstagramIcon } from "lucide-react";
+import {
+  Trash2,
+  Plus,
+  Move,
+  ArrowLeftRightIcon,
+  ArrowRightIcon,
+  PlusIcon,
+  MinusIcon,
+  SquareDivideIcon,
+  DivideIcon,
+  SmileIcon,
+  PencilIcon,
+  CheckIcon,
+  ExpandIcon,
+  ConstructionIcon,
+  MenuIcon,
+  ArrowLeftIcon,
+  PlayIcon,
+  HomeIcon,
+  WalletIcon,
+  UsersIcon,
+  TrashIcon,
+  DownloadIcon,
+  TicketIcon,
+  MessageCircleIcon,
+  LayersIcon,
+  InboxIcon,
+  ShareIcon,
+  ChevronRightIcon,
+  ChevronLeftIcon,
+  FolderIcon,
+  StickyNoteIcon,
+  CameraIcon,
+  SendIcon,
+  SearchIcon,
+  HeartIcon,
+  ReplyIcon,
+  BookmarkIcon,
+  KanbanIcon,
+  BackpackIcon,
+  ListTodoIcon,
+  ActivityIcon,
+  MergeIcon,
+  LockIcon,
+  SettingsIcon,
+  CombineIcon,
+  RepeatIcon,
+  TwitterIcon,
+  CookieIcon,
+  AlignRightIcon,
+  AlignLeftIcon,
+  UnderlineIcon,
+  ItalicIcon,
+  BoldIcon,
+  AlignCenterIcon,
+  ListIcon,
+  ImageIcon,
+  LinkIcon,
+  LayoutDashboardIcon,
+  MegaphoneIcon,
+  GaugeIcon,
+  ComputerIcon,
+  ComponentIcon,
+  BarChartIcon,
+  CreativeCommonsIcon,
+  FileTextIcon,
+  BellIcon,
+  UserIcon,
+  MailIcon,
+  CircleCheckIcon,
+  FilterIcon,
+  DoorClosedIcon,
+  FlaskConical,
+  FlaskConicalIcon,
+  NewspaperIcon,
+  InfoIcon,
+  MicVocalIcon,
+  DollarSignIcon,
+  TagIcon,
+  Package2Icon,
+  CreditCardIcon,
+  ArrowUpIcon,
+  ArrowDownIcon,
+  Trash2Icon,
+  ForwardIcon,
+  FileIcon,
+  LightbulbIcon,
+  FileTypeIcon,
+  SunDimIcon,
+  PauseIcon,
+  ScanIcon,
+  AirplayIcon,
+  PaperclipIcon,
+  MoveVerticalIcon,
+  PhoneIcon,
+  VideoIcon,
+  MoveHorizontalIcon,
+  ClockIcon,
+  ArrowUpRightIcon,
+  CoinsIcon,
+  BlocksIcon,
+  FuelIcon,
+  MoveUpIcon,
+  KeyIcon,
+  ShuffleIcon,
+  SandwichIcon,
+  BotIcon,
+  TriangleIcon,
+  Tally1Icon,
+  ClipboardIcon,
+  VoteIcon,
+  ChevronDownIcon,
+  XIcon,
+  AppleIcon,
+  ChromeIcon,
+  TextIcon,
+  BrushIcon,
+  CodeIcon,
+  MapPinIcon,
+  NotebookIcon,
+  CalendarIcon,
+  DatabaseIcon,
+  BookIcon,
+  HashIcon,
+  SlackIcon,
+  StarIcon,
+  SpeakerIcon,
+  BatteryIcon,
+  BluetoothIcon,
+  BedIcon,
+  StepBackIcon,
+  SmartphoneIcon,
+  WifiIcon,
+  ThermometerIcon,
+  MountainIcon,
+  FacebookIcon,
+  InstagramIcon,
+  RefreshCwIcon,
+  GroupIcon,
+  ImportIcon,
+  FolderSyncIcon,
+  BookOpenIcon,
+  CodepenIcon,
+  NetworkIcon,
+  ServerIcon,
+  CloudIcon,
+} from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { TreeItem } from "../types";
 import Link from "next/link";
 import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import { Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableFooter,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
 import { Pagination } from "@/components/ui/pagination";
-import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetOverlay, SheetPortal, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetOverlay,
+  SheetPortal,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
-import { Menubar, MenubarCheckboxItem, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, MenubarTrigger } from "@/components/ui/menubar";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import {
+  Menubar,
+  MenubarCheckboxItem,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarSeparator,
+  MenubarTrigger,
+} from "@/components/ui/menubar";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
 
 interface MainEditorProps {
   tree: TreeItem[];
@@ -61,8 +262,10 @@ interface MainEditorProps {
   handleRawCodeTsxChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
   handleRawCodeTsxClear: () => void;
   applyRawCode: () => void;
-  tsxToJson: () => void
+  tsxToJson: () => void;
   addComponent: (component: Partial<TreeItem>, parentId?: string) => void;
+  levelHovered?: number;
+  setLevelHovered: any;
 }
 
 const PreviewComponent: React.FC<{
@@ -77,6 +280,8 @@ const PreviewComponent: React.FC<{
   onRemove: (id: string) => void;
   onUpdate: (id: string, updates: Partial<TreeItem>) => void;
   addComponent: (component: Partial<TreeItem>, parentId?: string) => void;
+  levelHovered?: number;
+  setLevelHovered: React.Dispatch<React.SetStateAction<number>>;
   level: number;
 }> = ({
   item,
@@ -86,6 +291,8 @@ const PreviewComponent: React.FC<{
   onRemove,
   onUpdate,
   addComponent,
+  levelHovered,
+  setLevelHovered,
   level,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -115,7 +322,10 @@ const PreviewComponent: React.FC<{
             }
           } else {
             addComponent(
-              { type: droppedItem.type, props: { content: `New ${droppedItem.type}` }},
+              {
+                type: droppedItem.type,
+                props: { content: `New ${droppedItem.type}` },
+              },
               item.id
             );
           }
@@ -146,28 +356,34 @@ const PreviewComponent: React.FC<{
   const renderComponent = () => {
     // const background = `${item.background}`
 
-    let newStyle = item.props?.style ?? {}
-    
+    let newStyle = item.props?.style ?? {};
+
     if (item.props?.background) {
       newStyle = {
         ...newStyle,
         background: `${item.props?.background ?? ""}`,
-      }
+      };
     }
 
-    if(!item.props?.width) {
+    if (!item.props?.width) {
       if (item.props?.className) {
-        if(!(item.props?.className.includes(' w-') || item.props?.className.startsWith('w-') || item.type.endsWith("Icon"))){
+        if (
+          !(
+            item.props?.className.includes(" w-") ||
+            item.props?.className.startsWith("w-") ||
+            item.type.endsWith("Icon")
+          )
+        ) {
           newStyle = {
             ...newStyle,
-            width: '100%',
-          }
+            width: "100%",
+          };
         }
       } else {
         newStyle = {
           ...newStyle,
-          width: '100%',
-        }
+          width: "100%",
+        };
       }
     }
 
@@ -193,7 +409,7 @@ const PreviewComponent: React.FC<{
       case "section":
         return (
           <div {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -205,6 +421,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -224,6 +442,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -244,6 +464,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -264,6 +486,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -284,6 +508,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -304,6 +530,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -324,6 +552,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -345,6 +575,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -366,6 +598,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -387,6 +621,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -396,9 +632,7 @@ const PreviewComponent: React.FC<{
 
       case "Input":
       case "input":
-        return (
-          <Input {...commonProps} ref={ref} />
-        );
+        return <Input {...commonProps} ref={ref} />;
 
       case "form":
         return (
@@ -414,16 +648,18 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
             {item.props?.content}
-        </form>);
+          </form>
+        );
 
       case "hr":
-        return (
-          <hr {...commonProps} ref={ref} />);
-        
+        return <hr {...commonProps} ref={ref} />;
+
       case "ol":
         return (
           <ol {...commonProps} ref={ref} placeholder={item.props?.content}>
@@ -438,11 +674,14 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
             {item.props?.content}
-        </ol>);
+          </ol>
+        );
       case "ul":
         return (
           <ul {...commonProps} ref={ref} placeholder={item.props?.content}>
@@ -457,14 +696,17 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
             {item.props?.content}
-        </ul>);
+          </ul>
+        );
       case "li":
         return (
-          <li {...commonProps} ref={ref} >
+          <li {...commonProps} ref={ref}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -476,15 +718,17 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
-        </li>);
-        
-    
+          </li>
+        );
+
       case "code":
         return (
-          <code {...commonProps} ref={ref} >
+          <code {...commonProps} ref={ref}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -496,14 +740,17 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
             {item.props?.content}
-        </code>);
+          </code>
+        );
       case "pre":
         return (
-          <pre {...commonProps} ref={ref} >
+          <pre {...commonProps} ref={ref}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -515,15 +762,18 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
             {item.props?.content}
-        </pre>);
+          </pre>
+        );
 
       case "strong":
         return (
-          <strong {...commonProps} ref={ref} >
+          <strong {...commonProps} ref={ref}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -535,6 +785,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -544,7 +796,7 @@ const PreviewComponent: React.FC<{
       case "label":
       case "Label":
         return (
-          <Label {...commonProps} ref={ref} >
+          <Label {...commonProps} ref={ref}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -556,6 +808,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -566,7 +820,7 @@ const PreviewComponent: React.FC<{
       case "text":
       case "span":
         return (
-          <span {...commonProps} ref={ref} >
+          <span {...commonProps} ref={ref}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -578,6 +832,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -588,23 +844,27 @@ const PreviewComponent: React.FC<{
       case "a":
 
       case "Link":
-            return (<Link {...commonProps} href={ref} >
-                {item.children &&
-                item.children.map((child) => (
-                    <PreviewComponent
-                    key={child.id}
-                    item={child}
-                    selectedItemId={selectedItemId}
-                    onSelect={onSelect}
-                    onMove={onMove}
-                    onRemove={onRemove}
-                    onUpdate={onUpdate}
-                    addComponent={addComponent}
-                    level={level + 1}
-                    />
-                ))}
-                {item.props?.content}
-            </Link>);
+        return (
+          <Link {...commonProps} href={ref}>
+            {item.children &&
+              item.children.map((child) => (
+                <PreviewComponent
+                  key={child.id}
+                  item={child}
+                  selectedItemId={selectedItemId}
+                  onSelect={onSelect}
+                  onMove={onMove}
+                  onRemove={onRemove}
+                  onUpdate={onUpdate}
+                  addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
+                  level={level + 1}
+                />
+              ))}
+            {item.props?.content}
+          </Link>
+        );
 
       case "Textarea":
       case "textarea":
@@ -618,7 +878,7 @@ const PreviewComponent: React.FC<{
       case "card":
         return (
           <Card {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -630,6 +890,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -638,7 +900,7 @@ const PreviewComponent: React.FC<{
       case "CardHeader":
         return (
           <CardHeader {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -650,6 +912,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -658,7 +922,7 @@ const PreviewComponent: React.FC<{
       case "CardTitle":
         return (
           <CardTitle {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -670,6 +934,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -678,7 +944,7 @@ const PreviewComponent: React.FC<{
       case "CardContent":
         return (
           <CardContent {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -690,6 +956,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -698,7 +966,7 @@ const PreviewComponent: React.FC<{
       case "CardDescription":
         return (
           <CardDescription {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -710,6 +978,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -718,7 +988,7 @@ const PreviewComponent: React.FC<{
       case "CardFooter":
         return (
           <CardFooter {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -730,17 +1000,18 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
           </CardFooter>
         );
 
-
       case "Accordion":
         return (
           <Accordion type="single" collapsible {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -752,6 +1023,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -760,7 +1033,7 @@ const PreviewComponent: React.FC<{
       case "AccordionItem":
         return (
           <AccordionItem type="single" collapsible {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -772,6 +1045,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -780,7 +1055,7 @@ const PreviewComponent: React.FC<{
       case "AccordionTrigger":
         return (
           <AccordionTrigger {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -792,6 +1067,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -800,7 +1077,7 @@ const PreviewComponent: React.FC<{
       case "AccordionContent":
         return (
           <AccordionContent {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -812,17 +1089,18 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
           </AccordionContent>
         );
 
-
       case "Tabs":
         return (
           <Tabs {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -834,6 +1112,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -842,7 +1122,7 @@ const PreviewComponent: React.FC<{
       case "TabsList":
         return (
           <TabsList {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -854,6 +1134,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -862,7 +1144,7 @@ const PreviewComponent: React.FC<{
       case "TabsTrigger":
         return (
           <TabsTrigger {...commonProps} value={item.props?.value}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -874,6 +1156,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -882,7 +1166,7 @@ const PreviewComponent: React.FC<{
       case "TabsContent":
         return (
           <TabsContent {...commonProps} value={item.props?.value}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -894,6 +1178,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -907,54 +1193,19 @@ const PreviewComponent: React.FC<{
               item.children.map((child) => {
                 switch (child.name) {
                   case "path":
-                    return (
-                      <path
-                        key={child.id}
-                        {...child.props}
-                      />
-                    );
+                    return <path key={child.id} {...child.props} />;
                   case "circle":
-                    return (
-                      <circle
-                        key={child.id}
-                        {...child.props}
-                      />
-                    );
+                    return <circle key={child.id} {...child.props} />;
                   case "rect":
-                    return (
-                      <rect
-                        key={child.id}
-                        {...child.props}
-                      />
-                    );
+                    return <rect key={child.id} {...child.props} />;
                   case "line":
-                    return (
-                      <line
-                        key={child.id}
-                        {...child.props}
-                      />
-                    );
+                    return <line key={child.id} {...child.props} />;
                   case "polyline":
-                    return (
-                      <polyline
-                        key={child.id}
-                        {...child.props}
-                      />
-                    );
+                    return <polyline key={child.id} {...child.props} />;
                   case "polygon":
-                    return (
-                      <polygon
-                        key={child.id}
-                        {...child.props}
-                      />
-                    );
+                    return <polygon key={child.id} {...child.props} />;
                   case "ellipse":
-                    return (
-                      <ellipse
-                        key={child.id}
-                        {...child.props}
-                      />
-                    );
+                    return <ellipse key={child.id} {...child.props} />;
                   // Se houver outros componentes SVG especiais, você pode mapeá-los aqui
                   default:
                     // Caso não seja um componente SVG específico, continua a recursão com PreviewComponent
@@ -975,12 +1226,12 @@ const PreviewComponent: React.FC<{
               })}
           </svg>
         );
-        
+
       case "Select":
       case "select":
         return (
           <Select {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -992,6 +1243,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -1000,7 +1253,7 @@ const PreviewComponent: React.FC<{
       case "SelectTrigger":
         return (
           <SelectTrigger {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1012,6 +1265,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -1020,7 +1275,7 @@ const PreviewComponent: React.FC<{
       case "SelectLabel":
         return (
           <SelectLabel {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1032,6 +1287,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -1042,7 +1299,7 @@ const PreviewComponent: React.FC<{
       case "SelectContent":
         return (
           <SelectContent {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1054,6 +1311,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -1062,7 +1321,7 @@ const PreviewComponent: React.FC<{
       case "SelectGroup":
         return (
           <SelectGroup {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1074,6 +1333,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -1082,7 +1343,7 @@ const PreviewComponent: React.FC<{
       case "SelectItem":
         return (
           <SelectItem {...commonProps} value={item.props?.value} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1094,6 +1355,8 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
@@ -1103,7 +1366,7 @@ const PreviewComponent: React.FC<{
       case "article":
         return (
           <article {...commonProps} ref={ref}>
-            {item.props?.content ?? ''}
+            {item.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1115,12 +1378,14 @@ const PreviewComponent: React.FC<{
                   onRemove={onRemove}
                   onUpdate={onUpdate}
                   addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
                   level={level + 1}
                 />
               ))}
           </article>
         );
-        
+
       case "Table":
         return (
           <Table {...commonProps}>
@@ -1130,151 +1395,187 @@ const PreviewComponent: React.FC<{
                   case "TableHeader":
                     return (
                       <TableHeader key={child.id}>
-                        {child.children && child.children.map((headerChild) => {
-                          switch (headerChild.name) {
-                            case "TableRow":
-                              return (
-                                <TableRow key={headerChild.id}>
-                                  {headerChild.children && headerChild.children.map((cellChild) => {
-                                    if (cellChild.name === "TableCell") {
-                                      return (
-                                        <TableCell key={cellChild.id} {...cellChild.props}>
-                                          {cellChild.children && cellChild.children.map((cellContent) => (
-                                            <PreviewComponent
-                                              key={cellContent.id}
-                                              item={cellContent}
-                                              selectedItemId={selectedItemId}
-                                              onSelect={onSelect}
-                                              onMove={onMove}
-                                              onRemove={onRemove}
-                                              onUpdate={onUpdate}
-                                              addComponent={addComponent}
-                                              level={level + 1}
-                                            />
-                                          ))}
-                                        </TableCell>
-                                      );
-                                    }
-                                    if (cellChild.name === "TableHead") {
-                                      return (
-                                        <TableHead key={cellChild.id} {...cellChild.props}>
-                                          {cellChild.children && cellChild.children.map((cellContent) => (
-                                            <PreviewComponent
-                                              key={cellContent.id}
-                                              item={cellContent}
-                                              selectedItemId={selectedItemId}
-                                              onSelect={onSelect}
-                                              onMove={onMove}
-                                              onRemove={onRemove}
-                                              onUpdate={onUpdate}
-                                              addComponent={addComponent}
-                                              level={level + 1}
-                                            />
-                                          ))}
-                                        </TableHead>
-                                      );
-                                    }
-                                    return cellChild.name; // Retorna null se não for TableCell
-                                  })}
-                                </TableRow>
-                              );
-                            default:
-                              return headerChild.name; // Lida com outros casos, se necessário
-                          }
-                          
-                        })}
+                        {child.children &&
+                          child.children.map((headerChild) => {
+                            switch (headerChild.name) {
+                              case "TableRow":
+                                return (
+                                  <TableRow key={headerChild.id}>
+                                    {headerChild.children &&
+                                      headerChild.children.map((cellChild) => {
+                                        if (cellChild.name === "TableCell") {
+                                          return (
+                                            <TableCell
+                                              key={cellChild.id}
+                                              {...cellChild.props}
+                                            >
+                                              {cellChild.children &&
+                                                cellChild.children.map(
+                                                  (cellContent) => (
+                                                    <PreviewComponent
+                                                      key={cellContent.id}
+                                                      item={cellContent}
+                                                      selectedItemId={
+                                                        selectedItemId
+                                                      }
+                                                      onSelect={onSelect}
+                                                      onMove={onMove}
+                                                      onRemove={onRemove}
+                                                      onUpdate={onUpdate}
+                                                      addComponent={
+                                                        addComponent
+                                                      }
+                                                      level={level + 1}
+                                                    />
+                                                  )
+                                                )}
+                                            </TableCell>
+                                          );
+                                        }
+                                        if (cellChild.name === "TableHead") {
+                                          return (
+                                            <TableHead
+                                              key={cellChild.id}
+                                              {...cellChild.props}
+                                            >
+                                              {cellChild.children &&
+                                                cellChild.children.map(
+                                                  (cellContent) => (
+                                                    <PreviewComponent
+                                                      key={cellContent.id}
+                                                      item={cellContent}
+                                                      selectedItemId={
+                                                        selectedItemId
+                                                      }
+                                                      onSelect={onSelect}
+                                                      onMove={onMove}
+                                                      onRemove={onRemove}
+                                                      onUpdate={onUpdate}
+                                                      addComponent={
+                                                        addComponent
+                                                      }
+                                                      level={level + 1}
+                                                    />
+                                                  )
+                                                )}
+                                            </TableHead>
+                                          );
+                                        }
+                                        return cellChild.name; // Retorna null se não for TableCell
+                                      })}
+                                  </TableRow>
+                                );
+                              default:
+                                return headerChild.name; // Lida com outros casos, se necessário
+                            }
+                          })}
                       </TableHeader>
                     );
                   case "TableBody":
                     return (
                       <TableBody key={child.id}>
-                        {child.children && child.children.map((bodyChild) => {
-                          switch (bodyChild.name) {
-                            case "TableRow":
-                              return (
-                                <TableRow key={bodyChild.id}>
-                                  {bodyChild.children && bodyChild.children.map((cellChild) => {
-                                    if (cellChild.name === "TableCell") {
-                                      return (
-                                        <TableCell key={cellChild.id} {...cellChild.props}>
-                                          {cellChild.children && cellChild.children.map((cellContent) => (
-                                            <PreviewComponent
-                                              key={cellContent.id}
-                                              item={cellContent}
-                                              selectedItemId={selectedItemId}
-                                              onSelect={onSelect}
-                                              onMove={onMove}
-                                              onRemove={onRemove}
-                                              onUpdate={onUpdate}
-                                              addComponent={addComponent}
-                                              level={level + 1}
-                                            />
-                                          ))}
-                                        </TableCell>
-                                      );
-                                    }
-                                    return cellChild.name; // Retorna null se não for TableCell
-                                  })}
-                                </TableRow>
-                              );
-                            default:
-                              return bodyChild.name; // Lida com outros casos, se necessário
-                          }
-                        })}
+                        {child.children &&
+                          child.children.map((bodyChild) => {
+                            switch (bodyChild.name) {
+                              case "TableRow":
+                                return (
+                                  <TableRow key={bodyChild.id}>
+                                    {bodyChild.children &&
+                                      bodyChild.children.map((cellChild) => {
+                                        if (cellChild.name === "TableCell") {
+                                          return (
+                                            <TableCell
+                                              key={cellChild.id}
+                                              {...cellChild.props}
+                                            >
+                                              {cellChild.children &&
+                                                cellChild.children.map(
+                                                  (cellContent) => (
+                                                    <PreviewComponent
+                                                      key={cellContent.id}
+                                                      item={cellContent}
+                                                      selectedItemId={
+                                                        selectedItemId
+                                                      }
+                                                      onSelect={onSelect}
+                                                      onMove={onMove}
+                                                      onRemove={onRemove}
+                                                      onUpdate={onUpdate}
+                                                      addComponent={
+                                                        addComponent
+                                                      }
+                                                      level={level + 1}
+                                                    />
+                                                  )
+                                                )}
+                                            </TableCell>
+                                          );
+                                        }
+                                        return cellChild.name; // Retorna null se não for TableCell
+                                      })}
+                                  </TableRow>
+                                );
+                              default:
+                                return bodyChild.name; // Lida com outros casos, se necessário
+                            }
+                          })}
                       </TableBody>
                     );
                   case "TableFooter":
                     return (
                       <TableFooter key={child.id}>
-                        {child.children && child.children.map((footerChild) => (
-                          <PreviewComponent
-                            key={footerChild.id}
-                            item={footerChild}
-                            selectedItemId={selectedItemId}
-                            onSelect={onSelect}
-                            onMove={onMove}
-                            onRemove={onRemove}
-                            onUpdate={onUpdate}
-                            addComponent={addComponent}
-                            level={level + 1}
-                          />
-                        ))}
+                        {child.children &&
+                          child.children.map((footerChild) => (
+                            <PreviewComponent
+                              key={footerChild.id}
+                              item={footerChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              level={level + 1}
+                            />
+                          ))}
                       </TableFooter>
                     );
                   case "TableHead":
                     return (
                       <TableHead key={child.id}>
-                        {child.children && child.children.map((headChild) => (
-                          <PreviewComponent
-                            key={headChild.id}
-                            item={headChild}
-                            selectedItemId={selectedItemId}
-                            onSelect={onSelect}
-                            onMove={onMove}
-                            onRemove={onRemove}
-                            onUpdate={onUpdate}
-                            addComponent={addComponent}
-                            level={level + 1}
-                          />
-                        ))}
+                        {child.children &&
+                          child.children.map((headChild) => (
+                            <PreviewComponent
+                              key={headChild.id}
+                              item={headChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              level={level + 1}
+                            />
+                          ))}
                       </TableHead>
                     );
                   case "TableCaption":
                     return (
                       <TableCaption key={child.id} {...child.props}>
-                        {child.children && child.children.map((captionChild) => (
-                          <PreviewComponent
-                            key={captionChild.id}
-                            item={captionChild}
-                            selectedItemId={selectedItemId}
-                            onSelect={onSelect}
-                            onMove={onMove}
-                            onRemove={onRemove}
-                            onUpdate={onUpdate}
-                            addComponent={addComponent}
-                            level={level + 1}
-                          />
-                        ))}
+                        {child.children &&
+                          child.children.map((captionChild) => (
+                            <PreviewComponent
+                              key={captionChild.id}
+                              item={captionChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              level={level + 1}
+                            />
+                          ))}
                       </TableCaption>
                     );
                   default:
@@ -1284,7 +1585,6 @@ const PreviewComponent: React.FC<{
           </Table>
         );
 
-      
       case "Collapsible":
         return (
           <Collapsible {...commonProps}>
@@ -1294,37 +1594,39 @@ const PreviewComponent: React.FC<{
                   case "CollapsibleTrigger":
                     return (
                       <CollapsibleTrigger key={child.id} {...child.props}>
-                        {child.children && child.children.map((triggerChild) => (
-                          <PreviewComponent
-                            key={triggerChild.id}
-                            item={triggerChild}
-                            selectedItemId={selectedItemId}
-                            onSelect={onSelect}
-                            onMove={onMove}
-                            onRemove={onRemove}
-                            onUpdate={onUpdate}
-                            addComponent={addComponent}
-                            level={level + 1}
-                          />
-                        ))}
+                        {child.children &&
+                          child.children.map((triggerChild) => (
+                            <PreviewComponent
+                              key={triggerChild.id}
+                              item={triggerChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              level={level + 1}
+                            />
+                          ))}
                       </CollapsibleTrigger>
                     );
                   case "CollapsibleContent":
                     return (
                       <CollapsibleContent key={child.id} {...child.props}>
-                        {child.children && child.children.map((contentChild) => (
-                          <PreviewComponent
-                            key={contentChild.id}
-                            item={contentChild}
-                            selectedItemId={selectedItemId}
-                            onSelect={onSelect}
-                            onMove={onMove}
-                            onRemove={onRemove}
-                            onUpdate={onUpdate}
-                            addComponent={addComponent}
-                            level={level + 1}
-                          />
-                        ))}
+                        {child.children &&
+                          child.children.map((contentChild) => (
+                            <PreviewComponent
+                              key={contentChild.id}
+                              item={contentChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              level={level + 1}
+                            />
+                          ))}
                       </CollapsibleContent>
                     );
                   default:
@@ -1333,7 +1635,7 @@ const PreviewComponent: React.FC<{
               })}
           </Collapsible>
         );
-        
+
       case "radio-group":
       case "RadioGroup":
         return (
@@ -1343,20 +1645,25 @@ const PreviewComponent: React.FC<{
                 switch (child.name) {
                   case "RadioGroupItem":
                     return (
-                      <RadioGroupItem key={child.id} value={child.props?.value} {...child.props}>
-                        {child.children && child.children.map((itemChild) => (
-                          <PreviewComponent
-                            key={itemChild.id}
-                            item={itemChild}
-                            selectedItemId={selectedItemId}
-                            onSelect={onSelect}
-                            onMove={onMove}
-                            onRemove={onRemove}
-                            onUpdate={onUpdate}
-                            addComponent={addComponent}
-                            level={level + 1}
-                          />
-                        ))}
+                      <RadioGroupItem
+                        key={child.id}
+                        value={child.props?.value}
+                        {...child.props}
+                      >
+                        {child.children &&
+                          child.children.map((itemChild) => (
+                            <PreviewComponent
+                              key={itemChild.id}
+                              item={itemChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              level={level + 1}
+                            />
+                          ))}
                       </RadioGroupItem>
                     );
                   // Adicione outros casos para filhos específicos, se necessário
@@ -1399,20 +1706,30 @@ const PreviewComponent: React.FC<{
                                         switch (tdChild.name) {
                                           case "th":
                                             return (
-                                              <th key={tdChild.id} {...tdChild.props}>
-                                                {tdChild.children && tdChild.children.map(child => (
-                                                  <PreviewComponent
-                                                    key={child.id}
-                                                    item={child}
-                                                    selectedItemId={selectedItemId}
-                                                    onSelect={onSelect}
-                                                    onMove={onMove}
-                                                    onRemove={onRemove}
-                                                    onUpdate={onUpdate}
-                                                    addComponent={addComponent}
-                                                    level={level + 1}
-                                                  />
-                                                ))}
+                                              <th
+                                                key={tdChild.id}
+                                                {...tdChild.props}
+                                              >
+                                                {tdChild.children &&
+                                                  tdChild.children.map(
+                                                    (child) => (
+                                                      <PreviewComponent
+                                                        key={child.id}
+                                                        item={child}
+                                                        selectedItemId={
+                                                          selectedItemId
+                                                        }
+                                                        onSelect={onSelect}
+                                                        onMove={onMove}
+                                                        onRemove={onRemove}
+                                                        onUpdate={onUpdate}
+                                                        addComponent={
+                                                          addComponent
+                                                        }
+                                                        level={level + 1}
+                                                      />
+                                                    )
+                                                  )}
                                               </th>
                                             );
                                           default:
@@ -1441,20 +1758,30 @@ const PreviewComponent: React.FC<{
                                         switch (tdChild.name) {
                                           case "td":
                                             return (
-                                              <td key={tdChild.id} {...tdChild.props}>
-                                                {tdChild.children && tdChild.children.map(child => (
-                                                  <PreviewComponent
-                                                    key={child.id}
-                                                    item={child}
-                                                    selectedItemId={selectedItemId}
-                                                    onSelect={onSelect}
-                                                    onMove={onMove}
-                                                    onRemove={onRemove}
-                                                    onUpdate={onUpdate}
-                                                    addComponent={addComponent}
-                                                    level={level + 1}
-                                                  />
-                                                ))}
+                                              <td
+                                                key={tdChild.id}
+                                                {...tdChild.props}
+                                              >
+                                                {tdChild.children &&
+                                                  tdChild.children.map(
+                                                    (child) => (
+                                                      <PreviewComponent
+                                                        key={child.id}
+                                                        item={child}
+                                                        selectedItemId={
+                                                          selectedItemId
+                                                        }
+                                                        onSelect={onSelect}
+                                                        onMove={onMove}
+                                                        onRemove={onRemove}
+                                                        onUpdate={onUpdate}
+                                                        addComponent={
+                                                          addComponent
+                                                        }
+                                                        level={level + 1}
+                                                      />
+                                                    )
+                                                  )}
                                               </td>
                                             );
                                           default:
@@ -1475,7 +1802,7 @@ const PreviewComponent: React.FC<{
               })}
           </table>
         );
-        
+
       case "Pagination":
         return <Pagination {...commonProps} ref={ref} />;
 
@@ -1488,222 +1815,303 @@ const PreviewComponent: React.FC<{
                   case "SheetPortal":
                     return (
                       <SheetPortal key={child.id}>
-                        {child.children && child.children.map((portalChild) => {
-                          switch (portalChild.name) {
-                            case "SheetOverlay":
-                              return (
-                                <SheetOverlay key={portalChild.id} {...portalChild.props}>
-                                  {portalChild.children && portalChild.children.map((overlayChild) => (
-                                    <PreviewComponent
-                                      key={overlayChild.id}
-                                      item={overlayChild}
-                                      selectedItemId={selectedItemId}
-                                      onSelect={onSelect}
-                                      onMove={onMove}
-                                      onRemove={onRemove}
-                                      onUpdate={onUpdate}
-                                      addComponent={addComponent}
-                                      level={level + 1}
-                                    />
-                                  ))}
-                                </SheetOverlay>
-                              );
-                            case "SheetContent":
-                              return (
-                                <SheetContent key={portalChild.id} {...portalChild.props}>
-                                  {portalChild.children && portalChild.children.map((contentChild) => {
-                                    switch (contentChild.name) {
-                                      case "SheetHeader":
-                                        return (
-                                          <SheetHeader key={contentChild.id}>
-                                            {contentChild.children && contentChild.children.map((headerChild) => (
-                                              <PreviewComponent
-                                                key={headerChild.id}
-                                                item={headerChild}
-                                                selectedItemId={selectedItemId}
-                                                onSelect={onSelect}
-                                                onMove={onMove}
-                                                onRemove={onRemove}
-                                                onUpdate={onUpdate}
-                                                addComponent={addComponent}
-                                                level={level + 1}
-                                              />
-                                            ))}
-                                          </SheetHeader>
-                                        );
-                                      case "SheetFooter":
-                                        return (
-                                          <SheetFooter key={contentChild.id}>
-                                            {contentChild.children && contentChild.children.map((footerChild) => (
-                                              <PreviewComponent
-                                                key={footerChild.id}
-                                                item={footerChild}
-                                                selectedItemId={selectedItemId}
-                                                onSelect={onSelect}
-                                                onMove={onMove}
-                                                onRemove={onRemove}
-                                                onUpdate={onUpdate}
-                                                addComponent={addComponent}
-                                                level={level + 1}
-                                              />
-                                            ))}
-                                          </SheetFooter>
-                                        );
-                                      case "SheetClose":
-                                        return (
-                                          <SheetClose key={contentChild.id} {...contentChild.props} />
-                                        );
-                                      case "SheetTitle":
-                                        return (
-                                          <SheetTitle key={contentChild.id} {...contentChild.props}>
-                                            {contentChild.children && contentChild.children.map((titleChild) => (
-                                              <PreviewComponent
-                                                key={titleChild.id}
-                                                item={titleChild}
-                                                selectedItemId={selectedItemId}
-                                                onSelect={onSelect}
-                                                onMove={onMove}
-                                                onRemove={onRemove}
-                                                onUpdate={onUpdate}
-                                                addComponent={addComponent}
-                                                level={level + 1}
-                                              />
-                                            ))}
-                                          </SheetTitle>
-                                        );
-                                      case "SheetDescription":
-                                        return (
-                                          <SheetDescription key={contentChild.id} {...contentChild.props}>
-                                            {contentChild.children && contentChild.children.map((descriptionChild) => (
-                                              <PreviewComponent
-                                                key={descriptionChild.id}
-                                                item={descriptionChild}
-                                                selectedItemId={selectedItemId}
-                                                onSelect={onSelect}
-                                                onMove={onMove}
-                                                onRemove={onRemove}
-                                                onUpdate={onUpdate}
-                                                addComponent={addComponent}
-                                                level={level + 1}
-                                              />
-                                            ))}
-                                          </SheetDescription>
-                                        );
-                                      default:
-                                        return contentChild.name;
-                                    }
-                                  })}
-                                </SheetContent>
-                              );
-                            default:
-                              return portalChild.name;
-                          }
-                        })}
+                        {child.children &&
+                          child.children.map((portalChild) => {
+                            switch (portalChild.name) {
+                              case "SheetOverlay":
+                                return (
+                                  <SheetOverlay
+                                    key={portalChild.id}
+                                    {...portalChild.props}
+                                  >
+                                    {portalChild.children &&
+                                      portalChild.children.map(
+                                        (overlayChild) => (
+                                          <PreviewComponent
+                                            key={overlayChild.id}
+                                            item={overlayChild}
+                                            selectedItemId={selectedItemId}
+                                            onSelect={onSelect}
+                                            onMove={onMove}
+                                            onRemove={onRemove}
+                                            onUpdate={onUpdate}
+                                            addComponent={addComponent}
+                                            level={level + 1}
+                                          />
+                                        )
+                                      )}
+                                  </SheetOverlay>
+                                );
+                              case "SheetContent":
+                                return (
+                                  <SheetContent
+                                    key={portalChild.id}
+                                    {...portalChild.props}
+                                  >
+                                    {portalChild.children &&
+                                      portalChild.children.map(
+                                        (contentChild) => {
+                                          switch (contentChild.name) {
+                                            case "SheetHeader":
+                                              return (
+                                                <SheetHeader
+                                                  key={contentChild.id}
+                                                >
+                                                  {contentChild.children &&
+                                                    contentChild.children.map(
+                                                      (headerChild) => (
+                                                        <PreviewComponent
+                                                          key={headerChild.id}
+                                                          item={headerChild}
+                                                          selectedItemId={
+                                                            selectedItemId
+                                                          }
+                                                          onSelect={onSelect}
+                                                          onMove={onMove}
+                                                          onRemove={onRemove}
+                                                          onUpdate={onUpdate}
+                                                          addComponent={
+                                                            addComponent
+                                                          }
+                                                          level={level + 1}
+                                                        />
+                                                      )
+                                                    )}
+                                                </SheetHeader>
+                                              );
+                                            case "SheetFooter":
+                                              return (
+                                                <SheetFooter
+                                                  key={contentChild.id}
+                                                >
+                                                  {contentChild.children &&
+                                                    contentChild.children.map(
+                                                      (footerChild) => (
+                                                        <PreviewComponent
+                                                          key={footerChild.id}
+                                                          item={footerChild}
+                                                          selectedItemId={
+                                                            selectedItemId
+                                                          }
+                                                          onSelect={onSelect}
+                                                          onMove={onMove}
+                                                          onRemove={onRemove}
+                                                          onUpdate={onUpdate}
+                                                          addComponent={
+                                                            addComponent
+                                                          }
+                                                          level={level + 1}
+                                                        />
+                                                      )
+                                                    )}
+                                                </SheetFooter>
+                                              );
+                                            case "SheetClose":
+                                              return (
+                                                <SheetClose
+                                                  key={contentChild.id}
+                                                  {...contentChild.props}
+                                                />
+                                              );
+                                            case "SheetTitle":
+                                              return (
+                                                <SheetTitle
+                                                  key={contentChild.id}
+                                                  {...contentChild.props}
+                                                >
+                                                  {contentChild.children &&
+                                                    contentChild.children.map(
+                                                      (titleChild) => (
+                                                        <PreviewComponent
+                                                          key={titleChild.id}
+                                                          item={titleChild}
+                                                          selectedItemId={
+                                                            selectedItemId
+                                                          }
+                                                          onSelect={onSelect}
+                                                          onMove={onMove}
+                                                          onRemove={onRemove}
+                                                          onUpdate={onUpdate}
+                                                          addComponent={
+                                                            addComponent
+                                                          }
+                                                          level={level + 1}
+                                                        />
+                                                      )
+                                                    )}
+                                                </SheetTitle>
+                                              );
+                                            case "SheetDescription":
+                                              return (
+                                                <SheetDescription
+                                                  key={contentChild.id}
+                                                  {...contentChild.props}
+                                                >
+                                                  {contentChild.children &&
+                                                    contentChild.children.map(
+                                                      (descriptionChild) => (
+                                                        <PreviewComponent
+                                                          key={
+                                                            descriptionChild.id
+                                                          }
+                                                          item={
+                                                            descriptionChild
+                                                          }
+                                                          selectedItemId={
+                                                            selectedItemId
+                                                          }
+                                                          onSelect={onSelect}
+                                                          onMove={onMove}
+                                                          onRemove={onRemove}
+                                                          onUpdate={onUpdate}
+                                                          addComponent={
+                                                            addComponent
+                                                          }
+                                                          level={level + 1}
+                                                        />
+                                                      )
+                                                    )}
+                                                </SheetDescription>
+                                              );
+                                            default:
+                                              return contentChild.name;
+                                          }
+                                        }
+                                      )}
+                                  </SheetContent>
+                                );
+                              default:
+                                return portalChild.name;
+                            }
+                          })}
                       </SheetPortal>
                     );
                   case "SheetTrigger":
                     return (
                       <SheetTrigger key={child.id} {...child.props}>
-                        {child.children && child.children.map((triggerChild) => (
-                          <PreviewComponent
-                            key={triggerChild.id}
-                            item={triggerChild}
-                            selectedItemId={selectedItemId}
-                            onSelect={onSelect}
-                            onMove={onMove}
-                            onRemove={onRemove}
-                            onUpdate={onUpdate}
-                            addComponent={addComponent}
-                            level={level + 1}
-                          />
-                        ))}
+                        {child.children &&
+                          child.children.map((triggerChild) => (
+                            <PreviewComponent
+                              key={triggerChild.id}
+                              item={triggerChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              level={level + 1}
+                            />
+                          ))}
                       </SheetTrigger>
                     );
                   case "SheetContent":
                     return (
                       <SheetContent key={child.id} {...child.props}>
-                        {child.children && child.children.map((contentChild) => {
-                          switch (contentChild.name) {
-                            case "SheetHeader":
-                              return (
-                                <SheetHeader key={contentChild.id}>
-                                  {contentChild.children && contentChild.children.map((headerChild) => (
-                                    <PreviewComponent
-                                      key={headerChild.id}
-                                      item={headerChild}
-                                      selectedItemId={selectedItemId}
-                                      onSelect={onSelect}
-                                      onMove={onMove}
-                                      onRemove={onRemove}
-                                      onUpdate={onUpdate}
-                                      addComponent={addComponent}
-                                      level={level + 1}
-                                    />
-                                  ))}
-                                </SheetHeader>
-                              );
-                            case "SheetFooter":
-                              return (
-                                <SheetFooter key={contentChild.id}>
-                                  {contentChild.children && contentChild.children.map((footerChild) => (
-                                    <PreviewComponent
-                                      key={footerChild.id}
-                                      item={footerChild}
-                                      selectedItemId={selectedItemId}
-                                      onSelect={onSelect}
-                                      onMove={onMove}
-                                      onRemove={onRemove}
-                                      onUpdate={onUpdate}
-                                      addComponent={addComponent}
-                                      level={level + 1}
-                                    />
-                                  ))}
-                                </SheetFooter>
-                              );
-                            case "SheetClose":
-                              return (
-                                <SheetClose key={contentChild.id} {...contentChild.props} />
-                              );
-                            case "SheetTitle":
-                              return (
-                                <SheetTitle key={contentChild.id} {...contentChild.props}>
-                                  {contentChild.children && contentChild.children.map((titleChild) => (
-                                    <PreviewComponent
-                                      key={titleChild.id}
-                                      item={titleChild}
-                                      selectedItemId={selectedItemId}
-                                      onSelect={onSelect}
-                                      onMove={onMove}
-                                      onRemove={onRemove}
-                                      onUpdate={onUpdate}
-                                      addComponent={addComponent}
-                                      level={level + 1}
-                                    />
-                                  ))}
-                                </SheetTitle>
-                              );
-                            case "SheetDescription":
-                              return (
-                                <SheetDescription key={contentChild.id} {...contentChild.props}>
-                                  {contentChild.children && contentChild.children.map((descriptionChild) => (
-                                    <PreviewComponent
-                                      key={descriptionChild.id}
-                                      item={descriptionChild}
-                                      selectedItemId={selectedItemId}
-                                      onSelect={onSelect}
-                                      onMove={onMove}
-                                      onRemove={onRemove}
-                                      onUpdate={onUpdate}
-                                      addComponent={addComponent}
-                                      level={level + 1}
-                                    />
-                                  ))}
-                                </SheetDescription>
-                              );
-                            default:
-                              return contentChild.name;
-                          }
-                        })}
+                        {child.children &&
+                          child.children.map((contentChild) => {
+                            switch (contentChild.name) {
+                              case "SheetHeader":
+                                return (
+                                  <SheetHeader key={contentChild.id}>
+                                    {contentChild.children &&
+                                      contentChild.children.map(
+                                        (headerChild) => (
+                                          <PreviewComponent
+                                            key={headerChild.id}
+                                            item={headerChild}
+                                            selectedItemId={selectedItemId}
+                                            onSelect={onSelect}
+                                            onMove={onMove}
+                                            onRemove={onRemove}
+                                            onUpdate={onUpdate}
+                                            addComponent={addComponent}
+                                            level={level + 1}
+                                          />
+                                        )
+                                      )}
+                                  </SheetHeader>
+                                );
+                              case "SheetFooter":
+                                return (
+                                  <SheetFooter key={contentChild.id}>
+                                    {contentChild.children &&
+                                      contentChild.children.map(
+                                        (footerChild) => (
+                                          <PreviewComponent
+                                            key={footerChild.id}
+                                            item={footerChild}
+                                            selectedItemId={selectedItemId}
+                                            onSelect={onSelect}
+                                            onMove={onMove}
+                                            onRemove={onRemove}
+                                            onUpdate={onUpdate}
+                                            addComponent={addComponent}
+                                            level={level + 1}
+                                          />
+                                        )
+                                      )}
+                                  </SheetFooter>
+                                );
+                              case "SheetClose":
+                                return (
+                                  <SheetClose
+                                    key={contentChild.id}
+                                    {...contentChild.props}
+                                  />
+                                );
+                              case "SheetTitle":
+                                return (
+                                  <SheetTitle
+                                    key={contentChild.id}
+                                    {...contentChild.props}
+                                  >
+                                    {contentChild.children &&
+                                      contentChild.children.map(
+                                        (titleChild) => (
+                                          <PreviewComponent
+                                            key={titleChild.id}
+                                            item={titleChild}
+                                            selectedItemId={selectedItemId}
+                                            onSelect={onSelect}
+                                            onMove={onMove}
+                                            onRemove={onRemove}
+                                            onUpdate={onUpdate}
+                                            addComponent={addComponent}
+                                            level={level + 1}
+                                          />
+                                        )
+                                      )}
+                                  </SheetTitle>
+                                );
+                              case "SheetDescription":
+                                return (
+                                  <SheetDescription
+                                    key={contentChild.id}
+                                    {...contentChild.props}
+                                  >
+                                    {contentChild.children &&
+                                      contentChild.children.map(
+                                        (descriptionChild) => (
+                                          <PreviewComponent
+                                            key={descriptionChild.id}
+                                            item={descriptionChild}
+                                            selectedItemId={selectedItemId}
+                                            onSelect={onSelect}
+                                            onMove={onMove}
+                                            onRemove={onRemove}
+                                            onUpdate={onUpdate}
+                                            addComponent={addComponent}
+                                            level={level + 1}
+                                          />
+                                        )
+                                      )}
+                                  </SheetDescription>
+                                );
+                              default:
+                                return contentChild.name;
+                            }
+                          })}
                       </SheetContent>
                     );
                   default:
@@ -1712,130 +2120,166 @@ const PreviewComponent: React.FC<{
               })}
           </Sheet>
         );
-        
-        case "br":
-          return <br {...commonProps} ref={ref} />;
 
-        case "hr":
-          return <hr {...commonProps} ref={ref} />;
+      case "br":
+        return <br {...commonProps} ref={ref} />;
 
-        case "Progress":
-          return <Progress {...commonProps} ref={ref} />;
+      case "hr":
+        return <hr {...commonProps} ref={ref} />;
 
-        case "checkbox":
-        case "Checkbox":
-          return <Checkbox {...commonProps} ref={ref} />;
+      case "Progress":
+        return <Progress {...commonProps} ref={ref} />;
 
-        case "Badge":
-          return (
-            <Badge {...commonProps} ref={ref}>
-              {item.props?.content}
-              {item.children &&
-                item.children.map((child) => (
-                  <PreviewComponent
-                    key={child.id}
-                    item={child}
-                    selectedItemId={selectedItemId}
-                    onSelect={onSelect}
-                    onMove={onMove}
-                    onRemove={onRemove}
-                    onUpdate={onUpdate}
-                    addComponent={addComponent}
-                    level={level + 1}
-                  />
-                ))}
-            </Badge>
-          );
+      case "checkbox":
+      case "Checkbox":
+        return <Checkbox {...commonProps} ref={ref} />;
 
-        case "Menubar":
-          return (
-            <Menubar {...commonProps}>
-              {item.children &&
-                item.children.map((child) => {
-                  switch (child.name) {
-                    case "MenubarMenu":
-                      return (
-                        <MenubarMenu key={child.id} {...child.props}>
-                          {child.children && child.children.map((menuChild) => {
+      case "Badge":
+        return (
+          <Badge {...commonProps} ref={ref}>
+            {item.props?.content}
+            {item.children &&
+              item.children.map((child) => (
+                <PreviewComponent
+                  key={child.id}
+                  item={child}
+                  selectedItemId={selectedItemId}
+                  onSelect={onSelect}
+                  onMove={onMove}
+                  onRemove={onRemove}
+                  onUpdate={onUpdate}
+                  addComponent={addComponent}
+                  levelHovered={levelHovered}
+                  setLevelHovered={setLevelHovered}
+                  level={level + 1}
+                />
+              ))}
+          </Badge>
+        );
+
+      case "Menubar":
+        return (
+          <Menubar {...commonProps}>
+            {item.children &&
+              item.children.map((child) => {
+                switch (child.name) {
+                  case "MenubarMenu":
+                    return (
+                      <MenubarMenu key={child.id} {...child.props}>
+                        {child.children &&
+                          child.children.map((menuChild) => {
                             switch (menuChild.name) {
                               case "MenubarTrigger":
                                 return (
-                                  <MenubarTrigger key={menuChild.id} {...menuChild.props}>
-                                    {menuChild.children && menuChild.children.map((triggerChild) => (
-                                      <PreviewComponent
-                                        key={triggerChild.id}
-                                        item={triggerChild}
-                                        selectedItemId={selectedItemId}
-                                        onSelect={onSelect}
-                                        onMove={onMove}
-                                        onRemove={onRemove}
-                                        onUpdate={onUpdate}
-                                        addComponent={addComponent}
-                                        level={level + 1}
-                                      />
-                                    ))}
+                                  <MenubarTrigger
+                                    key={menuChild.id}
+                                    {...menuChild.props}
+                                  >
+                                    {menuChild.children &&
+                                      menuChild.children.map((triggerChild) => (
+                                        <PreviewComponent
+                                          key={triggerChild.id}
+                                          item={triggerChild}
+                                          selectedItemId={selectedItemId}
+                                          onSelect={onSelect}
+                                          onMove={onMove}
+                                          onRemove={onRemove}
+                                          onUpdate={onUpdate}
+                                          addComponent={addComponent}
+                                          levelHovered={levelHovered}
+                                          setLevelHovered={setLevelHovered}
+                                          level={level + 1}
+                                        />
+                                      ))}
                                   </MenubarTrigger>
                                 );
                               case "MenubarContent":
                                 return (
-                                  <MenubarContent key={menuChild.id} {...menuChild.props}>
-                                    {menuChild.children && menuChild.children.map((contentChild) => {
-                                      switch (contentChild.name) {
-                                        case "MenubarItem":
-                                          return (
-                                            <MenubarItem key={contentChild.id} {...contentChild.props}>
-                                              {contentChild.children && contentChild.children.map((itemChild) => (
-                                                <PreviewComponent
-                                                  key={itemChild.id}
-                                                  item={itemChild}
-                                                  selectedItemId={selectedItemId}
-                                                  onSelect={onSelect}
-                                                  onMove={onMove}
-                                                  onRemove={onRemove}
-                                                  onUpdate={onUpdate}
-                                                  addComponent={addComponent}
-                                                  level={level + 1}
-                                                />
-                                              ))}
-                                            </MenubarItem>
-                                          );
-                                        case "MenubarSeparator":
-                                          return (
-                                            <MenubarSeparator key={contentChild.id} {...contentChild.props} />
-                                          );
-                                        case "MenubarCheckboxItem":
-                                          return (
-                                            <MenubarCheckboxItem key={contentChild.id} {...contentChild.props} />
-                                          );
-                                        default:
-                                          return contentChild.name;
-                                      }
-                                    })}
+                                  <MenubarContent
+                                    key={menuChild.id}
+                                    {...menuChild.props}
+                                  >
+                                    {menuChild.children &&
+                                      menuChild.children.map((contentChild) => {
+                                        switch (contentChild.name) {
+                                          case "MenubarItem":
+                                            return (
+                                              <MenubarItem
+                                                key={contentChild.id}
+                                                {...contentChild.props}
+                                              >
+                                                {contentChild.children &&
+                                                  contentChild.children.map(
+                                                    (itemChild) => (
+                                                      <PreviewComponent
+                                                        key={itemChild.id}
+                                                        item={itemChild}
+                                                        selectedItemId={
+                                                          selectedItemId
+                                                        }
+                                                        onSelect={onSelect}
+                                                        onMove={onMove}
+                                                        onRemove={onRemove}
+                                                        onUpdate={onUpdate}
+                                                        addComponent={
+                                                          addComponent
+                                                        }
+                                                        levelHovered={
+                                                          levelHovered
+                                                        }
+                                                        setLevelHovered={
+                                                          setLevelHovered
+                                                        }
+                                                        level={level + 1}
+                                                      />
+                                                    )
+                                                  )}
+                                              </MenubarItem>
+                                            );
+                                          case "MenubarSeparator":
+                                            return (
+                                              <MenubarSeparator
+                                                key={contentChild.id}
+                                                {...contentChild.props}
+                                              />
+                                            );
+                                          case "MenubarCheckboxItem":
+                                            return (
+                                              <MenubarCheckboxItem
+                                                key={contentChild.id}
+                                                {...contentChild.props}
+                                              />
+                                            );
+                                          default:
+                                            return contentChild.name;
+                                        }
+                                      })}
                                   </MenubarContent>
                                 );
                               default:
                                 return menuChild.name;
                             }
                           })}
-                        </MenubarMenu>
-                      );
-                    default:
-                      return child.name;
-                  }
-                })}
-            </Menubar>
-          );
+                      </MenubarMenu>
+                    );
+                  default:
+                    return child.name;
+                }
+              })}
+          </Menubar>
+        );
 
-        case "DropdownMenu":
-          return (
-            <DropdownMenu {...commonProps}>
-              {item.children &&
-                item.children.map((child) => {
-                  switch (child.name) {
-                    case "DropdownMenuTrigger":
-                      return (
-                        <DropdownMenuTrigger key={child.id} {...child.props}>
-                          {child.children && child.children.map((triggerChild) => (
+      case "DropdownMenu":
+        return (
+          <DropdownMenu {...commonProps}>
+            {item.children &&
+              item.children.map((child) => {
+                switch (child.name) {
+                  case "DropdownMenuTrigger":
+                    return (
+                      <DropdownMenuTrigger key={child.id} {...child.props}>
+                        {child.children &&
+                          child.children.map((triggerChild) => (
                             <PreviewComponent
                               key={triggerChild.id}
                               item={triggerChild}
@@ -1845,120 +2289,27 @@ const PreviewComponent: React.FC<{
                               onRemove={onRemove}
                               onUpdate={onUpdate}
                               addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
                               level={level + 1}
                             />
                           ))}
-                        </DropdownMenuTrigger>
-                      );
-                    case "DropdownMenuContent":
-                      return (
-                        <DropdownMenuContent key={child.id} {...child.props}>
-                          {child.children && child.children.map((contentChild) => {
+                      </DropdownMenuTrigger>
+                    );
+                  case "DropdownMenuContent":
+                    return (
+                      <DropdownMenuContent key={child.id} {...child.props}>
+                        {child.children &&
+                          child.children.map((contentChild) => {
                             switch (contentChild.name) {
                               case "DropdownMenuItem":
                                 return (
-                                  <DropdownMenuItem key={contentChild.id} {...contentChild.props}>
-                                    {contentChild.children && contentChild.children.map((itemChild) => (
-                                      <PreviewComponent
-                                        key={itemChild.id}
-                                        item={itemChild}
-                                        selectedItemId={selectedItemId}
-                                        onSelect={onSelect}
-                                        onMove={onMove}
-                                        onRemove={onRemove}
-                                        onUpdate={onUpdate}
-                                        addComponent={addComponent}
-                                        level={level + 1}
-                                      />
-                                    ))}
-                                  </DropdownMenuItem>
-                                );
-                              case "DropdownMenuLabel":
-                                return (
-                                  <DropdownMenuLabel key={contentChild.id} {...contentChild.props} />
-                                );
-                              case "DropdownMenuSeparator":
-                                return (
-                                  <DropdownMenuSeparator key={contentChild.id} {...contentChild.props} />
-                                );
-                              default:
-                                return contentChild.name;
-                            }
-                          })}
-                        </DropdownMenuContent>
-                      );
-                    default:
-                      return child.name;
-                  }
-                })}
-            </DropdownMenu>
-          );
-          
-        case "Popover":
-          return (
-            <Popover>
-              {item.children &&
-                item.children.map((child) => {
-                  switch (child.name) {
-                    case "PopoverTrigger":
-                      return (
-                        <PopoverTrigger  key={child.id} {...child.props} >
-                          {child.children && child.children.map((triggerChild) => (
-                            <PreviewComponent
-                              key={triggerChild.id}
-                              item={triggerChild}
-                              selectedItemId={selectedItemId}
-                              onSelect={onSelect}
-                              onMove={onMove}
-                              onRemove={onRemove}
-                              onUpdate={onUpdate}
-                              addComponent={addComponent}
-                              level={level + 1}
-                            />
-                          ))}
-                        </PopoverTrigger>
-                      );
-                    case "PopoverContent":
-                      return (
-                        <PopoverContent key={child.id} {...child.props}>
-                          {child.children && child.children.map((contentChild) => (
-                            <PreviewComponent
-                              key={contentChild.id}
-                              item={contentChild}
-                              selectedItemId={selectedItemId}
-                              onSelect={onSelect}
-                              onMove={onMove}
-                              onRemove={onRemove}
-                              onUpdate={onUpdate}
-                              addComponent={addComponent}
-                              level={level + 1}
-                            />
-                          ))}
-                        </PopoverContent>
-                      );
-                    default:
-                      return child.name;
-                  }
-                })}
-            </Popover>
-          );
-
-        case "Carousel":
-          return (
-            <Carousel {...item.props}>
-              {item.children &&
-                item.children.map((child) => {
-                  switch (child.name) {
-                    case "CarouselContent":
-                      return (
-                        <CarouselContent key={child.id} {...child.props}>
-                          {child.children &&
-                            child.children.map((contentChild) => {
-                              switch (contentChild.name) {
-                                case "CarouselItem":
-                                  return (
-                                    <CarouselItem key={contentChild.id} {...contentChild.props}>
-                                      {contentChild.children && contentChild.children.map((itemChild) => (
+                                  <DropdownMenuItem
+                                    key={contentChild.id}
+                                    {...contentChild.props}
+                                  >
+                                    {contentChild.children &&
+                                      contentChild.children.map((itemChild) => (
                                         <PreviewComponent
                                           key={itemChild.id}
                                           item={itemChild}
@@ -1968,137 +2319,274 @@ const PreviewComponent: React.FC<{
                                           onRemove={onRemove}
                                           onUpdate={onUpdate}
                                           addComponent={addComponent}
+                                          levelHovered={levelHovered}
+                                          setLevelHovered={setLevelHovered}
                                           level={level + 1}
                                         />
                                       ))}
-                                    </CarouselItem>
-                                  );
-                                default:
-                                  return contentChild.name;
-                              }
-                            })}
-                        </CarouselContent>
-                      );
-                    default:
-                      return null;
-                  }
-                })}
-            </Carousel>
-          );
+                                  </DropdownMenuItem>
+                                );
+                              case "DropdownMenuLabel":
+                                return (
+                                  <DropdownMenuLabel
+                                    key={contentChild.id}
+                                    {...contentChild.props}
+                                  />
+                                );
+                              case "DropdownMenuSeparator":
+                                return (
+                                  <DropdownMenuSeparator
+                                    key={contentChild.id}
+                                    {...contentChild.props}
+                                  />
+                                );
+                              default:
+                                return contentChild.name;
+                            }
+                          })}
+                      </DropdownMenuContent>
+                    );
+                  default:
+                    return child.name;
+                }
+              })}
+          </DropdownMenu>
+        );
 
+      case "Popover":
+        return (
+          <Popover>
+            {item.children &&
+              item.children.map((child) => {
+                switch (child.name) {
+                  case "PopoverTrigger":
+                    return (
+                      <PopoverTrigger key={child.id} {...child.props}>
+                        {child.children &&
+                          child.children.map((triggerChild) => (
+                            <PreviewComponent
+                              key={triggerChild.id}
+                              item={triggerChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
+                              level={level + 1}
+                            />
+                          ))}
+                      </PopoverTrigger>
+                    );
+                  case "PopoverContent":
+                    return (
+                      <PopoverContent key={child.id} {...child.props}>
+                        {child.children &&
+                          child.children.map((contentChild) => (
+                            <PreviewComponent
+                              key={contentChild.id}
+                              item={contentChild}
+                              selectedItemId={selectedItemId}
+                              onSelect={onSelect}
+                              onMove={onMove}
+                              onRemove={onRemove}
+                              onUpdate={onUpdate}
+                              addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
+                              level={level + 1}
+                            />
+                          ))}
+                      </PopoverContent>
+                    );
+                  default:
+                    return child.name;
+                }
+              })}
+          </Popover>
+        );
 
-        case "InstagramIcon":
-          return <InstagramIcon {...commonProps} ref={ref} />;
-        case "FacebookIcon":
-          return <FacebookIcon {...commonProps} ref={ref} />;
-        case "MountainIcon":
-          return <MountainIcon {...commonProps} ref={ref} />;
-        case "StepBackIcon":
-          return <StepBackIcon {...commonProps} ref={ref} />;
-        case "ThermometerIcon":
-          return <ThermometerIcon {...commonProps} ref={ref} />;
-        case "WifiIcon":
-          return <WifiIcon {...commonProps} ref={ref} />;
-        case "SmartphoneIcon":
-          return <SmartphoneIcon {...commonProps} ref={ref} />;
-        case "BedIcon":
-          return <BedIcon {...commonProps} ref={ref} />;
-        case "BatteryIcon":
-          return <BatteryIcon {...commonProps} ref={ref} />;
-        case "BluetoothIcon":
-          return <BluetoothIcon {...commonProps} ref={ref} />;
-        case "SpeakerIcon":
-          return <SpeakerIcon {...commonProps} ref={ref} />;
-        case "StarIcon":
-          return <StarIcon {...commonProps} ref={ref} />;
-        case "SlackIcon":
-          return <SlackIcon {...commonProps} ref={ref} />;
-        case "HashIcon":
-          return <HashIcon {...commonProps} ref={ref} />;
-        case "BookIcon":
-          return <BookIcon {...commonProps} ref={ref} />;
-        case "DatabaseIcon":
-          return <DatabaseIcon {...commonProps} ref={ref} />;
-        case "CalendarIcon":
-          return <CalendarIcon {...commonProps} ref={ref} />;
-        case "NotebookIcon":
-          return <NotebookIcon {...commonProps} ref={ref} />;
-        case "MapPinIcon":
-          return <MapPinIcon {...commonProps} ref={ref} />;
-        case "BrushIcon":
-          return <BrushIcon {...commonProps} ref={ref} />;
-        case "CodeIcon":
-          return <CodeIcon {...commonProps} ref={ref} />;
-        case "TextIcon":
-          return <TextIcon {...commonProps} ref={ref} />;
-        case "AppleIcon":
-          return <AppleIcon {...commonProps} ref={ref} />;
-        case "ChromeIcon":
-          return <ChromeIcon {...commonProps} ref={ref} />;
-        case "XIcon":
-          return <XIcon {...commonProps} ref={ref} />;
-        case "Tally1Icon":
-          return <Tally1Icon {...commonProps} ref={ref} />;
-        case "ClipboardIcon":
-          return <ClipboardIcon {...commonProps} ref={ref} />;
-        case "VoteIcon":
-          return <VoteIcon {...commonProps} ref={ref} />;
-        case "ChevronDownIcon":
-          return <ChevronDownIcon {...commonProps} ref={ref} />;
-        case "TriangleIcon":
-          return <TriangleIcon {...commonProps} ref={ref} />;
-        case "BotIcon":
-          return <BotIcon {...commonProps} ref={ref} />;
-        case "SandwichIcon":
-          return <SandwichIcon {...commonProps} ref={ref} />;
-        case "ShuffleIcon":
-          return <ShuffleIcon {...commonProps} ref={ref} />;
-        case "KeyIcon":
-          return <KeyIcon {...commonProps} ref={ref} />;
-        case "CoinsIcon":
-          return <CoinsIcon {...commonProps} ref={ref} />;
-        case "BlocksIcon":
-          return <BlocksIcon {...commonProps} ref={ref} />;
-        case "FuelIcon":
-          return <FuelIcon {...commonProps} ref={ref} />;
-        case "MoveUpIcon":
-          return <MoveUpIcon {...commonProps} ref={ref} />;
-        case "ClockIcon":
-          return <ClockIcon {...commonProps} ref={ref} />;
-        case "ArrowUpRightIcon":
-          return <ArrowUpRightIcon {...commonProps} ref={ref} />;
-        case "MoveHorizontalIcon":
-          return <MoveHorizontalIcon {...commonProps} ref={ref} />;
-        case "MoveVerticalIcon":
-          return <MoveVerticalIcon {...commonProps} ref={ref} />;
-        case "PhoneIcon":
-          return <PhoneIcon {...commonProps} ref={ref} />;
-        case "VideoIcon":
-          return <VideoIcon {...commonProps} ref={ref} />;
-        case "PaperclipIcon":
-          return <PaperclipIcon {...commonProps} ref={ref} />;
-        case "AirplayIcon":
-          return <AirplayIcon {...commonProps} ref={ref} />;
-        case "ScanIcon":
-          return <ScanIcon {...commonProps} ref={ref} />;
-        case "PauseIcon":
-          return <PauseIcon {...commonProps} ref={ref} />;
-        case "FileTypeIcon":
-          return <FileTypeIcon {...commonProps} ref={ref} />;
-        case "LightbulbIcon":
-          return <LightbulbIcon {...commonProps} ref={ref} />;
-        case "SunDimIcon":
-          return <SunDimIcon {...commonProps} ref={ref} />;
-        case "ForwardIcon":
-          return <ForwardIcon {...commonProps} ref={ref} />;
-        case "FileIcon":
-          return <FileIcon {...commonProps} ref={ref} />;
-        case "Trash2Icon":
-          return <Trash2Icon {...commonProps} ref={ref} />;
-        case "ArrowDownIcon":
-          return <ArrowDownIcon {...commonProps} ref={ref} />;
-        case "ArrowUpIcon":
-          return <ArrowUpIcon {...commonProps} ref={ref} />;
+      case "Carousel":
+        return (
+          <Carousel {...item.props}>
+            {item.children &&
+              item.children.map((child) => {
+                switch (child.name) {
+                  case "CarouselContent":
+                    return (
+                      <CarouselContent key={child.id} {...child.props}>
+                        {child.children &&
+                          child.children.map((contentChild) => {
+                            switch (contentChild.name) {
+                              case "CarouselItem":
+                                return (
+                                  <CarouselItem
+                                    key={contentChild.id}
+                                    {...contentChild.props}
+                                  >
+                                    {contentChild.children &&
+                                      contentChild.children.map((itemChild) => (
+                                        <PreviewComponent
+                                          key={itemChild.id}
+                                          item={itemChild}
+                                          selectedItemId={selectedItemId}
+                                          onSelect={onSelect}
+                                          onMove={onMove}
+                                          onRemove={onRemove}
+                                          onUpdate={onUpdate}
+                                          addComponent={addComponent}
+                                          levelHovered={levelHovered}
+                                          setLevelHovered={setLevelHovered}
+                                          level={level + 1}
+                                        />
+                                      ))}
+                                  </CarouselItem>
+                                );
+                              default:
+                                return contentChild.name;
+                            }
+                          })}
+                      </CarouselContent>
+                    );
+                  default:
+                    return null;
+                }
+              })}
+          </Carousel>
+        );
+
+        case "CloudIcon":
+          return <CloudIcon {...commonProps} ref={ref} />;
+      case "ServerIcon":
+        return <ServerIcon {...commonProps} ref={ref} />;
+      case "NetworkIcon":
+        return <NetworkIcon {...commonProps} ref={ref} />;
+      case "CodepenIcon":
+        return <CodepenIcon {...commonProps} ref={ref} />;
+      case "ImportIcon":
+        return <ImportIcon {...commonProps} ref={ref} />;
+      case "FolderSyncIcon":
+        return <FolderSyncIcon {...commonProps} ref={ref} />;
+      case "BookOpenIcon":
+        return <BookOpenIcon {...commonProps} ref={ref} />;
+      case "RefreshCwIcon":
+        return <RefreshCwIcon {...commonProps} ref={ref} />;
+      case "GroupIcon":
+        return <GroupIcon {...commonProps} ref={ref} />;
+      case "InstagramIcon":
+        return <InstagramIcon {...commonProps} ref={ref} />;
+      case "FacebookIcon":
+        return <FacebookIcon {...commonProps} ref={ref} />;
+      case "MountainIcon":
+        return <MountainIcon {...commonProps} ref={ref} />;
+      case "StepBackIcon":
+        return <StepBackIcon {...commonProps} ref={ref} />;
+      case "ThermometerIcon":
+        return <ThermometerIcon {...commonProps} ref={ref} />;
+      case "WifiIcon":
+        return <WifiIcon {...commonProps} ref={ref} />;
+      case "SmartphoneIcon":
+        return <SmartphoneIcon {...commonProps} ref={ref} />;
+      case "BedIcon":
+        return <BedIcon {...commonProps} ref={ref} />;
+      case "BatteryIcon":
+        return <BatteryIcon {...commonProps} ref={ref} />;
+      case "BluetoothIcon":
+        return <BluetoothIcon {...commonProps} ref={ref} />;
+      case "SpeakerIcon":
+        return <SpeakerIcon {...commonProps} ref={ref} />;
+      case "StarIcon":
+        return <StarIcon {...commonProps} ref={ref} />;
+      case "SlackIcon":
+        return <SlackIcon {...commonProps} ref={ref} />;
+      case "HashIcon":
+        return <HashIcon {...commonProps} ref={ref} />;
+      case "BookIcon":
+        return <BookIcon {...commonProps} ref={ref} />;
+      case "DatabaseIcon":
+        return <DatabaseIcon {...commonProps} ref={ref} />;
+      case "CalendarIcon":
+        return <CalendarIcon {...commonProps} ref={ref} />;
+      case "NotebookIcon":
+        return <NotebookIcon {...commonProps} ref={ref} />;
+      case "MapPinIcon":
+        return <MapPinIcon {...commonProps} ref={ref} />;
+      case "BrushIcon":
+        return <BrushIcon {...commonProps} ref={ref} />;
+      case "CodeIcon":
+        return <CodeIcon {...commonProps} ref={ref} />;
+      case "TextIcon":
+        return <TextIcon {...commonProps} ref={ref} />;
+      case "AppleIcon":
+        return <AppleIcon {...commonProps} ref={ref} />;
+      case "ChromeIcon":
+        return <ChromeIcon {...commonProps} ref={ref} />;
+      case "XIcon":
+        return <XIcon {...commonProps} ref={ref} />;
+      case "Tally1Icon":
+        return <Tally1Icon {...commonProps} ref={ref} />;
+      case "ClipboardIcon":
+        return <ClipboardIcon {...commonProps} ref={ref} />;
+      case "VoteIcon":
+        return <VoteIcon {...commonProps} ref={ref} />;
+      case "ChevronDownIcon":
+        return <ChevronDownIcon {...commonProps} ref={ref} />;
+      case "TriangleIcon":
+        return <TriangleIcon {...commonProps} ref={ref} />;
+      case "BotIcon":
+        return <BotIcon {...commonProps} ref={ref} />;
+      case "SandwichIcon":
+        return <SandwichIcon {...commonProps} ref={ref} />;
+      case "ShuffleIcon":
+        return <ShuffleIcon {...commonProps} ref={ref} />;
+      case "KeyIcon":
+        return <KeyIcon {...commonProps} ref={ref} />;
+      case "CoinsIcon":
+        return <CoinsIcon {...commonProps} ref={ref} />;
+      case "BlocksIcon":
+        return <BlocksIcon {...commonProps} ref={ref} />;
+      case "FuelIcon":
+        return <FuelIcon {...commonProps} ref={ref} />;
+      case "MoveUpIcon":
+        return <MoveUpIcon {...commonProps} ref={ref} />;
+      case "ClockIcon":
+        return <ClockIcon {...commonProps} ref={ref} />;
+      case "ArrowUpRightIcon":
+        return <ArrowUpRightIcon {...commonProps} ref={ref} />;
+      case "MoveHorizontalIcon":
+        return <MoveHorizontalIcon {...commonProps} ref={ref} />;
+      case "MoveVerticalIcon":
+        return <MoveVerticalIcon {...commonProps} ref={ref} />;
+      case "PhoneIcon":
+        return <PhoneIcon {...commonProps} ref={ref} />;
+      case "VideoIcon":
+        return <VideoIcon {...commonProps} ref={ref} />;
+      case "PaperclipIcon":
+        return <PaperclipIcon {...commonProps} ref={ref} />;
+      case "AirplayIcon":
+        return <AirplayIcon {...commonProps} ref={ref} />;
+      case "ScanIcon":
+        return <ScanIcon {...commonProps} ref={ref} />;
+      case "PauseIcon":
+        return <PauseIcon {...commonProps} ref={ref} />;
+      case "FileTypeIcon":
+        return <FileTypeIcon {...commonProps} ref={ref} />;
+      case "LightbulbIcon":
+        return <LightbulbIcon {...commonProps} ref={ref} />;
+      case "SunDimIcon":
+        return <SunDimIcon {...commonProps} ref={ref} />;
+      case "ForwardIcon":
+        return <ForwardIcon {...commonProps} ref={ref} />;
+      case "FileIcon":
+        return <FileIcon {...commonProps} ref={ref} />;
+      case "Trash2Icon":
+        return <Trash2Icon {...commonProps} ref={ref} />;
+      case "ArrowDownIcon":
+        return <ArrowDownIcon {...commonProps} ref={ref} />;
+      case "ArrowUpIcon":
+        return <ArrowUpIcon {...commonProps} ref={ref} />;
       case "Package2Icon":
         return <Package2Icon {...commonProps} ref={ref} />;
       case "CreditCardIcon":
@@ -2273,10 +2761,12 @@ const PreviewComponent: React.FC<{
       case "img":
       case "Image":
       case "image":
-        const width = item.props?.width ?? 10
-        const height = item.props?.height ?? 10
+        const width = item.props?.width ?? 10;
+        const height = item.props?.height ?? 10;
 
-        return <Image {...commonProps} width={width} height={height} ref={ref} />;
+        return (
+          <Image {...commonProps} width={width} height={height} ref={ref} />
+        );
 
       case "Slider":
       case "slider":
@@ -2299,29 +2789,39 @@ const PreviewComponent: React.FC<{
     }
   };
 
-  const containsColSpan = item.props?.className?.includes('col-span-2') ? 'col-span-2' : '';
+  const containsColSpan = item.props?.className?.includes("col-span-2")
+    ? "col-span-2"
+    : "";
+
+  const setHovered = (hovered: boolean, level: number) => {
+    setIsHovered(hovered);
+    setLevelHovered(level);
+  };
 
   return (
     <motion.div
       className={`relative group mml-${level * 1} ${containsColSpan}`}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      onMouseEnter={() => setHovered(true, level)}
+      onMouseLeave={() => setHovered(false, level-1)}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.2 }}
     >
       <div className="w-full h-full" draggable="true">
-        <div className="">
-          {renderComponent()}
-        </div>
+        <div className="">{renderComponent()}</div>
       </div>
       <AnimatePresence>
-        {isHovered && (
+        {isHovered && levelHovered == level && (
           <motion.div
-            className="absolute -top-7 left-[calc(50%-40px)] flex space-x-1 p-1 bg-orange-200 rounded-md"
+            className="absolute top-0.5 right-0.5 flex space-x-1 p-1 bg-orange-200 dark:bg-orange-800 rounded-md"
             initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={{
+              opacity: 1,
+              scale: 1,
+              zIndex: level + 2000,
+              display: "relative",
+            }}
             exit={{ opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.1 }}
           >
@@ -2351,11 +2851,7 @@ const PreviewComponent: React.FC<{
               <Trash2 className="w-4 h-4" />
             </Button>
             <div className="cursor-move" ref={drag}>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="w-6 h-6"
-              >
+              <Button variant="ghost" size="icon" className="w-6 h-6">
                 <Move className="w-4 h-4" />
               </Button>
             </div>
@@ -2391,6 +2887,8 @@ const MainEditor: React.FC<MainEditorProps> = ({
   applyRawCode,
   tsxToJson,
   addComponent,
+  levelHovered,
+  setLevelHovered,
 }) => {
   const [, drop] = useDrop({
     accept: ["COMPONENT", "NEW_COMPONENT"],
@@ -2399,15 +2897,23 @@ const MainEditor: React.FC<MainEditorProps> = ({
         if (item.id) {
           onMove(item.id, "root", "inside");
         } else {
-          addComponent({ type: item.type, props: { content: `New ${item.type}` } });
+          addComponent({
+            type: item.type,
+            props: { content: `New ${item.type}` },
+          });
         }
       }
     },
   });
 
+  const [mainTabSelected, setMainTabSelected] = useState("preview")
+
   return (
-    <main className="flex-1 p-4 bg-gray-100/10 overflow-y-auto" ref={drop}>
-      <Tabs defaultValue="preview">
+    <main
+      className="flex-1 p-4 mb-4 bg-muted/30 overflow-y-auto rounded-xl border-[0.5px] dark:border-gray-800"
+      ref={drop}
+    >
+      <Tabs defaultValue="preview" value={mainTabSelected} onValueChange={setMainTabSelected}>
         <TabsList>
           <TabsTrigger value="preview">Preview</TabsTrigger>
           <TabsTrigger value="code">Generated Code</TabsTrigger>
@@ -2415,63 +2921,73 @@ const MainEditor: React.FC<MainEditorProps> = ({
           <TabsTrigger value="rawTsx">Raw TSX</TabsTrigger>
         </TabsList>
         <ScrollArea className="h-[calc(100vh-12rem)]">
-        <TabsContent value="preview">
-          <div
-            className={`w-full mx-auto bg-white dark:bg-black min-h-[240px] rounded-lg shadow-md p-0.5 transition-all duration-300 ease-in-out ${
-              previewMode === "desktop"
-                ? "max-w-full"
-                : previewMode === "tablet"
-                ? "max-w-2xl"
-                : "max-w-sm"
-            }`}
-          >
-            <AnimatePresence>
-              {tree.map((item) => (
-                <PreviewComponent
-                  key={item.id}
-                  item={item}
-                  selectedItemId={selectedItemId}
-                  onSelect={onSelect}
-                  onMove={onMove}
-                  onRemove={onRemove}
-                  onUpdate={onUpdate}
-                  addComponent={addComponent}
-                  level={0}
-                />
-              ))}
-            </AnimatePresence>
-          </div>
-        </TabsContent>
-        <TabsContent value="code">
-          <pre className="p-4 bg-gray-800 text-white rounded-lg overflow-x-auto">
-            <code>{generatedCode}</code>
-          </pre>
-        </TabsContent>
-        <TabsContent value="raw">
-          <div className="space-y-4">
-            <Textarea
-              value={rawCode}
-              onChange={handleRawCodeChange}
-              placeholder="Paste your raw JSON code here..."
-              className="h-64"
-            />
-            <Button onClick={applyRawCode}>Apply Raw Code</Button>
-          </div>
-        </TabsContent>
-        <TabsContent value="rawTsx">
-          <div className="space-y-4">
-            <Textarea
-              value={rawCodeTsx}
-              onChange={handleRawCodeTsxChange}
-              placeholder="Paste your raw JSON code here..."
-              className="min-h-96 h-[748px]"
-            />
-            <div className="flex gap-2">
-              <Button variant={"destructive"} onClick={handleRawCodeTsxClear}>Clear</Button>
-              <Button onClick={tsxToJson}>Apply Raw Code</Button>
+          <TabsContent value="preview">
+            <div
+              className={`w-full mx-auto bg-white dark:bg-black border-[0.5px] dark:border-gray-800 min-h-[240px] rounded-lg shadow-md p-0.5 transition-all duration-300 ease-in-out ${
+                previewMode === "desktop"
+                  ? "max-w-full"
+                  : previewMode === "tablet"
+                  ? "max-w-2xl"
+                  : "max-w-sm"
+              }`}
+            >
+              <div className="rounded-md overflow-hidden">
+                <AnimatePresence>
+                  {tree.map((item) => (
+                    <PreviewComponent
+                      key={item.id}
+                      item={item}
+                      selectedItemId={selectedItemId}
+                      onSelect={onSelect}
+                      onMove={onMove}
+                      onRemove={onRemove}
+                      onUpdate={onUpdate}
+                      addComponent={addComponent}
+                      levelHovered={levelHovered}
+                      setLevelHovered={setLevelHovered}
+                      level={0}
+                    />
+                  ))}
+                </AnimatePresence>
+              </div>
             </div>
-          </div>
-        </TabsContent>
+          </TabsContent>
+          <TabsContent value="code">
+            <pre className="p-4 bg-gray-800 text-white rounded-lg overflow-x-auto">
+              <code>{generatedCode}</code>
+            </pre>
+          </TabsContent>
+          <TabsContent value="raw">
+            <div className="space-y-4">
+              <Textarea
+                value={rawCode}
+                onChange={handleRawCodeChange}
+                placeholder="Paste your raw JSON code here..."
+                className="h-64"
+              />
+              <Button onClick={applyRawCode}>Apply Raw Code</Button>
+            </div>
+          </TabsContent>
+          <TabsContent value="rawTsx">
+            <div className="space-y-4">
+              <Textarea
+                value={rawCodeTsx}
+                onChange={handleRawCodeTsxChange}
+                placeholder="Paste your raw JSON code here..."
+                className="min-h-96 h-[748px]"
+                style={{ '--tw-ring-offset-width': 0 }}
+              />
+              <div className="flex gap-2">
+                <Button variant={"destructive"} onClick={handleRawCodeTsxClear}>
+                  Clear
+                </Button>
+                <Button onClick={() => {
+                  tsxToJson()
+                  setMainTabSelected("preview")
+                }}>Apply Raw Code</Button>
+              </div>
+            </div>
+          </TabsContent>
         </ScrollArea>
       </Tabs>
     </main>

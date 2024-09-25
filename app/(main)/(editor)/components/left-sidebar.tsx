@@ -151,7 +151,7 @@ const TreeNode: React.FC<{
             </form>
           ) : (
             <span
-              className="ml-2 cursor-pointer flex-1 font-semibold text-muted-foreground text-md"
+              className="ml-2 cursor-pointer flex-1 text-muted-foreground text-md"
               onClick={() => onSelect(item)}
             >
               {item.name}
@@ -246,8 +246,8 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
   };
 
   return (
-    <aside className="w-96 p-4 pt-0 space-y-4 border-r border-gray-200 dark:border-gray-800">
-      <div className="space-y-2 p-4 pt-2 bg-slate-100 dark:bg-slate-900 rounded-xl border-[0.5px] dark:border-gray-800">
+    <aside className="w-96 p-4 pt-0 space-y-4">
+      <div className="space-y-2 p-4 pt-2 rounded-xl border-[0.5px] dark:border-gray-800">
         <Label>Pages</Label>
         <Select value={currentPage} onValueChange={onSelectPage}>
           <SelectTrigger>
@@ -270,67 +270,69 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
           <Button onClick={handleAddPage}>Add</Button>
         </div>
       </div>
-      <Tabs defaultValue="layers">
-        <TabsList className="w-full">
-          <TabsTrigger value="layers" className="flex-1">
-            Layers
-          </TabsTrigger>
-          <TabsTrigger value="components" className="flex-1">
-            Components
-          </TabsTrigger>
-        </TabsList>
-        <TabsContent value="layers">
-          <ScrollArea className="h-[calc(100vh-19rem)]">
-            {tree.map((item) => (
-              <TreeNode
-                key={item.id}
-                item={item}
-                onSelect={onSelect}
-                onMove={onMove}
-                onRemove={onRemove}
-                onRename={onRename}
-                selectedItemId={selectedItemId}
-                level={0}
-                addComponent={addComponent}
-                componentLibrary={componentLibrary}
-              />
-            ))}
-            <ScrollBar orientation="horizontal" />
-          </ScrollArea>
-        </TabsContent>
-        <TabsContent value="components">
-          <ScrollArea className="h-[calc(100vh-12rem)]">
-            <div className="grid grid-cols-2 gap-2">
-              {componentLibrary.map((component) => {
-                component.id = null;
-                const [{ isDragging }, drag] = useDrag({
-                  type: "NEW_COMPONENT",
-                  item: { ...component },
-                  collect: (monitor) => ({
-                    isDragging: monitor.isDragging(),
-                  }),
-                });
+      <div className="space-y-2 p-4 rounded-xl border-[0.5px] dark:border-gray-800">
+        <Tabs defaultValue="layers">
+          <TabsList className="w-full">
+            <TabsTrigger value="layers" className="flex-1">
+              Layers
+            </TabsTrigger>
+            <TabsTrigger value="components" className="flex-1">
+              Components
+            </TabsTrigger>
+          </TabsList>
+          <TabsContent value="layers">
+            <ScrollArea className="h-[calc(100vh-21rem)]">
+              {tree?.map((item) => (
+                <TreeNode
+                  key={item.id}
+                  item={item}
+                  onSelect={onSelect}
+                  onMove={onMove}
+                  onRemove={onRemove}
+                  onRename={onRename}
+                  selectedItemId={selectedItemId}
+                  level={0}
+                  addComponent={addComponent}
+                  componentLibrary={componentLibrary}
+                />
+              ))}
+              <ScrollBar orientation="horizontal" />
+            </ScrollArea>
+          </TabsContent>
+          <TabsContent value="components">
+            <ScrollArea className="h-[calc(100vh-21rem)]">
+              <div className="grid grid-cols-2 gap-2">
+                {componentLibrary.map((component) => {
+                  component.id = null;
+                  const [{ isDragging }, drag] = useDrag({
+                    type: "NEW_COMPONENT",
+                    item: { ...component },
+                    collect: (monitor) => ({
+                      isDragging: monitor.isDragging(),
+                    }),
+                  });
 
-                return (
-                  <div
-                    key={component.id}
-                    ref={drag}
-                    className={`cursor-move ${isDragging ? "opacity-50" : ""}`}
-                  >
-                    <Button
-                      variant="outline"
-                      className="h-20 w-full flex flex-col items-center justify-center"
+                  return (
+                    <div
+                      key={component.id}
+                      ref={drag}
+                      className={`cursor-move ${isDragging ? "opacity-50" : ""}`}
                     >
-                      {component.icon}
-                      <span className="mt-2 text-xs">{component.name}</span>
-                    </Button>
-                  </div>
-                );
-              })}
-            </div>
-          </ScrollArea>
-        </TabsContent>
-      </Tabs>
+                      <Button
+                        variant="outline"
+                        className="h-20 w-full flex flex-col items-center justify-center"
+                      >
+                        {component.icon}
+                        <span className="mt-2 text-xs">{component.name}</span>
+                      </Button>
+                    </div>
+                  );
+                })}
+              </div>
+            </ScrollArea>
+          </TabsContent>
+        </Tabs>
+      </div>
     </aside>
   );
 };
