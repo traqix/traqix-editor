@@ -35,22 +35,22 @@ With a modern and intuitive interface, this editor allows developers to create r
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/traqix-lowcode-editor.git
+   git clone https://github.com/traqix/traqix-editor.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd traqix-lowcode-editor
+   cd traqix-editor
    ```
 
 3. Install dependencies:
    ```bash
-   npm install
+   pnpm i
    ```
 
 4. Run the development server:
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
 5. Open your browser and navigate to:
