@@ -232,7 +232,7 @@ export const ComponentOptions: React.FC<ComponentOptionsProps> = ({
               <Label htmlFor="content">Content</Label>
               <Input
                 id="content"
-                value={selectedItem.content || ""}
+                value={selectedItem.props?.content || ""}
                 onChange={(e) => handleChange("content", e.target.value)}
               />
             </div>

@@ -55,7 +55,7 @@ const TreeNode: React.FC<{
   onRename: (id: string, newName: string) => void;
   selectedItemId: string | null;
   level: number;
-  addComponent: (component: Partial<TreeItem>, parentId?: string) => void;
+  addComponent: (component: TreeItem, parentId?: string) => void;
   componentLibrary: TreeItem[];
 }> = ({
   item,
@@ -84,7 +84,7 @@ const TreeNode: React.FC<{
     accept: "TREE_ITEM",
     drop: (draggedItem: { id: string }, monitor) => {
       if (draggedItem.id !== item.id && !monitor.didDrop()) {
-        onMove(draggedItem.id, item.id);
+        onMove(draggedItem.id, item.id, "inside");
       }
     },
     collect: (monitor) => ({
@@ -114,11 +114,11 @@ const TreeNode: React.FC<{
 
   return (
     <div
-      ref={drop}
+      ref={drop as unknown as React.LegacyRef<HTMLDivElement>}
       className={`ml-${level == 0 ? 0 : 1.5} ${isOver ? "bg-blue-100" : ""}`}
     >
       <div
-        ref={drag}
+        ref={drag as unknown as React.LegacyRef<HTMLDivElement>}
         className={`ml-${level == 0 ? 0 : 1.5} ${isDragging ? "opacity-50" : ""}`}
       >
         <div
@@ -303,7 +303,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
             <ScrollArea className="h-[calc(100vh-21rem)]">
               <div className="grid grid-cols-2 gap-2">
                 {componentLibrary.map((component) => {
-                  component.id = null;
+                  component.id = Date.now().toString() + Math.random().toString(36).substr(2, 9);
                   const [{ isDragging }, drag] = useDrag({
                     type: "NEW_COMPONENT",
                     item: { ...component },
@@ -315,7 +315,7 @@ const LeftSidebar: React.FC<LeftSidebarProps> = ({
                   return (
                     <div
                       key={component.id}
-                      ref={drag}
+                      ref={drag as unknown as React.LegacyRef<HTMLDivElement>}
                       className={`cursor-move ${isDragging ? "opacity-50" : ""}`}
                     >
                       <Button

@@ -24,19 +24,18 @@ import { Label } from "@/components/ui/label";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import ClassSelector from "./class-selector";
 
-// Mapear as classes que não podem ser usadas simultaneamente
 const mutuallyExclusiveClasses = {
   layout: [
-    "flex", // Flex container
-    "inline-flex", // Inline flex container
-    "grid", // Grid container
-    "inline-grid", // Inline grid container
-    "block", // Block-level element
-    "inline-block", // Inline block element
-    "hidden", // Element is hidden
-    "table", // Table container
-    "inline-table", // Inline table container
-    "flow-root", // Creates a new block formatting context
+    "flex",
+    "inline-flex",
+    "grid",
+    "inline-grid",
+    "block",
+    "inline-block",
+    "hidden",
+    "table",
+    "inline-table",
+    "flow-root",
   ],
 
   justify: [
@@ -224,30 +223,31 @@ const predefinedClasses = [
   "text-right",
   "bg-red-500",
   "bg-blue-500",
-]; // Exemplo de classes comuns
+];
 
-const LayoutBuilder = () => {
-  const [classes, setClasses] = useState<string[]>([]);
+const LayoutBuilder = (props: { classes: any; handleAddClass: any; handleRemoveClass: any; }) => {
+  // const [classes, setClasses] = useState<string[]>([]);
   const [customClass, setCustomClass] = useState<string>("");
 
-  const handleAddClass = (newClass: string) => {
-    const conflictGroup = Object.values(mutuallyExclusiveClasses).find(
-      (group) => group.includes(newClass)
-    );
+  const { classes, handleAddClass, handleRemoveClass } = props
 
-    // Remove classes conflitantes, se existirem
-    if (conflictGroup) {
-      setClasses((prev) =>
-        prev.filter((cls) => !conflictGroup.includes(cls)).concat(newClass)
-      );
-    } else {
-      setClasses([...classes, newClass]);
-    }
-  };
+  // const handleAddClass = (newClass: string) => {
+  //   const conflictGroup = Object.values(mutuallyExclusiveClasses).find(
+  //     (group) => group.includes(newClass)
+  //   );
 
-  const handleRemoveClass = (removeClass: string) => {
-    setClasses(classes.filter((cls) => cls !== removeClass));
-  };
+  //   if (conflictGroup) {
+  //     setClasses((prev) =>
+  //       prev.filter((cls) => !conflictGroup.includes(cls)).concat(newClass)
+  //     );
+  //   } else {
+  //     setClasses([...classes, newClass]);
+  //   }
+  // };
+
+  // const handleRemoveClass = (removeClass: string) => {
+  //   setClasses(classes.filter((cls) => cls !== removeClass));
+  // };
 
   const handleManualClass = () => {
     if (customClass && !classes.includes(customClass)) {
@@ -311,7 +311,7 @@ const LayoutBuilder = () => {
     </div>
   );
 
-  function ComboBox(props) {
+  function ComboBox(props: { data: any[]; }) {
     const [open, setOpen] = React.useState(false);
     const [value, setValue] = React.useState("");
 
@@ -325,7 +325,7 @@ const LayoutBuilder = () => {
             className="w-[200px] justify-between"
           >
             {value
-              ? props.data?.find((framework) => framework === value)
+              ? props.data?.find((framework: string) => framework === value)
               : "Select framework..."}
             <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
           </Button>
@@ -336,7 +336,7 @@ const LayoutBuilder = () => {
             <CommandList>
               <CommandEmpty>No framework found.</CommandEmpty>
               <CommandGroup>
-                {props.data?.map((framework) => (
+                {props.data?.map((framework: string) => (
                   <CommandItem
                     key={framework}
                     value={framework}
@@ -373,8 +373,6 @@ const LayoutBuilder = () => {
     </div>
   );
 
-
-  // Lista de classes Tailwind com suas variantes
   const availableClasses = [
     "flex",
     "grid",
@@ -391,7 +389,6 @@ const LayoutBuilder = () => {
     "h-full",
   ];
 
-  // Lista de variantes comuns do Tailwind
   const variants = ["dark", "light", "md", "lg", "xs", "sm", "hover", "focus"];
 
   const Autocomplete2 = () => {
@@ -401,7 +398,6 @@ const LayoutBuilder = () => {
     const [filteredOptions, setFilteredOptions] = useState<string[]>([]);
     const [addedClasses, setAddedClasses] = useState<string[]>([]);
   
-    // Filtrar classes Tailwind com base no input
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const value = e.target.value;
       setInputValue(value);
@@ -412,31 +408,26 @@ const LayoutBuilder = () => {
       setFilteredOptions(filtered);
     };
   
-    // Selecionar uma classe
     const handleSelectClass = (className: string) => {
       setSelectedClass(className);
       setFilteredOptions([]);
       setInputValue(className);
     };
   
-    // Selecionar uma variante
     const handleSelectVariant = (variant: string) => {
       setSelectedVariant(variant);
     };
   
-    // Adicionar a classe combinada com a variante e resetar campos
     const handleAddClass = () => {
       if (selectedClass) {
         const combinedClass = selectedVariant ? `${selectedVariant}:${selectedClass}` : selectedClass;
         setAddedClasses([...addedClasses, combinedClass]);
-        // Resetar os campos
         setInputValue('');
         setSelectedClass('');
         setSelectedVariant('');
       }
     };
   
-    // Remover uma classe adicionada
     const handleRemoveClass = (index: number) => {
       setAddedClasses(addedClasses.filter((_, i) => i !== index));
     };

@@ -3926,9 +3926,11 @@ const signUpSection: TreeItem[] = [
             ],
             icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ];
 
@@ -4317,7 +4319,8 @@ const checkOutSection: TreeItem[] = [
                         ],
                         icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "a46o0rg5a",
@@ -5097,7 +5100,8 @@ const checkOutSection: TreeItem[] = [
                                         ],
                                         icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "oyh2ru8gw",
@@ -5147,7 +5151,8 @@ const checkOutSection: TreeItem[] = [
                                     ],
                                     icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "vgjx3gs02",
@@ -5173,19 +5178,26 @@ const checkOutSection: TreeItem[] = [
                                 ],
                                 icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -5370,7 +5382,8 @@ const contactSection: TreeItem[] = [
                     ],
                     icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "fkqcxgqav",
@@ -5492,11 +5505,14 @@ const contactSection: TreeItem[] = [
                 ],
                 icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -5538,7 +5554,8 @@ const landingPageSection: TreeItem[] = [
                   "className": "h-6 w-6 text-primary"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               },
               {
                 "id": "tub2w131q",
@@ -5557,11 +5574,14 @@ const landingPageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "John Doe"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "43ymbx0dd",
@@ -5591,9 +5611,11 @@ const landingPageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "About"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "voq1gh6d2",
@@ -5614,9 +5636,11 @@ const landingPageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Projects"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "0ff46fyuy",
@@ -5637,13 +5661,17 @@ const landingPageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Contact"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "lb1riwsn1",
@@ -5716,9 +5744,11 @@ const landingPageSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "John Doe"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "2owvp52js",
@@ -5737,9 +5767,11 @@ const landingPageSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Fullstack Developer | React | Node.js | MongoDB"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "3i4g140bv",
@@ -5758,13 +5790,17 @@ const landingPageSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "I'm a passionate fullstack developer with expertise in building modern web applications using the\n                    latest technologies."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "hazdt881q",
@@ -5778,13 +5814,17 @@ const landingPageSection: TreeItem[] = [
                           "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "3ee0vwvt2",
@@ -5839,9 +5879,11 @@ const landingPageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Featured Projects"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "yuxyytpv6",
@@ -5860,13 +5902,17 @@ const landingPageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Check out some of my recent projects and the technologies I used to build them."
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "rf34d8xgp",
@@ -5903,9 +5949,11 @@ const landingPageSection: TreeItem[] = [
                                   "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "m5w1ebf04",
@@ -5940,9 +5988,11 @@ const landingPageSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Project 1"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "u281oyl0s",
@@ -5961,9 +6011,11 @@ const landingPageSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "A fullstack web application built with Next.js, Node.js, and MongoDB."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "fkyybeubw",
@@ -5991,7 +6043,8 @@ const landingPageSection: TreeItem[] = [
                                               "className": "w-4 h-4 mr-1"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "1727219418963m8zy4z2vk",
@@ -6001,9 +6054,11 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "React"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "dd6vayjey",
@@ -6022,7 +6077,8 @@ const landingPageSection: TreeItem[] = [
                                               "className": "w-4 h-4 mr-1"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "1727219418964t59mgsfwy",
@@ -6032,9 +6088,11 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Node.js"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "er1j0tblf",
@@ -6053,7 +6111,8 @@ const landingPageSection: TreeItem[] = [
                                               "className": "w-4 h-4 mr-1"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "1727219418965zq4rrsslz",
@@ -6063,17 +6122,23 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "MongoDB"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "sundlbota",
@@ -6101,9 +6166,11 @@ const landingPageSection: TreeItem[] = [
                                   "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "hkvc7bctt",
@@ -6138,9 +6205,11 @@ const landingPageSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Project 2"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "81fnqgrnn",
@@ -6159,9 +6228,11 @@ const landingPageSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "A mobile-first e-commerce application built with React Native and Firebase."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "eadc65tl0",
@@ -6189,7 +6260,8 @@ const landingPageSection: TreeItem[] = [
                                               "className": "w-4 h-4 mr-1"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "1727219418970ouqpuswfo",
@@ -6199,9 +6271,11 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "React Native"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "urmbuzfuf",
@@ -6220,7 +6294,8 @@ const landingPageSection: TreeItem[] = [
                                               "className": "w-4 h-4 mr-1"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "1727219418971019reeo4r",
@@ -6230,17 +6305,23 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Firebase"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ylbuech06",
@@ -6268,9 +6349,11 @@ const landingPageSection: TreeItem[] = [
                                   "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "uncepx9ui",
@@ -6305,9 +6388,11 @@ const landingPageSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Project 3"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "pp2u5o08k",
@@ -6326,9 +6411,11 @@ const landingPageSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "A real-time chat application built with Socket.IO, Node.js, and React."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "taloqz5x6",
@@ -6356,7 +6443,8 @@ const landingPageSection: TreeItem[] = [
                                               "className": "w-4 h-4 mr-1"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "17272194189769dq01tgh0",
@@ -6366,9 +6454,11 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "React"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "mm9jp0ysq",
@@ -6387,7 +6477,8 @@ const landingPageSection: TreeItem[] = [
                                               "className": "w-4 h-4 mr-1"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "1727219418977tvqeiqox7",
@@ -6397,9 +6488,11 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Node.js"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "qv9asuqtm",
@@ -6418,7 +6511,8 @@ const landingPageSection: TreeItem[] = [
                                               "className": "w-4 h-4 mr-1"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "1727219418977qk4qfygsf",
@@ -6428,23 +6522,32 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Socket.IO"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "nozgvleeu",
@@ -6508,9 +6611,11 @@ const landingPageSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "About Me"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "sxw7wf0df",
@@ -6529,9 +6634,11 @@ const landingPageSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "I'm a passionate fullstack developer with over 5 years of experience in building modern web\n                    applications. I have a strong background in React, Node.js, and MongoDB, and I'm always eager to\n                    learn new technologies and techniques."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "ezsbir7k1",
@@ -6550,13 +6657,17 @@ const landingPageSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "In my free time, I enjoy contributing to open-source projects, attending local meetups, and staying\n                    up-to-date with the latest industry trends. I'm a firm believer in writing clean, maintainable code\n                    and following best practices."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "i2fwaj8ek",
@@ -6593,9 +6704,11 @@ const landingPageSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Skills"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "i1y3yh50w",
@@ -6623,7 +6736,8 @@ const landingPageSection: TreeItem[] = [
                                           "className": "w-6 h-6 text-primary"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "513cnpg5s",
@@ -6642,11 +6756,14 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "React"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "2w52gv792",
@@ -6665,7 +6782,8 @@ const landingPageSection: TreeItem[] = [
                                           "className": "w-6 h-6 text-primary"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "qeywrdgdv",
@@ -6684,11 +6802,14 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Node.js"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "2hne1cn9y",
@@ -6707,7 +6828,8 @@ const landingPageSection: TreeItem[] = [
                                           "className": "w-6 h-6 text-primary"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "8yp4bqug3",
@@ -6726,11 +6848,14 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "MongoDB"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "uhox1pvkl",
@@ -6749,7 +6874,8 @@ const landingPageSection: TreeItem[] = [
                                           "className": "w-6 h-6 text-primary"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "i2nqh3iw1",
@@ -6768,11 +6894,14 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Next.js"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "zg8g89azs",
@@ -6791,7 +6920,8 @@ const landingPageSection: TreeItem[] = [
                                           "className": "w-6 h-6 text-primary"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "x1mu6k5hj",
@@ -6810,11 +6940,14 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Express"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "rni3tbxpd",
@@ -6833,7 +6966,8 @@ const landingPageSection: TreeItem[] = [
                                           "className": "w-6 h-6 text-primary"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "6ek6xru71",
@@ -6852,23 +6986,32 @@ const landingPageSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Firebase"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "a0ckvoele",
@@ -6923,9 +7066,11 @@ const landingPageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Get in Touch"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "9ce3gwj36",
@@ -6944,11 +7089,14 @@ const landingPageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Have a project in mind or just want to say hello? Fill out the form below and I'll get back to you as\n                  soon as possible."
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "utjr93ds3",
@@ -6978,7 +7126,8 @@ const landingPageSection: TreeItem[] = [
                                   "className": "max-w-lg flex-1"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "dfuem4i25",
@@ -6990,7 +7139,8 @@ const landingPageSection: TreeItem[] = [
                                   "className": "max-w-lg flex-1"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "efhifnsfq",
@@ -7001,7 +7151,8 @@ const landingPageSection: TreeItem[] = [
                                   "className": "max-w-lg flex-1"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "svrt4hlki",
@@ -7021,21 +7172,29 @@ const landingPageSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Submit"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "96op661w4",
@@ -7063,9 +7222,11 @@ const landingPageSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "© 2024 John Doe. All rights reserved."
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "f6zecvs8m",
@@ -7095,9 +7256,11 @@ const landingPageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Terms of Service"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "xtz5x398b",
@@ -7118,15 +7281,20 @@ const landingPageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Privacy Policy"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -7166,7 +7334,8 @@ const miniAppSection: TreeItem[] = [
                   "className": "w-8 h-8"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               },
               {
                 "id": "syr2ri1iy",
@@ -7185,11 +7354,14 @@ const miniAppSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Bible App"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "87s3ix5b9",
@@ -7234,7 +7406,8 @@ const miniAppSection: TreeItem[] = [
                               "className": "w-6 h-6"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "sm2t0ob69",
@@ -7253,13 +7426,17 @@ const miniAppSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Language"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "9sb3tw4lp",
@@ -7285,9 +7462,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Select Language"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "h3a5yui7f",
@@ -7295,7 +7474,8 @@ const miniAppSection: TreeItem[] = [
                         "type": "DropdownMenuSeparator",
                         "props": {},
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "sl4zzq1jy",
@@ -7312,9 +7492,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "English"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "f9ijl0t7y",
@@ -7331,9 +7513,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Spanish"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "oe191a56a",
@@ -7350,9 +7534,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "French"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "c2nijl3lj",
@@ -7369,9 +7555,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "German"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "jbn99msh8",
@@ -7388,13 +7576,17 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Chinese"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "ldgijabgd",
@@ -7430,7 +7622,8 @@ const miniAppSection: TreeItem[] = [
                               "className": "w-6 h-6"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "ghfyzipzs",
@@ -7449,13 +7642,17 @@ const miniAppSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Settings"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "w502xfjok",
@@ -7481,9 +7678,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Settings"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "0r9mqz7ru",
@@ -7491,7 +7690,8 @@ const miniAppSection: TreeItem[] = [
                         "type": "DropdownMenuSeparator",
                         "props": {},
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "er3ct2ru0",
@@ -7508,9 +7708,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Appearance"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "rfrqpj5bl",
@@ -7527,9 +7729,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Notifications"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "qyplmblb4",
@@ -7546,17 +7750,23 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Privacy"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "laxfziq35",
@@ -7593,7 +7803,8 @@ const miniAppSection: TreeItem[] = [
                       "className": "w-6 h-6"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "yshvddbyq",
@@ -7612,11 +7823,14 @@ const miniAppSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Explore"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "omhl3fcqa",
@@ -7646,7 +7860,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-5 h-5"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "50d0ux8qk",
@@ -7663,11 +7878,14 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Home"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "2iq1fq6dg",
@@ -7688,7 +7906,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-5 h-5"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "9qm0jwwt0",
@@ -7705,11 +7924,14 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Bible"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "wjcrli1v0",
@@ -7730,7 +7952,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-5 h-5"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "rby8hw0bn",
@@ -7747,11 +7970,14 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Search"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "6vlzfwh40",
@@ -7772,7 +7998,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-5 h-5"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "13rss6gb6",
@@ -7789,11 +8016,14 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Bookmarks"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "jnh40ezm7",
@@ -7814,7 +8044,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-5 h-5"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "pndzs88ly",
@@ -7831,11 +8062,14 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Daily Verse"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "p78rfvtrg",
@@ -7856,7 +8090,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-5 h-5"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "zbf0vtpu4",
@@ -7873,13 +8108,17 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Recommendations"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "684ix42ow",
@@ -7898,7 +8137,8 @@ const miniAppSection: TreeItem[] = [
                       "className": "w-6 h-6"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "jwg5grnkc",
@@ -7917,11 +8157,14 @@ const miniAppSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Offline"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "qg823l0ry",
@@ -7951,7 +8194,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-5 h-5"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "mdijxfj7x",
@@ -7968,11 +8212,14 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Download Versions"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "x2q64m74t",
@@ -7993,7 +8240,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-5 h-5"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "c8x8jj4qs",
@@ -8010,15 +8258,20 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Sync Progress"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "9wxna5qa6",
@@ -8055,7 +8308,8 @@ const miniAppSection: TreeItem[] = [
                           "className": "w-6 h-6"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "jwyazqxz9",
@@ -8074,11 +8328,14 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Bible"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "yx5x5u5ei",
@@ -8123,7 +8380,8 @@ const miniAppSection: TreeItem[] = [
                                       "className": "w-4 h-4 mr-2"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "0d7nxjqfg",
@@ -8140,9 +8398,11 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Version"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "ntdz7urdx",
@@ -8152,11 +8412,14 @@ const miniAppSection: TreeItem[] = [
                                       "className": "w-4 h-4 ml-2"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "8stv737yz",
@@ -8182,9 +8445,11 @@ const miniAppSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Select Version"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "vubf21ge9",
@@ -8192,7 +8457,8 @@ const miniAppSection: TreeItem[] = [
                                 "type": "DropdownMenuSeparator",
                                 "props": {},
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "sm6freesm",
@@ -8209,9 +8475,11 @@ const miniAppSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "King James Version (KJV)"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "m22ckpxcr",
@@ -8228,9 +8496,11 @@ const miniAppSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "New International Version (NIV)"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "gnn2aqk6t",
@@ -8247,9 +8517,11 @@ const miniAppSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "English Standard Version (ESV)"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "1rqnwtc2a",
@@ -8266,9 +8538,11 @@ const miniAppSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "New Living Translation (NLT)"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "idhgsfisl",
@@ -8285,13 +8559,17 @@ const miniAppSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Douay-Rheims Bible (DRB)"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "qiixn3asm",
@@ -8327,7 +8605,8 @@ const miniAppSection: TreeItem[] = [
                                       "className": "w-4 h-4 mr-2"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "jdiqvgyof",
@@ -8344,9 +8623,11 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Filter"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "0vnrakuie",
@@ -8356,11 +8637,14 @@ const miniAppSection: TreeItem[] = [
                                       "className": "w-4 h-4 ml-2"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "0nua3jmqd",
@@ -8386,9 +8670,11 @@ const miniAppSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Filter Options"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "7eid77at3",
@@ -8396,7 +8682,8 @@ const miniAppSection: TreeItem[] = [
                                 "type": "DropdownMenuSeparator",
                                 "props": {},
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "1356y26vf",
@@ -8413,7 +8700,8 @@ const miniAppSection: TreeItem[] = [
                                       "checked": true
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "koiuyi0bh",
@@ -8430,11 +8718,14 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Old Testament"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "kpndfmfh8",
@@ -8451,7 +8742,8 @@ const miniAppSection: TreeItem[] = [
                                       "checked": true
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "qjgafogen",
@@ -8468,11 +8760,14 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "New Testament"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "smgi5hrzl",
@@ -8489,7 +8784,8 @@ const miniAppSection: TreeItem[] = [
                                       "checked": null
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "20t2ohfcr",
@@ -8506,19 +8802,26 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Apocrypha"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "3jq4sj7yc",
@@ -8555,9 +8858,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Today's Verse"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "3er19ooft",
@@ -8576,9 +8881,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "\"For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should\n                not perish, but have everlasting life.\""
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "tshb3fhtr",
@@ -8597,11 +8904,14 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "John 3:16"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "q6ef4vxks",
@@ -8629,9 +8939,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Recommended for You"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "xgrurnm06",
@@ -8659,7 +8971,8 @@ const miniAppSection: TreeItem[] = [
                                   "className": "w-5 h-5"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "fkhuy8po5",
@@ -8685,9 +8998,11 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Overcoming Anxiety"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "g977uo42r",
@@ -8706,13 +9021,17 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Philippians 4:6-7"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "efav5n31k",
@@ -8731,7 +9050,8 @@ const miniAppSection: TreeItem[] = [
                                   "className": "w-5 h-5"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "rvcntl1zm",
@@ -8757,9 +9077,11 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Finding Peace in Troubled Times"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "b6bnf9431",
@@ -8778,13 +9100,17 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "John 14:27"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "0bmv9rkah",
@@ -8803,7 +9129,8 @@ const miniAppSection: TreeItem[] = [
                                   "className": "w-5 h-5"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "j6013kad8",
@@ -8829,9 +9156,11 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Trusting in God's Plan"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "jg7b3t1xi",
@@ -8850,17 +9179,23 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Jeremiah 29:11"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "jqosh8u2j",
@@ -8888,9 +9223,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Search"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "n5n16az5i",
@@ -8911,7 +9248,8 @@ const miniAppSection: TreeItem[] = [
                               "className": "flex-1"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "xxqt8nzqn",
@@ -8930,7 +9268,8 @@ const miniAppSection: TreeItem[] = [
                                   "className": "w-4 h-4"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "a1ancewpp",
@@ -8947,15 +9286,20 @@ const miniAppSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Search"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "1fu3fe1mz",
@@ -8983,9 +9327,11 @@ const miniAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Bookmarks"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "jwyqqaf1i",
@@ -9013,7 +9359,8 @@ const miniAppSection: TreeItem[] = [
                                   "className": "w-5 h-5"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "glgro75rt",
@@ -9039,9 +9386,11 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Psalm 23"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "sd2xdorfd",
@@ -9060,13 +9409,17 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "The Lord is my shepherd"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "zmqb5gldg",
@@ -9085,7 +9438,8 @@ const miniAppSection: TreeItem[] = [
                                   "className": "w-5 h-5"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "9hf9kdqc9",
@@ -9111,9 +9465,11 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Philippians 4:6-7"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "qtnyuggka",
@@ -9132,13 +9488,17 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Do not be anxious about anything"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "yoj5hq7l3",
@@ -9157,7 +9517,8 @@ const miniAppSection: TreeItem[] = [
                                   "className": "w-5 h-5"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "nohp9g5xg",
@@ -9183,9 +9544,11 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "John 3:16"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "vphlpmxcu",
@@ -9204,25 +9567,35 @@ const miniAppSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "For God so loved the world"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -9262,9 +9635,11 @@ const kanbanSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "To Do"
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "sptrl9xaz",
@@ -9310,9 +9685,11 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Finish wireframes"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "jt4nrecn7",
@@ -9331,13 +9708,17 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Complete the initial wireframes for the new homepage design."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "tjvw85iqm",
@@ -9374,9 +9755,11 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Review content strategy"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "aaqji3w4m",
@@ -9395,13 +9778,17 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Discuss the content strategy with the marketing team."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "o9xt163ab",
@@ -9438,9 +9825,11 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Set up project management tool"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "o9mjs4ezm",
@@ -9459,17 +9848,23 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Integrate the new project management tool with the team."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "1wbzmszxj",
@@ -9497,9 +9892,11 @@ const kanbanSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "In Progress"
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "t09lcslvk",
@@ -9545,9 +9942,11 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Develop new homepage"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "k8van3lzg",
@@ -9566,13 +9965,17 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Lorem ipsum"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "cbiadmxgc",
@@ -9609,9 +10012,11 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Optimize website performance"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "r4rfqcz56",
@@ -9630,17 +10035,23 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Implement performance optimizations to improve website speed."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "np8h457sh",
@@ -9668,9 +10079,11 @@ const kanbanSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "Done"
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "0ahnwkuen",
@@ -9716,9 +10129,11 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Conduct user research"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "tgpha4ra0",
@@ -9737,13 +10152,17 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Gather user feedback and insights through interviews and surveys."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "n45a9anom",
@@ -9780,9 +10199,11 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Finalize branding guidelines"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ht3xc9t6o",
@@ -9801,13 +10222,17 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Establish the new branding guidelines for the company."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "zp95yk77t",
@@ -9844,9 +10269,11 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Launch new website"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "hq09jkzfw",
@@ -9865,19 +10292,26 @@ const kanbanSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Deploy the new website and announce the launch to the public."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -9917,9 +10351,11 @@ const reservationSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "Reservation Dates"
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "34jkvzoru",
@@ -9956,9 +10392,11 @@ const reservationSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "This Week"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "laai5qj2z",
@@ -9986,9 +10424,11 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "29.10.2023, Thursday"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "e4nwf6bw2",
@@ -10009,7 +10449,8 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Reservation"
-                            }
+                            },
+                            icon: undefined
                           },
                           {
                             "id": "i7nvqui7z",
@@ -10019,11 +10460,14 @@ const reservationSection: TreeItem[] = [
                               "className": "ml-2 h-5 w-5"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "60k88v75m",
@@ -10051,9 +10495,11 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "30.10.2023, Friday"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "u3mo1q2e9",
@@ -10074,7 +10520,8 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Reservation"
-                            }
+                            },
+                            icon: undefined
                           },
                           {
                             "id": "wn9x6nnrg",
@@ -10084,11 +10531,14 @@ const reservationSection: TreeItem[] = [
                               "className": "ml-2 h-5 w-5"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "2dkqv5s0j",
@@ -10116,11 +10566,14 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "31.10.2023, Saturday"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "bya6j6olk",
@@ -10148,9 +10601,11 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "01.11.2023, Sunday"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "wdiufka50",
@@ -10171,7 +10626,8 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Reservation"
-                            }
+                            },
+                            icon: undefined
                           },
                           {
                             "id": "8hfmononp",
@@ -10181,13 +10637,17 @@ const reservationSection: TreeItem[] = [
                               "className": "ml-2 h-5 w-5"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "0it642gr5",
@@ -10215,9 +10675,11 @@ const reservationSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Three Weeks From Now"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "h117qmf5d",
@@ -10245,9 +10707,11 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "19.11.2023, Thursday"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "dzonqbn95",
@@ -10268,7 +10732,8 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Reservation"
-                            }
+                            },
+                            icon: undefined
                           },
                           {
                             "id": "en0sv03zo",
@@ -10278,11 +10743,14 @@ const reservationSection: TreeItem[] = [
                               "className": "ml-2 h-5 w-5"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "1i9rdxsqj",
@@ -10310,9 +10778,11 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "20.11.2023, Friday"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "sh11q0oz1",
@@ -10333,7 +10803,8 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Reservation"
-                            }
+                            },
+                            icon: undefined
                           },
                           {
                             "id": "zgt07ezvv",
@@ -10343,11 +10814,14 @@ const reservationSection: TreeItem[] = [
                               "className": "ml-2 h-5 w-5"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "tm88awuqx",
@@ -10375,11 +10849,14 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "21.11.2023, Saturday"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "g6d8cvna8",
@@ -10407,9 +10884,11 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "22.11.2023, Sunday"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "3l4jgxn5y",
@@ -10430,7 +10909,8 @@ const reservationSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Reservation"
-                            }
+                            },
+                            icon: undefined
                           },
                           {
                             "id": "ev0v447x4",
@@ -10440,15 +10920,20 @@ const reservationSection: TreeItem[] = [
                               "className": "ml-2 h-5 w-5"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "2klo0mam7",
@@ -10467,13 +10952,17 @@ const reservationSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "Close"
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -10524,7 +11013,8 @@ const profileSection: TreeItem[] = [
                       "aria-label": "Upload profile picture"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "h5y3avf13",
@@ -10539,9 +11029,11 @@ const profileSection: TreeItem[] = [
                       "style": null
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "mw08ybj27",
@@ -10560,11 +11052,14 @@ const profileSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Dr. Maximilian Mustermann"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "h0zm5bfml",
@@ -10586,7 +11081,8 @@ const profileSection: TreeItem[] = [
                   "className": "border rounded-md p-2 flex-grow"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               },
               {
                 "id": "8kt3bwgp1",
@@ -10599,9 +11095,11 @@ const profileSection: TreeItem[] = [
                   "className": "border rounded-md p-2 flex-grow"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "ochy2buhh",
@@ -10614,7 +11112,8 @@ const profileSection: TreeItem[] = [
               "className": "border rounded-md p-2"
             },
             "allowsChildren": true,
-            "children": []
+            "children": [],
+            icon: undefined
           },
           {
             "id": "ob8hznob8",
@@ -10640,9 +11139,11 @@ const profileSection: TreeItem[] = [
                       "placeholder": "Select specialization"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "pgdply1jv",
@@ -10673,9 +11174,11 @@ const profileSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Specializations"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "96hkb1py0",
@@ -10694,9 +11197,11 @@ const profileSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Cardiology"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "hx4slz0og",
@@ -10715,9 +11220,11 @@ const profileSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Neurology"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "5rjg14z2r",
@@ -10736,9 +11243,11 @@ const profileSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Orthopedics"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "k7pmm7rlh",
@@ -10757,9 +11266,11 @@ const profileSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Pediatrics"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ujl7d8tkv",
@@ -10778,15 +11289,20 @@ const profileSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Psychiatry"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "tioatu0wb",
@@ -10814,7 +11330,8 @@ const profileSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "English"
-                    }
+                    },
+                    icon: undefined
                   },
                   {
                     "id": "zlq8dfa9p",
@@ -10835,11 +11352,14 @@ const profileSection: TreeItem[] = [
                           "className": "h-4 w-4 text-blue-800"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "c485g4i07",
@@ -10858,7 +11378,8 @@ const profileSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Spanish"
-                    }
+                    },
+                    icon: undefined
                   },
                   {
                     "id": "ufiawl9ad",
@@ -10879,11 +11400,14 @@ const profileSection: TreeItem[] = [
                           "className": "h-4 w-4 text-blue-800"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "1oag4224c",
@@ -10903,11 +11427,14 @@ const profileSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Add Language"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "hduknuwev",
@@ -10927,13 +11454,17 @@ const profileSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "Continue"
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -10964,7 +11495,8 @@ const cardProfileSection: TreeItem[] = [
               "className": "h-24 bg-blue-600 rounded-t-lg"
             },
             "allowsChildren": true,
-            "children": []
+            "children": [],
+            icon: undefined
           },
           {
             "id": "fed4tujd9",
@@ -10979,7 +11511,8 @@ const cardProfileSection: TreeItem[] = [
               "style": null
             },
             "allowsChildren": true,
-            "children": []
+            "children": [],
+            icon: undefined
           },
           {
             "id": "unwdtods6",
@@ -11007,9 +11540,11 @@ const cardProfileSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "John Doe"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "oze43zj1z",
@@ -11028,11 +11563,14 @@ const cardProfileSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Software Engineer"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "l9jg1aeo5",
@@ -11069,9 +11607,11 @@ const cardProfileSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "500"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "usp1am3h4",
@@ -11090,11 +11630,14 @@ const cardProfileSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Followers"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "gd9662sl8",
@@ -11122,9 +11665,11 @@ const cardProfileSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "300"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "iiydr141z",
@@ -11143,13 +11688,17 @@ const cardProfileSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Following"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "68cb056ld",
@@ -11177,15 +11726,20 @@ const cardProfileSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Follow"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -11226,7 +11780,8 @@ const cookieSection: TreeItem[] = [
                   "className": "mr-2"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               },
               {
                 "id": "jjchvbhaz",
@@ -11243,11 +11798,14 @@ const cookieSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Cookie Preferences"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "3bq9oslqp",
@@ -11264,11 +11822,14 @@ const cookieSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "Manage your cookie settings. You can enable or disable different types of cookies below."
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "wkndbqbd8",
@@ -11312,9 +11873,11 @@ const cookieSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Essential Cookies"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "ftglnoert",
@@ -11333,11 +11896,14 @@ const cookieSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "These cookies are necessary for the website to function and cannot be switched off."
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "y6kte6o7t",
@@ -11348,9 +11914,11 @@ const cookieSection: TreeItem[] = [
                   "id": "essential"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "ci4b0yihz",
@@ -11385,9 +11953,11 @@ const cookieSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Analytics Cookies"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "rq3ulxy4k",
@@ -11406,11 +11976,14 @@ const cookieSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "These cookies allow us to count visits and traffic sources, so we can measure and improve the performance\n              of our site."
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "0xtkpu3xx",
@@ -11421,9 +11994,11 @@ const cookieSection: TreeItem[] = [
                   "id": "analytics"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "ftcqk4tx0",
@@ -11458,9 +12033,11 @@ const cookieSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Marketing Cookies"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "so8wuuym8",
@@ -11479,11 +12056,14 @@ const cookieSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "These cookies help us show you relevant ads."
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "ojeqh6ho9",
@@ -11494,11 +12074,14 @@ const cookieSection: TreeItem[] = [
                   "id": "marketing"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "tg7xrz0or",
@@ -11508,7 +12091,8 @@ const cookieSection: TreeItem[] = [
           "className": "border-t border-dark-gray-300 mt-4"
         },
         "allowsChildren": true,
-        "children": []
+        "children": [],
+        icon: undefined
       },
       {
         "id": "tjg2383ng",
@@ -11535,13 +12119,17 @@ const cookieSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "Save Preferences"
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -11590,9 +12178,11 @@ const faqSection3: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Frequently Asked Questions"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "p8b5fnmyi",
@@ -11631,9 +12221,11 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Why does turning my device off and on again solve all issues?"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "xnk4phb54",
@@ -11650,11 +12242,14 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Because it clears the memory and starts the system from scratch."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "qbgoa1eg2",
@@ -11682,9 +12277,11 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Are extra cables in the box bonus decorations?"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "0k3solumr",
@@ -11701,11 +12298,14 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "As tempting as it is to weave them into artistic sculptures, those cables are essential for connecting,\n                charging, and beaming digital magic."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "pnmllxwgv",
@@ -11733,9 +12333,11 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Can I wear my VR headset to my cousin's wedding?"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "go0p7b0dz",
@@ -11752,11 +12354,14 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Yes but you might end up inadvertently dodging invisible dance partners or trying to high-five digital\n                confetti."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "cnz46wp1b",
@@ -11784,9 +12389,11 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "How often should I update my software?"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "czj3j9mll",
@@ -11803,11 +12410,14 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "It's recommended to keep your software up to date to ensure you have the latest security patches and\n                features."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "vrtfcajcw",
@@ -11836,9 +12446,11 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Why does my device get hot when I'm using it?"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "s9pchgzc5",
@@ -11855,19 +12467,26 @@ const faqSection3: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Devices can generate heat during operation, especially when running intensive tasks. This is normal, but\n                if it gets too hot, it may indicate a problem."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -11919,9 +12538,11 @@ const tweetSection: TreeItem[] = [
                       "style": null
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "se7o749rr",
@@ -11947,9 +12568,11 @@ const tweetSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "John Doe"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "o9tshq541",
@@ -11968,13 +12591,17 @@ const tweetSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "@johndoe"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "h8s055yw4",
@@ -12029,7 +12656,8 @@ const tweetSection: TreeItem[] = [
                               "r": "1"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "26h2ddxfa",
@@ -12041,7 +12669,8 @@ const tweetSection: TreeItem[] = [
                               "r": "1"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "e3377sriq",
@@ -12053,11 +12682,14 @@ const tweetSection: TreeItem[] = [
                               "r": "1"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "en8hmxsf7",
@@ -12083,17 +12715,23 @@ const tweetSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Delete tweet"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "cs03b3gk6",
@@ -12121,11 +12759,14 @@ const tweetSection: TreeItem[] = [
                 "children": [],
                 "props": {
                   "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque id erat at blandit. Donec\n          ullamcorper turpis vitae dolor lacinia mollis. Donec at augue eget ipsum porttitor interdum."
-                }
+                },
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "gult6pxal",
@@ -12171,7 +12812,8 @@ const tweetSection: TreeItem[] = [
                       "d": "M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "ktbuzv56c",
@@ -12181,7 +12823,8 @@ const tweetSection: TreeItem[] = [
                       "d": "M21 3v5h-5"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "qd2zgg5f5",
@@ -12191,7 +12834,8 @@ const tweetSection: TreeItem[] = [
                       "d": "M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "sjdl2i59k",
@@ -12201,9 +12845,11 @@ const tweetSection: TreeItem[] = [
                       "d": "M8 16H3v5"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "shmly4llk",
@@ -12231,9 +12877,11 @@ const tweetSection: TreeItem[] = [
                       "d": "M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "n84yswvyh",
@@ -12261,7 +12909,8 @@ const tweetSection: TreeItem[] = [
                       "d": "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "hfscdpnei",
@@ -12271,7 +12920,8 @@ const tweetSection: TreeItem[] = [
                       "points": "17 8 12 3 7 8"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "zy5ri8d64",
@@ -12284,11 +12934,14 @@ const tweetSection: TreeItem[] = [
                       "y2": "15"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "f5adugxm1",
@@ -12327,7 +12980,8 @@ const tweetSection: TreeItem[] = [
                       "r": "1"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "g4agb97t1",
@@ -12339,7 +12993,8 @@ const tweetSection: TreeItem[] = [
                       "r": "1"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "uam5c7zbj",
@@ -12351,9 +13006,11 @@ const tweetSection: TreeItem[] = [
                       "r": "1"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "g92miluth",
@@ -12381,15 +13038,20 @@ const tweetSection: TreeItem[] = [
                       "d": "m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -12452,9 +13114,11 @@ const contactUsSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Contact Us"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "3up87bbyc",
@@ -12473,11 +13137,14 @@ const contactUsSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Fill out the form below and we'll get back to you as soon as possible."
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "tybxt8ix8",
@@ -12523,9 +13190,11 @@ const contactUsSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "First name"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "wmo6pxku9",
@@ -12536,9 +13205,11 @@ const contactUsSection: TreeItem[] = [
                                   "placeholder": "Enter your first name"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "f87enhb3m",
@@ -12566,9 +13237,11 @@ const contactUsSection: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Last name"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "t7xnlu37z",
@@ -12579,11 +13252,14 @@ const contactUsSection: TreeItem[] = [
                                   "placeholder": "Enter your last name"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "w07titvun",
@@ -12611,9 +13287,11 @@ const contactUsSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Email"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "92feqihhz",
@@ -12625,9 +13303,11 @@ const contactUsSection: TreeItem[] = [
                               "type": "email"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "44l5wup1s",
@@ -12653,9 +13333,11 @@ const contactUsSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Pronoun"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "2ljk1ydyl",
@@ -12681,9 +13363,11 @@ const contactUsSection: TreeItem[] = [
                                       "placeholder": "Select your pronoun"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "iu7gv8igi",
@@ -12714,9 +13398,11 @@ const contactUsSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Pronouns"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "a4tm5q3fi",
@@ -12735,9 +13421,11 @@ const contactUsSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "He/Him"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "4gg7glc62",
@@ -12756,9 +13444,11 @@ const contactUsSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "She/Her"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "o4qmymtdj",
@@ -12777,9 +13467,11 @@ const contactUsSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "They/Them"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "20qq9uira",
@@ -12798,17 +13490,23 @@ const contactUsSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Prefer not to say"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "c3vpqs4zb",
@@ -12836,9 +13534,11 @@ const contactUsSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Message"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "v2t5jo1k3",
@@ -12850,9 +13550,11 @@ const contactUsSection: TreeItem[] = [
                               "className": "min-h-[100px]"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "vc3bov9r6",
@@ -12872,19 +13574,26 @@ const contactUsSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Send message"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -12933,9 +13642,11 @@ const musicAppSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Music Player"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "w3gd22okt",
@@ -12954,7 +13665,8 @@ const musicAppSection: TreeItem[] = [
                       "className": "text-gray-900 dark:text-gray-100"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "ygvv9wbio",
@@ -12964,7 +13676,8 @@ const musicAppSection: TreeItem[] = [
                       "className": "text-gray-900 dark:text-gray-100"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "wvxjt3l9t",
@@ -12974,11 +13687,14 @@ const musicAppSection: TreeItem[] = [
                       "className": "text-gray-900 dark:text-gray-100"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "a306v9na0",
@@ -13010,7 +13726,8 @@ const musicAppSection: TreeItem[] = [
                       "style": null
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "wy4e21ewv",
@@ -13038,9 +13755,11 @@ const musicAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Blowin' in the Wind"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "7v7f4faa1",
@@ -13059,13 +13778,17 @@ const musicAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Bob Dylan"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "jzq90ifrq",
@@ -13076,7 +13799,8 @@ const musicAppSection: TreeItem[] = [
                   "value": null
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               },
               {
                 "id": "mlo9dfvzh",
@@ -13105,9 +13829,11 @@ const musicAppSection: TreeItem[] = [
                           "className": "text-gray-900 dark:text-gray-100"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "76w6goec0",
@@ -13127,9 +13853,11 @@ const musicAppSection: TreeItem[] = [
                           "className": "text-gray-900 dark:text-gray-100"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "jfodchyrx",
@@ -13149,13 +13877,17 @@ const musicAppSection: TreeItem[] = [
                           "className": "text-gray-900 dark:text-gray-100"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "4kp375fne",
@@ -13183,9 +13915,11 @@ const musicAppSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Playlist"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "0gva5cv4c",
@@ -13222,9 +13956,11 @@ const musicAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Like a Rolling Stone"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ahrdfb3sr",
@@ -13234,9 +13970,11 @@ const musicAppSection: TreeItem[] = [
                           "className": "text-gray-900 dark:text-gray-100"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "dx4jbv8bc",
@@ -13264,9 +14002,11 @@ const musicAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "The Times They Are a-Changin'"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ok0mq4701",
@@ -13276,9 +14016,11 @@ const musicAppSection: TreeItem[] = [
                           "className": "text-gray-900 dark:text-gray-100"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "6qiotypug",
@@ -13306,9 +14048,11 @@ const musicAppSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Subterranean Homesick Blues"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ui3i5ryua",
@@ -13318,17 +14062,23 @@ const musicAppSection: TreeItem[] = [
                           "className": "text-gray-900 dark:text-gray-100"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -13370,7 +14120,8 @@ const dashboardSection: TreeItem[] = [
                   "className": "h-6 w-6"
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               },
               {
                 "id": "a8v3w1dou",
@@ -13389,11 +14140,14 @@ const dashboardSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Acme Inc"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "hsg7cr9q2",
@@ -13423,7 +14177,8 @@ const dashboardSection: TreeItem[] = [
                       "className": "h-5 w-5"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "ndhn51f3o",
@@ -13442,11 +14197,14 @@ const dashboardSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Users"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "ndo42pgdk",
@@ -13467,7 +14225,8 @@ const dashboardSection: TreeItem[] = [
                       "className": "h-5 w-5"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "mg4314hb4",
@@ -13486,11 +14245,14 @@ const dashboardSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Tools"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "hyhy0hche",
@@ -13511,7 +14273,8 @@ const dashboardSection: TreeItem[] = [
                       "className": "h-5 w-5"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "3ojhwzof5",
@@ -13530,11 +14293,14 @@ const dashboardSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Reports"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "iaaoz0ynm",
@@ -13555,7 +14321,8 @@ const dashboardSection: TreeItem[] = [
                       "className": "h-5 w-5"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "i3t4yuma4",
@@ -13574,11 +14341,14 @@ const dashboardSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Financials"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "jn9445neo",
@@ -13599,7 +14369,8 @@ const dashboardSection: TreeItem[] = [
                       "className": "h-5 w-5"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "vmn8cv1cw",
@@ -13618,11 +14389,14 @@ const dashboardSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Settings"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "cbvzu9j4i",
@@ -13664,11 +14438,14 @@ const dashboardSection: TreeItem[] = [
                               "style": null
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "sqazhvi20",
@@ -13694,9 +14471,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "My Account"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "7wqwuxx8b",
@@ -13704,7 +14483,8 @@ const dashboardSection: TreeItem[] = [
                         "type": "DropdownMenuSeparator",
                         "props": {},
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "fb61w7xyo",
@@ -13721,9 +14501,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Settings"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "8m72mst3s",
@@ -13740,9 +14522,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Support"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "5whz1vhs0",
@@ -13750,7 +14534,8 @@ const dashboardSection: TreeItem[] = [
                         "type": "DropdownMenuSeparator",
                         "props": {},
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "nn1f4nhs3",
@@ -13767,17 +14552,23 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Logout"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "deq0px6pc",
@@ -13830,9 +14621,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Active Users"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "j36sky1ma",
@@ -13842,9 +14635,11 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-4 h-4 text-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "mlrxpbsi2",
@@ -13870,9 +14665,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "1,234"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "u6mi2htcj",
@@ -13891,13 +14688,17 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "+5.2% from last month"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "fis7ysabg",
@@ -13932,9 +14733,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Files Processed"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "8we4795sb",
@@ -13944,9 +14747,11 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-4 h-4 text-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "5kxv1y7rs",
@@ -13972,9 +14777,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "12,345"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "soru3e4da",
@@ -13993,13 +14800,17 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "+8.1% from last month"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "mqdqm1i79",
@@ -14034,9 +14845,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Server Usage"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ff7rum3bc",
@@ -14046,9 +14859,11 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-4 h-4 text-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "j6un3t6gh",
@@ -14074,9 +14889,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "78%"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "h4bcrsvh9",
@@ -14095,13 +14912,17 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "+2.3% from last month"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "6fr1cc83l",
@@ -14136,9 +14957,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Disk Space"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "kbdgdhswz",
@@ -14148,9 +14971,11 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-4 h-4 text-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "unte4duue",
@@ -14176,9 +15001,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "82%"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "dvxr3y6po",
@@ -14197,15 +15024,20 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "+1.9% from last month"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "momh58uv3",
@@ -14249,9 +15081,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Tool Usage Trends"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "qlitsdjjt",
@@ -14261,9 +15095,11 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-4 h-4 text-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "5bnr6zsf8",
@@ -14280,11 +15116,14 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-full aspect-[4/3]"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "1ie1xi22c",
@@ -14319,9 +15158,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Recent Activity"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "yllkh6lj9",
@@ -14331,9 +15172,11 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-4 h-4 text-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "pomota3pn",
@@ -14378,7 +15221,8 @@ const dashboardSection: TreeItem[] = [
                                       "alt": "@shadcn"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "4wl4vzbyu",
@@ -14395,11 +15239,14 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "AC"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "brk1y353l",
@@ -14436,9 +15283,11 @@ const dashboardSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "John Doe"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "9e8eodmvx",
@@ -14457,11 +15306,14 @@ const dashboardSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "2h ago"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "1dchsrrg2",
@@ -14480,13 +15332,17 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Added a new user to the team."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "jh4of4pg0",
@@ -14515,7 +15371,8 @@ const dashboardSection: TreeItem[] = [
                                       "alt": "@shadcn"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "dqh87dgha",
@@ -14532,11 +15389,14 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "AC"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "on8kbb94c",
@@ -14573,9 +15433,11 @@ const dashboardSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Jane Smith"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "3c3i0h1g8",
@@ -14594,11 +15456,14 @@ const dashboardSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "4h ago"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "hbn59dqmu",
@@ -14617,13 +15482,17 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Uploaded a new report."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "tgdaq24jy",
@@ -14652,7 +15521,8 @@ const dashboardSection: TreeItem[] = [
                                       "alt": "@shadcn"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "me87fdi6e",
@@ -14669,11 +15539,14 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "AC"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "7j4j07r7z",
@@ -14710,9 +15583,11 @@ const dashboardSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Bob Johnson"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "imj0urln7",
@@ -14731,11 +15606,14 @@ const dashboardSection: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "6h ago"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "10an6zc5v",
@@ -14754,19 +15632,26 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Archived an old project."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "hzmethekq",
@@ -14801,9 +15686,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "System Alerts"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "1r99tdjps",
@@ -14813,9 +15700,11 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-4 h-4 text-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "2zv0rchh9",
@@ -14859,9 +15748,11 @@ const dashboardSection: TreeItem[] = [
                                       "className": "w-4 h-4"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "l4xhlhkrv",
@@ -14889,9 +15780,11 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Server Overload"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "snplmg1j3",
@@ -14910,13 +15803,17 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Server usage has exceeded 90%. Please investigate and take action."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "16f0y1q4f",
@@ -14944,9 +15841,11 @@ const dashboardSection: TreeItem[] = [
                                       "className": "w-4 h-4"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "ejdnneg3m",
@@ -14974,9 +15873,11 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Disk Space Low"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "755ye3bnv",
@@ -14995,13 +15896,17 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "Disk space is running low. Please free up some space or consider upgrading."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "fvoz3zhf1",
@@ -15029,9 +15934,11 @@ const dashboardSection: TreeItem[] = [
                                       "className": "w-4 h-4"
                                     },
                                     "allowsChildren": true,
-                                    "children": []
+                                    "children": [],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "0pl09km2e",
@@ -15059,9 +15966,11 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "New Feature Released"
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "hoczsdie2",
@@ -15080,19 +15989,26 @@ const dashboardSection: TreeItem[] = [
                                         "children": [],
                                         "props": {
                                           "content": "A new feature has been released. Check the release notes for more information."
-                                        }
+                                        },
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "5ddtyaakp",
@@ -15127,9 +16043,11 @@ const dashboardSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Frequent Actions"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "06xiyg4qr",
@@ -15139,9 +16057,11 @@ const dashboardSection: TreeItem[] = [
                           "className": "w-4 h-4 text-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "bqiup79cp",
@@ -15177,7 +16097,8 @@ const dashboardSection: TreeItem[] = [
                                   "className": "w-4 h-4 mr-2"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "1727221118661it05tizlt",
@@ -15187,9 +16108,11 @@ const dashboardSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Add User"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "ganmv518o",
@@ -15209,7 +16132,8 @@ const dashboardSection: TreeItem[] = [
                                   "className": "w-4 h-4 mr-2"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "1727221118662fx9wlel71",
@@ -15219,9 +16143,11 @@ const dashboardSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Generate Report"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "m4i83qif5",
@@ -15241,7 +16167,8 @@ const dashboardSection: TreeItem[] = [
                                   "className": "w-4 h-4 mr-2"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "1727221118662zy7rjs4le",
@@ -15251,9 +16178,11 @@ const dashboardSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Manage Tools"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "f0i8tj9tr",
@@ -15273,7 +16202,8 @@ const dashboardSection: TreeItem[] = [
                                   "className": "w-4 h-4 mr-2"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               },
                               {
                                 "id": "1727221118662ez4xdxpxd",
@@ -15283,21 +16213,29 @@ const dashboardSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "View Financials"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -15348,7 +16286,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-6 w-6"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "xsya0yss0",
@@ -15365,11 +16304,14 @@ const dashboardSection2: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Data Analytics"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "uwrgbiqzv",
@@ -15390,7 +16332,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "twiqe5xkd",
@@ -15409,13 +16352,17 @@ const dashboardSection2: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Toggle notifications"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "jkop8uy36",
@@ -15445,7 +16392,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "1727221421498oxffs1d48",
@@ -15455,9 +16403,11 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Dashboard"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "vmrvt61vg",
@@ -15478,7 +16428,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "17272214214996kw57lqzp",
@@ -15488,9 +16439,11 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Analytics"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "5yu1nppr6",
@@ -15511,7 +16464,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "17272214215019utlg6n79",
@@ -15521,9 +16475,11 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Reports"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "2v4p21kp6",
@@ -15544,7 +16500,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "1727221421503kaaw5fcbf",
@@ -15554,9 +16511,11 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Tools"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "hkretcjvx",
@@ -15577,7 +16536,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "172722142150547fzbthno",
@@ -15587,13 +16547,17 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Settings"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "a0ru95vcm",
@@ -15646,7 +16610,8 @@ const dashboardSection2: TreeItem[] = [
                               "className": "absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "o45ieo3ps",
@@ -15658,13 +16623,17 @@ const dashboardSection2: TreeItem[] = [
                               "className": "w-full bg-background shadow-none appearance-none pl-8 md:w-2/3 lg:w-1/3"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "0zvn0rfy8",
@@ -15706,7 +16675,8 @@ const dashboardSection2: TreeItem[] = [
                               "style": null
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "t0t1sumtf",
@@ -15725,13 +16695,17 @@ const dashboardSection2: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "Toggle user menu"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "poqlxag7f",
@@ -15757,9 +16731,11 @@ const dashboardSection2: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "My Account"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ywk6p3j70",
@@ -15767,7 +16743,8 @@ const dashboardSection2: TreeItem[] = [
                         "type": "DropdownMenuSeparator",
                         "props": {},
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "fnjl20ev0",
@@ -15784,9 +16761,11 @@ const dashboardSection2: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Settings"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "ukdr6psw1",
@@ -15803,9 +16782,11 @@ const dashboardSection2: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Support"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "4qumvs0bq",
@@ -15813,7 +16794,8 @@ const dashboardSection2: TreeItem[] = [
                         "type": "DropdownMenuSeparator",
                         "props": {},
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "zd028yzpr",
@@ -15830,15 +16812,20 @@ const dashboardSection2: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Logout"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "sqdbx1my3",
@@ -15896,9 +16883,11 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Overview"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "qbt377roj",
@@ -15915,11 +16904,14 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Get a high-level view of your data analytics."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "cv081vmz3",
@@ -15936,11 +16928,14 @@ const dashboardSection2: TreeItem[] = [
                                   "className": "aspect-[4/3]"
                                 },
                                 "allowsChildren": true,
-                                "children": []
+                                "children": [],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "gq4pfmwgj",
@@ -15971,9 +16966,11 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Analytics Tools"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "s3m8x3fl1",
@@ -15990,11 +16987,14 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Leverage our suite of data analysis tools."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "qazpfwfio",
@@ -16031,7 +17031,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "q3kp57pdw",
@@ -16048,11 +17049,14 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Visualizations"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "j4d6k3b96",
@@ -16073,7 +17077,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "azlw7f9hy",
@@ -16090,11 +17095,14 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Reporting"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "no3juzz78",
@@ -16115,7 +17123,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "cbwy7w3tf",
@@ -16132,17 +17141,23 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Dashboards"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "y1auk35u4",
@@ -16173,9 +17188,11 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Reports"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "003bh9mkh",
@@ -16192,11 +17209,14 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Access your latest data reports and insights."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "k8ypgtnf6",
@@ -16233,7 +17253,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "l20vmkae2",
@@ -16250,11 +17271,14 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Monthly Report"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "xj9u1dap5",
@@ -16275,7 +17299,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "9vbajpyqh",
@@ -16292,11 +17317,14 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Quarterly Report"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "je0j23m01",
@@ -16317,7 +17345,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "qmjofrgm4",
@@ -16334,19 +17363,26 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Annual Report"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "c6vhhddtq",
@@ -16386,9 +17422,11 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Upcoming Events"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "ubeu403mh",
@@ -16405,11 +17443,14 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Stay up-to-date with our upcoming data analytics events."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "pfo5acfwa",
@@ -16453,9 +17494,11 @@ const dashboardSection2: TreeItem[] = [
                                               "className": "h-5 w-5 text-muted-foreground"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "sm2k44cdq",
@@ -16481,9 +17524,11 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "Data Analytics Summit"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "mfycqb6qw",
@@ -16502,13 +17547,17 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "June 15, 2023"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "64xp2xsq5",
@@ -16536,9 +17585,11 @@ const dashboardSection2: TreeItem[] = [
                                               "className": "h-5 w-5 text-muted-foreground"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "tvsbqta3g",
@@ -16564,9 +17615,11 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "Data Visualization Workshop"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "08bdtlpt5",
@@ -16585,13 +17638,17 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "July 20, 2023"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "76l4vp0z2",
@@ -16619,9 +17676,11 @@ const dashboardSection2: TreeItem[] = [
                                               "className": "h-5 w-5 text-muted-foreground"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "l5dd4oslq",
@@ -16647,9 +17706,11 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "Data Storytelling Webinar"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "rw8qstya7",
@@ -16668,19 +17729,26 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "August 10, 2023"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "f3ui8vzeu",
@@ -16711,9 +17779,11 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Related Resources"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "htasvk690",
@@ -16730,11 +17800,14 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Explore our collection of data analytics resources."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "ksp82ktdd",
@@ -16771,7 +17844,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "gz6ypeywh",
@@ -16788,11 +17862,14 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Data Analytics Guides"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "nai0gprpw",
@@ -16813,7 +17890,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "6fqvnlclf",
@@ -16830,11 +17908,14 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Data Analytics Tutorials"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "4ef7i7wzc",
@@ -16855,7 +17936,8 @@ const dashboardSection2: TreeItem[] = [
                                           "className": "h-5 w-5"
                                         },
                                         "allowsChildren": true,
-                                        "children": []
+                                        "children": [],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "eagd9fxs1",
@@ -16872,17 +17954,23 @@ const dashboardSection2: TreeItem[] = [
                                             "children": [],
                                             "props": {
                                               "content": "Data Analytics Blogs"
-                                            }
+                                            },
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "j5gmue5kh",
@@ -16913,9 +18001,11 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Announcements"
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               },
                               {
                                 "id": "bg3tha4wx",
@@ -16932,11 +18022,14 @@ const dashboardSection2: TreeItem[] = [
                                     "children": [],
                                     "props": {
                                       "content": "Stay informed about the latest data analytics updates."
-                                    }
+                                    },
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "pckqfs3a5",
@@ -16980,9 +18073,11 @@ const dashboardSection2: TreeItem[] = [
                                               "className": "h-5 w-5 text-muted-foreground"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "0uyg1xs35",
@@ -17008,9 +18103,11 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "New Data Visualization Features Released"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "1us4im5vx",
@@ -17029,13 +18126,17 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "Check out our latest updates to our data visualization tools."
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "runcygm41",
@@ -17063,9 +18164,11 @@ const dashboardSection2: TreeItem[] = [
                                               "className": "h-5 w-5 text-muted-foreground"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "aqs5mz26i",
@@ -17091,9 +18194,11 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "Upcoming Data Analytics Webinar"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "erukzu17w",
@@ -17112,13 +18217,17 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "Join our experts for a deep dive into data analytics best practices."
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   },
                                   {
                                     "id": "rljrg8i8v",
@@ -17146,9 +18255,11 @@ const dashboardSection2: TreeItem[] = [
                                               "className": "h-5 w-5 text-muted-foreground"
                                             },
                                             "allowsChildren": true,
-                                            "children": []
+                                            "children": [],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       },
                                       {
                                         "id": "kfxv59ri7",
@@ -17174,9 +18285,11 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "New Data Connectors Added"
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           },
                                           {
                                             "id": "h5y96zaju",
@@ -17195,27 +18308,38 @@ const dashboardSection2: TreeItem[] = [
                                                 "children": [],
                                                 "props": {
                                                   "content": "Integrate your data from more sources with our latest connectors."
-                                                }
+                                                },
+                                                icon: undefined
                                               }
-                                            ]
+                                            ],
+                                            icon: undefined
                                           }
-                                        ]
+                                        ],
+                                        icon: undefined
                                       }
-                                    ]
+                                    ],
+                                    icon: undefined
                                   }
-                                ]
+                                ],
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "t1jk6y2ju",
@@ -17252,11 +18376,14 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Quick Links"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "m1gjwx1qt",
@@ -17286,7 +18413,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "1727221421740vfevkx4ld",
@@ -17296,9 +18424,11 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Data Analytics Blog"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "atz2bgtk4",
@@ -17319,7 +18449,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "17272214217411xepuu2o7",
@@ -17329,9 +18460,11 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Data Visualization Tools"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "c0cpct6ok",
@@ -17352,7 +18485,8 @@ const dashboardSection2: TreeItem[] = [
                       "className": "h-4 w-4"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "1727221421741j9ma1htac",
@@ -17362,9 +18496,11 @@ const dashboardSection2: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Data Analytics Courses"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "krohqykma",
@@ -17376,11 +18512,14 @@ const dashboardSection2: TreeItem[] = [
                   "prefetch": null
                 },
                 "allowsChildren": true,
-                "children": []
+                "children": [],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
     ]
   }
@@ -17417,7 +18556,8 @@ const singlePageSection: TreeItem[] = [
               "className": "aspect-[2/3] object-cover border w-full rounded-lg overflow-hidden"
             },
             "allowsChildren": true,
-            "children": []
+            "children": [],
+            icon: undefined
           },
           {
             "id": "2q6mohpru",
@@ -17449,7 +18589,8 @@ const singlePageSection: TreeItem[] = [
                       "className": "aspect-[5/6] object-cover"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "z406uz84o",
@@ -17468,11 +18609,14 @@ const singlePageSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "View Image 1"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "e7ezxyrt5",
@@ -17495,7 +18639,8 @@ const singlePageSection: TreeItem[] = [
                       "className": "aspect-[5/6] object-cover"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "4ye2cgvys",
@@ -17514,11 +18659,14 @@ const singlePageSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "View Image 2"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "d7bjyustp",
@@ -17541,7 +18689,8 @@ const singlePageSection: TreeItem[] = [
                       "className": "aspect-[5/6] object-cover"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "uzw7lhxgq",
@@ -17560,11 +18709,14 @@ const singlePageSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "View Image 3"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "rqa47s7f1",
@@ -17587,7 +18739,8 @@ const singlePageSection: TreeItem[] = [
                       "className": "aspect-[5/6] object-cover"
                     },
                     "allowsChildren": true,
-                    "children": []
+                    "children": [],
+                    icon: undefined
                   },
                   {
                     "id": "md5iu4hag",
@@ -17606,15 +18759,20 @@ const singlePageSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "View Image 4"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       },
       {
         "id": "i74g77qnd",
@@ -17651,9 +18809,11 @@ const singlePageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Camiseta de Algodón Esculpida"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "lbtm6sbqu",
@@ -17677,11 +18837,14 @@ const singlePageSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "60% algodón peinado/40% poliéster jersey."
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "6z8p4e5kg",
@@ -17709,7 +18872,8 @@ const singlePageSection: TreeItem[] = [
                           "className": "w-5 h-5 fill-primary"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "bhpnytmu2",
@@ -17719,7 +18883,8 @@ const singlePageSection: TreeItem[] = [
                           "className": "w-5 h-5 fill-primary"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "425emsjvg",
@@ -17729,7 +18894,8 @@ const singlePageSection: TreeItem[] = [
                           "className": "w-5 h-5 fill-primary"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "wbkjhyy78",
@@ -17739,7 +18905,8 @@ const singlePageSection: TreeItem[] = [
                           "className": "w-5 h-5 fill-muted stroke-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       },
                       {
                         "id": "sb6dpn7nq",
@@ -17749,11 +18916,14 @@ const singlePageSection: TreeItem[] = [
                           "className": "w-5 h-5 fill-muted stroke-muted-foreground"
                         },
                         "allowsChildren": true,
-                        "children": []
+                        "children": [],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "tzwvnizbe",
@@ -17772,11 +18942,14 @@ const singlePageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "$49.99"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           },
           {
             "id": "267eeny1s",
@@ -17814,9 +18987,11 @@ const singlePageSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Color"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "rqnzichlq",
@@ -17848,7 +19023,8 @@ const singlePageSection: TreeItem[] = [
                               "value": "black"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "1727221250432noemiyd57",
@@ -17858,9 +19034,11 @@ const singlePageSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Negro"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "quo0mmu4x",
@@ -17881,7 +19059,8 @@ const singlePageSection: TreeItem[] = [
                               "value": "white"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "17272212504321v4n0bfbt",
@@ -17891,9 +19070,11 @@ const singlePageSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Blanco"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "r1i71jvr4",
@@ -17914,7 +19095,8 @@ const singlePageSection: TreeItem[] = [
                               "value": "blue"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "1727221250433vyq86o2ik",
@@ -17924,13 +19106,17 @@ const singlePageSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "Azul"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "guru2e4qv",
@@ -17959,9 +19145,11 @@ const singlePageSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Talla"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "63idaujnw",
@@ -17993,7 +19181,8 @@ const singlePageSection: TreeItem[] = [
                               "value": "xs"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "1727221250438a2eltnf0z",
@@ -18003,9 +19192,11 @@ const singlePageSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "XS"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "n2lrwndit",
@@ -18026,7 +19217,8 @@ const singlePageSection: TreeItem[] = [
                               "value": "s"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "17272212504398tnjv1sz5",
@@ -18036,9 +19228,11 @@ const singlePageSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "S"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "6q64txgy5",
@@ -18059,7 +19253,8 @@ const singlePageSection: TreeItem[] = [
                               "value": "m"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "1727221250440hpauins0v",
@@ -18069,9 +19264,11 @@ const singlePageSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "M"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "rwdb3ltm3",
@@ -18092,7 +19289,8 @@ const singlePageSection: TreeItem[] = [
                               "value": "l"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "17272212504412n4o87u5d",
@@ -18102,9 +19300,11 @@ const singlePageSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "L"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "brs4z7x7z",
@@ -18125,7 +19325,8 @@ const singlePageSection: TreeItem[] = [
                               "value": "xl"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           },
                           {
                             "id": "1727221250442xczhkfieg",
@@ -18135,13 +19336,17 @@ const singlePageSection: TreeItem[] = [
                             "children": [],
                             "props": {
                               "content": "XL"
-                            }
+                            },
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "fags399xi",
@@ -18170,9 +19375,11 @@ const singlePageSection: TreeItem[] = [
                         "children": [],
                         "props": {
                           "content": "Cantidad"
-                        }
+                        },
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   },
                   {
                     "id": "zw58t07so",
@@ -18200,9 +19407,11 @@ const singlePageSection: TreeItem[] = [
                               "placeholder": "Seleccionar"
                             },
                             "allowsChildren": true,
-                            "children": []
+                            "children": [],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       },
                       {
                         "id": "a7v4rv0mk",
@@ -18228,9 +19437,11 @@ const singlePageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "1"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "uiyr1sufs",
@@ -18249,9 +19460,11 @@ const singlePageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "2"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "17k2cbzlr",
@@ -18270,9 +19483,11 @@ const singlePageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "3"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "3qrzbpxp8",
@@ -18291,9 +19506,11 @@ const singlePageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "4"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           },
                           {
                             "id": "iez6qjlwk",
@@ -18312,15 +19529,20 @@ const singlePageSection: TreeItem[] = [
                                 "children": [],
                                 "props": {
                                   "content": "5"
-                                }
+                                },
+                                icon: undefined
                               }
-                            ]
+                            ],
+                            icon: undefined
                           }
-                        ]
+                        ],
+                        icon: undefined
                       }
-                    ]
+                    ],
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               },
               {
                 "id": "5kcl3zsqd",
@@ -18339,15 +19561,20 @@ const singlePageSection: TreeItem[] = [
                     "children": [],
                     "props": {
                       "content": "Agregar al carrito"
-                    }
+                    },
+                    icon: undefined
                   }
-                ]
+                ],
+                icon: undefined
               }
-            ]
+            ],
+            icon: undefined
           }
-        ]
+        ],
+        icon: undefined
       }
-    ]
+    ],
+    icon: undefined
   }
 ]
 
@@ -18438,16 +19665,17 @@ export default function EnhancedTailwindEditor() {
 
       const findAndInsert = (items: TreeItem[]) => {
         for (let i = 0; i < items.length; i++) {
-          if (items[i].id === targetId) {
-            if (items[i].allowsChildren) {
-              if (!items[i].children) items[i].children = [];
-              items[i].children.push(draggedItem);
+          const currentItem = items[i] ?? { allowsChildren: false, children: [] };
+          if (currentItem.id === targetId) {
+            if (currentItem.allowsChildren) {
+              if (!currentItem.children) currentItem.children = [];
+              currentItem.children.push(draggedItem);
             } else {
               items.splice(i + 1, 0, draggedItem);
             }
             return true;
           }
-          if (items[i].children && findAndInsert(items[i].children)) {
+          if (currentItem.children && findAndInsert(currentItem.children)) {
             return true;
           }
         }
@@ -18530,11 +19758,12 @@ export default function EnhancedTailwindEditor() {
       const newTree = JSON.parse(JSON.stringify(pageContent[currentPage]));
       const updateItem = (items: TreeItem[]) => {
         for (let i = 0; i < items.length; i++) {
-          if (items[i].id === id) {
-            items[i] = { ...items[i], ...updates };
+          let currentItem = items[i] ?? { allowsChildren: false, children: [] };
+          if (currentItem.id === id) {
+            currentItem = { ...currentItem, ...updates };
             return true;
           }
-          if (items[i].children && updateItem(items[i].children)) {
+          if (currentItem.children && updateItem(currentItem.children)) {
             return true;
           }
         }
@@ -18598,8 +19827,8 @@ export default function EnhancedTailwindEditor() {
           setTree(json[Object.keys(json)[0]]);
           setHistory(
             Object.fromEntries(
-              Object.entries(json).map(([page, content]) => [page, [content]]),
-            ),
+              Object.entries(json).map(([page, content]) => [page, [content]])
+            ) as Record<string, TreeItem[][]>
           );
           setHistoryIndex(
             Object.fromEntries(Object.keys(json).map((page) => [page, 0])),
@@ -18623,12 +19852,13 @@ export default function EnhancedTailwindEditor() {
     if (parentId) {
       const addToParent = (items: TreeItem[]) => {
         for (let i = 0; i < items.length; i++) {
-          if (items[i].id === parentId) {
-            if (!items[i].children) items[i].children = [];
-            items[i].children.push(newComponent);
+          const currentItem = items[i] ?? { allowsChildren: false, children: [] };
+          if (currentItem.id === parentId) {
+            if (!currentItem.children) currentItem.children = [];
+            currentItem.children.push(newComponent);
             return true;
           }
-          if (items[i].children && addToParent(items[i].children)) {
+          if (currentItem.children && addToParent(currentItem.children)) {
             return true;
           }
         }
@@ -18816,7 +20046,7 @@ export default function EnhancedTailwindEditor() {
   // }
   
   function tsxToJson() {
-    function parseTsx(tsxCode: string): TreeItem | null {
+    function parseTsx(tsxCode: string): string {
      let coooo = 0
      
       function tsxStringToJson(tsxString: string): object {
@@ -18908,7 +20138,7 @@ export default function EnhancedTailwindEditor() {
       }
       
       const jsonString = JSON.stringify(tsxStringToJson(tsxCode), null, 2);
-      return jsonString;
+      return jsonString ?? '[]';
 
     }
 
@@ -19037,7 +20267,7 @@ export default function EnhancedTailwindEditor() {
               </DialogContent>
             </Dialog>
             <label htmlFor="import-json">
-              <Button variant="secondary" as="span">
+              <Button variant="secondary">
                 Import JSON
               </Button>
               <input
@@ -19071,7 +20301,7 @@ export default function EnhancedTailwindEditor() {
             <Button variant="outline" size="icon">
               <Eye className="h-4 w-4" />
             </Button>
-            <Button variant="primary" onClick={exportJSON}>
+            <Button variant="default" onClick={exportJSON}>
               Export JSON
             </Button>
           </div>

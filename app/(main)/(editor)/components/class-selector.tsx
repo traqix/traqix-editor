@@ -1,7 +1,25 @@
 import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
 
-const tailwindClasses = {
+type LayoutTypes =
+  | "flex"
+  | "grid"
+  | "block"
+  | "inline-block"
+  | "hidden"
+  | "table";
+type TailwindClassTypes = {
+  layout: string[];
+  justify: string[];
+  alignItems: string[];
+  alignContent: string[];
+  alignSelf: string[];
+  spacing: string[];
+  width: string[];
+  height: string[];
+};
+
+const tailwindClasses: TailwindClassTypes = {
   layout: [
     "flex",
     "inline-flex",
@@ -45,18 +63,18 @@ const tailwindClasses = {
     "self-stretch",
   ],
   spacing: [
-    "space-x-0", "space-x-1", "space-x-2", "space-y-0", "space-y-1", "space-y-2",
+    "space-x-0",
+    "space-x-1",
+    "space-x-2",
+    "space-y-0",
+    "space-y-1",
+    "space-y-2",
   ],
-  width: [
-    "w-1/2", "w-full", "w-auto", "w-screen",
-  ],
-  height: [
-    "h-1/2", "h-full", "h-auto", "h-screen",
-  ],
+  width: ["w-1/2", "w-full", "w-auto", "w-screen"],
+  height: ["h-1/2", "h-full", "h-auto", "h-screen"],
 };
 
-// Classes compatíveis com layouts
-const layoutDependencies = {
+const layoutDependencies: Record<LayoutTypes, string[] | never[]> = {
   flex: ["justify", "alignItems", "alignSelf", "spacing"],
   grid: ["justify", "alignItems", "alignContent", "spacing"],
   block: [],
@@ -86,11 +104,9 @@ const ClassSelector = () => {
 
   const handleLayoutSelection = (layout: string) => {
     if (selectedLayout === layout) {
-      // Deselecionar layout
       setSelectedLayout(null);
       handleRemoveClass(layout);
     } else {
-      // Selecionar layout
       setSelectedLayout(layout);
       handleAddClass(layout);
     }
@@ -102,24 +118,28 @@ const ClassSelector = () => {
     setDisabledClasses([]);
   };
 
-  // Filtrar classes com base no layout
   const getFilteredClasses = () => {
     if (!selectedLayout) return {};
 
-    const applicableClasses = layoutDependencies[selectedLayout] || [];
+    if (!selectedLayout || !(selectedLayout in layoutDependencies)) return {};
+
+    const applicableClasses =
+      layoutDependencies[selectedLayout as LayoutTypes] || [];
     const filtered = applicableClasses.reduce((acc, key) => {
-      acc[key] = tailwindClasses[key] || [];
+      if (key in tailwindClasses) {
+        acc[key] = tailwindClasses[key as keyof TailwindClassTypes] || [];
+      }
       return acc;
-    }, {} as Record<string, string[]>);
+    }, {} as Partial<Record<string, any>>);
 
     return filtered;
   };
 
   const handleDisableConflictingClasses = (selectedClass: string) => {
-    // Desabilita classes da mesma categoria
     const conflicts = Object.keys(tailwindClasses).reduce((acc, key) => {
-      if (tailwindClasses[key].includes(selectedClass)) {
-        acc = [...acc, ...tailwindClasses[key]];
+      const classKey = key as keyof TailwindClassTypes;
+      if (tailwindClasses[classKey].includes(selectedClass)) {
+        acc = [...acc, ...tailwindClasses[classKey]];
       }
       return acc;
     }, [] as string[]);
@@ -128,10 +148,10 @@ const ClassSelector = () => {
   };
 
   const handleEnableConflictingClasses = (deselectedClass: string) => {
-    // Reabilita classes anteriormente desabilitadas
     const conflicts = Object.keys(tailwindClasses).reduce((acc, key) => {
-      if (tailwindClasses[key].includes(deselectedClass)) {
-        acc = [...acc, ...tailwindClasses[key]];
+      const classKey = key as keyof TailwindClassTypes;
+      if (tailwindClasses[classKey].includes(deselectedClass)) {
+        acc = [...acc, ...tailwindClasses[classKey]];
       }
       return acc;
     }, [] as string[]);
@@ -151,7 +171,7 @@ const ClassSelector = () => {
           <Button
             key={layout}
             onClick={() => handleLayoutSelection(layout)}
-            variant={selectedLayout === layout ? "primary" : "outline"}
+            variant={selectedLayout === layout ? "default" : "outline"}
           >
             {layout}
           </Button>
@@ -165,7 +185,7 @@ const ClassSelector = () => {
             <div key={category}>
               <h3 className="text-lg font-semibold">{category}</h3>
               <div className="flex space-x-2 flex-wrap">
-                {classes.map((className) => (
+                {classes.map((className: string) => (
                   <Button
                     key={className}
                     onClick={() =>
@@ -175,7 +195,9 @@ const ClassSelector = () => {
                     }
                     disabled={disabledClasses.includes(className)}
                     variant={
-                      selectedClasses.includes(className) ? "primary" : "outline"
+                      selectedClasses.includes(className)
+                        ? "default"
+                        : "outline"
                     }
                   >
                     {className}

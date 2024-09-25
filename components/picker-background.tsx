@@ -13,7 +13,7 @@ import { Paintbrush } from 'lucide-react'
 import Link from 'next/link'
 import { useMemo, useState } from 'react'
 
-export function PickerBackground(props) {
+export function PickerBackground(props: { background: any; setBackground: any }) {
 //   const [background, setBackground] = useState('linear-gradient(to bottom right,#ff75c3,#ffa647,#ffe83f,#9fff5b,#70e2ff,#cd93ff)')
 const { background, setBackground } = props
 

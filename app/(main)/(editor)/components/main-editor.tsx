@@ -263,7 +263,7 @@ interface MainEditorProps {
   handleRawCodeTsxClear: () => void;
   applyRawCode: () => void;
   tsxToJson: () => void;
-  addComponent: (component: Partial<TreeItem>, parentId?: string) => void;
+  addComponent: (component: TreeItem, parentId?: string) => void;
   levelHovered?: number;
   setLevelHovered: any;
 }
@@ -279,7 +279,7 @@ const PreviewComponent: React.FC<{
   ) => void;
   onRemove: (id: string) => void;
   onUpdate: (id: string, updates: Partial<TreeItem>) => void;
-  addComponent: (component: Partial<TreeItem>, parentId?: string) => void;
+  addComponent: (component: TreeItem, parentId?: string) => void;
   levelHovered?: number;
   setLevelHovered: React.Dispatch<React.SetStateAction<number>>;
   level: number;
@@ -325,6 +325,8 @@ const PreviewComponent: React.FC<{
               {
                 type: droppedItem.type,
                 props: { content: `New ${droppedItem.type}` },
+                id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
+                name: `New ${droppedItem.type}`
               },
               item.id
             );
@@ -1219,6 +1221,8 @@ const PreviewComponent: React.FC<{
                         onRemove={onRemove}
                         onUpdate={onUpdate}
                         addComponent={addComponent}
+                        levelHovered={levelHovered}
+                        setLevelHovered={setLevelHovered}
                         level={level + 1}
                       />
                     );
@@ -1425,6 +1429,8 @@ const PreviewComponent: React.FC<{
                                                       addComponent={
                                                         addComponent
                                                       }
+                                                      levelHovered={levelHovered}
+                                                      setLevelHovered={setLevelHovered}
                                                       level={level + 1}
                                                     />
                                                   )
@@ -1454,6 +1460,8 @@ const PreviewComponent: React.FC<{
                                                       addComponent={
                                                         addComponent
                                                       }
+                                                      levelHovered={levelHovered}
+                                                      setLevelHovered={setLevelHovered}
                                                       level={level + 1}
                                                     />
                                                   )
@@ -1504,6 +1512,8 @@ const PreviewComponent: React.FC<{
                                                       addComponent={
                                                         addComponent
                                                       }
+                                                      levelHovered={levelHovered}
+                                                      setLevelHovered={setLevelHovered}
                                                       level={level + 1}
                                                     />
                                                   )
@@ -1535,6 +1545,8 @@ const PreviewComponent: React.FC<{
                               onRemove={onRemove}
                               onUpdate={onUpdate}
                               addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
                               level={level + 1}
                             />
                           ))}
@@ -1554,6 +1566,8 @@ const PreviewComponent: React.FC<{
                               onRemove={onRemove}
                               onUpdate={onUpdate}
                               addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
                               level={level + 1}
                             />
                           ))}
@@ -1573,6 +1587,8 @@ const PreviewComponent: React.FC<{
                               onRemove={onRemove}
                               onUpdate={onUpdate}
                               addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
                               level={level + 1}
                             />
                           ))}
@@ -1605,6 +1621,8 @@ const PreviewComponent: React.FC<{
                               onRemove={onRemove}
                               onUpdate={onUpdate}
                               addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
                               level={level + 1}
                             />
                           ))}
@@ -1624,6 +1642,8 @@ const PreviewComponent: React.FC<{
                               onRemove={onRemove}
                               onUpdate={onUpdate}
                               addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
                               level={level + 1}
                             />
                           ))}
@@ -1661,6 +1681,8 @@ const PreviewComponent: React.FC<{
                               onRemove={onRemove}
                               onUpdate={onUpdate}
                               addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
                               level={level + 1}
                             />
                           ))}
@@ -1678,6 +1700,8 @@ const PreviewComponent: React.FC<{
                         onRemove={onRemove}
                         onUpdate={onUpdate}
                         addComponent={addComponent}
+                        levelHovered={levelHovered}
+                        setLevelHovered={setLevelHovered}
                         level={level + 1}
                       />
                     );
@@ -1726,6 +1750,8 @@ const PreviewComponent: React.FC<{
                                                         addComponent={
                                                           addComponent
                                                         }
+                                                        levelHovered={levelHovered}
+                                                        setLevelHovered={setLevelHovered}
                                                         level={level + 1}
                                                       />
                                                     )
@@ -1778,6 +1804,8 @@ const PreviewComponent: React.FC<{
                                                         addComponent={
                                                           addComponent
                                                         }
+                                                        levelHovered={levelHovered}
+                                                        setLevelHovered={setLevelHovered}
                                                         level={level + 1}
                                                       />
                                                     )
@@ -1836,6 +1864,8 @@ const PreviewComponent: React.FC<{
                                             onRemove={onRemove}
                                             onUpdate={onUpdate}
                                             addComponent={addComponent}
+                                            levelHovered={levelHovered}
+                                            setLevelHovered={setLevelHovered}
                                             level={level + 1}
                                           />
                                         )
@@ -1873,6 +1903,8 @@ const PreviewComponent: React.FC<{
                                                           addComponent={
                                                             addComponent
                                                           }
+                                                          levelHovered={levelHovered}
+                                                          setLevelHovered={setLevelHovered}
                                                           level={level + 1}
                                                         />
                                                       )
@@ -1900,6 +1932,8 @@ const PreviewComponent: React.FC<{
                                                           addComponent={
                                                             addComponent
                                                           }
+                                                          levelHovered={levelHovered}
+                                                          setLevelHovered={setLevelHovered}
                                                           level={level + 1}
                                                         />
                                                       )
@@ -1935,6 +1969,8 @@ const PreviewComponent: React.FC<{
                                                           addComponent={
                                                             addComponent
                                                           }
+                                                          levelHovered={levelHovered}
+                                                          setLevelHovered={setLevelHovered}
                                                           level={level + 1}
                                                         />
                                                       )
@@ -1967,6 +2003,8 @@ const PreviewComponent: React.FC<{
                                                           addComponent={
                                                             addComponent
                                                           }
+                                                          levelHovered={levelHovered}
+                                                          setLevelHovered={setLevelHovered}
                                                           level={level + 1}
                                                         />
                                                       )
@@ -2000,6 +2038,8 @@ const PreviewComponent: React.FC<{
                               onRemove={onRemove}
                               onUpdate={onUpdate}
                               addComponent={addComponent}
+                              levelHovered={levelHovered}
+                              setLevelHovered={setLevelHovered}
                               level={level + 1}
                             />
                           ))}
@@ -2026,6 +2066,8 @@ const PreviewComponent: React.FC<{
                                             onRemove={onRemove}
                                             onUpdate={onUpdate}
                                             addComponent={addComponent}
+                                            levelHovered={levelHovered}
+                                            setLevelHovered={setLevelHovered}
                                             level={level + 1}
                                           />
                                         )
@@ -2047,6 +2089,8 @@ const PreviewComponent: React.FC<{
                                             onRemove={onRemove}
                                             onUpdate={onUpdate}
                                             addComponent={addComponent}
+                                            levelHovered={levelHovered}
+                                            setLevelHovered={setLevelHovered}
                                             level={level + 1}
                                           />
                                         )
@@ -2078,6 +2122,8 @@ const PreviewComponent: React.FC<{
                                             onRemove={onRemove}
                                             onUpdate={onUpdate}
                                             addComponent={addComponent}
+                                            levelHovered={levelHovered}
+                                            setLevelHovered={setLevelHovered}
                                             level={level + 1}
                                           />
                                         )
@@ -2102,6 +2148,8 @@ const PreviewComponent: React.FC<{
                                             onRemove={onRemove}
                                             onUpdate={onUpdate}
                                             addComponent={addComponent}
+                                            levelHovered={levelHovered}
+                                            setLevelHovered={setLevelHovered}
                                             level={level + 1}
                                           />
                                         )
@@ -2832,7 +2880,11 @@ const PreviewComponent: React.FC<{
               onClick={(e) => {
                 e.stopPropagation();
                 addComponent(
-                  { type: "div", props: { content: "New Component" } },
+                  {
+                    type: "div", props: { content: "New Component" },
+                    id: "",
+                    name: ""
+                  },
                   item.id
                 );
               }}
@@ -2850,7 +2902,7 @@ const PreviewComponent: React.FC<{
             >
               <Trash2 className="w-4 h-4" />
             </Button>
-            <div className="cursor-move" ref={drag}>
+            <div className="cursor-move" ref={drag as unknown as React.LegacyRef<HTMLDivElement>}>
               <Button variant="ghost" size="icon" className="w-6 h-6">
                 <Move className="w-4 h-4" />
               </Button>
@@ -2900,6 +2952,8 @@ const MainEditor: React.FC<MainEditorProps> = ({
           addComponent({
             type: item.type,
             props: { content: `New ${item.type}` },
+            id: "",
+            name: ""
           });
         }
       }
@@ -2911,7 +2965,7 @@ const MainEditor: React.FC<MainEditorProps> = ({
   return (
     <main
       className="flex-1 p-4 mb-4 bg-muted/30 overflow-y-auto rounded-xl border-[0.5px] dark:border-gray-800"
-      ref={drop}
+      ref={drop as unknown as React.LegacyRef<HTMLDivElement>}
     >
       <Tabs defaultValue="preview" value={mainTabSelected} onValueChange={setMainTabSelected}>
         <TabsList>
@@ -2963,7 +3017,7 @@ const MainEditor: React.FC<MainEditorProps> = ({
                 value={rawCode}
                 onChange={handleRawCodeChange}
                 placeholder="Paste your raw JSON code here..."
-                className="h-64"
+                className="min-h-96 h-[648px] ring-offset-0"
               />
               <Button onClick={applyRawCode}>Apply Raw Code</Button>
             </div>
@@ -2974,8 +3028,7 @@ const MainEditor: React.FC<MainEditorProps> = ({
                 value={rawCodeTsx}
                 onChange={handleRawCodeTsxChange}
                 placeholder="Paste your raw JSON code here..."
-                className="min-h-96 h-[748px]"
-                style={{ '--tw-ring-offset-width': 0 }}
+                className="min-h-96 h-[648px] ring-offset-0"
               />
               <div className="flex gap-2">
                 <Button variant={"destructive"} onClick={handleRawCodeTsxClear}>
