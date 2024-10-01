@@ -24,8 +24,11 @@ import { EditorRight } from "./editor-right";
 import type { TreeItem } from "@/app/(main)/(editor)/types";
 import { handleUpdate } from "../utils/util";
 import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage";
+import { useRouter } from "next/router";
 
 export default function PlaygroundPage() {
+
+  const { basePath } = useRouter();
   const [messageFromIframe, setMessageFromIframe] = useState<TreeItem | null>(
     null
   );
@@ -282,7 +285,7 @@ export default function PlaygroundPage() {
                     <div className="flex h-full flex-col space-y-4">
                       <iframe
                         ref={iframeRef}
-                        src="/canvas"
+                        src={`${basePath}/canvas`}
                         width={"100%"}
                         height={"100%"}
                       ></iframe>
