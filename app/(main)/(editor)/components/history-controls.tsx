@@ -14,7 +14,7 @@ import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage";
 export function HistoryControls() {
 
   const initialTree: TreeItem[] = initialData;
-  const [tree, setTree] = useMultipleLocalStorage(["tx_current"], [initialTree])
+  // const [tree, setTree] = useMultipleLocalStorage(["tx_current"], [initialTree])
   
   const [currentPage, setCurrentPage] = useState("Home");
   const [history, setHistory] = useState<Record<string, TreeItem[][]>>({
@@ -36,7 +36,7 @@ export function HistoryControls() {
       }));
       const newTree = history[currentPage][historyIndex[currentPage] - 1];
       // setPageContent((prev) => ({ ...prev, [currentPage]: newTree }));
-      setTree('tx_current', newTree);
+      // setTree('tx_current', newTree);
     }
   };
 
@@ -48,14 +48,14 @@ export function HistoryControls() {
       }));
       const newTree = history[currentPage][historyIndex[currentPage] + 1];
       // setPageContent((prev) => ({ ...prev, [currentPage]: newTree }));
-      setTree('tx_current', newTree);
+      // setTree('tx_current', newTree);
     }
   };
 
   return (
-    <>
       <div className="flex items-center space-x-2">
         <Button
+        key={'AA'}
           variant="outline"
           size="icon"
           onClick={undo}
@@ -64,6 +64,7 @@ export function HistoryControls() {
           <Undo className="h-4 w-4" />
         </Button>
         <Button
+        key={'AB'}
           variant="outline"
           size="icon"
           onClick={redo}
@@ -73,10 +74,10 @@ export function HistoryControls() {
         >
           <Redo className="h-4 w-4" />
         </Button>
-        <Button variant="outline" size="icon">
+        <Button 
+        key={'AC'} variant="outline" size="icon">
           <Eye className="h-4 w-4" />
         </Button>
       </div>
-    </>
   );
 }

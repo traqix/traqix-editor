@@ -57,10 +57,6 @@ export function MainEditor() {
   //   // setSelectedItem(event.data.data)
   // });
 
-  const [tree] = useMultipleLocalStorage(
-    ["tx_current"],
-    [initialTree]
-  );
 
   function onSelect(e: TreeItem) {
     setSelectedItem(e);
@@ -85,6 +81,22 @@ export function MainEditor() {
 
   function setLevelHovered() {
     console.log("setLevelHovered");
+  }
+
+  const [tree] = useMultipleLocalStorage(
+    ["tx_current"],
+    [initialTree]
+  );
+  
+  const [isClient, setIsClient] = useState(false); // Estado para saber se está no cliente
+
+  useEffect(() => {
+    setIsClient(true); // Indica que o componente foi montado no cliente
+  }, []);
+
+  if (!isClient || !tree[0]) {
+    // Mostra o "Carregando" enquanto o cliente está sendo montado ou o localStorage não está pronto
+    return <div>Carregando...</div>;
   }
 
   return (

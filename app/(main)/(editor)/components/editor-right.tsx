@@ -16,6 +16,7 @@ import { X } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import type { TreeItem } from "@/app/(main)/(editor)/types";
 import { Separator } from "@/components/ui/separator";
+import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage";
 
 interface RightSidebarProps {
   selectedItem: TreeItem | null;
@@ -25,16 +26,16 @@ interface RightSidebarProps {
 interface ComponentOptionsProps {
   selectedItem: TreeItem | null;
   onUpdate: (id: string, updates: Partial<TreeItem>, tree: TreeItem[], setTree: (key: string, value: any) => void) => void;
-  tree: TreeItem[];
-  setTree: (key: string, value: any) => void;
 }
 
 export const EditorRight: React.FC<ComponentOptionsProps> = ({
   selectedItem,
-  onUpdate,
-  tree,
-  setTree,
+  onUpdate
 }) => {
+
+
+  const [tree, setTree] = useMultipleLocalStorage(["tx_current"]);
+
   const [classes, setClasses] = useState<string[]>([]);
   const [newClass, setNewClass] = useState("");
   const [background, setBackground] = useState("");
@@ -181,6 +182,8 @@ export const EditorRight: React.FC<ComponentOptionsProps> = ({
       </div>
     </div>
   );
+
+
 
   return (
     <div className="space-y-4 mt-4">

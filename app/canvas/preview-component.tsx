@@ -280,7 +280,7 @@ export const PreviewComponent: FC<{
 
   const [{ isDragging }, drag, preview] = useDrag({
     type: `${item?.type?.toUpperCase() ?? 'DIV'}`,
-    item: { id: item.id, type: item.type },
+    item: { id: item?.id, type: item?.type },
     collect: (monitor) => ({
       isDragging: monitor.isDragging(),
     }),
@@ -342,21 +342,21 @@ export const PreviewComponent: FC<{
   const renderComponent = () => {
     // const background = `${item.background}`
 
-    let newStyle = item.props?.style ?? {};
+    let newStyle = item?.props?.style ?? {};
 
-    if (item.props?.background) {
+    if (item?.props?.background) {
       newStyle = {
         ...newStyle,
-        background: `${item.props?.background ?? ""}`,
+        background: `${item?.props?.background ?? ""}`,
       };
     }
 
-    if (!item.props?.width) {
-      if (item.props?.className) {
+    if (!item?.props?.width) {
+      if (item?.props?.className) {
         if (
           !(
-            item.props?.className.includes(" w-") ||
-            item.props?.className.startsWith("w-") ||
+            item?.props?.className.includes(" w-") ||
+            item?.props?.className.startsWith("w-") ||
             item.type.endsWith("Icon")
           )
         ) {
@@ -374,9 +374,9 @@ export const PreviewComponent: FC<{
     }
 
     const commonProps: any = {
-      ...item.props,
-      className: `${item.props?.className || ""} ${
-        selectedItemId === item.id ? "ring-2 ring-blue-500" : ""
+      ...item?.props,
+      className: `${item?.props?.className || ""} ${
+        selectedItemId === item?.id ? "ring-2 ring-blue-500" : ""
       } ${isOver ? "bg-blue-100" : ""}`,
       onClick: (e: MouseEvent) => {
         e.stopPropagation();
@@ -385,7 +385,7 @@ export const PreviewComponent: FC<{
       style: newStyle,
     };
 
-    switch (item.type) {
+    switch (item?.type) {
       case "div":
       case "aside":
       case "header":
@@ -395,7 +395,7 @@ export const PreviewComponent: FC<{
       case "section":
         return (
           <div {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -433,7 +433,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </h1>
         );
       case "h2":
@@ -455,7 +455,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </h2>
         );
       case "h3":
@@ -477,7 +477,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </h3>
         );
       case "h4":
@@ -499,7 +499,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </h4>
         );
       case "h5":
@@ -521,7 +521,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </h5>
         );
       case "h6":
@@ -543,7 +543,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </h6>
         );
 
@@ -566,7 +566,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </ScrollArea>
         );
 
@@ -589,7 +589,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </p>
         );
       case "Button":
@@ -612,7 +612,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </Button>
         );
 
@@ -622,7 +622,7 @@ export const PreviewComponent: FC<{
 
       case "form":
         return (
-          <form {...commonProps} ref={ref} placeholder={item.props?.content}>
+          <form {...commonProps} ref={ref} placeholder={item?.props?.content}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -639,7 +639,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </form>
         );
 
@@ -648,7 +648,7 @@ export const PreviewComponent: FC<{
 
       case "ol":
         return (
-          <ol {...commonProps} ref={ref} placeholder={item.props?.content}>
+          <ol {...commonProps} ref={ref} placeholder={item?.props?.content}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -665,12 +665,12 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </ol>
         );
       case "ul":
         return (
-          <ul {...commonProps} ref={ref} placeholder={item.props?.content}>
+          <ul {...commonProps} ref={ref} placeholder={item?.props?.content}>
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -687,7 +687,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </ul>
         );
       case "li":
@@ -731,7 +731,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </code>
         );
       case "pre":
@@ -753,7 +753,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </pre>
         );
 
@@ -776,7 +776,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </strong>
         );
       case "label":
@@ -799,7 +799,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </Label>
         );
       case "Text":
@@ -823,7 +823,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </span>
         );
 
@@ -848,7 +848,7 @@ export const PreviewComponent: FC<{
                   level={level + 1}
                 />
               ))}
-            {item.props?.content}
+            {item?.props?.content}
           </Link>
         );
 
@@ -856,7 +856,7 @@ export const PreviewComponent: FC<{
       case "textarea":
         return (
           <Textarea {...commonProps} ref={ref}>
-            {item.props?.content}
+            {item?.props?.content}
           </Textarea>
         );
 
@@ -864,7 +864,7 @@ export const PreviewComponent: FC<{
       case "card":
         return (
           <Card {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -886,7 +886,7 @@ export const PreviewComponent: FC<{
       case "CardHeader":
         return (
           <CardHeader {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -908,7 +908,7 @@ export const PreviewComponent: FC<{
       case "CardTitle":
         return (
           <CardTitle {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -930,7 +930,7 @@ export const PreviewComponent: FC<{
       case "CardContent":
         return (
           <CardContent {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -952,7 +952,7 @@ export const PreviewComponent: FC<{
       case "CardDescription":
         return (
           <CardDescription {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -974,7 +974,7 @@ export const PreviewComponent: FC<{
       case "CardFooter":
         return (
           <CardFooter {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -997,7 +997,7 @@ export const PreviewComponent: FC<{
       case "Accordion":
         return (
           <Accordion type="single" collapsible {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1019,7 +1019,7 @@ export const PreviewComponent: FC<{
       case "AccordionItem":
         return (
           <AccordionItem type="single" collapsible {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1041,7 +1041,7 @@ export const PreviewComponent: FC<{
       case "AccordionTrigger":
         return (
           <AccordionTrigger {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1063,7 +1063,7 @@ export const PreviewComponent: FC<{
       case "AccordionContent":
         return (
           <AccordionContent {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1086,7 +1086,7 @@ export const PreviewComponent: FC<{
       case "Tabs":
         return (
           <Tabs {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1108,7 +1108,7 @@ export const PreviewComponent: FC<{
       case "TabsList":
         return (
           <TabsList {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1129,8 +1129,8 @@ export const PreviewComponent: FC<{
         );
       case "TabsTrigger":
         return (
-          <TabsTrigger {...commonProps} value={item.props?.value}>
-            {item.props?.content ?? ""}
+          <TabsTrigger {...commonProps} value={item?.props?.value}>
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1151,8 +1151,8 @@ export const PreviewComponent: FC<{
         );
       case "TabsContent":
         return (
-          <TabsContent {...commonProps} value={item.props?.value}>
-            {item.props?.content ?? ""}
+          <TabsContent {...commonProps} value={item?.props?.value}>
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1219,7 +1219,7 @@ export const PreviewComponent: FC<{
       case "select":
         return (
           <Select {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1241,7 +1241,7 @@ export const PreviewComponent: FC<{
       case "SelectTrigger":
         return (
           <SelectTrigger {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1263,7 +1263,7 @@ export const PreviewComponent: FC<{
       case "SelectLabel":
         return (
           <SelectLabel {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1287,7 +1287,7 @@ export const PreviewComponent: FC<{
       case "SelectContent":
         return (
           <SelectContent {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1309,7 +1309,7 @@ export const PreviewComponent: FC<{
       case "SelectGroup":
         return (
           <SelectGroup {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1330,8 +1330,8 @@ export const PreviewComponent: FC<{
         );
       case "SelectItem":
         return (
-          <SelectItem {...commonProps} value={item.props?.value} ref={ref}>
-            {item.props?.content ?? ""}
+          <SelectItem {...commonProps} value={item?.props?.value} ref={ref}>
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -1354,7 +1354,7 @@ export const PreviewComponent: FC<{
       case "article":
         return (
           <article {...commonProps} ref={ref}>
-            {item.props?.content ?? ""}
+            {item?.props?.content ?? ""}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -2205,7 +2205,7 @@ export const PreviewComponent: FC<{
       case "Badge":
         return (
           <Badge {...commonProps} ref={ref}>
-            {item.props?.content}
+            {item?.props?.content}
             {item.children &&
               item.children.map((child) => (
                 <PreviewComponent
@@ -2821,7 +2821,7 @@ export const PreviewComponent: FC<{
       case "Avatar":
         return (
           <Avatar {...commonProps} ref={ref}>
-            <AvatarImage src={item.props?.src} alt="@tqx" />
+            <AvatarImage src={item?.props?.src} alt="@tqx" />
             <AvatarFallback>TQX</AvatarFallback>
           </Avatar>
         );
@@ -2829,8 +2829,8 @@ export const PreviewComponent: FC<{
       case "img":
       case "Image":
       case "image":
-        const width = item.props?.width ?? 10;
-        const height = item.props?.height ?? 10;
+        const width = item?.props?.width ?? 10;
+        const height = item?.props?.height ?? 10;
 
         return (
           <Image {...commonProps} width={width} height={height} ref={ref} />
@@ -2851,13 +2851,13 @@ export const PreviewComponent: FC<{
       default:
         return (
           <div {...commonProps} ref={ref}>
-            {item.props?.content || item.type}
+            {(item?.props?.content || item?.type) ?? ''}
           </div>
         );
     }
   };
 
-  const containsColSpan = item.props?.className?.includes("col-span-2")
+  const containsColSpan = item?.props?.className?.includes("col-span-2")
     ? "col-span-2"
     : "";
 
@@ -2937,9 +2937,9 @@ export const PreviewComponent: FC<{
       {/* {selectedItemId === item.id && (
           <div className="mt-2 space-y-2">
             <Label>Content</Label>
-            <Input value={item.props?.content} onChange={handleContentChange} />
+            <Input value={item?.props?.content} onChange={handleContentChange} />
             <Label>Classes</Label>
-            <Input value={item.props?.className || ''} onChange={handleClassChange} />
+            <Input value={item?.props?.className || ''} onChange={handleClassChange} />
           </div>
         )} */}
     </motion.div>

@@ -7,26 +7,36 @@ import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import { TreeNode } from "./tree-node";
 import type { TreeItem } from "@/app/(main)/(editor)/types";
+import { AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export function EditorList() {
   // const [mail, setEditor] = useEditor()
   const [tree] = useMultipleLocalStorage(['tx_current']);
+  const [isClient, setIsClient] = useState(false); // Estado para saber se está no cliente
+
+  useEffect(() => {
+    setIsClient(true); // Indica que o componente foi montado no cliente
+  }, []);
+
+  if (!isClient || !tree[0]) {
+    // Mostra o "Carregando" enquanto o cliente está sendo montado ou o localStorage não está pronto
+    return <div>Carregando...</div>;
+  }
 
   return (
     <ScrollArea className="h-[calc(100vh-8rem)]">
       <div className="flex flex-col p-4 pt-0 mb-10">
         <DndProvider backend={HTML5Backend}>
-          {tree?.map((item: TreeItem, i: number) => {
-            if (item) {
-              return (
-                <TreeNode
-                  key={`tree-node-${i}`}
-                  item={item}
-                  level={0}
-                />
-              )
-            }
-          })}
+          <AnimatePresence>
+            {tree?.map((item: TreeItem, i: number) => (
+              <TreeNode
+                key={`tree-node-${i}`}
+                item={item}
+                level={0}
+              />
+            ))}
+          </AnimatePresence>
         </DndProvider>
         {/* {items.map((item) => (
           <button

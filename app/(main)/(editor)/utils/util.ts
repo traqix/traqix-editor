@@ -1,7 +1,5 @@
 import type { TreeItem } from "@/app/(main)/(editor)/types";
 
-import traverse from "@babel/traverse";
-import { parse } from "@babel/parser";
 import {
   ARTICLE_ACCEPTED_COMPONENTS,
   ASIDE_ACCEPTED_COMPONENTS,
@@ -74,9 +72,6 @@ import {
   TREE_UL_ACCEPTED_COMPONENTS,
   TREE_VIDEO_ACCEPTED_COMPONENTS,
 } from "./accepted-components-tree";
-import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage";
-// import useLocalStorage from "@/hooks/use-local-storage";
-// import { useCurrentTreeItem } from "@/storage/tree-item-storage";
 
 export const getAcceptedComponentsTree = (component: string) => {
   if (component === "TREE_DIV") {

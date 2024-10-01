@@ -92,7 +92,7 @@ export const TreeNode: React.FC<{
     <div
       ref={drop as unknown as React.LegacyRef<HTMLDivElement>}
       className={cn(
-        `ml-${level == 0 ? 0 : 1.5} ${isOver ? "bg-blue-100" : ""}`,
+        `relative z-[${level}] ml-${level == 0 ? 0 : 1.5} ${isOver ? "bg-blue-100" : ""}`,
         "flex flex-col items-start rounded-lg text-left text-sm transition-all"
         // mail.selected === item?.id && "bg-muted",
       )}
@@ -147,6 +147,7 @@ export const TreeNode: React.FC<{
               {item?.name}
             </span>
           )}
+          
           <Button
             variant="ghost"
             size="icon"

@@ -24,16 +24,17 @@ import { EditorRight } from "./editor-right";
 import type { TreeItem } from "@/app/(main)/(editor)/types";
 import { handleUpdate } from "../utils/util";
 import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 export default function PlaygroundPage() {
 
-  const { basePath } = useRouter();
+  const pathname = usePathname()
+  const basePath = pathname == '/' ? '' : pathname
+  
   const [messageFromIframe, setMessageFromIframe] = useState<TreeItem | null>(
     null
   );
 
-  const [tree, setTree] = useMultipleLocalStorage(["tx_current"]);
   const [selectedItem, setSelectedItem] = useState<TreeItem | null>(null);
 
   useEffect(() => {
@@ -265,8 +266,6 @@ export default function PlaygroundPage() {
                   <EditorRight
                     selectedItem={selectedItem}
                     onUpdate={handleUpdate}
-                    tree={tree}
-                    setTree={setTree}
                   />
                   <ScrollBar orientation="horizontal" />
                 </ScrollArea>

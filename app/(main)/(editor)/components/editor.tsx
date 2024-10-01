@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import {
   AlertCircle,
@@ -12,52 +12,41 @@ import {
   ShoppingCart,
   Trash2,
   Users2,
-} from "lucide-react"
+} from "lucide-react";
 
-import { cn } from "@/lib/utils"
-import { Input } from "@/components/ui/input"
+import { cn } from "@/lib/utils";
+import { Input } from "@/components/ui/input";
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@/components/ui/resizable"
-import { Separator } from "@/components/ui/separator"
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs"
-import { TooltipProvider } from "@/components/ui/tooltip"
+} from "@/components/ui/resizable";
+import { Separator } from "@/components/ui/separator";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { TooltipProvider } from "@/components/ui/tooltip";
 // import { AccountSwitcher } from "@/app/(main)/(editor)/components/account-switcher"
 // import { EditorDisplay } from "@/app/(main)/(editor)/components/editor-display"
-import { EditorList } from "@/app/(main)/(editor)/components/editor-left"
-import { Nav } from "@/app/(main)/(editor)/components/nav"
-import { type Editor } from "@/app/(main)/(editor)/data"
-import { useEditor } from "@/app/(main)/(editor)/use-editor"
-import { PresetSelector } from "@/app/(main)/(editor)/components/preset-selector"
-import { PresetSave } from "@/app/(main)/(editor)/components/preset-save"
-import { CodeViewer } from "@/app/(main)/(editor)/components/code-viewer"
-import { PresetShare } from "@/app/(main)/(editor)/components/preset-share"
-import { PresetActions } from "@/app/(main)/(editor)/components/preset-actions"
-import PlaygroundPage from "./board"
-import { ResponsiveControl } from "./responsive-control"
-import { ThemeSwitch } from "./theme-switch"
-import { HistoryControls } from "./history-controls"
+import { EditorList } from "@/app/(main)/(editor)/components/editor-left";
+import { Nav } from "@/app/(main)/(editor)/components/nav";
+import { type Editor } from "@/app/(main)/(editor)/data";
+import { PresetSelector } from "@/app/(main)/(editor)/components/preset-selector";
+import { PresetSave } from "@/app/(main)/(editor)/components/preset-save";
+import { CodeViewer } from "@/app/(main)/(editor)/components/code-viewer";
+import { PresetShare } from "@/app/(main)/(editor)/components/preset-share";
+import { PresetActions } from "@/app/(main)/(editor)/components/preset-actions";
+import PlaygroundPage from "./board";
+import { ResponsiveControl } from "./responsive-control";
+import { ThemeSwitch } from "./theme-switch";
+import { HistoryControls } from "./history-controls";
 
 // import useLocalStorage from "@/hooks/use-local-storage";
-import initialData from '@/components/preset-editor/initial-tree.json';
-import type { TreeItem } from "@/app/(main)/(editor)/types";
-import { PresetControls } from "./preset-controls"
-import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage"
-import { useState } from "react"
-
-
+import { PresetControls } from "./preset-controls";
+import { useState } from "react";
 
 export function Editor() {
-  const defaultLayout = [3.6, 7.7, 48]
-  const navCollapsedSize = 3.6
-  const [isCollapsed, setIsCollapsed] = useState(false)
+  const defaultLayout = [3.6, 7.7, 48];
+  const navCollapsedSize = 3.6;
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   return (
     <TooltipProvider delayDuration={0}>
@@ -66,7 +55,7 @@ export function Editor() {
         onLayout={(sizes: number[]) => {
           document.cookie = `react-resizable-panels:layout:editor=${JSON.stringify(
             sizes
-          )}`
+          )}`;
         }}
         className="h-screen items-stretch"
       >
@@ -77,16 +66,16 @@ export function Editor() {
           minSize={12}
           maxSize={20}
           onCollapse={() => {
-            setIsCollapsed(true)
+            setIsCollapsed(true);
             document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
               true
-            )}`
+            )}`;
           }}
           onResize={() => {
-            setIsCollapsed(false)
+            setIsCollapsed(false);
             document.cookie = `react-resizable-panels:collapsed=${JSON.stringify(
               false
-            )}`
+            )}`;
           }}
           className={cn(
             isCollapsed &&
@@ -180,9 +169,13 @@ export function Editor() {
             ]}
           />
         </ResizablePanel>
-        
+
         <ResizableHandle withHandle />
-        <ResizablePanel defaultSize={defaultLayout[1]} minSize={14} maxSize={22}>
+        <ResizablePanel
+          defaultSize={defaultLayout[1]}
+          minSize={14}
+          maxSize={22}
+        >
           <Tabs defaultValue="all">
             <div className="flex items-center p-4">
               <h1 className="text-xl font-bold">TRAQIX</h1>
@@ -210,10 +203,11 @@ export function Editor() {
               </form>
             </div>
             <TabsContent value="all" className="m-0">
-              <EditorList />
+              <EditorList key={`eddd`} />
             </TabsContent>
             <TabsContent value="unread" className="m-0">
-              <EditorList />
+              {/* <EditorList key={`easd`} /> */}
+              VVVV
             </TabsContent>
           </Tabs>
         </ResizablePanel>
@@ -235,7 +229,7 @@ export function Editor() {
               <PresetActions />
             </div>
           </div>
-          
+
           {/* <EditorDisplay
             editor={mails.find((item) => item.id === editor.selected) || null}
           /> */}
@@ -243,5 +237,5 @@ export function Editor() {
         </ResizablePanel>
       </ResizablePanelGroup>
     </TooltipProvider>
-  )
+  );
 }

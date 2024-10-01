@@ -11,7 +11,7 @@ const fetcher = (url: string | URL | Request) => fetch(url).then(res => res.json
 
 export function PresetControls() {
 
-  const [currentItem, updateStoredValue] = useMultipleLocalStorage(['tx_current'], [null]);
+  const [_tree, setTree] = useMultipleLocalStorage(['tx_current'], [null]);
   const { data, error, isLoading } = useSWR('/api/presets', fetcher);
   const presetSections: TreeItem[] = data
 
@@ -32,7 +32,7 @@ export function PresetControls() {
         </DialogHeader>
         <div className="grid gap-4 py-4 grid-cols-3">
           {presetSections?.map((section) => (
-            <Button key={section.id} onClick={() => updateStoredValue("tx_current", section)}>
+            <Button key={section.id} onClick={() => setTree("tx_current", section)}>
               {section.name}
             </Button>
           ))}
