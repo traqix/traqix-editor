@@ -1,0 +1,356 @@
+[
+  {
+    "id": "0o62zo0mw",
+    "name": "FAQ Section 1",
+    "type": "div",
+    "props": {
+      "className": "flex justify-center items-center min-h-screen"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "jq6agskyb",
+        "name": "Card",
+        "type": "Card",
+        "props": {
+          "className": "shadow-lg w-[550px]"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "u6l6ntvfr",
+            "name": "CardContent",
+            "type": "CardContent",
+            "props": {
+              "className": "p-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "np4z9gkdl",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-2xl font-semibold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "17272203660910q8lox8nl",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Frequently Asked Questions"
+                    }
+                    
+                  }
+                ]
+                
+              },
+              {
+                "id": "p8b5fnmyi",
+                "name": "Accordion",
+                "type": "Accordion",
+                "props": {
+                  "className": "w-full mt-4",
+                  "collapsible": "",
+                  "type": "multiple"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "or9eu1r03",
+                    "name": "AccordionItem",
+                    "type": "AccordionItem",
+                    "props": {
+                      "value": "item-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "bxv7smznh",
+                        "name": "AccordionTrigger",
+                        "type": "AccordionTrigger",
+                        "props": {
+                          "className": "hover:underline-none"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220366096txxgfvjdj",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Why does turning my device off and on again solve all issues?"
+                            }
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "xnk4phb54",
+                        "name": "AccordionContent",
+                        "type": "AccordionContent",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220366096hx3a3g73w",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Because it clears the memory and starts the system from scratch."
+                            }
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  },
+                  {
+                    "id": "qbgoa1eg2",
+                    "name": "AccordionItem",
+                    "type": "AccordionItem",
+                    "props": {
+                      "value": "item-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ho8xwqghu",
+                        "name": "AccordionTrigger",
+                        "type": "AccordionTrigger",
+                        "props": {
+                          "className": "hover:underline-none"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220366098g0exrfure",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Are extra cables in the box bonus decorations?"
+                            }
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "0k3solumr",
+                        "name": "AccordionContent",
+                        "type": "AccordionContent",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272203660992gkubn49m",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "As tempting as it is to weave them into artistic sculptures, those cables are essential for connecting,\n                charging, and beaming digital magic."
+                            }
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  },
+                  {
+                    "id": "pnmllxwgv",
+                    "name": "AccordionItem",
+                    "type": "AccordionItem",
+                    "props": {
+                      "value": "item-3"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "8cznpu667",
+                        "name": "AccordionTrigger",
+                        "type": "AccordionTrigger",
+                        "props": {
+                          "className": "hover:underline-none"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272203661006lnd3ie5t",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Can I wear my VR headset to my cousin's wedding?"
+                            }
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "go0p7b0dz",
+                        "name": "AccordionContent",
+                        "type": "AccordionContent",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220366100yd4tstyma",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Yes but you might end up inadvertently dodging invisible dance partners or trying to high-five digital\n                confetti."
+                            }
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  },
+                  {
+                    "id": "cnz46wp1b",
+                    "name": "AccordionItem",
+                    "type": "AccordionItem",
+                    "props": {
+                      "value": "item-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "w7dk1yvan",
+                        "name": "AccordionTrigger",
+                        "type": "AccordionTrigger",
+                        "props": {
+                          "className": "hover:underline-none"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220366101xst5fwb5o",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "How often should I update my software?"
+                            }
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "czj3j9mll",
+                        "name": "AccordionContent",
+                        "type": "AccordionContent",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220366101y00rzw4ro",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "It's recommended to keep your software up to date to ensure you have the latest security patches and\n                features."
+                            }
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  },
+                  {
+                    "id": "vrtfcajcw",
+                    "name": "AccordionItem",
+                    "type": "AccordionItem",
+                    "props": {
+                      "className": "border-b-0",
+                      "value": "item-5"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "5qmjn9wwr",
+                        "name": "AccordionTrigger",
+                        "type": "AccordionTrigger",
+                        "props": {
+                          "className": "hover:underline-none"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272203661021k5ao3q9x",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Why does my device get hot when I'm using it?"
+                            }
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "s9pchgzc5",
+                        "name": "AccordionContent",
+                        "type": "AccordionContent",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "172722036610341gtw6vct",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Devices can generate heat during operation, especially when running intensive tasks. This is normal, but\n                if it gets too hot, it may indicate a problem."
+                            }
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  }
+                ]
+                
+              }
+            ]
+            
+          }
+        ]
+        
+      }
+    ]
+    
+  }
+]

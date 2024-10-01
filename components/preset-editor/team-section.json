@@ -1,0 +1,241 @@
+[
+  {
+    "id": "team-section",
+    "name": "Team Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-orange-500\" />",
+    "props": {
+      "className": "bg-white py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "team-container",
+        "name": "Team Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "team-title",
+            "name": "Team Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-orange-300\" />",
+            "props": {
+              "className": "text-3xl font-semibold text-gray-900 mb-6"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-team-title",
+                "name": "Text Team Title",
+                "type": "text",
+                "props": {
+                  "content": "Meet Our Team"
+                }
+              }
+            ]
+          },
+          {
+            "id": "team-grid",
+            "name": "Team Grid",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+            "props": {
+              "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "team-member-1",
+                "name": "Team Member 1",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-orange-400\" />",
+                "props": {
+                  "className": "text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "team-image-1",
+                    "name": "Team Image 1",
+                    "type": "image",
+                    "props": {
+                      "className": "mb-4 rounded-full",
+                      "src": "/team-member-1.jpg",
+                      "alt": "Team Member 1"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "team-name-1",
+                    "name": "Team Name 1",
+                    "type": "h3",
+                    "props": {
+                      "className": "text-lg font-semibold text-gray-900"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-team-name-1",
+                        "name": "Text Team Name 1",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "team-position-1",
+                    "name": "Team Position 1",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-600"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-team-position-1",
+                        "name": "Text Team Position 1",
+                        "type": "text",
+                        "props": {
+                          "content": "CEO & Founder"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "team-member-1",
+                "name": "Team Member 1",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-orange-400\" />",
+                "props": {
+                  "className": "text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "team-image-1",
+                    "name": "Team Image 1",
+                    "type": "image",
+                    "props": {
+                      "className": "mb-4 rounded-full",
+                      "src": "/team-member-1.jpg",
+                      "alt": "Team Member 1"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "team-name-2",
+                    "name": "Team Name 2",
+                    "type": "h3",
+                    "props": {
+                      "className": "text-lg font-semibold text-gray-900"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-team-name-2",
+                        "name": "Text Team Name 2",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "team-position-3",
+                    "name": "Team Position 3",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-600"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-team-position-3",
+                        "name": "Text Team Position 3",
+                        "type": "text",
+                        "props": {
+                          "content": "CEO & Founder"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "team-member-1",
+                "name": "Team Member 1",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-orange-400\" />",
+                "props": {
+                  "className": "text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "team-image-1",
+                    "name": "Team Image 1",
+                    "type": "image",
+                    "props": {
+                      "className": "mb-4 rounded-full",
+                      "src": "/team-member-1.jpg",
+                      "alt": "Team Member 1"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "team-name-1",
+                    "name": "Team Name 1",
+                    "type": "h3",
+                    "props": {
+                      "className": "text-lg font-semibold text-gray-900"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-team-name-1",
+                        "name": "Text Team Name 1",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "team-position-1",
+                    "name": "Team Position 1",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-600"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-team-position-1",
+                        "name": "Text Team Position 1",
+                        "type": "text",
+                        "props": {
+                          "content": "CEO & Founder"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

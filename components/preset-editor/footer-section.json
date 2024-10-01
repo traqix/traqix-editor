@@ -1,0 +1,100 @@
+[
+  {
+    "id": "footer-section",
+    "name": "Footer Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-green-500\" />",
+    "props": { "className": "bg-gray-800 text-white py-6" },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "footer-container",
+        "name": "Footer Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-700\" />",
+        "props": { "className": "container mx-auto px-4 text-center" },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "footer-links",
+            "name": "Footer Links",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-green-300\" />",
+            "props": { "className": "flex justify-center space-x-6 mb-4" },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "footer-link-1",
+                "name": "Footer Link",
+                "type": "a",
+                "icon": "<div className=\"h-4 w-4 rounded bg-green-200\" />",
+                "props": { "href": "#", "className": "hover:underline" },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-footer-link-1",
+                    "name": "Text Footer Link",
+                    "type": "text",
+                    "props": { "content": "Home" }
+                    
+                  }
+                ]
+              },
+              {
+                "id": "footer-link-2",
+                "name": "Footer Link",
+                "type": "a",
+                "icon": "<div className=\"h-4 w-4 rounded bg-green-200\" />",
+                "props": { "href": "#", "className": "hover:underline" },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-footer-link-2",
+                    "name": "Text Footer Link",
+                    "type": "text",
+                    "props": { "content": "About" }
+                    
+                  }
+                ]
+              },
+              {
+                "id": "footer-link-3",
+                "name": "Footer Link",
+                "type": "a",
+                "icon": "<div className=\"h-4 w-4 rounded bg-green-200\" />",
+                "props": { "href": "#", "className": "hover:underline" },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-footer-link-3",
+                    "name": "Text Footer Link",
+                    "type": "text",
+                    "props": { "content": "Contact" }
+                    
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "footer-copy",
+            "name": "Footer Copyright",
+            "type": "p",
+            "icon": "<div className=\"h-4 w-4 rounded bg-gray-600\" />",
+            "props": { "className": "text-sm" },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-footer-copy",
+                "name": "Text Footer Copyright",
+                "type": "text",
+                "props": { "content": "© 2024 Your Company. All rights reserved." }
+                
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

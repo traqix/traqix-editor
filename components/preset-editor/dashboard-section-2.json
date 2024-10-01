@@ -1,0 +1,2084 @@
+[
+  {
+    "id": "mjnrwcqfq",
+    "name": "Dashboard Section2",
+    "type": "div",
+    "props": {
+      "className": "grid min-h-screen w-full grid-cols-[280px_1fr_280px]"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "j4xq5qmix",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col gap-4 border-r bg-muted/40 p-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "82ym6tgt2",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex h-[60px] items-center border-b"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "j5bfdgci4",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-2 font-semibold",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "w1oyd9r9u",
+                    "name": "BarChartIcon",
+                    "type": "BarChartIcon",
+                    "props": {
+                      "className": "h-6 w-6"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "xsya0yss0",
+                    "name": "span",
+                    "type": "span",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "17272214214838u17ws2ab",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Data Analytics"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "uwrgbiqzv",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "outline",
+                  "size": "icon",
+                  "className": "ml-auto h-8 w-8"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "ewzmvvgwa",
+                    "name": "BellIcon",
+                    "type": "BellIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "twiqe5xkd",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "sr-only"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "17272214214900lgxch9o4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Toggle notifications"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "jkop8uy36",
+            "name": "nav",
+            "type": "nav",
+            "props": {
+              "className": "grid gap-2 text-sm font-medium"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "8f6md5pmb",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "izkndv3kw",
+                    "name": "HomeIcon",
+                    "type": "HomeIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "1727221421498oxffs1d48",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Dashboard"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "vmrvt61vg",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "mq035q7gj",
+                    "name": "BarChartIcon",
+                    "type": "BarChartIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "17272214214996kw57lqzp",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Analytics"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "5yu1nppr6",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "92k8mief9",
+                    "name": "PieChartIcon",
+                    "type": "PieChartIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "17272214215019utlg6n79",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Reports"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "2v4p21kp6",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "v5cg0xhs4",
+                    "name": "PenToolIcon",
+                    "type": "PenToolIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "1727221421503kaaw5fcbf",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Tools"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hkretcjvx",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "8pj4iwzpp",
+                    "name": "SettingsIcon",
+                    "type": "SettingsIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "172722142150547fzbthno",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Settings"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a0ru95vcm",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "cnlicivfs",
+            "name": "header",
+            "type": "header",
+            "props": {
+              "className": "flex h-14 items-center gap-4 border-b bg-muted/40 px-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "t3bfeme33",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "w-full flex-1"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "435a87j9x",
+                    "name": "form",
+                    "type": "form",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ruoi5im5n",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "relative"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "xer5yy800",
+                            "name": "SearchIcon",
+                            "type": "SearchIcon",
+                            "props": {
+                              "className": "absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "o45ieo3ps",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "type": "search",
+                              "placeholder": "Search",
+                              "className": "w-full bg-background shadow-none appearance-none pl-8 md:w-2/3 lg:w-1/3"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "0zvn0rfy8",
+                "name": "DropdownMenu",
+                "type": "DropdownMenu",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "tzk2eoc0w",
+                    "name": "DropdownMenuTrigger",
+                    "type": "DropdownMenuTrigger",
+                    "props": {
+                      "asChild": true
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ibxl5ho5a",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "variant": "ghost",
+                          "size": "icon",
+                          "className": "rounded-full border w-8 h-8"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "dwur0uki3",
+                            "name": "img",
+                            "type": "img",
+                            "props": {
+                              "src": "/placeholder.svg",
+                              "width": "32",
+                              "height": "32",
+                              "className": "rounded-full",
+                              "alt": "Avatar",
+                              "style": null
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "t0t1sumtf",
+                            "name": "span",
+                            "type": "span",
+                            "props": {
+                              "className": "sr-only"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "17272214215459es1ky7y3",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Toggle user menu"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "poqlxag7f",
+                    "name": "DropdownMenuContent",
+                    "type": "DropdownMenuContent",
+                    "props": {
+                      "align": "end"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "xqshjibsy",
+                        "name": "DropdownMenuLabel",
+                        "type": "DropdownMenuLabel",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727221421547u1a7da6fy",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "My Account"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ywk6p3j70",
+                        "name": "DropdownMenuSeparator",
+                        "type": "DropdownMenuSeparator",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "fnjl20ev0",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727221421548v2nzprwo9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Settings"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ukdr6psw1",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727221421549xo0ldqc3e",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Support"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "4qumvs0bq",
+                        "name": "DropdownMenuSeparator",
+                        "type": "DropdownMenuSeparator",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "zd028yzpr",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727221421549w6dnwu4ef",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Logout"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sqdbx1my3",
+            "name": "main",
+            "type": "main",
+            "props": {
+              "className": "flex-1 p-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "zrh6tprxp",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid gap-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "0ozvc8937",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "i9ux02rgg",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "l893ddpho",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "14m6gjquz",
+                                "name": "CardTitle",
+                                "type": "CardTitle",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727221421579xsozx1o0h",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Overview"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "qbt377roj",
+                                "name": "CardDescription",
+                                "type": "CardDescription",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "172722142158032c0gua71",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Get a high-level view of your data analytics."
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "cv081vmz3",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "63bqmq48h",
+                                "name": "LineChart",
+                                "type": "LineChart",
+                                "props": {
+                                  "className": "aspect-[4/3]"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "gq4pfmwgj",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "89g3ljveq",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "ce7h5rkr1",
+                                "name": "CardTitle",
+                                "type": "CardTitle",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727221421584u8vkdtl29",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Analytics Tools"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "s3m8x3fl1",
+                                "name": "CardDescription",
+                                "type": "CardDescription",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272214215848nh1u3t2k",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Leverage our suite of data analysis tools."
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "qazpfwfio",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "0fr3za602",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "cstufbwz1",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "fpvqkv4v0",
+                                        "name": "BarChartIcon",
+                                        "type": "BarChartIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "q3kp57pdw",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "17272214215929zuftprt2",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Visualizations"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "j4d6k3b96",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "wytp0vpg2",
+                                        "name": "PieChartIcon",
+                                        "type": "PieChartIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "azlw7f9hy",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "172722142159469d7y1l24",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Reporting"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "no3juzz78",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "hmjhi6awk",
+                                        "name": "PenToolIcon",
+                                        "type": "PenToolIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "cbwy7w3tf",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "17272214215977869dw98r",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Dashboards"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "y1auk35u4",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "am1w0oe8l",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "fh0h2h1pc",
+                                "name": "CardTitle",
+                                "type": "CardTitle",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727221421628q5ztodld8",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Reports"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "003bh9mkh",
+                                "name": "CardDescription",
+                                "type": "CardDescription",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272214216298z7axg4yl",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Access your latest data reports and insights."
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "k8ypgtnf6",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "cdjmy3vwi",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "7nl5hq9t1",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "0hcfhgr7c",
+                                        "name": "FileTextIcon",
+                                        "type": "FileTextIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "l20vmkae2",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "1727221421633xlia30o02",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Monthly Report"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "xj9u1dap5",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "msgds1uxo",
+                                        "name": "FileTextIcon",
+                                        "type": "FileTextIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "9vbajpyqh",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "17272214216347ngxe0jop",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Quarterly Report"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "je0j23m01",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "ixahlzme0",
+                                        "name": "FileTextIcon",
+                                        "type": "FileTextIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "qmjofrgm4",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "17272214216370305r15ca",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Annual Report"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "c6vhhddtq",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ty9dn7xex",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "ofm2kjqcn",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "k6tpidios",
+                                "name": "CardTitle",
+                                "type": "CardTitle",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727221421646kmo6m2o11",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Upcoming Events"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "ubeu403mh",
+                                "name": "CardDescription",
+                                "type": "CardDescription",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272214216473nzyrcydr",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Stay up-to-date with our upcoming data analytics events."
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "pfo5acfwa",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "f21es7mrh",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "u87073hv3",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-3"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "wnn9mq8fw",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex h-10 w-10 items-center justify-center rounded-full bg-muted"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "nqer80081",
+                                            "name": "CalendarIcon",
+                                            "type": "CalendarIcon",
+                                            "props": {
+                                              "className": "h-5 w-5 text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "sm2k44cdq",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "n4wlmjlau",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "font-medium"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "1727221421657rogrdzxh6",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "Data Analytics Summit"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": "mfycqb6qw",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "text-sm text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "17272214216591837eg79y",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "June 15, 2023"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "64xp2xsq5",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-3"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "f81jmg4nf",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex h-10 w-10 items-center justify-center rounded-full bg-muted"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "75jv3ra6s",
+                                            "name": "CalendarIcon",
+                                            "type": "CalendarIcon",
+                                            "props": {
+                                              "className": "h-5 w-5 text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "tvsbqta3g",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "p9r3813bp",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "font-medium"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "1727221421665xjxlo3j9p",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "Data Visualization Workshop"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": "08bdtlpt5",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "text-sm text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "1727221421666rpv1304rx",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "July 20, 2023"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "76l4vp0z2",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-3"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "08a04oly3",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex h-10 w-10 items-center justify-center rounded-full bg-muted"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "isknucmx3",
+                                            "name": "CalendarIcon",
+                                            "type": "CalendarIcon",
+                                            "props": {
+                                              "className": "h-5 w-5 text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "l5dd4oslq",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "re6de4glu",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "font-medium"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "17272214216723wb73lloy",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "Data Storytelling Webinar"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": "rw8qstya7",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "text-sm text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "17272214216724n0my2sv0",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "August 10, 2023"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "f3ui8vzeu",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "ahbv5u4os",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "bx1gbu9b4",
+                                "name": "CardTitle",
+                                "type": "CardTitle",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272214216798sh24yog2",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Related Resources"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "htasvk690",
+                                "name": "CardDescription",
+                                "type": "CardDescription",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727221421679rj8x7zs6x",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Explore our collection of data analytics resources."
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "ksp82ktdd",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "4sb9ok02o",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "dj1nsb35r",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "wfy4yk199",
+                                        "name": "BookIcon",
+                                        "type": "BookIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "gz6ypeywh",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "1727221421683otcgn9p47",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Data Analytics Guides"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "nai0gprpw",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "3o9jk6coy",
+                                        "name": "VideoIcon",
+                                        "type": "VideoIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "6fqvnlclf",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "17272214216855eflc1s5a",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Data Analytics Tutorials"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "4ef7i7wzc",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-3 rounded-lg bg-muted px-4 py-3 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "3xl0po88k",
+                                        "name": "LinkIcon",
+                                        "type": "LinkIcon",
+                                        "props": {
+                                          "className": "h-5 w-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "eagd9fxs1",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "1727221421688o171c6psg",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Data Analytics Blogs"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "j5gmue5kh",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "v80bk442q",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "guhkjeb3b",
+                                "name": "CardTitle",
+                                "type": "CardTitle",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727221421693gdc87z8jj",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Announcements"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "bg3tha4wx",
+                                "name": "CardDescription",
+                                "type": "CardDescription",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272214216934ogi6itia",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Stay informed about the latest data analytics updates."
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "pckqfs3a5",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "7h3ujza0p",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "hgs0qcdjn",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-start gap-3"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "6viz7ae50",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex h-10 w-10 items-center justify-center rounded-full bg-muted"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "4h4thmrnj",
+                                            "name": "MegaphoneIcon",
+                                            "type": "MegaphoneIcon",
+                                            "props": {
+                                              "className": "h-5 w-5 text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0uyg1xs35",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "9u4qabnop",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "font-medium"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "1727221421699sgxojv8hm",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "New Data Visualization Features Released"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": "1us4im5vx",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "text-sm text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "17272214216993vp4m7m8t",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "Check out our latest updates to our data visualization tools."
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "runcygm41",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-start gap-3"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "wfjt6iewb",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex h-10 w-10 items-center justify-center rounded-full bg-muted"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "cmk9fy87f",
+                                            "name": "MegaphoneIcon",
+                                            "type": "MegaphoneIcon",
+                                            "props": {
+                                              "className": "h-5 w-5 text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "aqs5mz26i",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "br05njbui",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "font-medium"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "1727221421702j5fvg65sv",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "Upcoming Data Analytics Webinar"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": "erukzu17w",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "text-sm text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "17272214217036ahclbiqk",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "Join our experts for a deep dive into data analytics best practices."
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "rljrg8i8v",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-start gap-3"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "9k4wcunu1",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex h-10 w-10 items-center justify-center rounded-full bg-muted"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "tjcyvkd9o",
+                                            "name": "MegaphoneIcon",
+                                            "type": "MegaphoneIcon",
+                                            "props": {
+                                              "className": "h-5 w-5 text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "kfxv59ri7",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "wue0lrya4",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "font-medium"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "1727221421708sf0h6tgwf",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "New Data Connectors Added"
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": "h5y96zaju",
+                                            "name": "div",
+                                            "type": "div",
+                                            "props": {
+                                              "className": "text-sm text-muted-foreground"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "17272214217089tiw2o1dm",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                  "content": "Integrate your data from more sources with our latest connectors."
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t1jk6y2ju",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col gap-4 border-l bg-muted/40 p-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "gyrtsi75h",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex h-[60px] items-center border-b"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "f23nce0oq",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "font-semibold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "17272214217366ylso0k8h",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Quick Links"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "m1gjwx1qt",
+            "name": "nav",
+            "type": "nav",
+            "props": {
+              "className": "grid gap-2 text-sm font-medium"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "3m23nrlzq",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "cqzwrgh4y",
+                    "name": "LinkIcon",
+                    "type": "LinkIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "1727221421740vfevkx4ld",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Data Analytics Blog"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "atz2bgtk4",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "wn3b7i142",
+                    "name": "LinkIcon",
+                    "type": "LinkIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "17272214217411xepuu2o7",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Data Visualization Tools"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "c0cpct6ok",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "8zb9s9oru",
+                    "name": "LinkIcon",
+                    "type": "LinkIcon",
+                    "props": {
+                      "className": "h-4 w-4"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "1727221421741j9ma1htac",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Data Analytics Courses"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "krohqykma",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

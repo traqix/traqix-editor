@@ -1,0 +1,10 @@
+[
+  {
+    "id": "root",
+    "name": "Root Container",
+    "type": "div",
+    "icon": "<div className=\"h-4 w-4 rounded bg-gray-400\" />",
+    "allowsChildren": true,
+    "children": []
+  }
+]

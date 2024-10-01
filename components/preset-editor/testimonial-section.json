@@ -1,0 +1,208 @@
+[
+  {
+    "id": "testimonial-section",
+    "name": "Testimonial Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-yellow-500\" />",
+    "props": {
+      "className": "bg-gray-50 py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "testimonial-container",
+        "name": "Testimonial Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "testimonial-title",
+            "name": "Testimonial Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-yellow-300\" />",
+            "props": {
+              "className": "text-3xl font-semibold text-gray-900 mb-6"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-testimonial-title",
+                "name": "Text Testimonial Title",
+                "type": "text",
+                "props": {
+                  "content": "What Our Clients Say"
+                }
+              }
+            ]
+          },
+          {
+            "id": "testimonial-grid",
+            "name": "Testimonial Grid",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+            "props": {
+              "className": "grid grid-cols-1 md:grid-cols-3 gap-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "testimonial-item-1",
+                "name": "Testimonial Item 1",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-yellow-400\" />",
+                "props": {
+                  "className": "p-4 bg-white shadow-lg rounded-md"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "testimonial-content-1",
+                    "name": "Testimonial Content 1",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-700 mb-4"
+                    },
+                    "children": [
+                      {
+                        "id": "text-testimonial-content-1",
+                        "name": "Text Testimonial Content 1",
+                        "type": "text",
+                        "props": {
+                          "content": "This product has transformed our business!"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "testimonial-author-1",
+                    "name": "Testimonial Author 1",
+                    "type": "h3",
+                    "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+                    "props": {
+                      "className": "font-semibold text-gray-900"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-testimonial-author-1",
+                        "name": "Text Testimonial Author 1",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe, CEO of Acme Inc."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "testimonial-item-1",
+                "name": "Testimonial Item 1",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-yellow-400\" />",
+                "props": {
+                  "className": "p-4 bg-white shadow-lg rounded-md"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "testimonial-content-1",
+                    "name": "Testimonial Content 1",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-700 mb-4"
+                    },
+                    "children": [
+                      {
+                        "id": "text-testimonial-content-1",
+                        "name": "Text Testimonial Content 1",
+                        "type": "text",
+                        "props": {
+                          "content": "This product has transformed our business!"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "testimonial-author-1",
+                    "name": "Testimonial Author 1",
+                    "type": "h3",
+                    "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+                    "props": {
+                      "className": "font-semibold text-gray-900"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-testimonial-author-1",
+                        "name": "Text Testimonial Author 1",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe, CEO of Acme Inc."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "testimonial-item-1",
+                "name": "Testimonial Item 1",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-yellow-400\" />",
+                "props": {
+                  "className": "p-4 bg-white shadow-lg rounded-md"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "testimonial-content-1",
+                    "name": "Testimonial Content 1",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-700 mb-4"
+                    },
+                    "children": [
+                      {
+                        "id": "text-testimonial-content-1",
+                        "name": "Text Testimonial Content 1",
+                        "type": "text",
+                        "props": {
+                          "content": "This product has transformed our business!"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "testimonial-author-1",
+                    "name": "Testimonial Author 1",
+                    "type": "h3",
+                    "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+                    "props": {
+                      "className": "font-semibold text-gray-900"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-testimonial-author-1",
+                        "name": "Text Testimonial Author 1",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe, CEO of Acme Inc."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

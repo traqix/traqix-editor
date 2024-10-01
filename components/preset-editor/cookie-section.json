@@ -1,0 +1,355 @@
+[
+  {
+    "id": "i894z0d5k",
+    "name": "Cookie Section",
+    "type": "Card",
+    "props": {
+      "key": "1",
+      "className": "w-full max-w-lg"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "zfkm6hqiy",
+        "name": "CardHeader",
+        "type": "CardHeader",
+        "props": {
+          "className": "border-b border-dark-gray-300 pb-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "0b52l7cdj",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "faktibyij",
+                "name": "CookieIcon",
+                "type": "CookieIcon",
+                "props": {
+                  "className": "mr-2"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "jjchvbhaz",
+                "name": "CardTitle",
+                "type": "CardTitle",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727220300725j3j8e17bo",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Cookie Preferences"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "3bq9oslqp",
+            "name": "CardDescription",
+            "type": "CardDescription",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "1727220300726mpjdbaoj6",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Manage your cookie settings. You can enable or disable different types of cookies below."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wkndbqbd8",
+        "name": "CardContent",
+        "type": "CardContent",
+        "props": {
+          "className": "space-y-4 pt-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "76ued9hax",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex justify-between items-start space-y-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "70g8q5sxy",
+                "name": "div",
+                "type": "div",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "emqqjp4d3",
+                    "name": "Label",
+                    "type": "Label",
+                    "props": {
+                      "htmlFor": "essential"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727220300735jdwpri4s6",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Essential Cookies"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ftglnoert",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-dark-gray-500 text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727220300736t1i03mq6r",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "These cookies are necessary for the website to function and cannot be switched off."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "y6kte6o7t",
+                "name": "Switch",
+                "type": "Switch",
+                "props": {
+                  "className": "ml-auto",
+                  "id": "essential"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ci4b0yihz",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex justify-between items-start space-y-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "15idlfkfz",
+                "name": "div",
+                "type": "div",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "vf8p7a63r",
+                    "name": "Label",
+                    "type": "Label",
+                    "props": {
+                      "htmlFor": "analytics"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "17272203007404q89n3rk8",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Analytics Cookies"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "rq3ulxy4k",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-dark-gray-500 text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727220300740on36oq1ml",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "These cookies allow us to count visits and traffic sources, so we can measure and improve the performance\n              of our site."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "0xtkpu3xx",
+                "name": "Switch",
+                "type": "Switch",
+                "props": {
+                  "className": "ml-auto",
+                  "id": "analytics"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "ftcqk4tx0",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex justify-between items-start space-y-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "56pcbeo86",
+                "name": "div",
+                "type": "div",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "vq9aq236i",
+                    "name": "Label",
+                    "type": "Label",
+                    "props": {
+                      "htmlFor": "marketing"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727220300742uub4l5y4u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Marketing Cookies"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "so8wuuym8",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-dark-gray-500 text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727220300742xpe8wui0g",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "These cookies help us show you relevant ads."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ojeqh6ho9",
+                "name": "Switch",
+                "type": "Switch",
+                "props": {
+                  "className": "ml-auto",
+                  "id": "marketing"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tg7xrz0or",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "border-t border-dark-gray-300 mt-4"
+        },
+        "allowsChildren": true,
+        "children": []
+      },
+      {
+        "id": "tjg2383ng",
+        "name": "CardFooter",
+        "type": "CardFooter",
+        "props": {},
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "353b97q6d",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "className": "ml-auto",
+              "type": "submit"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "172722030074407acp603k",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Save Preferences"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

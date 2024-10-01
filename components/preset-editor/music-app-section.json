@@ -1,0 +1,443 @@
+[
+  {
+    "id": "osp9o9dg5",
+    "name": "MusicApp Section",
+    "type": "div",
+    "props": {
+      "className": "w-full h-screen bg-cyan-500 flex items-center justify-center"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "nrzdx4ifb",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "w-96 h-auto bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "2wxx4r68e",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex justify-between items-center bg-gray-100 dark:bg-gray-700 px-4 py-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "srqm0mtye",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-lg font-medium text-gray-900 dark:text-gray-100"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "17272207530814tajtrj5u",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Music Player"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "w3gd22okt",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex space-x-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "06xj59gvq",
+                    "name": "ExpandIcon",
+                    "type": "ExpandIcon",
+                    "props": {
+                      "className": "text-gray-900 dark:text-gray-100"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "ygvv9wbio",
+                    "name": "ConstructionIcon",
+                    "type": "ConstructionIcon",
+                    "props": {
+                      "className": "text-gray-900 dark:text-gray-100"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "wvxjt3l9t",
+                    "name": "MenuIcon",
+                    "type": "MenuIcon",
+                    "props": {
+                      "className": "text-gray-900 dark:text-gray-100"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "a306v9na0",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex flex-col space-y-4 p-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "xnn35lffq",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center space-x-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "pr5e0s3iq",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "alt": "Album Art",
+                      "height": "64",
+                      "width": "64",
+                      "src": "/placeholder.svg",
+                      "style": null
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "wy4e21ewv",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex-1 space-y-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "bsk1zoxdy",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-lg font-medium text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220753092tnx0m87ec",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Blowin' in the Wind"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "7v7f4faa1",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-sm text-gray-500 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220753092kf149kcp8",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Bob Dylan"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "jzq90ifrq",
+                "name": "Slider",
+                "type": "Slider",
+                "props": {
+                  "className": "flex-1",
+                  "value": null
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "mlo9dfvzh",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center justify-between"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "firo986qm",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "size": "icon",
+                      "variant": "ghost"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "w7rmhpzp4",
+                        "name": "ArrowLeftIcon",
+                        "type": "ArrowLeftIcon",
+                        "props": {
+                          "className": "text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "76w6goec0",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "className": "p-2",
+                      "size": "icon"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "dc7catr24",
+                        "name": "PlayIcon",
+                        "type": "PlayIcon",
+                        "props": {
+                          "className": "text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "jfodchyrx",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "size": "icon",
+                      "variant": "ghost"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ydy2wffeo",
+                        "name": "ArrowRightIcon",
+                        "type": "ArrowRightIcon",
+                        "props": {
+                          "className": "text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4kp375fne",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "p-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "vexwml2lx",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-lg font-medium text-gray-900 dark:text-gray-100 mb-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727220753099kd4l37uwm",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Playlist"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "0gva5cv4c",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "space-y-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "0ao32t1v9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "w18zno1p0",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-sm text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272207531029srl06eht",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Like a Rolling Stone"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ahrdfb3sr",
+                        "name": "PlayIcon",
+                        "type": "PlayIcon",
+                        "props": {
+                          "className": "text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "dx4jbv8bc",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "zvsivr6by",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-sm text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220753104fffyvqaut",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "The Times They Are a-Changin'"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ok0mq4701",
+                        "name": "PlayIcon",
+                        "type": "PlayIcon",
+                        "props": {
+                          "className": "text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "6qiotypug",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "0eijgiypy",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-sm text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220753106idlwf5ets",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Subterranean Homesick Blues"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ui3i5ryua",
+                        "name": "PlayIcon",
+                        "type": "PlayIcon",
+                        "props": {
+                          "className": "text-gray-900 dark:text-gray-100"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

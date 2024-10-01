@@ -1,0 +1,1781 @@
+[
+  {
+    "id": "xmzrynoog",
+    "name": "LandingPage Section",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col min-h-[100dvh]"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "eyaxwt9ql",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "px-4 lg:px-6 h-14 flex items-center bg-background border-b"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "w519n1jhe",
+            "name": "Link",
+            "type": "Link",
+            "props": {
+              "href": "#",
+              "className": "flex items-center justify-center",
+              "prefetch": null
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "y7ofznejk",
+                "name": "CodeIcon",
+                "type": "CodeIcon",
+                "props": {
+                  "className": "h-6 w-6 text-primary"
+                },
+                "allowsChildren": true,
+                "children": []
+                
+              },
+              {
+                "id": "tub2w131q",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "ml-2 text-lg font-bold text-foreground"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727219418920v082fccx8",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "John Doe"
+                    }
+                    
+                  }
+                ]
+                
+              }
+            ]
+            
+          },
+          {
+            "id": "43ymbx0dd",
+            "name": "nav",
+            "type": "nav",
+            "props": {
+              "className": "ml-auto flex gap-4 sm:gap-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "87c1zdt1p",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "text-sm font-medium hover:underline underline-offset-4 text-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727219418924a0ekjy20f",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "About"
+                    }
+                    
+                  }
+                ]
+                
+              },
+              {
+                "id": "voq1gh6d2",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "text-sm font-medium hover:underline underline-offset-4 text-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727219418925nhe2ki2b8",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Projects"
+                    }
+                    
+                  }
+                ]
+                
+              },
+              {
+                "id": "0ff46fyuy",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "text-sm font-medium hover:underline underline-offset-4 text-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "17272194189251d4161v2c",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Contact"
+                    }
+                    
+                  }
+                ]
+                
+              }
+            ]
+            
+          }
+        ]
+        
+      },
+      {
+        "id": "lb1riwsn1",
+        "name": "main",
+        "type": "main",
+        "props": {
+          "className": "flex-1"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "5da6ue8he",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32 bg-background"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "wt9n09t3y",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container px-4 md:px-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "9b6tnnwm6",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "qvpgfig4r",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex flex-col justify-center space-y-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "87fzynp7o",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "space-y-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "e76c8jmpt",
+                                "name": "h1",
+                                "type": "h1",
+                                "props": {
+                                  "className": "text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272194189421hbdd1u81",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "John Doe"
+                                    }
+                                    
+                                  }
+                                ]
+                                
+                              },
+                              {
+                                "id": "2owvp52js",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "max-w-[600px] text-muted-foreground md:text-xl"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219418942j302jjeen",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Fullstack Developer | React | Node.js | MongoDB"
+                                    }
+                                    
+                                  }
+                                ]
+                                
+                              },
+                              {
+                                "id": "3i4g140bv",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "max-w-[600px] text-muted-foreground md:text-xl"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219418943uxkebtqoz",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "I'm a passionate fullstack developer with expertise in building modern web applications using the\n                    latest technologies."
+                                    }
+                                    
+                                  }
+                                ]
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "hazdt881q",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "width": "550",
+                          "height": "550",
+                          "alt": "Hero",
+                          "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                        
+                      }
+                    ]
+                    
+                  }
+                ]
+                
+              }
+            ]
+            
+          },
+          {
+            "id": "3ee0vwvt2",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32 bg-muted"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "fqe8lpvh0",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container px-4 md:px-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "kespot0zb",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-center justify-center space-y-4 text-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "k6vhzhuas",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1102zoi0m",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-3xl font-bold tracking-tighter sm:text-5xl text-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727219418954l9kp889ue",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Featured Projects"
+                                }
+                                
+                              }
+                            ]
+                            
+                          },
+                          {
+                            "id": "yuxyytpv6",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727219418955hdsx4kh5o",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Check out some of my recent projects and the technologies I used to build them."
+                                }
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  },
+                  {
+                    "id": "rf34d8xgp",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "lng02n6js",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "w2aks53k9",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "j0vamtvz4",
+                                "name": "img",
+                                "type": "img",
+                                "props": {
+                                  "src": "/placeholder.svg",
+                                  "width": "550",
+                                  "height": "310",
+                                  "alt": "Project 1",
+                                  "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                                
+                              }
+                            ]
+                            
+                          },
+                          {
+                            "id": "m5w1ebf04",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "towh6vs0y",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "space-y-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "lmqsu1xze",
+                                    "name": "h3",
+                                    "type": "h3",
+                                    "props": {
+                                      "className": "text-xl font-bold text-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219418962y1m5e3nfh",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Project 1"
+                                        }
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "u281oyl0s",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "17272194189621dbt4gxpa",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "A fullstack web application built with Next.js, Node.js, and MongoDB."
+                                        }
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "fkyybeubw",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex gap-2 text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "nb3ly1sip",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex items-center"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "tz9mbmy2b",
+                                            "name": "CodepenIcon",
+                                            "type": "CodepenIcon",
+                                            "props": {
+                                              "className": "w-4 h-4 mr-1"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                            
+                                          },
+                                          {
+                                            "id": "1727219418963m8zy4z2vk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "React"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      },
+                                      {
+                                        "id": "dd6vayjey",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex items-center"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "jjsfjvbvz",
+                                            "name": "NetworkIcon",
+                                            "type": "NetworkIcon",
+                                            "props": {
+                                              "className": "w-4 h-4 mr-1"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                            
+                                          },
+                                          {
+                                            "id": "1727219418964t59mgsfwy",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Node.js"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      },
+                                      {
+                                        "id": "er1j0tblf",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex items-center"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "71mnm2lln",
+                                            "name": "DatabaseIcon",
+                                            "type": "DatabaseIcon",
+                                            "props": {
+                                              "className": "w-4 h-4 mr-1"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                            
+                                          },
+                                          {
+                                            "id": "1727219418965zq4rrsslz",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "MongoDB"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  }
+                                ]
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "sundlbota",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "l14bib22f",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "hmprrdpex",
+                                "name": "img",
+                                "type": "img",
+                                "props": {
+                                  "src": "/placeholder.svg",
+                                  "width": "550",
+                                  "height": "310",
+                                  "alt": "Project 2",
+                                  "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                                
+                              }
+                            ]
+                            
+                          },
+                          {
+                            "id": "hkvc7bctt",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "dwbvenbja",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "space-y-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "o3s491j2t",
+                                    "name": "h3",
+                                    "type": "h3",
+                                    "props": {
+                                      "className": "text-xl font-bold text-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "17272194189698ojocp0np",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Project 2"
+                                        }
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "81fnqgrnn",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219418970wnlr4alkw",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "A mobile-first e-commerce application built with React Native and Firebase."
+                                        }
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "eadc65tl0",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex gap-2 text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "vil3kuulr",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex items-center"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "qssu46h5e",
+                                            "name": "CodepenIcon",
+                                            "type": "CodepenIcon",
+                                            "props": {
+                                              "className": "w-4 h-4 mr-1"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                            
+                                          },
+                                          {
+                                            "id": "1727219418970ouqpuswfo",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "React Native"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      },
+                                      {
+                                        "id": "urmbuzfuf",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex items-center"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "hz32e5zxy",
+                                            "name": "CloudIcon",
+                                            "type": "CloudIcon",
+                                            "props": {
+                                              "className": "w-4 h-4 mr-1"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                            
+                                          },
+                                          {
+                                            "id": "1727219418971019reeo4r",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Firebase"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  }
+                                ]
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "ylbuech06",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "oxtqsln99",
+                            "name": "CardHeader",
+                            "type": "CardHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "lkxmsm2h1",
+                                "name": "img",
+                                "type": "img",
+                                "props": {
+                                  "src": "/placeholder.svg",
+                                  "width": "550",
+                                  "height": "310",
+                                  "alt": "Project 3",
+                                  "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                                
+                              }
+                            ]
+                            
+                          },
+                          {
+                            "id": "uncepx9ui",
+                            "name": "CardContent",
+                            "type": "CardContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "n8dux18lf",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "space-y-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "o6qr992n0",
+                                    "name": "h3",
+                                    "type": "h3",
+                                    "props": {
+                                      "className": "text-xl font-bold text-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219418975h5htvp2yl",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Project 3"
+                                        }
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "pp2u5o08k",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219418975l66w83aeh",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "A real-time chat application built with Socket.IO, Node.js, and React."
+                                        }
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "taloqz5x6",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex gap-2 text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1w9n97pgf",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex items-center"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "n3wu1kcbo",
+                                            "name": "CodepenIcon",
+                                            "type": "CodepenIcon",
+                                            "props": {
+                                              "className": "w-4 h-4 mr-1"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                            
+                                          },
+                                          {
+                                            "id": "17272194189769dq01tgh0",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "React"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      },
+                                      {
+                                        "id": "mm9jp0ysq",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex items-center"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "pithyro1z",
+                                            "name": "NetworkIcon",
+                                            "type": "NetworkIcon",
+                                            "props": {
+                                              "className": "w-4 h-4 mr-1"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                            
+                                          },
+                                          {
+                                            "id": "1727219418977tvqeiqox7",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Node.js"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      },
+                                      {
+                                        "id": "qv9asuqtm",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex items-center"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "3bq83durs",
+                                            "name": "ServerIcon",
+                                            "type": "ServerIcon",
+                                            "props": {
+                                              "className": "w-4 h-4 mr-1"
+                                            },
+                                            "allowsChildren": true,
+                                            "children": []
+                                            
+                                          },
+                                          {
+                                            "id": "1727219418977qk4qfygsf",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Socket.IO"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  }
+                                ]
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  }
+                ]
+                
+              }
+            ]
+            
+          },
+          {
+            "id": "nozgvleeu",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32 bg-background"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "c21nwz3bz",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container px-4 md:px-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "ps1d5827c",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "rpvx364ck",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex flex-col justify-center space-y-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "oj2egjbew",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "space-y-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "xx8qrv3vj",
+                                "name": "h2",
+                                "type": "h2",
+                                "props": {
+                                  "className": "text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272194189893dlux8a3s",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "About Me"
+                                    }
+                                    
+                                  }
+                                ]
+                                
+                              },
+                              {
+                                "id": "sxw7wf0df",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "max-w-[600px] text-muted-foreground md:text-xl"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "172721941899000dztu7av",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "I'm a passionate fullstack developer with over 5 years of experience in building modern web\n                    applications. I have a strong background in React, Node.js, and MongoDB, and I'm always eager to\n                    learn new technologies and techniques."
+                                    }
+                                    
+                                  }
+                                ]
+                                
+                              },
+                              {
+                                "id": "ezsbir7k1",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "max-w-[600px] text-muted-foreground md:text-xl"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219418991vszqknfjb",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "In my free time, I enjoy contributing to open-source projects, attending local meetups, and staying\n                    up-to-date with the latest industry trends. I'm a firm believer in writing clean, maintainable code\n                    and following best practices."
+                                    }
+                                    
+                                  }
+                                ]
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "i2fwaj8ek",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex flex-col justify-center space-y-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "fupvax6sb",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "space-y-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "udh21n8ny",
+                                "name": "h2",
+                                "type": "h2",
+                                "props": {
+                                  "className": "text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219419011cyx2n5c7n",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Skills"
+                                    }
+                                    
+                                  }
+                                ]
+                                
+                              },
+                              {
+                                "id": "i1y3yh50w",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid grid-cols-2 gap-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "zgxqtzy51",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "4qkh54vkn",
+                                        "name": "CodepenIcon",
+                                        "type": "CodepenIcon",
+                                        "props": {
+                                          "className": "w-6 h-6 text-primary"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                        
+                                      },
+                                      {
+                                        "id": "513cnpg5s",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "17272194190143y9f4wjl8",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "React"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "2w52gv792",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "3670y5gny",
+                                        "name": "NetworkIcon",
+                                        "type": "NetworkIcon",
+                                        "props": {
+                                          "className": "w-6 h-6 text-primary"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                        
+                                      },
+                                      {
+                                        "id": "qeywrdgdv",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "1727219419016or1toeo1b",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Node.js"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "2hne1cn9y",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "xd20762zt",
+                                        "name": "DatabaseIcon",
+                                        "type": "DatabaseIcon",
+                                        "props": {
+                                          "className": "w-6 h-6 text-primary"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                        
+                                      },
+                                      {
+                                        "id": "8yp4bqug3",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "172721941901954gyr3xwm",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "MongoDB"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "uhox1pvkl",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "jdmt22zyy",
+                                        "name": "CodepenIcon",
+                                        "type": "CodepenIcon",
+                                        "props": {
+                                          "className": "w-6 h-6 text-primary"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                        
+                                      },
+                                      {
+                                        "id": "i2nqh3iw1",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "1727219419021gh2aqhx1c",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Next.js"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "zg8g89azs",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "nlx6h8fqb",
+                                        "name": "XIcon",
+                                        "type": "XIcon",
+                                        "props": {
+                                          "className": "w-6 h-6 text-primary"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                        
+                                      },
+                                      {
+                                        "id": "x1mu6k5hj",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "17272194190227bctwq3fj",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Express"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  },
+                                  {
+                                    "id": "rni3tbxpd",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "uzo8iq9qd",
+                                        "name": "CloudIcon",
+                                        "type": "CloudIcon",
+                                        "props": {
+                                          "className": "w-6 h-6 text-primary"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                        
+                                      },
+                                      {
+                                        "id": "6ek6xru71",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "1727219419023hi3lfdruj",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Firebase"
+                                            }
+                                            
+                                          }
+                                        ]
+                                        
+                                      }
+                                    ]
+                                    
+                                  }
+                                ]
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  }
+                ]
+                
+              }
+            ]
+            
+          },
+          {
+            "id": "a0ckvoele",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32 bg-muted"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "30igaqusg",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container px-4 md:px-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "z3gmp2jcf",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-center justify-center space-y-4 text-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1361dica9",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "5dzz3nmep",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-3xl font-bold tracking-tighter sm:text-5xl text-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727219419029ljfdk90rc",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Get in Touch"
+                                }
+                                
+                              }
+                            ]
+                            
+                          },
+                          {
+                            "id": "9ce3gwj36",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "172721941902922zc63387",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Have a project in mind or just want to say hello? Fill out the form below and I'll get back to you as\n                  soon as possible."
+                                }
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      },
+                      {
+                        "id": "utjr93ds3",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "mx-auto w-full max-w-sm space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "zf2hf9htu",
+                            "name": "form",
+                            "type": "form",
+                            "props": {
+                              "className": "flex flex-col gap-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1yeni063q",
+                                "name": "Input",
+                                "type": "Input",
+                                "props": {
+                                  "type": "text",
+                                  "placeholder": "Name",
+                                  "className": "max-w-lg flex-1"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                                
+                              },
+                              {
+                                "id": "dfuem4i25",
+                                "name": "Input",
+                                "type": "Input",
+                                "props": {
+                                  "type": "email",
+                                  "placeholder": "Email",
+                                  "className": "max-w-lg flex-1"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                                
+                              },
+                              {
+                                "id": "efhifnsfq",
+                                "name": "Textarea",
+                                "type": "Textarea",
+                                "props": {
+                                  "placeholder": "Message",
+                                  "className": "max-w-lg flex-1"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                                
+                              },
+                              {
+                                "id": "svrt4hlki",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "type": "submit",
+                                  "className": "self-start"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219419031vypmubse2",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Submit"
+                                    }
+                                    
+                                  }
+                                ]
+                                
+                              }
+                            ]
+                            
+                          }
+                        ]
+                        
+                      }
+                    ]
+                    
+                  }
+                ]
+                
+              }
+            ]
+            
+          }
+        ]
+        
+      },
+      {
+        "id": "96op661w4",
+        "name": "footer",
+        "type": "footer",
+        "props": {
+          "className": "flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "pdf9yffvu",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-xs text-muted-foreground"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "17272194190340snxwbu6p",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "© 2024 John Doe. All rights reserved."
+                }
+                
+              }
+            ]
+            
+          },
+          {
+            "id": "f6zecvs8m",
+            "name": "nav",
+            "type": "nav",
+            "props": {
+              "className": "sm:ml-auto flex gap-4 sm:gap-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "1wl06pmzq",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "text-xs hover:underline underline-offset-4 text-muted-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727219419036ocy1nwmpq",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Terms of Service"
+                    }
+                    
+                  }
+                ]
+                
+              },
+              {
+                "id": "xtz5x398b",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "text-xs hover:underline underline-offset-4 text-muted-foreground",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727219419036cbgy0or1k",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Privacy Policy"
+                    }
+                    
+                  }
+                ]
+                
+              }
+            ]
+            
+          }
+        ]
+        
+      }
+    ]
+    
+  }
+]

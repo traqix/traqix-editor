@@ -11,11 +11,11 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { X } from "lucide-react";
-import LayoutBuilder from "./layout-builder";
-import { PickerBackground } from "@/components/picker-background";
+// import LayoutBuilder from "./layout-builder";
+// import { PickerBackground } from "@/components/picker-background";
 import { ScrollArea } from "@/components/ui/scroll-area";
-
-import { TreeItem } from "../types";
+import type { TreeItem } from "@/app/(main)/(editor)/types";
+import { Separator } from "@/components/ui/separator";
 
 interface RightSidebarProps {
   selectedItem: TreeItem | null;
@@ -24,12 +24,16 @@ interface RightSidebarProps {
 
 interface ComponentOptionsProps {
   selectedItem: TreeItem | null;
-  onUpdate: (id: string, updates: Partial<TreeItem>) => void;
+  onUpdate: (id: string, updates: Partial<TreeItem>, tree: TreeItem[], setTree: (key: string, value: any) => void) => void;
+  tree: TreeItem[];
+  setTree: (key: string, value: any) => void;
 }
 
-export const ComponentOptions: React.FC<ComponentOptionsProps> = ({
+export const EditorRight: React.FC<ComponentOptionsProps> = ({
   selectedItem,
   onUpdate,
+  tree,
+  setTree,
 }) => {
   const [classes, setClasses] = useState<string[]>([]);
   const [newClass, setNewClass] = useState("");
@@ -49,7 +53,7 @@ export const ComponentOptions: React.FC<ComponentOptionsProps> = ({
     console.log("selectedItem", selectedItem, key);
     onUpdate(selectedItem.id, {
       props: { ...selectedItem.props, [key]: value },
-    });
+    }, tree, setTree);
   };
 
   function handleChangeBackground(background: any) {
@@ -179,9 +183,10 @@ export const ComponentOptions: React.FC<ComponentOptionsProps> = ({
   );
 
   return (
-    <div className="space-y-4 p-4">
-      <h3 className="text-lg font-semibold">{selectedItem.name} Options</h3>
-
+    <div className="space-y-4 mt-4">
+      <Separator />
+      <h3 className="text-lg font-semibold">{selectedItem.name?.toUpperCase()} Options</h3>
+      <p className="text-md font-normal">Type: {selectedItem.type?.toUpperCase()}</p>
       <Tabs defaultValue="classes">
         <TabsList>
           <TabsTrigger value="classes">Classes</TabsTrigger>
@@ -249,7 +254,7 @@ export const ComponentOptions: React.FC<ComponentOptionsProps> = ({
           </div>
         </TabsContent>
 
-        {(selectedItem.type === "div" || selectedItem.type === "section") && (
+        {/* {(selectedItem.type === "div" || selectedItem.type === "section") && (
           <TabsContent value="layout">
             <PickerBackground
               background={background}
@@ -262,7 +267,7 @@ export const ComponentOptions: React.FC<ComponentOptionsProps> = ({
             />
             {renderClassOptions(layoutOptions, "Layout Options")}
           </TabsContent>
-        )}
+        )} */}
       </Tabs>
 
       {selectedItem.type === "button" && (
@@ -307,11 +312,12 @@ const RightSidebar: React.FC<RightSidebarProps> = ({
   onUpdate,
 }) => {
   return (
-    <aside className="w-96 p-4 py-0 overflow-y-auto">
+    <aside className="hidden w-96 p-4 py-0 overflow-y-auto">
       <div className="space-y-2 p-4 pt-2 rounded-xl border-[0.5px] dark:border-gray-800">
         <h2 className="text-lg font-semibold mb-4">Component Options</h2>
         <ScrollArea className="h-[calc(100vh-10rem)]">
-          <ComponentOptions selectedItem={selectedItem} onUpdate={onUpdate} />
+          {/* <ComponentOptions selectedItem={selectedItem} onUpdate={onUpdate} /> */}
+          pp
         </ScrollArea>
       </div>
     </aside>

@@ -1,0 +1,654 @@
+[
+  {
+    "id": "heipj1m1c",
+    "name": "Kanban Section",
+    "type": "div",
+    "props": {
+      "className": "grid grid-cols-3 gap-4 p-4"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "csm3exo7v",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "bg-card rounded-lg shadow"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "svokwugcu",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-card-foreground text-card px-4 py-3 font-medium rounded-t-lg"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "1727219973381qj06rqods",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "To Do"
+                }
+              }
+            ]
+          },
+          {
+            "id": "sptrl9xaz",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "p-4 space-y-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "f9691zz6q",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-background rounded-lg shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "xflgm7wan",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "p-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "onjy6oe74",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272199733874grci27wl",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Finish wireframes"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "jt4nrecn7",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "172721997338740mv442l6",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Complete the initial wireframes for the new homepage design."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "tjvw85iqm",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-background rounded-lg shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1le7npv4v",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "p-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "tst17l4wp",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973389xu6tr3vq7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Review content strategy"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "aaqji3w4m",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973391eddncfkfr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Discuss the content strategy with the marketing team."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "o9xt163ab",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-background rounded-lg shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "gycjgioet",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "p-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "qskomaeco",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973393v43a693en",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Set up project management tool"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "o9mjs4ezm",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973394s7fqt4qs2",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Integrate the new project management tool with the team."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1wbzmszxj",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "bg-card rounded-lg shadow"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "6vhf3l37p",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-card-foreground text-card px-4 py-3 font-medium rounded-t-lg"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "1727219973396wwerynhy8",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "In Progress"
+                }
+              }
+            ]
+          },
+          {
+            "id": "t09lcslvk",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "p-4 space-y-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "2yprk2u6b",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-background rounded-lg shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "xwsiqz1v0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "p-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "xam5tzdwv",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973401wgrvaicbw",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Develop new homepage"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "k8van3lzg",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973401ku664q07q",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Lorem ipsum"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cbiadmxgc",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-background rounded-lg shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "6w8smsyq9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "p-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "whohr4qbr",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973403klci4wt7n",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Optimize website performance"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "r4rfqcz56",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973404nfwqy76sf",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Implement performance optimizations to improve website speed."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "np8h457sh",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "bg-card rounded-lg shadow"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "xypvrgfbu",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-card-foreground text-card px-4 py-3 font-medium rounded-t-lg"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "1727219973405qpp6ubn4y",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Done"
+                }
+              }
+            ]
+          },
+          {
+            "id": "0ahnwkuen",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "p-4 space-y-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "twrl2xma7",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-background rounded-lg shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "ljesmbbf8",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "p-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "fbmrihyl2",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973407pdagh26nn",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Conduct user research"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tgpha4ra0",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973408dacakrgs7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Gather user feedback and insights through interviews and surveys."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "n45a9anom",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-background rounded-lg shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "21fluo283",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "p-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "cm0ac8d7g",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973409vk6rdw81w",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Finalize branding guidelines"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ht3xc9t6o",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973409jg1qnc96j",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Establish the new branding guidelines for the company."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "zp95yk77t",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-background rounded-lg shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "qlima409d",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "p-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ypu47xr2f",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272199734100zn6wiv9d",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Launch new website"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "hq09jkzfw",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219973410xnnf9nead",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Deploy the new website and announce the launch to the public."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

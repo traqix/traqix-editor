@@ -1,0 +1,133 @@
+[
+  {
+    "id": "header-section",
+    "name": "Header Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-indigo-500\" />",
+    "props": {
+      "className": "bg-white shadow-md py-4"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "header-container",
+        "name": "Header Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-200\" />",
+        "props": {
+          "className": "container mx-auto flex justify-between items-center px-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "logo",
+            "name": "Logo",
+            "type": "img",
+            "icon": "<div className=\"h-4 w-4 rounded bg-indigo-300\" />",
+            "props": {
+              "src": "https://github.com/shadcn.png",
+              "alt": "Company Logo",
+              "className": "h-10"
+            },
+            "allowsChildren": false
+          },
+          {
+            "id": "nav-menu",
+            "name": "Navigation Menu",
+            "type": "nav",
+            "icon": "<div className=\"h-4 w-4 rounded bg-indigo-200\" />",
+            "props": {
+              "className": "flex space-x-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "nav-item-home",
+                "name": "Nav Item - Home",
+                "type": "a",
+                "icon": "<div className=\"h-4 w-4 rounded bg-indigo-400\" />",
+                "props": {
+                  "href": "#",
+                  "className": "text-gray-700 hover:text-indigo-600"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-nav-item-home",
+                    "name": "Text Nav Item - Home",
+                    "type": "text",
+                    "props": {
+                      "content": "Home"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "nav-item-about",
+                "name": "Nav Item - About",
+                "type": "a",
+                "icon": "<div className=\"h-4 w-4 rounded bg-indigo-400\" />",
+                "props": {
+                  "href": "#",
+                  "className": "text-gray-700 hover:text-indigo-600"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-nav-item-about",
+                    "name": "Text Nav Item - About",
+                    "type": "text",
+                    "props": {
+                      "content": "About"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "nav-item-contact",
+                "name": "Nav Item - Contact",
+                "type": "a",
+                "icon": "<div className=\"h-4 w-4 rounded bg-indigo-400\" />",
+                "props": {
+                  "href": "#",
+                  "className": "text-gray-700 hover:text-indigo-600"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-nav-item-contact",
+                    "name": "Text Nav Item - Contact",
+                    "type": "text",
+                    "props": {
+                      "content": "Contact"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "header-cta",
+            "name": "Header CTA",
+            "type": "button",
+            "icon": "<div className=\"h-4 w-4 rounded bg-indigo-600\" />",
+            "props": {
+              "className": "bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-header-cta",
+                "name": "Text Header CTA",
+                "type": "text",
+                "props": {
+                  "content": "Get Started"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "feature-section",
+    "name": "Feature Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-teal-500\" />",
+    "props": {
+      "className": "bg-white py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "feature-container",
+        "name": "Feature Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+        "props": {
+          "className": "container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "feature-item-1",
+            "name": "Feature Item 1",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-indigo-500\" />",
+            "props": {
+              "className": "text-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "feature-icon-1",
+                "name": "Feature Icon 1",
+                "type": "icon",
+                "icon": "<div className=\"h-4 w-4 rounded bg-blue-500\" />",
+                "props": {
+                  "className": "mb-4 text-indigo-600"
+                },
+                "allowsChildren": false
+              },
+              {
+                "id": "feature-title-1",
+                "name": "Feature Title 1",
+                "type": "h3",
+                "icon": "<div className=\"h-4 w-4 rounded bg-indigo-300\" />",
+                "props": {
+                  "className": "text-lg font-semibold text-gray-900"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-feature-title-1",
+                    "name": "Text Feature Title 1",
+                    "type": "text",
+                    "props": {
+                      "content": "Fast Performance"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "feature-description-1",
+                "name": "Feature Description 1",
+                "type": "p",
+                "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+                "props": {
+                  "className": "mt-2 text-gray-600"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-feature-description-1",
+                    "name": "Text Feature Description 1",
+                    "type": "text",
+                    "props": {
+                      "content": "Optimized for speed and efficiency."
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "feature-item-1",
+            "name": "Feature Item 1",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-indigo-500\" />",
+            "props": {
+              "className": "text-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "feature-icon-1",
+                "name": "Feature Icon 1",
+                "type": "icon",
+                "icon": "<div className=\"h-4 w-4 rounded bg-blue-500\" />",
+                "props": {
+                  "className": "mb-4 text-indigo-600"
+                },
+                "allowsChildren": false
+              },
+              {
+                "id": "feature-title-1",
+                "name": "Feature Title 1",
+                "type": "h3",
+                "icon": "<div className=\"h-4 w-4 rounded bg-indigo-300\" />",
+                "props": {
+                  "className": "text-lg font-semibold text-gray-900"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-feature-title-1",
+                    "name": "Text Feature Title 1",
+                    "type": "text",
+                    "props": {
+                      "content": "Fast Performance"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "feature-description-1",
+                "name": "Feature Description 1",
+                "type": "p",
+                "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+                "props": {
+                  "className": "mt-2 text-gray-600"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-feature-description-1",
+                    "name": "Text Feature Description 1",
+                    "type": "text",
+                    "props": {
+                      "content": "Optimized for speed and efficiency."
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "feature-item-1",
+            "name": "Feature Item 1",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-indigo-500\" />",
+            "props": {
+              "className": "text-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "feature-icon-1",
+                "name": "Feature Icon 1",
+                "type": "icon",
+                "icon": "<div className=\"h-4 w-4 rounded bg-blue-500\" />",
+                "props": {
+                  "className": "mb-4 text-indigo-600"
+                },
+                "allowsChildren": false
+              },
+              {
+                "id": "feature-title-1",
+                "name": "Feature Title 1",
+                "type": "h3",
+                "icon": "<div className=\"h-4 w-4 rounded bg-indigo-300\" />",
+                "props": {
+                  "className": "text-lg font-semibold text-gray-900"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-feature-title-1",
+                    "name": "Text Feature Title 1",
+                    "type": "text",
+                    "props": {
+                      "content": "Fast Performance"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "feature-description-1",
+                "name": "Feature Description 1",
+                "type": "p",
+                "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+                "props": {
+                  "className": "mt-2 text-gray-600"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-feature-description-1",
+                    "name": "Text Feature Description 1",
+                    "type": "text",
+                    "props": {
+                      "content": "Optimized for speed and efficiency."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

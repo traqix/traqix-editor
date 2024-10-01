@@ -1,0 +1,2095 @@
+[
+  {
+    "id": "lo5ymn9az",
+    "name": "MiniApp Section",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col h-screen bg-background"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "osr8yyb2p",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "lxb2o5hwg",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center gap-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "3ndhy4znk",
+                "name": "BookIcon",
+                "type": "BookIcon",
+                "props": {
+                  "className": "w-8 h-8"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "syr2ri1iy",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "text-2xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727219574797h9q3jbfuk",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Bible App"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "87s3ix5b9",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center gap-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "t1jjm5grc",
+                "name": "DropdownMenu",
+                "type": "DropdownMenu",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "od50blubd",
+                    "name": "DropdownMenuTrigger",
+                    "type": "DropdownMenuTrigger",
+                    "props": {
+                      "asChild": true
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "v5x6k3xaw",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "variant": "ghost",
+                          "size": "icon"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "izcgvutde",
+                            "name": "ImportIcon",
+                            "type": "ImportIcon",
+                            "props": {
+                              "className": "w-6 h-6"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "sm2t0ob69",
+                            "name": "span",
+                            "type": "span",
+                            "props": {
+                              "className": "sr-only"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727219574803d1igzk38e",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Language"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "9sb3tw4lp",
+                    "name": "DropdownMenuContent",
+                    "type": "DropdownMenuContent",
+                    "props": {
+                      "align": "end"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "a0l5hxadb",
+                        "name": "DropdownMenuLabel",
+                        "type": "DropdownMenuLabel",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574804vdvydked3",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Select Language"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "h3a5yui7f",
+                        "name": "DropdownMenuSeparator",
+                        "type": "DropdownMenuSeparator",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "sl4zzq1jy",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272195748058pldg3bcv",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "English"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "f9ijl0t7y",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574805ut0x9ncd4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Spanish"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "oe191a56a",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574805ft1aakjnd",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "French"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "c2nijl3lj",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574806tujbwkfgl",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "German"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "jbn99msh8",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574806vnnk6w32m",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Chinese"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ldgijabgd",
+                "name": "DropdownMenu",
+                "type": "DropdownMenu",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "dpla4pz99",
+                    "name": "DropdownMenuTrigger",
+                    "type": "DropdownMenuTrigger",
+                    "props": {
+                      "asChild": true
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "hqbov3gvf",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "variant": "ghost",
+                          "size": "icon"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "rkqntag9z",
+                            "name": "SettingsIcon",
+                            "type": "SettingsIcon",
+                            "props": {
+                              "className": "w-6 h-6"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "ghfyzipzs",
+                            "name": "span",
+                            "type": "span",
+                            "props": {
+                              "className": "sr-only"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727219574810eibktuubr",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Settings"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "w502xfjok",
+                    "name": "DropdownMenuContent",
+                    "type": "DropdownMenuContent",
+                    "props": {
+                      "align": "end"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "5yrq2rd6x",
+                        "name": "DropdownMenuLabel",
+                        "type": "DropdownMenuLabel",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574811un6r4ndn4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Settings"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "0r9mqz7ru",
+                        "name": "DropdownMenuSeparator",
+                        "type": "DropdownMenuSeparator",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "er3ct2ru0",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272195748127qvxrjkx6",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Appearance"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "rfrqpj5bl",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574812plrynq8on",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Notifications"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "qyplmblb4",
+                        "name": "DropdownMenuItem",
+                        "type": "DropdownMenuItem",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272195748135x3hbtowj",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Privacy"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "laxfziq35",
+        "name": "main",
+        "type": "main",
+        "props": {
+          "className": "flex-1 grid grid-cols-[240px_1fr] gap-6 p-6"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "uod6ghew3",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-card text-card-foreground rounded-lg shadow-md p-6 flex flex-col gap-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "l18pdiob9",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center gap-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "l9dabjjjo",
+                    "name": "BookIcon",
+                    "type": "BookIcon",
+                    "props": {
+                      "className": "w-6 h-6"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "yshvddbyq",
+                    "name": "h2",
+                    "type": "h2",
+                    "props": {
+                      "className": "text-xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727219574830h7mzwvl0j",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Explore"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "omhl3fcqa",
+                "name": "nav",
+                "type": "nav",
+                "props": {
+                  "className": "flex flex-col gap-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "3d1jbdg64",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex items-center gap-2 hover:bg-card-hover p-2 rounded-md",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "w2lwatk2t",
+                        "name": "HomeIcon",
+                        "type": "HomeIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "50d0ux8qk",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574833nc045fvsu",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Home"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2iq1fq6dg",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex items-center gap-2 hover:bg-card-hover p-2 rounded-md",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "sj2gq9j9c",
+                        "name": "BookOpenIcon",
+                        "type": "BookOpenIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "9qm0jwwt0",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574835qjjlg740t",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Bible"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wjcrli1v0",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex items-center gap-2 hover:bg-card-hover p-2 rounded-md",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "i0pelz6gm",
+                        "name": "SearchIcon",
+                        "type": "SearchIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "rby8hw0bn",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574836ajq6640qw",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Search"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "6vlzfwh40",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex items-center gap-2 hover:bg-card-hover p-2 rounded-md",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "8zldry644",
+                        "name": "BookmarkIcon",
+                        "type": "BookmarkIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "13rss6gb6",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574838cw7lfnsob",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Bookmarks"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "jnh40ezm7",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex items-center gap-2 hover:bg-card-hover p-2 rounded-md",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ft5dnre5d",
+                        "name": "CalendarIcon",
+                        "type": "CalendarIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "pndzs88ly",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574839qyszxpute",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Daily Verse"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "p78rfvtrg",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex items-center gap-2 hover:bg-card-hover p-2 rounded-md",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "jahvxn36q",
+                        "name": "LinkIcon",
+                        "type": "LinkIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "zbf0vtpu4",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574840lvhgtg7qx",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Recommendations"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "684ix42ow",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center gap-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "hmjf9mlrt",
+                    "name": "DownloadIcon",
+                    "type": "DownloadIcon",
+                    "props": {
+                      "className": "w-6 h-6"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "jwg5grnkc",
+                    "name": "h2",
+                    "type": "h2",
+                    "props": {
+                      "className": "text-xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "172721957484297z6hi4e0",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Offline"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "qg823l0ry",
+                "name": "nav",
+                "type": "nav",
+                "props": {
+                  "className": "flex flex-col gap-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "jc8n8ld93",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex items-center gap-2 hover:bg-card-hover p-2 rounded-md",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "oo4s5idmh",
+                        "name": "DownloadIcon",
+                        "type": "DownloadIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "mdijxfj7x",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272195748433k2o7epfc",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Download Versions"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "x2q64m74t",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex items-center gap-2 hover:bg-card-hover p-2 rounded-md",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ujgxz7xvr",
+                        "name": "FolderSyncIcon",
+                        "type": "FolderSyncIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "c8x8jj4qs",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574844xnjz9jeby",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Sync Progress"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "9wxna5qa6",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-card text-card-foreground rounded-lg shadow-md p-6 flex flex-col gap-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "6z9n4ipx3",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center justify-between"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "525kjlv5a",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "5q7m0ri4l",
+                        "name": "BookOpenIcon",
+                        "type": "BookOpenIcon",
+                        "props": {
+                          "className": "w-6 h-6"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "jwyazqxz9",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-xl font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574862o76psc83s",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Bible"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yx5x5u5ei",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ukii1u5ls",
+                        "name": "DropdownMenu",
+                        "type": "DropdownMenu",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "eyrtaw6qm",
+                            "name": "DropdownMenuTrigger",
+                            "type": "DropdownMenuTrigger",
+                            "props": {
+                              "asChild": true
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "cudfbvcu8",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "variant": "outline",
+                                  "size": "sm"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "j57gajmgf",
+                                    "name": "ImportIcon",
+                                    "type": "ImportIcon",
+                                    "props": {
+                                      "className": "w-4 h-4 mr-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "0d7nxjqfg",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574868uav691crd",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Version"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "ntdz7urdx",
+                                    "name": "ChevronsUpDownIcon",
+                                    "type": "ChevronsUpDownIcon",
+                                    "props": {
+                                      "className": "w-4 h-4 ml-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "8stv737yz",
+                            "name": "DropdownMenuContent",
+                            "type": "DropdownMenuContent",
+                            "props": {
+                              "align": "end"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "sg0nimzjl",
+                                "name": "DropdownMenuLabel",
+                                "type": "DropdownMenuLabel",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272195748700g6ipx2ac",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Select Version"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "vubf21ge9",
+                                "name": "DropdownMenuSeparator",
+                                "type": "DropdownMenuSeparator",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "sm6freesm",
+                                "name": "DropdownMenuItem",
+                                "type": "DropdownMenuItem",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219574870xxt7qmc7n",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "King James Version (KJV)"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "m22ckpxcr",
+                                "name": "DropdownMenuItem",
+                                "type": "DropdownMenuItem",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219574870u19fh8z5b",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "New International Version (NIV)"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "gnn2aqk6t",
+                                "name": "DropdownMenuItem",
+                                "type": "DropdownMenuItem",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272195748706ax741u0u",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "English Standard Version (ESV)"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "1rqnwtc2a",
+                                "name": "DropdownMenuItem",
+                                "type": "DropdownMenuItem",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219574870c36ebaj0i",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "New Living Translation (NLT)"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "idhgsfisl",
+                                "name": "DropdownMenuItem",
+                                "type": "DropdownMenuItem",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219574871si3t613km",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Douay-Rheims Bible (DRB)"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "qiixn3asm",
+                        "name": "DropdownMenu",
+                        "type": "DropdownMenu",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "45414xvrc",
+                            "name": "DropdownMenuTrigger",
+                            "type": "DropdownMenuTrigger",
+                            "props": {
+                              "asChild": true
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1up3zcm9q",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "variant": "outline",
+                                  "size": "sm"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "god18od5f",
+                                    "name": "FilterIcon",
+                                    "type": "FilterIcon",
+                                    "props": {
+                                      "className": "w-4 h-4 mr-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "jdiqvgyof",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574874m5ciob7k9",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Filter"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "0vnrakuie",
+                                    "name": "ChevronsUpDownIcon",
+                                    "type": "ChevronsUpDownIcon",
+                                    "props": {
+                                      "className": "w-4 h-4 ml-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "0nua3jmqd",
+                            "name": "DropdownMenuContent",
+                            "type": "DropdownMenuContent",
+                            "props": {
+                              "align": "end"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "nfr6jdvdn",
+                                "name": "DropdownMenuLabel",
+                                "type": "DropdownMenuLabel",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219574875vs252fqt2",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Filter Options"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "7eid77at3",
+                                "name": "DropdownMenuSeparator",
+                                "type": "DropdownMenuSeparator",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "1356y26vf",
+                                "name": "DropdownMenuItem",
+                                "type": "DropdownMenuItem",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "je4mlg302",
+                                    "name": "Checkbox",
+                                    "type": "Checkbox",
+                                    "props": {
+                                      "checked": true
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "koiuyi0bh",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "17272195748759gkt9w86s",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Old Testament"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "kpndfmfh8",
+                                "name": "DropdownMenuItem",
+                                "type": "DropdownMenuItem",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "aw7a9mzms",
+                                    "name": "Checkbox",
+                                    "type": "Checkbox",
+                                    "props": {
+                                      "checked": true
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "qjgafogen",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574876wtide7uxr",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "New Testament"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "smgi5hrzl",
+                                "name": "DropdownMenuItem",
+                                "type": "DropdownMenuItem",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "q24whl43p",
+                                    "name": "Checkbox",
+                                    "type": "Checkbox",
+                                    "props": {
+                                      "checked": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "20t2ohfcr",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574878ldgfam90u",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Apocrypha"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "3jq4sj7yc",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid gap-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "grys2k65e",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-muted/20 p-4 rounded-md"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "j5rssipm7",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "text-lg font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574884yh8hvdknv",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Today's Verse"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "3er19ooft",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "mt-2 text-xl font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574885yyozdblv8",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "\"For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should\n                not perish, but have everlasting life.\""
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tshb3fhtr",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "mt-2 text-sm text-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574885mbjd3c9ej",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "John 3:16"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q6ef4vxks",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-muted/20 p-4 rounded-md"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "vg1vmt8cu",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "text-lg font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574888h3k1p1d46",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Recommended for You"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "xgrurnm06",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "mt-2 grid gap-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "putye3psm",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "20cy6suwc",
+                                "name": "LinkIcon",
+                                "type": "LinkIcon",
+                                "props": {
+                                  "className": "w-5 h-5"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "fkhuy8po5",
+                                "name": "div",
+                                "type": "div",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "b0nbqi62u",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "font-medium"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574891p7cjtlgwp",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Overcoming Anxiety"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "g977uo42r",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574891hb4fcph2p",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Philippians 4:6-7"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "efav5n31k",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "ka3nafugj",
+                                "name": "LinkIcon",
+                                "type": "LinkIcon",
+                                "props": {
+                                  "className": "w-5 h-5"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "rvcntl1zm",
+                                "name": "div",
+                                "type": "div",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "yalz239bd",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "font-medium"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "17272195748915d3e5x6nb",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Finding Peace in Troubled Times"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "b6bnf9431",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "17272195748928f9bfvejo",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "John 14:27"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "0bmv9rkah",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "n776un95h",
+                                "name": "LinkIcon",
+                                "type": "LinkIcon",
+                                "props": {
+                                  "className": "w-5 h-5"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "j6013kad8",
+                                "name": "div",
+                                "type": "div",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "h67kzyqmx",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "font-medium"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "172721957489332zg8z6v1",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Trusting in God's Plan"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "jg7b3t1xi",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574893aim5l912s",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Jeremiah 29:11"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "jqosh8u2j",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-muted/20 p-4 rounded-md"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "i5q2i5988",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "text-lg font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "172721957489490jx5lzzr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Search"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "n5n16az5i",
+                        "name": "form",
+                        "type": "form",
+                        "props": {
+                          "className": "mt-2 flex items-center gap-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "ig596q1c6",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "type": "search",
+                              "placeholder": "Search Bible",
+                              "className": "flex-1"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "xxqt8nzqn",
+                            "name": "Button",
+                            "type": "Button",
+                            "props": {
+                              "size": "sm"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "b72r4agvh",
+                                "name": "SearchIcon",
+                                "type": "SearchIcon",
+                                "props": {
+                                  "className": "w-4 h-4"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "a1ancewpp",
+                                "name": "span",
+                                "type": "span",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219574897r7ve7hcpd",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Search"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1fu3fe1mz",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-muted/20 p-4 rounded-md"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ipfiaxh3w",
+                        "name": "h3",
+                        "type": "h3",
+                        "props": {
+                          "className": "text-lg font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727219574900rh4d43srh",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Bookmarks"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "jwyqqaf1i",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "mt-2 grid gap-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "hgq4md6pi",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "b786i7ga1",
+                                "name": "BookmarkIcon",
+                                "type": "BookmarkIcon",
+                                "props": {
+                                  "className": "w-5 h-5"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "glgro75rt",
+                                "name": "div",
+                                "type": "div",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "m7scsvv89",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "font-medium"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574902eqi4i97kr",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Psalm 23"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "sd2xdorfd",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574902d5y4l61l5",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "The Lord is my shepherd"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "zmqb5gldg",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "ahg98a599",
+                                "name": "BookmarkIcon",
+                                "type": "BookmarkIcon",
+                                "props": {
+                                  "className": "w-5 h-5"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "9hf9kdqc9",
+                                "name": "div",
+                                "type": "div",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "zv8jy1mor",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "font-medium"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574903sl34udfqh",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Philippians 4:6-7"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "qtnyuggka",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "17272195749037x2onjdfy",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Do not be anxious about anything"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "yoj5hq7l3",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "bk2x9u2vb",
+                                "name": "BookmarkIcon",
+                                "type": "BookmarkIcon",
+                                "props": {
+                                  "className": "w-5 h-5"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "nohp9g5xg",
+                                "name": "div",
+                                "type": "div",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "bcm5ex3x9",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "font-medium"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "17272195749040kohvpszf",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "John 3:16"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "vphlpmxcu",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219574904jrlz9ju4u",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "For God so loved the world"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "feature-section",
+    "name": "Feature Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-teal-500\" />",
+    "props": {
+      "className": "bg-white py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "feature-container",
+        "name": "Feature Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-200\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "feature-title",
+            "name": "Feature Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-teal-300\" />",
+            "props": {
+              "className": "text-3xl font-bold mb-6"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-feature-title",
+                "name": "Text Feature Title",
+                "type": "text",
+                "props": {
+                  "content": "Key Features"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feature-list",
+            "name": "Feature List",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-teal-200\" />",
+            "props": {
+              "className": "grid grid-cols-1 md:grid-cols-3 gap-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "feature-item-1",
+                "name": "Feature Item",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-teal-400\" />",
+                "props": {
+                  "className": "p-4 border rounded shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "feature-icon-1",
+                    "name": "Feature Icon",
+                    "type": "img",
+                    "props": {
+                      "src": "/icon1.png",
+                      "alt": "Feature 1",
+                      "className": "h-12 mx-auto mb-2"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "feature-description-1",
+                    "name": "Feature Description",
+                    "type": "p",
+                    "props": {
+                      "className": "text-lg"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-feature-description-1",
+                        "name": "Text Feature Description",
+                        "type": "text",
+                        "props": {
+                          "content": "Feature 1 description goes here."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "feature-item-1",
+                "name": "Feature Item",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-teal-400\" />",
+                "props": {
+                  "className": "p-4 border rounded shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "feature-icon-1",
+                    "name": "Feature Icon",
+                    "type": "img",
+                    "props": {
+                      "src": "/icon1.png",
+                      "alt": "Feature 1",
+                      "className": "h-12 mx-auto mb-2"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "feature-description-1",
+                    "name": "Feature Description",
+                    "type": "p",
+                    "props": {
+                      "className": "text-lg"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-feature-description-1",
+                        "name": "Text Feature Description",
+                        "type": "text",
+                        "props": {
+                          "content": "Feature 1 description goes here."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "feature-item-1",
+                "name": "Feature Item",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-teal-400\" />",
+                "props": {
+                  "className": "p-4 border rounded shadow"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "feature-icon-1",
+                    "name": "Feature Icon",
+                    "type": "img",
+                    "props": {
+                      "src": "/icon1.png",
+                      "alt": "Feature 1",
+                      "className": "h-12 mx-auto mb-2"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "feature-description-1",
+                    "name": "Feature Description",
+                    "type": "p",
+                    "props": {
+                      "className": "text-lg"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-feature-description-1",
+                        "name": "Text Feature Description",
+                        "type": "text",
+                        "props": {
+                          "content": "Feature 1 description goes here."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

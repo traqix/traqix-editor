@@ -41,11 +41,11 @@ export default function RootLayout({
 					defer
 					src="https://cdn.tailwindcss.com"
 				/>
-        <Script
+        {/* <Script
 					defer
 					src="https://umami.alwurts.com/script.js"
 					data-website-id="75179c08-085e-4342-a624-9acab944d858"
-				/>
+				/> */}
       </body>
     </html>
   );

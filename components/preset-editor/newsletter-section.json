@@ -1,0 +1,110 @@
+[
+  {
+    "id": "newsletter-section",
+    "name": "Newsletter Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-purple-500\" />",
+    "props": {
+      "className": "bg-purple-700 py-12 text-white"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "newsletter-container",
+        "name": "Newsletter Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "newsletter-title",
+            "name": "Newsletter Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-purple-300\" />",
+            "props": {
+              "className": "text-4xl font-bold mb-4"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-newsletter-title",
+                "name": "Text Newsletter Title",
+                "type": "text",
+                "props": {
+                  "content": "Subscribe to Our Newsletter"
+                }
+              }
+            ]
+          },
+          {
+            "id": "newsletter-description",
+            "name": "Newsletter Description",
+            "type": "p",
+            "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+            "props": {
+              "className": "text-lg mb-6"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-newsletter-description",
+                "name": "Text Newsletter Description",
+                "type": "text",
+                "props": {
+                  "content": "Get the latest updates and exclusive offers directly in your inbox."
+                }
+              }
+            ]
+          },
+          {
+            "id": "newsletter-form",
+            "name": "Newsletter Form",
+            "type": "form",
+            "icon": "<div className=\"h-4 w-4 rounded bg-purple-800\" />",
+            "props": {
+              "className": "flex justify-center items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "newsletter-input",
+                "name": "Newsletter Input",
+                "type": "input",
+                "icon": "<div className=\"h-4 w-4 rounded bg-purple-600\" />",
+                "props": {
+                  "type": "email",
+                  "placeholder": "Enter your email",
+                  "className": "px-4 py-2 rounded-l-lg focus:outline-none"
+                },
+                "allowsChildren": false
+              },
+              {
+                "id": "newsletter-button",
+                "name": "Newsletter Button",
+                "type": "button",
+                "icon": "<div className=\"h-4 w-4 rounded bg-purple-800\" />",
+                "props": {
+                  "className": "bg-white text-purple-600 py-2 px-6 rounded-r-lg font-semibold"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-newsletter-button",
+                    "name": "Text Newsletter Button",
+                    "type": "text",
+                    "props": {
+                      "content": "Subscribe"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

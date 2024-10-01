@@ -1,0 +1,128 @@
+[
+  {
+    "id": "hero-section",
+    "name": "Hero Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-indigo-500\" />",
+    "allowsChildren": true,
+    "props": {
+      "className": "bg-gray-100 py-12"
+    },
+    "children": [
+      {
+        "id": "hero-container",
+        "name": "Hero Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "hero-title",
+            "name": "Hero Title",
+            "type": "h1",
+            "icon": "<div className=\"h-4 w-4 rounded bg-blue-500\" />",
+            "props": {
+              "className": "text-5xl font-bold leading-tight text-gray-900 mb-4"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-hero-title",
+                "name": "Text Hero Title",
+                "type": "text",
+                "icon": "<div className=\"h-4 w-4 rounded bg-blue-300\" />",
+                "allowsChildren": false,
+                "props": {
+                  "content": "Empower Your Business"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hero-subtitle",
+            "name": "Hero Subtitle",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-green-500\" />",
+            "props": {
+              "className": "text-2xl font-medium text-gray-700 mb-6"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-hero-subtitle",
+                "name": "Text Hero Subtitle",
+                "type": "text",
+                "icon": "<div className=\"h-4 w-4 rounded bg-green-300\" />",
+                "allowsChildren": false,
+                "props": {
+                  "content": "Solutions that drive performance and efficiency"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hero-cta-group",
+            "name": "Hero CTA Group",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-purple-500\" />",
+            "props": {
+              "className": "mt-8 flex justify-center space-x-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "hero-primary-cta",
+                "name": "Primary CTA",
+                "type": "button",
+                "icon": "<div className=\"h-4 w-4 rounded bg-blue-500\" />",
+                "props": {
+                  "className": "px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition",
+                  "onClick": "handlePrimaryClick"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-hero-primary-cta",
+                    "name": "Text Primary CTA",
+                    "type": "text",
+                    "icon": "<div className=\"h-4 w-4 rounded bg-blue-300\" />",
+                    "allowsChildren": false,
+                    "props": {
+                      "content": "Get Started"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hero-secondary-cta",
+                "name": "Secondary CTA",
+                "type": "button",
+                "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+                "props": {
+                  "className": "px-6 py-3 bg-gray-100 text-gray-800 font-semibold rounded-lg hover:bg-gray-200 transition",
+                  "onClick": "handleSecondaryClick"
+                },
+                "allowsChildren": false,
+                "children": [
+                  {
+                    "id": "text-hero-secondary-cta",
+                    "name": "Text Secondary CTA",
+                    "type": "text",
+                    "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+                    "allowsChildren": false,
+                    "props": {
+                      "content": "Learn More"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

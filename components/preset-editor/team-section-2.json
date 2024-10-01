@@ -1,0 +1,241 @@
+[
+  {
+    "id": "team-section",
+    "name": "Team Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-orange-500\" />",
+    "props": {
+      "className": "bg-gray-100 py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "team-container",
+        "name": "Team Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-200\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "team-title",
+            "name": "Team Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-orange-300\" />",
+            "props": {
+              "className": "text-3xl font-bold mb-6"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-team-title",
+                "name": "Text Team Title",
+                "type": "text",
+                "props": {
+                  "content": "Meet Our Team"
+                }
+              }
+            ]
+          },
+          {
+            "id": "team-list",
+            "name": "Team List",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-orange-200\" />",
+            "props": {
+              "className": "grid grid-cols-1 md:grid-cols-3 gap-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "team-member-1",
+                "name": "Team Member",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-orange-400\" />",
+                "props": {
+                  "className": "text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "member-avatar-1",
+                    "name": "Member Avatar",
+                    "type": "Avatar",
+                    "props": {
+                      "src": "https://github.com/shadcn.png",
+                      "alt": "Member 1",
+                      "className": "w-14 h-14 rounded-full mx-auto mb-2"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "member-name-1",
+                    "name": "Member Name",
+                    "type": "p",
+                    "props": {
+                      "className": "font-semibold"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-member-name-1",
+                        "name": "Text Member Name",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "member-role-1",
+                    "name": "Member Role",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-500"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-member-role-1",
+                        "name": "Text Member Role",
+                        "type": "text",
+                        "props": {
+                          "content": "CEO"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "team-member-1",
+                "name": "Team Member",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-orange-400\" />",
+                "props": {
+                  "className": "text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "member-avatar-1",
+                    "name": "Member Avatar",
+                    "type": "Avatar",
+                    "props": {
+                      "src": "https://github.com/shadcn.png",
+                      "alt": "Member 1",
+                      "className": "w-14 h-14 rounded-full mx-auto mb-2"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "member-name-1",
+                    "name": "Member Name",
+                    "type": "p",
+                    "props": {
+                      "className": "font-semibold"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-member-name-1",
+                        "name": "Text Member Name",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "member-role-1",
+                    "name": "Member Role",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-500"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-member-role-1",
+                        "name": "Text Member Role",
+                        "type": "text",
+                        "props": {
+                          "content": "CEO"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "team-member-1",
+                "name": "Team Member",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-orange-400\" />",
+                "props": {
+                  "className": "text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "member-avatar-1",
+                    "name": "Member Avatar",
+                    "type": "Avatar",
+                    "props": {
+                      "src": "https://github.com/shadcn.png",
+                      "alt": "Member 1",
+                      "className": "w-14 h-14 rounded-full mx-auto mb-2"
+                    },
+                    "allowsChildren": false
+                  },
+                  {
+                    "id": "member-name-1",
+                    "name": "Member Name",
+                    "type": "p",
+                    "props": {
+                      "className": "font-semibold"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-member-name-1",
+                        "name": "Text Member Name",
+                        "type": "text",
+                        "props": {
+                          "content": "John Doe"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "member-role-1",
+                    "name": "Member Role",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-500"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-member-role-1",
+                        "name": "Text Member Role",
+                        "type": "text",
+                        "props": {
+                          "content": "CEO"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

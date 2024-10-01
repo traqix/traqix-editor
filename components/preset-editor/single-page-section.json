@@ -1,0 +1,964 @@
+[
+  {
+    "id": "z5ew1ftna",
+    "name": "Single Page Section",
+    "type": "div",
+    "props": {
+      "className": "grid md:grid-cols-2 gap-6 lg:gap-12 items-start max-w-6xl px-4 mx-auto py-6"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "bjraa5ppt",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "grid gap-4 md:gap-10 items-start"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "1sc38qxq0",
+            "name": "img",
+            "type": "img",
+            "props": {
+              "src": "/placeholder.svg",
+              "alt": "Product Image",
+              "width": null,
+              "height": null,
+              "className": "aspect-[2/3] object-cover border w-full rounded-lg overflow-hidden"
+            },
+            "allowsChildren": true,
+            "children": []
+          },
+          {
+            "id": "2q6mohpru",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "grid grid-cols-4 gap-3"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "lualxwhik",
+                "name": "button",
+                "type": "button",
+                "props": {
+                  "className": "border hover:border-primary rounded-lg overflow-hidden transition-colors"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "tj6e32elh",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Preview thumbnail",
+                      "width": null,
+                      "height": null,
+                      "className": "aspect-[5/6] object-cover"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "z406uz84o",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "sr-only"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727221250399rovponu7b",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "View Image 1"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "e7ezxyrt5",
+                "name": "button",
+                "type": "button",
+                "props": {
+                  "className": "border hover:border-primary rounded-lg overflow-hidden transition-colors"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "7nk2h44yx",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Preview thumbnail",
+                      "width": null,
+                      "height": null,
+                      "className": "aspect-[5/6] object-cover"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "4ye2cgvys",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "sr-only"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727221250403o6z8y1iw7",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "View Image 2"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "d7bjyustp",
+                "name": "button",
+                "type": "button",
+                "props": {
+                  "className": "border hover:border-primary rounded-lg overflow-hidden transition-colors"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "2klml2rn1",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Preview thumbnail",
+                      "width": null,
+                      "height": null,
+                      "className": "aspect-[5/6] object-cover"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "uzw7lhxgq",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "sr-only"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727221250408pdf7ijhvl",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "View Image 3"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "rqa47s7f1",
+                "name": "button",
+                "type": "button",
+                "props": {
+                  "className": "border hover:border-primary rounded-lg overflow-hidden transition-colors"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "t8ympzy0s",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Preview thumbnail",
+                      "width": null,
+                      "height": null,
+                      "className": "aspect-[5/6] object-cover"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "md5iu4hag",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "sr-only"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727221250410fza2x62ax",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "View Image 4"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i74g77qnd",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "grid gap-4 md:gap-10 items-start"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "q6898lhi4",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "grid gap-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "2ug5olkas",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "font-bold text-3xl lg:text-4xl"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727221250419238svj36b",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Camiseta de Algodón Esculpida"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "lbtm6sbqu",
+                "name": "div",
+                "type": "div",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "9emcflp2o",
+                    "name": "p",
+                    "type": "p",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727221250421p8l4ikcxv",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "60% algodón peinado/40% poliéster jersey."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "6z8p4e5kg",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center gap-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "9s5ziufel",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-0.5"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "5ckago8kl",
+                        "name": "StarIcon",
+                        "type": "StarIcon",
+                        "props": {
+                          "className": "w-5 h-5 fill-primary"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "bhpnytmu2",
+                        "name": "StarIcon",
+                        "type": "StarIcon",
+                        "props": {
+                          "className": "w-5 h-5 fill-primary"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "425emsjvg",
+                        "name": "StarIcon",
+                        "type": "StarIcon",
+                        "props": {
+                          "className": "w-5 h-5 fill-primary"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "wbkjhyy78",
+                        "name": "StarIcon",
+                        "type": "StarIcon",
+                        "props": {
+                          "className": "w-5 h-5 fill-muted stroke-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "sb6dpn7nq",
+                        "name": "StarIcon",
+                        "type": "StarIcon",
+                        "props": {
+                          "className": "w-5 h-5 fill-muted stroke-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "tzwvnizbe",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "text-4xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727221250425njrba6gh2",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "$49.99"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "267eeny1s",
+            "name": "form",
+            "type": "form",
+            "props": {
+              "className": "grid gap-4 md:gap-10"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "awnwcp612",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid gap-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "53pgn4n8z",
+                    "name": "Label",
+                    "type": "Label",
+                    "props": {
+                      "htmlFor": "color",
+                      "className": "text-base"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727221250430ckpl6dz6n",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Color"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "rqnzichlq",
+                    "name": "RadioGroup",
+                    "type": "RadioGroup",
+                    "props": {
+                      "id": "color",
+                      "defaultValue": "black",
+                      "className": "flex items-center gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "wille4787",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "color-black",
+                          "className": "border cursor-pointer rounded-md p-2 flex items-center gap-2 [&:has(:checked)]:bg-muted"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "3rx5jnlfx",
+                            "name": "RadioGroupItem",
+                            "type": "RadioGroupItem",
+                            "props": {
+                              "id": "color-black",
+                              "value": "black"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "1727221250432noemiyd57",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Negro"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "quo0mmu4x",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "color-white",
+                          "className": "border cursor-pointer rounded-md p-2 flex items-center gap-2 [&:has(:checked)]:bg-muted"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "hcoiuinoh",
+                            "name": "RadioGroupItem",
+                            "type": "RadioGroupItem",
+                            "props": {
+                              "id": "color-white",
+                              "value": "white"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "17272212504321v4n0bfbt",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Blanco"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "r1i71jvr4",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "color-blue",
+                          "className": "border cursor-pointer rounded-md p-2 flex items-center gap-2 [&:has(:checked)]:bg-muted"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "9etop1l5j",
+                            "name": "RadioGroupItem",
+                            "type": "RadioGroupItem",
+                            "props": {
+                              "id": "color-blue",
+                              "value": "blue"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "1727221250433vyq86o2ik",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Azul"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "guru2e4qv",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid gap-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "021hl2cu4",
+                    "name": "Label",
+                    "type": "Label",
+                    "props": {
+                      "htmlFor": "size",
+                      "className": "text-base"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727221250436vqwms81t6",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Talla"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "63idaujnw",
+                    "name": "RadioGroup",
+                    "type": "RadioGroup",
+                    "props": {
+                      "id": "size",
+                      "defaultValue": "m",
+                      "className": "flex items-center gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ob4qdrvmy",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "size-xs",
+                          "className": "border cursor-pointer rounded-md p-2 flex items-center gap-2 [&:has(:checked)]:bg-muted"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "a6ktx23xc",
+                            "name": "RadioGroupItem",
+                            "type": "RadioGroupItem",
+                            "props": {
+                              "id": "size-xs",
+                              "value": "xs"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "1727221250438a2eltnf0z",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "XS"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "n2lrwndit",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "size-s",
+                          "className": "border cursor-pointer rounded-md p-2 flex items-center gap-2 [&:has(:checked)]:bg-muted"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "xslfd67sw",
+                            "name": "RadioGroupItem",
+                            "type": "RadioGroupItem",
+                            "props": {
+                              "id": "size-s",
+                              "value": "s"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "17272212504398tnjv1sz5",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "S"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "6q64txgy5",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "size-m",
+                          "className": "border cursor-pointer rounded-md p-2 flex items-center gap-2 [&:has(:checked)]:bg-muted"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "79ze64xyo",
+                            "name": "RadioGroupItem",
+                            "type": "RadioGroupItem",
+                            "props": {
+                              "id": "size-m",
+                              "value": "m"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "1727221250440hpauins0v",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "M"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "rwdb3ltm3",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "size-l",
+                          "className": "border cursor-pointer rounded-md p-2 flex items-center gap-2 [&:has(:checked)]:bg-muted"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "jd2kgfngz",
+                            "name": "RadioGroupItem",
+                            "type": "RadioGroupItem",
+                            "props": {
+                              "id": "size-l",
+                              "value": "l"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "17272212504412n4o87u5d",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "L"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "brs4z7x7z",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "size-xl",
+                          "className": "border cursor-pointer rounded-md p-2 flex items-center gap-2 [&:has(:checked)]:bg-muted"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "tvs3ugbfp",
+                            "name": "RadioGroupItem",
+                            "type": "RadioGroupItem",
+                            "props": {
+                              "id": "size-xl",
+                              "value": "xl"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "1727221250442xczhkfieg",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "XL"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "fags399xi",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid gap-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "ul1ucqftp",
+                    "name": "Label",
+                    "type": "Label",
+                    "props": {
+                      "htmlFor": "quantity",
+                      "className": "text-base"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727221250443z7knbuqun",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Cantidad"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "zw58t07so",
+                    "name": "Select",
+                    "type": "Select",
+                    "props": {
+                      "defaultValue": "1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "56zodpp9w",
+                        "name": "SelectTrigger",
+                        "type": "SelectTrigger",
+                        "props": {
+                          "className": "w-24"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "gbm1k40v2",
+                            "name": "SelectValue",
+                            "type": "SelectValue",
+                            "props": {
+                              "placeholder": "Seleccionar"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "a7v4rv0mk",
+                        "name": "SelectContent",
+                        "type": "SelectContent",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "w6iwxfx6r",
+                            "name": "SelectItem",
+                            "type": "SelectItem",
+                            "props": {
+                              "value": "1"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727221250446ssm83yon8",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "1"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "uiyr1sufs",
+                            "name": "SelectItem",
+                            "type": "SelectItem",
+                            "props": {
+                              "value": "2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727221250446vdu16ghc1",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "2"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "17k2cbzlr",
+                            "name": "SelectItem",
+                            "type": "SelectItem",
+                            "props": {
+                              "value": "3"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "172722125044729nz359ja",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "3"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "3qrzbpxp8",
+                            "name": "SelectItem",
+                            "type": "SelectItem",
+                            "props": {
+                              "value": "4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727221250447isazvvzrq",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "4"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "iez6qjlwk",
+                            "name": "SelectItem",
+                            "type": "SelectItem",
+                            "props": {
+                              "value": "5"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "17272212504489zqmtvxtt",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "5"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "5kcl3zsqd",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "size": "lg"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727221250449mo2kjz9zb",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Agregar al carrito"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,7 +1,9 @@
+import { env } from 'process';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    basePath: "/traqix-editor",
+    output: "standalone",
+    basePath: env.NODE_ENV == "development" ? "" : "/traqix-editor",
     images: {
         remotePatterns: [
           {

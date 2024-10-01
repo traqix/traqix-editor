@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cta-section",
+    "name": "Call To Action Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-purple-500\" />",
+    "props": {
+      "className": "bg-purple-600 py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "cta-container",
+        "name": "CTA Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "cta-title",
+            "name": "CTA Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-purple-300\" />",
+            "props": {
+              "className": "text-4xl font-bold text-white mb-4"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-cta-title",
+                "name": "Text CTA Title",
+                "type": "text",
+                "props": {
+                  "content": "Get Started Today!"
+                }
+              }
+            ]
+          },
+          {
+            "id": "cta-description",
+            "name": "CTA Description",
+            "type": "p",
+            "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+            "props": {
+              "className": "text-lg text-white mb-8"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-cta-description",
+                "name": "Text CTA Description",
+                "type": "text",
+                "props": {
+                  "content": "Join us now and transform your business."
+                }
+              }
+            ]
+          },
+          {
+            "id": "cta-button",
+            "name": "CTA Button",
+            "type": "button",
+            "icon": "<div className=\"h-4 w-4 rounded bg-purple-700\" />",
+            "props": {
+              "className": "bg-white text-purple-600 py-3 px-6 rounded-lg font-semibold"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-cta-button",
+                "name": "Text CTA Button",
+                "type": "text",
+                "props": {
+                  "content": "Start Free Trial"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

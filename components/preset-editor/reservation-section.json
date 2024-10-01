@@ -1,0 +1,595 @@
+[
+  {
+    "id": "33gs9w1mf",
+    "name": "Reservation Section",
+    "type": "section",
+    "props": {
+      "className": "relative inset-0 flex items-center justify-center z-50 bg-[#304529] p-10"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "txuh8j776",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "bg-white dark:bg-gray-800 opacity-75 rounded-lg shadow-lg w-96 p-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "yfbcb2wqj",
+            "name": "h2",
+            "type": "h2",
+            "props": {
+              "className": "text-2xl font-bold mb-4 dark:text-white"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "172722010370918pjmh3x5",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Reservation Dates"
+                }
+              }
+            ]
+          },
+          {
+            "id": "34jkvzoru",
+            "name": "ul",
+            "type": "ul",
+            "props": {
+              "className": "divide-y divide-gray-200 dark:divide-gray-700"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "p0mimuyfk",
+                "name": "li",
+                "type": "li",
+                "props": {
+                  "className": "py-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "m6uksyroe",
+                    "name": "h3",
+                    "type": "h3",
+                    "props": {
+                      "className": "mb-2 text-lg font-semibold dark:text-gray-200"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727220103715iy2k2y60s",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "This Week"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "laai5qj2z",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-between items-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "c7by6ubef",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-gray-600 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103716g10tnmhsn",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "29.10.2023, Thursday"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "e4nwf6bw2",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-green-500 hover:underline flex items-center",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103718vavxnkwh3",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Reservation"
+                            }
+                          },
+                          {
+                            "id": "i7nvqui7z",
+                            "name": "ArrowRightIcon",
+                            "type": "ArrowRightIcon",
+                            "props": {
+                              "className": "ml-2 h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "60k88v75m",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-between items-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "bq5p6hqmf",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-gray-600 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103722nnfkz60x1",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "30.10.2023, Friday"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "u3mo1q2e9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-green-500 hover:underline flex items-center",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103723qeb5feria",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Reservation"
+                            }
+                          },
+                          {
+                            "id": "wn9x6nnrg",
+                            "name": "ArrowRightIcon",
+                            "type": "ArrowRightIcon",
+                            "props": {
+                              "className": "ml-2 h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2dkqv5s0j",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-between items-center line-through"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "3357p6gr2",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-gray-600 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103724pj5m036b2",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "31.10.2023, Saturday"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "bya6j6olk",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-between items-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ak2kt1ylt",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-gray-600 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272201037281ekvbzvtr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "01.11.2023, Sunday"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "wdiufka50",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-green-500 hover:underline flex items-center",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272201037298v38t1fmr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Reservation"
+                            }
+                          },
+                          {
+                            "id": "8hfmononp",
+                            "name": "ArrowRightIcon",
+                            "type": "ArrowRightIcon",
+                            "props": {
+                              "className": "ml-2 h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "0it642gr5",
+                "name": "li",
+                "type": "li",
+                "props": {
+                  "className": "py-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "hbaxbzs8x",
+                    "name": "h3",
+                    "type": "h3",
+                    "props": {
+                      "className": "mb-2 text-lg font-semibold dark:text-gray-200"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "172722010373101jfftepj",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Three Weeks From Now"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "h117qmf5d",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-between items-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "ng3foydh5",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-gray-600 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103732gbumziic2",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "19.11.2023, Thursday"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "dzonqbn95",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-green-500 hover:underline flex items-center",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103732sf78st3l3",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Reservation"
+                            }
+                          },
+                          {
+                            "id": "en0sv03zo",
+                            "name": "ArrowRightIcon",
+                            "type": "ArrowRightIcon",
+                            "props": {
+                              "className": "ml-2 h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1i9rdxsqj",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-between items-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "h2q12bi50",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-gray-600 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103733oyc93magr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "20.11.2023, Friday"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "sh11q0oz1",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-green-500 hover:underline flex items-center",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103734x1huk99md",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Reservation"
+                            }
+                          },
+                          {
+                            "id": "zgt07ezvv",
+                            "name": "ArrowRightIcon",
+                            "type": "ArrowRightIcon",
+                            "props": {
+                              "className": "ml-2 h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tm88awuqx",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-between items-center line-through"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "idlgf87xk",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-gray-600 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272201037347b1yf1hpx",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "21.11.2023, Saturday"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "g6d8cvna8",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-between items-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "n3xprt2px",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-gray-600 dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "17272201037371s2bggl80",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "22.11.2023, Sunday"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "3l4jgxn5y",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-green-500 hover:underline flex items-center",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727220103737jbxwhzbci",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Reservation"
+                            }
+                          },
+                          {
+                            "id": "ev0v447x4",
+                            "name": "ArrowRightIcon",
+                            "type": "ArrowRightIcon",
+                            "props": {
+                              "className": "ml-2 h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2klo0mam7",
+            "name": "button",
+            "type": "button",
+            "props": {
+              "className": "mt-4 w-full h-10 bg-green-500 hover:bg-green-600 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "17272201037396k61l9o2h",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Close"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

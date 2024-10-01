@@ -10,6 +10,7 @@ import { Provider as BalancerProvider } from "react-wrap-balancer";
 
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ToastProvider } from "@/components/ui/toast";
+import { SelectedItemProvider } from "@/app/context/selected-item-context";
 
 
 export function Providers({ children, ...props }: ThemeProviderProps) {
@@ -18,18 +19,20 @@ export function Providers({ children, ...props }: ThemeProviderProps) {
       {/* <SessionProvider> */}
         <ToastProvider>
           <BalancerProvider>
-            <TooltipProvider delayDuration={0}>
-                <AxiomWebVitals />
-                <div className="z-50">
-                    <AppProgressBar
-                    height="4px"
-                    color="#666666"
-                    options={{ showSpinner: true }}
-                    shallowRouting
-                    />
-                </div>
-                {children}
-            </TooltipProvider>
+            <SelectedItemProvider>
+              <TooltipProvider delayDuration={0}>
+                  <AxiomWebVitals />
+                  <div className="z-50">
+                      <AppProgressBar
+                      height="4px"
+                      color="#666666"
+                      options={{ showSpinner: true }}
+                      shallowRouting
+                      />
+                  </div>
+                  {children}
+              </TooltipProvider>
+            </SelectedItemProvider>
           </BalancerProvider>
         </ToastProvider>
       {/* </SessionProvider> */}

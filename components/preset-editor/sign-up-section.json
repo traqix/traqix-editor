@@ -1,0 +1,552 @@
+[
+  {
+    "id": "lvmd3mic1",
+    "name": "SignUp Section",
+    "type": "div",
+    "props": {
+      "className": "flex min-h-screen w-full items-center justify-center bg-background text-card-foreground"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "zifiifp0q",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "container mx-auto grid max-w-5xl grid-cols-1 gap-8 rounded-lg bg-card p-8 shadow-xl md:grid-cols-2 md:gap-12 lg:p-12"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "azthcrdp4",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "space-y-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "078ak4b5u",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "text-3xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727218819869006q3m8w7",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Sign up and start today"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "or0bljdi4",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-muted-foreground"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "1727218819871v5oh1bqca",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Create your account and get access to our powerful SaaS platform."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "8jh7uv7th",
+                "name": "form",
+                "type": "form",
+                "props": {
+                  "className": "space-y-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "pzfjegv62",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid grid-cols-2 gap-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "d8vtkdznc",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "nzrtrxcgp",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "firstName"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "17272188198807k1rf2eh4",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "First Name"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "o4df39bo1",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "firstName",
+                              "placeholder": "John",
+                              "required": true
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "950ifr15z",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "t002p4iyn",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "lastName"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727218819885medvzsbds",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Last Name"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "ssoyly2gh",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "lastName",
+                              "placeholder": "Doe",
+                              "required": true
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "11s9v2mt6",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "space-y-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "zmfhjyyk6",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "email"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727218819890zjgdzvn1t",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Email"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "36v25u36n",
+                        "name": "Input",
+                        "type": "Input",
+                        "props": {
+                          "id": "email",
+                          "type": "email",
+                          "placeholder": "john@example.com",
+                          "required": true
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "7rffk97so",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "space-y-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "o2xm7q0on",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "password"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727218819892lwry6raz5",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Password"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "41tc8zytk",
+                        "name": "Input",
+                        "type": "Input",
+                        "props": {
+                          "id": "password",
+                          "type": "password",
+                          "required": true
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "3dz6txomo",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "type": "submit",
+                      "className": "mt-4 w-full bg-primary text-primary-foreground"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727218819893meccwk2ua",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Buy Now"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "5rxcl5yuf",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "space-y-6 rounded-lg bg-muted p-6 shadow-xl"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "k45zwofkm",
+                "name": "div",
+                "type": "div",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "nwv6kkviw",
+                    "name": "h2",
+                    "type": "h2",
+                    "props": {
+                      "className": "text-2xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "172721881990038m42kfhc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Pro Plan"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "k8wqvi36p",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-4xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727218819900e63htipp8",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "$99/mo"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "gmdb2rgc5",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-muted-foreground"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "17272188199011rlly2vix",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Billed annually"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "i3x57q2va",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "space-y-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "a9zh5c923",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "yzeb6sebt",
+                        "name": "CheckIcon",
+                        "type": "CheckIcon",
+                        "props": {
+                          "className": "h-5 w-5 text-green-500"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "enpvnsynv",
+                        "name": "p",
+                        "type": "p",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727218819909shz8fj875",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Unlimited users"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "qq2jbmgrt",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "jjxesv721",
+                        "name": "CheckIcon",
+                        "type": "CheckIcon",
+                        "props": {
+                          "className": "h-5 w-5 text-green-500"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "vg3ox5qvz",
+                        "name": "p",
+                        "type": "p",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727218819911o0bgoysdo",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Dedicated support"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "8sqr1uauv",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "eqwqzmlg2",
+                        "name": "CheckIcon",
+                        "type": "CheckIcon",
+                        "props": {
+                          "className": "h-5 w-5 text-green-500"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "a4utgq0j8",
+                        "name": "p",
+                        "type": "p",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727218819914h539bxplw",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Advanced analytics"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "66ot567g9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "qnuy3x5b3",
+                        "name": "CheckIcon",
+                        "type": "CheckIcon",
+                        "props": {
+                          "className": "h-5 w-5 text-green-500"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "674vv3syr",
+                        "name": "p",
+                        "type": "p",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "1727218819914p6fcw3mdx",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Custom branding"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

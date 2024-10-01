@@ -1,0 +1,86 @@
+[
+  {
+    "id": "hero-section",
+    "name": "Hero Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-blue-500\" />",
+    "props": {
+      "className": "bg-gray-900 text-white py-24"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "hero-container",
+        "name": "Hero Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "hero-title",
+            "name": "Hero Title",
+            "type": "h1",
+            "icon": "<div className=\"h-4 w-4 rounded bg-blue-300\" />",
+            "props": {
+              "className": "text-5xl font-bold mb-4"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-hero-title",
+                "name": "Text Hero Title",
+                "type": "text",
+                "props": {
+                  "content": "Welcome to the Future of Business"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hero-subtitle",
+            "name": "Hero Subtitle",
+            "type": "p",
+            "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+            "props": {
+              "className": "text-xl font-light mb-8"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-hero-subtitle",
+                "name": "Text Hero Subtitle",
+                "type": "text",
+                "props": {
+                  "content": "Empowering companies with cutting-edge solutions."
+                }
+              }
+            ]
+          },
+          {
+            "id": "hero-button",
+            "name": "Hero Button",
+            "type": "button",
+            "icon": "<div className=\"h-4 w-4 rounded bg-blue-700\" />",
+            "props": {
+              "className": "bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-hero-button",
+                "name": "Text Hero Button",
+                "type": "text",
+                "props": {
+                  "content": "Get Started"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

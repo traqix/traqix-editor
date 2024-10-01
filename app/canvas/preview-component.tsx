@@ -1,274 +1,255 @@
-import React, { useState } from "react";
-import { useDrag, useDrop } from "react-dnd";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Button } from "@/components/ui/button";
-import { Textarea } from "@/components/ui/textarea";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import {
   Card,
+  CardHeader,
+  CardTitle,
   CardContent,
   CardDescription,
   CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
-import { Checkbox } from "@/components/ui/checkbox";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Switch } from "@/components/ui/switch";
-import { Slider } from "@/components/ui/slider";
 import {
-  Trash2,
-  Plus,
-  Move,
-  ArrowLeftRightIcon,
-  ArrowRightIcon,
-  PlusIcon,
-  MinusIcon,
-  SquareDivideIcon,
-  DivideIcon,
-  SmileIcon,
-  PencilIcon,
-  CheckIcon,
-  ExpandIcon,
-  ConstructionIcon,
-  MenuIcon,
-  ArrowLeftIcon,
-  PlayIcon,
-  HomeIcon,
-  WalletIcon,
-  UsersIcon,
-  TrashIcon,
-  DownloadIcon,
-  TicketIcon,
-  MessageCircleIcon,
-  LayersIcon,
-  InboxIcon,
-  ShareIcon,
-  ChevronRightIcon,
-  ChevronLeftIcon,
-  FolderIcon,
-  StickyNoteIcon,
-  CameraIcon,
-  SendIcon,
-  SearchIcon,
-  HeartIcon,
-  ReplyIcon,
-  BookmarkIcon,
-  KanbanIcon,
-  BackpackIcon,
-  ListTodoIcon,
-  ActivityIcon,
-  MergeIcon,
-  LockIcon,
-  SettingsIcon,
-  CombineIcon,
-  RepeatIcon,
-  TwitterIcon,
-  CookieIcon,
-  AlignRightIcon,
-  AlignLeftIcon,
-  UnderlineIcon,
-  ItalicIcon,
-  BoldIcon,
-  AlignCenterIcon,
-  ListIcon,
-  ImageIcon,
-  LinkIcon,
-  LayoutDashboardIcon,
-  MegaphoneIcon,
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+import {
+  Collapsible,
+  CollapsibleTrigger,
+  CollapsibleContent,
+} from "@/components/ui/collapsible";
+import { Pagination } from "@/components/ui/pagination";
+import {
+  SheetPortal,
+  SheetOverlay,
+  SheetContent,
+  SheetHeader,
+  SheetFooter,
+  SheetClose,
+  SheetTitle,
+  SheetDescription,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import {
+  TableHeader,
+  TableRow,
+  TableCell,
+  TableHead,
+  TableBody,
+  TableFooter,
+  TableCaption,
+} from "@/components/ui/table";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@/components/ui/accordion";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Checkbox } from "@/components/ui/checkbox";
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+} from "@/components/ui/dropdown-menu";
+import {
+  Menubar,
+  MenubarMenu,
+  MenubarTrigger,
+  MenubarContent,
+  MenubarItem,
+  MenubarSeparator,
+  MenubarCheckboxItem,
+} from "@/components/ui/menubar";
+import {
+  Popover,
+  PopoverTrigger,
+  PopoverContent,
+} from "@/components/ui/popover";
+import { Progress } from "@/components/ui/progress";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import {
+  SelectTrigger,
+  SelectLabel,
+  SelectValue,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+} from "@/components/ui/select";
+import { Slider } from "@/components/ui/slider";
+import { Switch } from "@/components/ui/switch";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  Link,
+  Table,
+  Sheet,
+  Badge,
+  CloudIcon,
+  ServerIcon,
+  NetworkIcon,
+  CodepenIcon,
+  ImportIcon,
+  FolderSyncIcon,
+  BookOpenIcon,
+  RefreshCwIcon,
+  GroupIcon,
+  InstagramIcon,
+  FacebookIcon,
+  MountainIcon,
+  StepBackIcon,
+  ThermometerIcon,
+  WifiIcon,
+  SmartphoneIcon,
+  BedIcon,
+  BatteryIcon,
+  BluetoothIcon,
+  SpeakerIcon,
+  StarIcon,
+  SlackIcon,
+  HashIcon,
+  BookIcon,
+  DatabaseIcon,
+  CalendarIcon,
+  NotebookIcon,
+  MapPinIcon,
+  BrushIcon,
+  CodeIcon,
+  TextIcon,
+  AppleIcon,
+  ChromeIcon,
+  XIcon,
+  Tally1Icon,
+  ClipboardIcon,
+  VoteIcon,
+  ChevronDownIcon,
+  TriangleIcon,
+  BotIcon,
+  SandwichIcon,
+  ShuffleIcon,
+  KeyIcon,
+  CoinsIcon,
+  BlocksIcon,
+  FuelIcon,
+  MoveUpIcon,
+  ClockIcon,
+  ArrowUpRightIcon,
+  MoveHorizontalIcon,
+  MoveVerticalIcon,
+  PhoneIcon,
+  VideoIcon,
+  PaperclipIcon,
+  AirplayIcon,
+  ScanIcon,
+  PauseIcon,
+  FileTypeIcon,
+  LightbulbIcon,
+  SunDimIcon,
+  ForwardIcon,
+  FileIcon,
+  Trash2Icon,
+  ArrowDownIcon,
+  ArrowUpIcon,
+  Package2Icon,
+  CreditCardIcon,
+  TagIcon,
+  DollarSignIcon,
+  MicVocalIcon,
+  InfoIcon,
+  DoorClosedIcon,
+  FlaskConicalIcon,
+  NewspaperIcon,
+  FilterIcon,
+  UserIcon,
+  MailIcon,
+  CircleCheckIcon,
+  BellIcon,
   GaugeIcon,
   ComputerIcon,
   ComponentIcon,
   BarChartIcon,
   CreativeCommonsIcon,
   FileTextIcon,
-  BellIcon,
-  UserIcon,
-  MailIcon,
-  CircleCheckIcon,
-  FilterIcon,
-  DoorClosedIcon,
-  FlaskConical,
-  FlaskConicalIcon,
-  NewspaperIcon,
-  InfoIcon,
-  MicVocalIcon,
-  DollarSignIcon,
-  TagIcon,
-  Package2Icon,
-  CreditCardIcon,
-  ArrowUpIcon,
-  ArrowDownIcon,
-  Trash2Icon,
-  ForwardIcon,
-  FileIcon,
-  LightbulbIcon,
-  FileTypeIcon,
-  SunDimIcon,
-  PauseIcon,
-  ScanIcon,
-  AirplayIcon,
-  PaperclipIcon,
-  MoveVerticalIcon,
-  PhoneIcon,
-  VideoIcon,
-  MoveHorizontalIcon,
-  ClockIcon,
-  ArrowUpRightIcon,
-  CoinsIcon,
-  BlocksIcon,
-  FuelIcon,
-  MoveUpIcon,
-  KeyIcon,
-  ShuffleIcon,
-  SandwichIcon,
-  BotIcon,
-  TriangleIcon,
-  Tally1Icon,
-  ClipboardIcon,
-  VoteIcon,
-  ChevronDownIcon,
-  XIcon,
-  AppleIcon,
-  ChromeIcon,
-  TextIcon,
-  BrushIcon,
-  CodeIcon,
-  MapPinIcon,
-  NotebookIcon,
-  CalendarIcon,
-  DatabaseIcon,
-  BookIcon,
-  HashIcon,
-  SlackIcon,
-  StarIcon,
-  SpeakerIcon,
-  BatteryIcon,
-  BluetoothIcon,
-  BedIcon,
-  StepBackIcon,
-  SmartphoneIcon,
-  WifiIcon,
-  ThermometerIcon,
-  MountainIcon,
-  FacebookIcon,
-  InstagramIcon,
-  RefreshCwIcon,
-  GroupIcon,
-  ImportIcon,
-  FolderSyncIcon,
-  BookOpenIcon,
-  CodepenIcon,
-  NetworkIcon,
-  ServerIcon,
-  CloudIcon,
+  MegaphoneIcon,
+  LayoutDashboardIcon,
+  LinkIcon,
+  ImageIcon,
+  ListIcon,
+  AlignCenterIcon,
+  BoldIcon,
+  ItalicIcon,
+  UnderlineIcon,
+  AlignLeftIcon,
+  AlignRightIcon,
+  SmileIcon,
+  CookieIcon,
+  RepeatIcon,
+  TwitterIcon,
+  MergeIcon,
+  LockIcon,
+  SettingsIcon,
+  CombineIcon,
+  BackpackIcon,
+  ListTodoIcon,
+  ActivityIcon,
+  KanbanIcon,
+  ReplyIcon,
+  BookmarkIcon,
+  CameraIcon,
+  SendIcon,
+  SearchIcon,
+  HeartIcon,
+  StickyNoteIcon,
+  FolderIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  MessageCircleIcon,
+  LayersIcon,
+  InboxIcon,
+  ShareIcon,
+  TrashIcon,
+  DownloadIcon,
+  TicketIcon,
+  HomeIcon,
+  WalletIcon,
+  UsersIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  PlayIcon,
+  ExpandIcon,
+  ConstructionIcon,
+  MenuIcon,
+  CheckIcon,
+  PencilIcon,
+  PlusIcon,
+  MinusIcon,
+  SquareDivideIcon,
+  DivideIcon,
+  Plus,
+  Trash2,
+  Move,
 } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
-import { TreeItem } from "../types";
-import Link from "next/link";
+import {
+  Dispatch,
+  FC,
+  LegacyRef,
+  SetStateAction,
+  useRef,
+  useState,
+} from "react";
+import { useDrag, useDrop } from "react-dnd";
+import { Label } from "recharts";
+import type { TreeItem } from "@/app/(main)/(editor)/types";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Select } from "@/components/ui/select";
 import Image from "next/image";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "@/components/ui/collapsible";
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableFooter,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
-import { Pagination } from "@/components/ui/pagination";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetDescription,
-  SheetFooter,
-  SheetHeader,
-  SheetOverlay,
-  SheetPortal,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
-import { Progress } from "@/components/ui/progress";
-import { Badge } from "@/components/ui/badge";
-import {
-  Menubar,
-  MenubarCheckboxItem,
-  MenubarContent,
-  MenubarItem,
-  MenubarMenu,
-  MenubarSeparator,
-  MenubarTrigger,
-} from "@/components/ui/menubar";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
+import { getAcceptedComponents } from "@/app/(main)/(editor)/utils/util";
 
-interface MainEditorProps {
-  tree: TreeItem[];
-  selectedItemId: string | null;
-  onSelect: (item: TreeItem) => void;
-  onMove: (
-    draggedId: string,
-    targetId: string,
-    position: "before" | "after" | "inside"
-  ) => void;
-  onRemove: (id: string) => void;
-  onUpdate: (id: string, updates: Partial<TreeItem>) => void;
-  previewMode: "desktop" | "tablet" | "mobile";
-  generatedCode: string;
-  rawCode: string;
-  handleRawCodeChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
-  rawCodeTsx: string;
-  handleRawCodeTsxChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
-  handleRawCodeTsxClear: () => void;
-  applyRawCode: () => void;
-  tsxToJson: () => void;
-  addComponent: (component: TreeItem, parentId?: string) => void;
-  levelHovered?: number;
-  setLevelHovered: any;
-}
-
-const PreviewComponent: React.FC<{
+export const PreviewComponent: FC<{
   item: TreeItem;
   selectedItemId: string | null;
   onSelect: (item: TreeItem) => void;
@@ -281,7 +262,7 @@ const PreviewComponent: React.FC<{
   onUpdate: (id: string, updates: Partial<TreeItem>) => void;
   addComponent: (component: TreeItem, parentId?: string) => void;
   levelHovered?: number;
-  setLevelHovered: React.Dispatch<React.SetStateAction<number>>;
+  setLevelHovered: Dispatch<SetStateAction<number>>;
   level: number;
 }> = ({
   item,
@@ -296,8 +277,9 @@ const PreviewComponent: React.FC<{
   level,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
+
   const [{ isDragging }, drag, preview] = useDrag({
-    type: "COMPONENT",
+    type: `${item?.type?.toUpperCase() ?? 'DIV'}`,
     item: { id: item.id, type: item.type },
     collect: (monitor) => ({
       isDragging: monitor.isDragging(),
@@ -305,7 +287,7 @@ const PreviewComponent: React.FC<{
   });
 
   const [{ isOver, canDrop }, drop] = useDrop({
-    accept: ["COMPONENT", "NEW_COMPONENT"],
+    accept: getAcceptedComponents(`${item?.type?.toUpperCase() ?? 'DIV'}`),
     drop: (droppedItem: { id?: string; type: string }, monitor) => {
       if (!monitor.didDrop()) {
         const clientOffset = monitor.getClientOffset();
@@ -325,8 +307,10 @@ const PreviewComponent: React.FC<{
               {
                 type: droppedItem.type,
                 props: { content: `New ${droppedItem.type}` },
-                id: Date.now().toString() + Math.random().toString(36).substr(2, 9),
-                name: `New ${droppedItem.type}`
+                id:
+                  Date.now().toString() +
+                  Math.random().toString(36).substr(2, 9),
+                name: `New ${droppedItem.type}`,
               },
               item.id
             );
@@ -340,18 +324,18 @@ const PreviewComponent: React.FC<{
     }),
   });
 
-  const ref = React.useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
   drag(drop(ref));
 
-  // const handleContentChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  // const handleContentChange = (e: ChangeEvent<HTMLInputElement>) => {
   //   onUpdate(item.id, { content: e.target.value })
   // }
 
-  // const handleClassChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  // const handleClassChange = (e: ChangeEvent<HTMLInputElement>) => {
   //   onUpdate(item.id, { props: { ...item.props, className: e.target.value } })
   // }
 
-  // const handleBackgroundChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  // const handleBackgroundChange = (e: ChangeEvent<HTMLInputElement>) => {
   //   onUpdate(item.id, { props: { ...item.props, style: { background: e.target.value } } })
   // }
 
@@ -394,7 +378,7 @@ const PreviewComponent: React.FC<{
       className: `${item.props?.className || ""} ${
         selectedItemId === item.id ? "ring-2 ring-blue-500" : ""
       } ${isOver ? "bg-blue-100" : ""}`,
-      onClick: (e: React.MouseEvent) => {
+      onClick: (e: MouseEvent) => {
         e.stopPropagation();
         onSelect(item);
       },
@@ -1429,8 +1413,12 @@ const PreviewComponent: React.FC<{
                                                       addComponent={
                                                         addComponent
                                                       }
-                                                      levelHovered={levelHovered}
-                                                      setLevelHovered={setLevelHovered}
+                                                      levelHovered={
+                                                        levelHovered
+                                                      }
+                                                      setLevelHovered={
+                                                        setLevelHovered
+                                                      }
                                                       level={level + 1}
                                                     />
                                                   )
@@ -1460,8 +1448,12 @@ const PreviewComponent: React.FC<{
                                                       addComponent={
                                                         addComponent
                                                       }
-                                                      levelHovered={levelHovered}
-                                                      setLevelHovered={setLevelHovered}
+                                                      levelHovered={
+                                                        levelHovered
+                                                      }
+                                                      setLevelHovered={
+                                                        setLevelHovered
+                                                      }
                                                       level={level + 1}
                                                     />
                                                   )
@@ -1512,8 +1504,12 @@ const PreviewComponent: React.FC<{
                                                       addComponent={
                                                         addComponent
                                                       }
-                                                      levelHovered={levelHovered}
-                                                      setLevelHovered={setLevelHovered}
+                                                      levelHovered={
+                                                        levelHovered
+                                                      }
+                                                      setLevelHovered={
+                                                        setLevelHovered
+                                                      }
                                                       level={level + 1}
                                                     />
                                                   )
@@ -1750,8 +1746,12 @@ const PreviewComponent: React.FC<{
                                                         addComponent={
                                                           addComponent
                                                         }
-                                                        levelHovered={levelHovered}
-                                                        setLevelHovered={setLevelHovered}
+                                                        levelHovered={
+                                                          levelHovered
+                                                        }
+                                                        setLevelHovered={
+                                                          setLevelHovered
+                                                        }
                                                         level={level + 1}
                                                       />
                                                     )
@@ -1804,8 +1804,12 @@ const PreviewComponent: React.FC<{
                                                         addComponent={
                                                           addComponent
                                                         }
-                                                        levelHovered={levelHovered}
-                                                        setLevelHovered={setLevelHovered}
+                                                        levelHovered={
+                                                          levelHovered
+                                                        }
+                                                        setLevelHovered={
+                                                          setLevelHovered
+                                                        }
                                                         level={level + 1}
                                                       />
                                                     )
@@ -1903,8 +1907,12 @@ const PreviewComponent: React.FC<{
                                                           addComponent={
                                                             addComponent
                                                           }
-                                                          levelHovered={levelHovered}
-                                                          setLevelHovered={setLevelHovered}
+                                                          levelHovered={
+                                                            levelHovered
+                                                          }
+                                                          setLevelHovered={
+                                                            setLevelHovered
+                                                          }
                                                           level={level + 1}
                                                         />
                                                       )
@@ -1932,8 +1940,12 @@ const PreviewComponent: React.FC<{
                                                           addComponent={
                                                             addComponent
                                                           }
-                                                          levelHovered={levelHovered}
-                                                          setLevelHovered={setLevelHovered}
+                                                          levelHovered={
+                                                            levelHovered
+                                                          }
+                                                          setLevelHovered={
+                                                            setLevelHovered
+                                                          }
                                                           level={level + 1}
                                                         />
                                                       )
@@ -1969,8 +1981,12 @@ const PreviewComponent: React.FC<{
                                                           addComponent={
                                                             addComponent
                                                           }
-                                                          levelHovered={levelHovered}
-                                                          setLevelHovered={setLevelHovered}
+                                                          levelHovered={
+                                                            levelHovered
+                                                          }
+                                                          setLevelHovered={
+                                                            setLevelHovered
+                                                          }
                                                           level={level + 1}
                                                         />
                                                       )
@@ -2003,8 +2019,12 @@ const PreviewComponent: React.FC<{
                                                           addComponent={
                                                             addComponent
                                                           }
-                                                          levelHovered={levelHovered}
-                                                          setLevelHovered={setLevelHovered}
+                                                          levelHovered={
+                                                            levelHovered
+                                                          }
+                                                          setLevelHovered={
+                                                            setLevelHovered
+                                                          }
                                                           level={level + 1}
                                                         />
                                                       )
@@ -2505,8 +2525,8 @@ const PreviewComponent: React.FC<{
           </Carousel>
         );
 
-        case "CloudIcon":
-          return <CloudIcon {...commonProps} ref={ref} />;
+      case "CloudIcon":
+        return <CloudIcon {...commonProps} ref={ref} />;
       case "ServerIcon":
         return <ServerIcon {...commonProps} ref={ref} />;
       case "NetworkIcon":
@@ -2850,7 +2870,7 @@ const PreviewComponent: React.FC<{
     <motion.div
       className={`relative group mml-${level * 1} ${containsColSpan}`}
       onMouseEnter={() => setHovered(true, level)}
-      onMouseLeave={() => setHovered(false, level-1)}
+      onMouseLeave={() => setHovered(false, level - 1)}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
@@ -2881,9 +2901,10 @@ const PreviewComponent: React.FC<{
                 e.stopPropagation();
                 addComponent(
                   {
-                    type: "div", props: { content: "New Component" },
+                    type: "div",
+                    props: { content: "New Component" },
                     id: "",
-                    name: ""
+                    name: "",
                   },
                   item.id
                 );
@@ -2902,7 +2923,10 @@ const PreviewComponent: React.FC<{
             >
               <Trash2 className="w-4 h-4" />
             </Button>
-            <div className="cursor-move" ref={drag as unknown as React.LegacyRef<HTMLDivElement>}>
+            <div
+              className="cursor-move"
+              ref={drag as unknown as LegacyRef<HTMLDivElement>}
+            >
               <Button variant="ghost" size="icon" className="w-6 h-6">
                 <Move className="w-4 h-4" />
               </Button>
@@ -2911,140 +2935,13 @@ const PreviewComponent: React.FC<{
         )}
       </AnimatePresence>
       {/* {selectedItemId === item.id && (
-        <div className="mt-2 space-y-2">
-          <Label>Content</Label>
-          <Input value={item.props?.content} onChange={handleContentChange} />
-          <Label>Classes</Label>
-          <Input value={item.props?.className || ''} onChange={handleClassChange} />
-        </div>
-      )} */}
+          <div className="mt-2 space-y-2">
+            <Label>Content</Label>
+            <Input value={item.props?.content} onChange={handleContentChange} />
+            <Label>Classes</Label>
+            <Input value={item.props?.className || ''} onChange={handleClassChange} />
+          </div>
+        )} */}
     </motion.div>
   );
 };
-
-const MainEditor: React.FC<MainEditorProps> = ({
-  tree,
-  selectedItemId,
-  onSelect,
-  onMove,
-  onRemove,
-  onUpdate,
-  previewMode,
-  generatedCode,
-  rawCode,
-  handleRawCodeChange,
-  rawCodeTsx,
-  handleRawCodeTsxChange,
-  handleRawCodeTsxClear,
-  applyRawCode,
-  tsxToJson,
-  addComponent,
-  levelHovered,
-  setLevelHovered,
-}) => {
-  const [, drop] = useDrop({
-    accept: ["COMPONENT", "NEW_COMPONENT"],
-    drop: (item: { id?: string; type: string }, monitor) => {
-      if (!monitor.didDrop()) {
-        if (item.id) {
-          onMove(item.id, "root", "inside");
-        } else {
-          addComponent({
-            type: item.type,
-            props: { content: `New ${item.type}` },
-            id: "",
-            name: ""
-          });
-        }
-      }
-    },
-  });
-
-  const [mainTabSelected, setMainTabSelected] = useState("preview")
-
-  return (
-    <main
-      className="flex-1 p-4 mb-4 bg-muted/30 overflow-y-auto rounded-xl border-[0.5px] dark:border-gray-800"
-      ref={drop as unknown as React.LegacyRef<HTMLDivElement>}
-    >
-      <Tabs defaultValue="preview" value={mainTabSelected} onValueChange={setMainTabSelected}>
-        <TabsList>
-          <TabsTrigger value="preview">Preview</TabsTrigger>
-          <TabsTrigger value="code">Generated Code</TabsTrigger>
-          <TabsTrigger value="raw">Raw Code</TabsTrigger>
-          <TabsTrigger value="rawTsx">Raw TSX</TabsTrigger>
-        </TabsList>
-        <ScrollArea className="h-[calc(100vh-12rem)]">
-          <TabsContent value="preview">
-            <div
-              className={`w-full mx-auto bg-white dark:bg-black border-[0.5px] dark:border-gray-800 min-h-[240px] rounded-lg shadow-md p-0.5 transition-all duration-300 ease-in-out ${
-                previewMode === "desktop"
-                  ? "max-w-full"
-                  : previewMode === "tablet"
-                  ? "max-w-2xl"
-                  : "max-w-sm"
-              }`}
-            >
-              <div className="rounded-md overflow-hidden">
-                <AnimatePresence>
-                  {tree.map((item) => (
-                    <PreviewComponent
-                      key={item.id}
-                      item={item}
-                      selectedItemId={selectedItemId}
-                      onSelect={onSelect}
-                      onMove={onMove}
-                      onRemove={onRemove}
-                      onUpdate={onUpdate}
-                      addComponent={addComponent}
-                      levelHovered={levelHovered}
-                      setLevelHovered={setLevelHovered}
-                      level={0}
-                    />
-                  ))}
-                </AnimatePresence>
-              </div>
-            </div>
-          </TabsContent>
-          <TabsContent value="code">
-            <pre className="p-4 bg-gray-800 text-white rounded-lg overflow-x-auto">
-              <code>{generatedCode}</code>
-            </pre>
-          </TabsContent>
-          <TabsContent value="raw">
-            <div className="space-y-4">
-              <Textarea
-                value={rawCode}
-                onChange={handleRawCodeChange}
-                placeholder="Paste your raw JSON code here..."
-                className="min-h-96 h-[648px] ring-offset-0"
-              />
-              <Button onClick={applyRawCode}>Apply Raw Code</Button>
-            </div>
-          </TabsContent>
-          <TabsContent value="rawTsx">
-            <div className="space-y-4">
-              <Textarea
-                value={rawCodeTsx}
-                onChange={handleRawCodeTsxChange}
-                placeholder="Paste your raw JSON code here..."
-                className="min-h-96 h-[648px] ring-offset-0"
-              />
-              <div className="flex gap-2">
-                <Button variant={"destructive"} onClick={handleRawCodeTsxClear}>
-                  Clear
-                </Button>
-                <Button onClick={() => {
-                  tsxToJson()
-                  setMainTabSelected("preview")
-                }}>Apply Raw Code</Button>
-              </div>
-            </div>
-          </TabsContent>
-        </ScrollArea>
-      </Tabs>
-    </main>
-  );
-};
-
-export default MainEditor;

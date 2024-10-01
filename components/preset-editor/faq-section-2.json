@@ -1,0 +1,108 @@
+[
+  {
+    "id": "faq-section",
+    "name": "FAQ Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-purple-600\" />",
+    "props": {
+      "className": "bg-white py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "faq-container",
+        "name": "FAQ Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-200\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "faq-title",
+            "name": "FAQ Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-purple-300\" />",
+            "props": {
+              "className": "text-3xl font-bold mb-6"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-faq-title",
+                "name": "Text FAQ Title",
+                "type": "text",
+                "props": {
+                  "content": "Frequently Asked Questions"
+                }
+              }
+            ]
+          },
+          {
+            "id": "faq-list",
+            "name": "FAQ List",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-purple-200\" />",
+            "props": {
+              "className": "space-y-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "faq-item-1",
+                "name": "FAQ Item",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-purple-400\" />",
+                "props": {
+                  "className": "border-b py-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "faq-question-1",
+                    "name": "FAQ Question",
+                    "type": "p",
+                    "props": {
+                      "className": "font-semibold"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-faq-question-1",
+                        "name": "Text FAQ Question",
+                        "type": "text",
+                        "props": {
+                          "content": "What is your return policy?"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "faq-answer-1",
+                    "name": "FAQ Answer",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-600"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-faq-answer-1",
+                        "name": "Text FAQ Answer",
+                        "type": "text",
+                        "props": {
+                          "content": "You can return any unused product within 30 days for a full refund."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

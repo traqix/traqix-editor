@@ -1,0 +1,110 @@
+[
+  {
+    "id": "testimonial-section",
+    "name": "Testimonial Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-blue-500\" />",
+    "props": {
+      "className": "bg-gray-100 py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "testimonial-container",
+        "name": "Testimonial Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+        "props": {
+          "className": "container mx-auto px-4 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "testimonial-title",
+            "name": "Testimonial Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-blue-300\" />",
+            "props": {
+              "className": "text-3xl font-bold mb-6"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-testimonial-title",
+                "name": "Text Testimonial Title",
+                "type": "text",
+                "props": {
+                  "content": "What Our Clients Say"
+                }
+              }
+            ]
+          },
+          {
+            "id": "testimonial-list",
+            "name": "Testimonial List",
+            "type": "ul",
+            "icon": "<div className=\"h-4 w-4 rounded bg-blue-200\" />",
+            "props": {
+              "className": "space-y-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "testimonial-item-1",
+                "name": "Testimonial Item",
+                "type": "li",
+                "icon": "<div className=\"h-4 w-4 rounded bg-blue-400\" />",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "testimonial-content-1",
+                    "name": "Testimonial Content",
+                    "type": "text",
+                    "props": {
+                      "content": "This product changed my life! Highly recommend."
+                    }
+                  },
+                  {
+                    "id": "testimonial-author-1",
+                    "name": "Testimonial Author",
+                    "type": "text",
+                    "props": {
+                      "content": "- John Doe"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "testimonial-item-2",
+                "name": "Testimonial Item",
+                "type": "li",
+                "icon": "<div className=\"h-4 w-4 rounded bg-blue-400\" />",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "testimonial-content-2",
+                    "name": "Testimonial Content",
+                    "type": "text",
+                    "props": {
+                      "content": "Amazing service and support. Will use again!"
+                    }
+                  },
+                  {
+                    "id": "testimonial-author-2",
+                    "name": "Testimonial Author",
+                    "type": "text",
+                    "props": {
+                      "content": "- Jane Smith"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "packageManager": "yarn@1.22.22",
-	"engines": {
-		"node": ">=20.17.0"
-	},
+  "engines": {
+    "node": ">=20.17.0"
+  },
   "dependencies": {
     "@babel/core": "^7.25.2",
     "@babel/generator": "^7.25.6",
@@ -76,6 +76,7 @@
     "shadcn-ui": "^0.9.1",
     "shiki": "^1.18.0",
     "sonner": "^1.5.0",
+    "swr": "^2.2.5",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "unist-builder": "^4.0.0",

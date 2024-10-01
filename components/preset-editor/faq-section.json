@@ -1,0 +1,108 @@
+[
+  {
+    "id": "faq-section",
+    "name": "FAQ Section",
+    "type": "section",
+    "icon": "<div className=\"h-4 w-4 rounded bg-green-500\" />",
+    "props": {
+      "className": "bg-gray-50 py-12"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "faq-container",
+        "name": "FAQ Container",
+        "type": "div",
+        "icon": "<div className=\"h-4 w-4 rounded bg-gray-500\" />",
+        "props": {
+          "className": "container mx-auto px-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "faq-title",
+            "name": "FAQ Title",
+            "type": "h2",
+            "icon": "<div className=\"h-4 w-4 rounded bg-green-300\" />",
+            "props": {
+              "className": "text-3xl font-semibold text-gray-900 mb-6 text-center"
+            },
+            "allowsChildren": false,
+            "children": [
+              {
+                "id": "text-faq-title",
+                "name": "Text FAQ Title",
+                "type": "text",
+                "props": {
+                  "content": "Frequently Asked Questions"
+                }
+              }
+            ]
+          },
+          {
+            "id": "faq-list",
+            "name": "FAQ List",
+            "type": "div",
+            "icon": "<div className=\"h-4 w-4 rounded bg-gray-300\" />",
+            "props": {
+              "className": "space-y-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "faq-item-1",
+                "name": "FAQ Item 1",
+                "type": "div",
+                "icon": "<div className=\"h-4 w-4 rounded bg-green-400\" />",
+                "props": {
+                  "className": "border-b pb-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "faq-question-1",
+                    "name": "FAQ Question 1",
+                    "type": "h3",
+                    "props": {
+                      "className": "text-lg font-semibold text-gray-800"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-faq-question-1",
+                        "name": "Text FAQ Question 1",
+                        "type": "text",
+                        "props": {
+                          "content": "What is your refund policy?"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "faq-answer-1",
+                    "name": "FAQ Answer 1",
+                    "type": "p",
+                    "props": {
+                      "className": "text-gray-600 mt-2"
+                    },
+                    "allowsChildren": false,
+                    "children": [
+                      {
+                        "id": "text-faq-answer-1",
+                        "name": "Text FAQ Answer 1",
+                        "type": "text",
+                        "props": {
+                          "content": "We offer a 30-day money-back guarantee."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

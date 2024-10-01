@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "4v17qe96b",
+    "name": "CheckOut Section",
+    "type": "div",
+    "props": {
+      "className": "flex min-h-[100dvh] flex-col bg-background text-foreground"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "7g1ri9vnr",
+        "name": "main",
+        "type": "main",
+        "props": {
+          "className": "container mx-auto flex flex-1 flex-col items-center justify-center px-4 py-12 sm:px-6 lg:px-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "lsixjrcfd",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "mx-auto w-full max-w-2xl space-y-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "617403nik",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "space-y-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "lz3y91tcl",
+                    "name": "h1",
+                    "type": "h1",
+                    "props": {
+                      "className": "text-3xl font-bold tracking-tight md:text-4xl"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "1727219040480e720axyt4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Acme SaaS Platform"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "e1ff6t8do",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-muted-foreground"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "17272190404812t4fdvlg8",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Unlock the power of our cutting-edge SaaS platform and take your business to new heights."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "j6fcheej0",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid grid-cols-1 gap-8 md:grid-cols-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "v61apj7rj",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "space-y-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "aw67glla3",
+                        "name": "div",
+                        "type": "div",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "jaar9pjsb",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "172721904048669s18xhzb",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Pricing"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "bggw0fqvl",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "1727219040486g7yjby0ib",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Choose the plan that fits your needs."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "3hfehcsij",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "rounded-lg border border-muted bg-card p-6"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "u0j2oz1si",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-baseline justify-between"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "za0a5wgc4",
+                                "name": "span",
+                                "type": "span",
+                                "props": {
+                                  "className": "text-4xl font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272190404887uhhcxydf",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "$99"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "r3vfomj45",
+                                "name": "span",
+                                "type": "span",
+                                "props": {
+                                  "className": "text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "1727219040488hlgq8nfap",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "/ month"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "ftcwmbfg2",
+                            "name": "Separator",
+                            "type": "Separator",
+                            "props": {
+                              "className": "my-4"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "shzalddhc",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "space-y-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "43iqqnbbq",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "z195pfpqj",
+                                    "name": "CheckIcon",
+                                    "type": "CheckIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 text-primary"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "23top6zbf",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219040491fn5p3ujdq",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Unlimited users"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "50lnn5vau",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "nanbgy0xw",
+                                    "name": "CheckIcon",
+                                    "type": "CheckIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 text-primary"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "4jv9iezxl",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219040492qyzzosohb",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "24/7 support"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "gr6qp62r3",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "wvvhqbzqb",
+                                    "name": "CheckIcon",
+                                    "type": "CheckIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 text-primary"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "gki1jxci8",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219040493i8b8gc9x5",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Advanced analytics"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "a46o0rg5a",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "space-y-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "yp663zplf",
+                        "name": "div",
+                        "type": "div",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "6l1984h8s",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "17272190405003mik3ta5t",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Checkout"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "vgngvuu3b",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "17272190405006xuyyt6nq",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Complete your purchase and start using our platform."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pmtahsnyg",
+                        "name": "Card",
+                        "type": "Card",
+                        "props": {
+                          "className": "rounded-lg border border-muted bg-card p-6"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "mdnaaeymf",
+                            "name": "form",
+                            "type": "form",
+                            "props": {
+                              "className": "space-y-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "qfx7rar6i",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "cdh3rtcqd",
+                                    "name": "Label",
+                                    "type": "Label",
+                                    "props": {
+                                      "htmlFor": "email"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219040520d3d8jh0n8",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Email"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "4qylmrs3a",
+                                    "name": "Input",
+                                    "type": "Input",
+                                    "props": {
+                                      "id": "email",
+                                      "type": "email",
+                                      "placeholder": "you@example.com"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "l2guurmv8",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "u47v1g8ak",
+                                    "name": "Label",
+                                    "type": "Label",
+                                    "props": {
+                                      "htmlFor": "card-number"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "1727219040522171mmjm16",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Card Number"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "beovsronj",
+                                    "name": "Input",
+                                    "type": "Input",
+                                    "props": {
+                                      "id": "card-number",
+                                      "type": "text",
+                                      "placeholder": "4111 1111 1111 1111"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0a7ssi01g",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid grid-cols-3 gap-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "5v4xekcw8",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "grid gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "b8er0csum",
+                                        "name": "Label",
+                                        "type": "Label",
+                                        "props": {
+                                          "htmlFor": "expiry"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "1727219040525zgyaeush8",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Expiry"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "6edezz1ou",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "flex gap-2"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "bofbcahs7",
+                                            "name": "Select",
+                                            "type": "Select",
+                                            "props": {},
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "qvitd5gg7",
+                                                "name": "SelectTrigger",
+                                                "type": "SelectTrigger",
+                                                "props": {
+                                                  "className": "w-full"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": [
+                                                  {
+                                                    "id": "onxyzkrt4",
+                                                    "name": "SelectValue",
+                                                    "type": "SelectValue",
+                                                    "props": {
+                                                      "placeholder": "MM"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": []
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "id": "fxt8bpvrg",
+                                                "name": "SelectContent",
+                                                "type": "SelectContent",
+                                                "props": {},
+                                                "allowsChildren": true,
+                                                "children": [
+                                                  {
+                                                    "id": "25dcrfsih",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "01"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040529a7ozkaj8c",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "01"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "nz6esltyb",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "02"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "17272190405306pqf20qan",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "02"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "194f06xv4",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "03"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "17272190405300lw8hx70p",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "03"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "731aq4cga",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "04"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040530hbw4d4op8",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "04"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "vpjq9hvh4",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "05"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040531qudg3bzpk",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "05"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "tilit4yea",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "06"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040531j91ztvjj5",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "06"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "2y77jrdm7",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "07"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "172721904053128d213pif",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "07"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "2gt2q4y6i",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "08"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040532plaka2ng9",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "08"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "uvxik5y5l",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "09"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040532cxgmcz3d6",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "09"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "iq7pb9ubs",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "10"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040533e9k0l0u7x",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "10"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "455yi1kob",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "11"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040533nl9s9k9vx",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "11"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "v645dmbce",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "12"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040534nlodfz7o9",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "12"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "id": "uqawzus1m",
+                                            "name": "Select",
+                                            "type": "Select",
+                                            "props": {},
+                                            "allowsChildren": true,
+                                            "children": [
+                                              {
+                                                "id": "omwtc2ta6",
+                                                "name": "SelectTrigger",
+                                                "type": "SelectTrigger",
+                                                "props": {
+                                                  "className": "w-full"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": [
+                                                  {
+                                                    "id": "z9arjaxow",
+                                                    "name": "SelectValue",
+                                                    "type": "SelectValue",
+                                                    "props": {
+                                                      "placeholder": "YY"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": []
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "id": "o3vpsvmyl",
+                                                "name": "SelectContent",
+                                                "type": "SelectContent",
+                                                "props": {},
+                                                "allowsChildren": true,
+                                                "children": [
+                                                  {
+                                                    "id": "8qt4zzqhh",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "23"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040538hu2wh1efk",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "23"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "y3mwhkss1",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "24"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040538451u9yz00",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "24"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "24iy3w5yx",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "25"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040539uxroy17li",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "25"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "5o4g83zml",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "26"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "1727219040539hdhl7iewv",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "26"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "cln9thvb8",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "27"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "17272190405408kvoklini",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "27"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "g7463el9e",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "28"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "17272190405408l7a0y4d0",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "28"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "20pfa1bnw",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "29"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "17272190405402ayxp3938",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "29"
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "id": "zeofte8rw",
+                                                    "name": "SelectItem",
+                                                    "type": "SelectItem",
+                                                    "props": {
+                                                      "value": "30"
+                                                    },
+                                                    "allowsChildren": true,
+                                                    "children": [
+                                                      {
+                                                        "id": "17272190405410k063cdeo",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                          "content": "30"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "oyh2ru8gw",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "grid gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "owf2fw1cf",
+                                        "name": "Label",
+                                        "type": "Label",
+                                        "props": {
+                                          "htmlFor": "cvc"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "1727219040542rgzj1g8qt",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "CVC"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "zyy8xh5pp",
+                                        "name": "Input",
+                                        "type": "Input",
+                                        "props": {
+                                          "id": "cvc",
+                                          "type": "text",
+                                          "placeholder": "123"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "vgjx3gs02",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "type": "submit",
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "17272190405423xs0tld4b",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Start Your Free Trial"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
