@@ -1,6 +1,5 @@
 "use client"
 
-import * as React from "react"
 import {
   AlertCircle,
   Archive,
@@ -51,24 +50,14 @@ import initialData from '@/components/preset-editor/initial-tree.json';
 import type { TreeItem } from "@/app/(main)/(editor)/types";
 import { PresetControls } from "./preset-controls"
 import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage"
+import { useState } from "react"
 
 
-interface EditorProps {
-  defaultLayout: number[] | undefined
-  defaultCollapsed?: boolean
-  navCollapsedSize: number
-}
 
-export function Editor({
-  defaultLayout = [3.6, 7.7, 48],
-  defaultCollapsed = false,
-  navCollapsedSize,
-}: EditorProps) {
-  const [isCollapsed, setIsCollapsed] = React.useState(defaultCollapsed)
-  const [editor] = useEditor()
-
-  const initialTree: TreeItem[] = initialData;
-  const [tree, setTree] = useMultipleLocalStorage(["tree"], [initialTree])
+export function Editor() {
+  const defaultLayout = [3.6, 7.7, 48]
+  const navCollapsedSize = 3.6
+  const [isCollapsed, setIsCollapsed] = useState(false)
 
   return (
     <TooltipProvider delayDuration={0}>
