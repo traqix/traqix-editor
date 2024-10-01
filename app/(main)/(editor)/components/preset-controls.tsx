@@ -12,7 +12,7 @@ const fetcher = (url: string | URL | Request) => fetch(url).then(res => res.json
 export function PresetControls() {
 
   const [_tree, setTree] = useMultipleLocalStorage(['tx_current'], [null]);
-  const { data, error, isLoading } = useSWR('/api/presets', fetcher);
+  const { data, error, isLoading } = useSWR('/traqix-editor/api/presets', fetcher);
   const presetSections: TreeItem[] = data
 
   if (isLoading) return <div>Carregando...</div>;
