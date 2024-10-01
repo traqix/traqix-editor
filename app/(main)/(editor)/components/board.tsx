@@ -29,7 +29,7 @@ import { usePathname } from "next/navigation";
 export default function PlaygroundPage() {
 
   const pathname = usePathname()
-  const basePath = pathname == '/' ? '' : pathname
+  const basePath = '/traqix-editor/' // pathname == '/' ? '' : pathname
   
   const [messageFromIframe, setMessageFromIframe] = useState<TreeItem | null>(
     null

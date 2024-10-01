@@ -12,6 +12,7 @@ const nextConfig = {
           },
         ],
     },
+    assetPrefix: '/traqix-editor/',
 };
 
 export default nextConfig;
