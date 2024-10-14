@@ -1,0 +1,980 @@
+[
+  {
+    "id": "id_xv0ezrec0_m27shcj6",
+    "name": "Coffe Page",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col min-h-dvh"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_650axzy7f_m27shcj6",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "bg-[#6c5ce7] text-white px-4 lg:px-6 h-14 flex items-center justify-between"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_v28bx3ljr_m27shcj6",
+            "name": "Link",
+            "type": "Link",
+            "props": {
+              "href": "#",
+              "className": "flex items-center justify-center",
+              "prefetch": null
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_8svlm4ehu_m27shcj6",
+                "name": "CoffeeIcon",
+                "type": "CoffeeIcon",
+                "props": {
+                  "className": "size-6 text-[#ffeaa7]"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_jq50qwwex_m27shcj6",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "sr-only"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_6f2n5suo4_m27shcj6",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Acme Inc"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_rk9y4r46u_m27shcj6",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center gap-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_kbniuspiy_m27shcj6",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "text-sm font-medium hover:underline underline-offset-4 text-[#ffeaa7]",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_87v8o1oph_m27shcj6",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Login"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_al324sytu_m27shcj6",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "outline",
+                  "className": "text-[#ffeaa7] border-[#ffeaa7]"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_1ncur670h_m27shcj6",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Sign Up"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_7g7xvzs3s_m27shcj6",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "w-full max-w-6xl mx-auto px-4 py-8 sm:px-6 lg:px-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_5d1yyb7g1_m27shcj6",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center justify-between mb-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_b2ja4uat9_m27shcj6",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "relative flex-1"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ur6gtybxd_m27shcj6",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_ejw2wlo6w_m27shcj6",
+                    "name": "Input",
+                    "type": "Input",
+                    "props": {
+                      "type": "text",
+                      "placeholder": "Search for restaurants, attractions, events...",
+                      "className": "pl-10 pr-4 py-2 rounded-lg bg-muted w-full"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_qg6fdhyar_m27shcj6",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mb-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_669cljb3c_m27shcj6",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex flex-col items-center justify-center gap-2 p-4 rounded-lg bg-muted hover:bg-[#6c5ce7] hover:text-white transition-colors",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_6faeehwna_m27shcj6",
+                    "name": "MenuIcon",
+                    "type": "MenuIcon",
+                    "props": {
+                      "className": "w-8 h-8"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_ba087n7cz_m27shcj6",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-sm font-medium"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_o1psreghv_m27shcj6",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Restaurants"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_270365w97_m27shcj6",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex flex-col items-center justify-center gap-2 p-4 rounded-lg bg-muted hover:bg-[#6c5ce7] hover:text-white transition-colors",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_jd9siwh41_m27shcj6",
+                    "name": "ActivityIcon",
+                    "type": "ActivityIcon",
+                    "props": {
+                      "className": "w-8 h-8"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_xdpof9q3h_m27shcj6",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-sm font-medium"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_zwieuna3t_m27shcj6",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Attractions"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_u0qclef6k_m27shcj6",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex flex-col items-center justify-center gap-2 p-4 rounded-lg bg-muted hover:bg-[#6c5ce7] hover:text-white transition-colors",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_l4uiiduvc_m27shcj6",
+                    "name": "CalendarIcon",
+                    "type": "CalendarIcon",
+                    "props": {
+                      "className": "w-8 h-8"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_lgwc8r8j0_m27shcj6",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-sm font-medium"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ca32yrrl0_m27shcj6",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Events"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_6exmub0wp_m27shcj6",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex flex-col items-center justify-center gap-2 p-4 rounded-lg bg-muted hover:bg-[#6c5ce7] hover:text-white transition-colors",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_49jry6lm2_m27shcj6",
+                    "name": "ShoppingCartIcon",
+                    "type": "ShoppingCartIcon",
+                    "props": {
+                      "className": "w-8 h-8"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_kz46a9gts_m27shcj6",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-sm font-medium"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_zadn4dsia_m27shcj6",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Shopping"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_y8cegwcf7_m27shcj6",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "flex flex-col items-center justify-center gap-2 p-4 rounded-lg bg-muted hover:bg-[#6c5ce7] hover:text-white transition-colors",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_9t3vsv7ts_m27shcj6",
+                    "name": "ClubIcon",
+                    "type": "ClubIcon",
+                    "props": {
+                      "className": "w-8 h-8"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_rlwcosjsz_m27shcj6",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-sm font-medium"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_rljkdfbwm_m27shcj6",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Nightlife"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_56xckvu1p_m27shcj6",
+            "name": "div",
+            "type": "div",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_q2n9oeiau_m27shcj6",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-2xl font-bold mb-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_au8fvad3h_m27shcj6",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Popular Local Spots"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_sqcpzlgse_m27shcj6",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_tt447tl9q_m27shcj6",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex flex-col bg-muted rounded-lg overflow-hidden group",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_9emht8xe0_m27shcj6",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Spot Image",
+                          "width": null,
+                          "height": null,
+                          "className": "w-full h-48 object-cover group-hover:opacity-80 transition-opacity",
+                          "style": null
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_dtizy9q5g_m27shcj6",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_5w77wym5v_m27shcj6",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-medium mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_cyhf69d2r_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Local Cafe"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_r2ypc7jkq_m27shcj6",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground line-clamp-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_v7rpos8xg_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Cozy neighborhood cafe serving up delicious coffee and pastries."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_bug0wwq1h_m27shcj6",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex flex-col bg-muted rounded-lg overflow-hidden group",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_opbgqo99h_m27shcj6",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Spot Image",
+                          "width": null,
+                          "height": null,
+                          "className": "w-full h-48 object-cover group-hover:opacity-80 transition-opacity",
+                          "style": null
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_95nltsvph_m27shcj6",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_krbimgf5s_m27shcj6",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-medium mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_4cp8u2odt_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Outdoor Adventure Park"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_tjk0gjgh4_m27shcj6",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground line-clamp-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_lqyxjo2nf_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Explore nature trails, rock climbing walls, and more at this exciting local attraction."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_m4nenpm41_m27shcj6",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex flex-col bg-muted rounded-lg overflow-hidden group",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_zaxgf62l8_m27shcj6",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Spot Image",
+                          "width": null,
+                          "height": null,
+                          "className": "w-full h-48 object-cover group-hover:opacity-80 transition-opacity",
+                          "style": null
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_87bnwb32t_m27shcj6",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_2udylkv78_m27shcj6",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-medium mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_xmdkprvoz_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Artisan Marketplace"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_jzqkhtn91_m27shcj6",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground line-clamp-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_7zwuhvis4_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Discover unique handmade goods from local artisans and craftspeople."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_y51a2h6iw_m27shcj6",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "mt-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_gkx7yqffi_m27shcj6",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-2xl font-bold mb-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_qr4pv8ltu_m27shcj6",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Upcoming Events"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_njflu1e6u_m27shcj6",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_fsepdvqar_m27shcj6",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex flex-col bg-muted rounded-lg overflow-hidden group",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_bxzy3yx36_m27shcj6",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Event Image",
+                          "width": null,
+                          "height": null,
+                          "className": "w-full h-48 object-cover group-hover:opacity-80 transition-opacity",
+                          "style": null
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_iq1l11wjk_m27shcj6",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_a5scydvpb_m27shcj6",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-medium mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_itqek4vh2_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Summer Music Festival"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_tumjrthd9_m27shcj6",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground line-clamp-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_s5vfkb5jn_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Enjoy a day of live music, food trucks, and local artisans at this annual summer event."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_pz5p2o0oq_m27shcj6",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex flex-col bg-muted rounded-lg overflow-hidden group",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_lnh5ow4td_m27shcj6",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Event Image",
+                          "width": null,
+                          "height": null,
+                          "className": "w-full h-48 object-cover group-hover:opacity-80 transition-opacity",
+                          "style": null
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_eyzlgfpq1_m27shcj6",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_d3moouktm_m27shcj6",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-medium mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_yc3jb3f3h_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Farmers Market"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_228g2jat3_m27shcj6",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground line-clamp-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_r981t87gd_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Browse fresh produce, baked goods, and handmade crafts at the weekly farmers market."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_wv7arvyuk_m27shcj6",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "flex flex-col bg-muted rounded-lg overflow-hidden group",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_rocertcxk_m27shcj6",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Event Image",
+                          "width": null,
+                          "height": null,
+                          "className": "w-full h-48 object-cover group-hover:opacity-80 transition-opacity",
+                          "style": null
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_4gl99zen2_m27shcj6",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_exq0h4jz7_m27shcj6",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-medium mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_ha1k7qtp0_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Outdoor Movie Night"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_oe2gehlzr_m27shcj6",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground line-clamp-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_z643zo8pu_m27shcj6",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Bring a blanket and enjoy classic movies under the stars at this community event."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

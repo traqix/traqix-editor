@@ -1,0 +1,902 @@
+[
+      {
+        "id": "id_f8ploa6y2_m27sk8mr",
+        "name": "Game Word Scramble",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col h-screen bg-background text-foreground"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_fi4qcl7hv_m27sk8mr",
+            "name": "header",
+            "type": "header",
+            "props": {
+              "className": "bg-primary text-primary-foreground py-4 px-6 flex items-center justify-between"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_um2svw84p_m27sk8mr",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center gap-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_zlaxidijq_m27sk8mr",
+                    "name": "GamepadIcon",
+                    "type": "GamepadIcon",
+                    "props": {
+                      "className": "w-6 h-6"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_diblg10i9_m27sk8mr",
+                    "name": "h1",
+                    "type": "h1",
+                    "props": {
+                      "className": "text-2xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_fuho3fhpr_m27sk8mr",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Word Scramble"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_yhi0yjknw_m27sk8mr",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center gap-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ekawvmmf5_m27sk8mr",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "variant": "ghost"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_33tifuls2_m27sk8mr",
+                        "name": "UserIcon",
+                        "type": "UserIcon",
+                        "props": {
+                          "className": "w-5 h-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_5ztndpl0z_m27sk8mr",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_13l4jytrp_m27sk8mr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Join as Guest"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_vtim4oo32_m27sk8mr",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "variant": "outline"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ay6qkqtpe_m27sk8mr",
+                        "name": "ChromeIcon",
+                        "type": "ChromeIcon",
+                        "props": {
+                          "className": "w-5 h-5 mr-2"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_tb15db6rg_m27sk8mr",
+                        "name": "span",
+                        "type": "span",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_bxpf0i9tg_m27sk8mr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Sign in with Google"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_icie3zijx_m27sk8mr",
+            "name": "main",
+            "type": "main",
+            "props": {
+              "className": "flex-1 grid grid-cols-[1fr_2fr] gap-8 p-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_of9fyj4pf_m27sk8mr",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-card rounded-lg p-6 shadow-sm"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_siptkbhj4_m27sk8mr",
+                    "name": "h2",
+                    "type": "h2",
+                    "props": {
+                      "className": "text-xl font-bold mb-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ya33liqj6_m27sk8mr",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Join a Game"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_e3qwdzgxf_m27sk8mr",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "space-y-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_xt5pe0dy5_m27sk8mr",
+                        "name": "div",
+                        "type": "div",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_jnsxp40sw_m27sk8mr",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "roomId"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_leo5qessp_m27sk8mr",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Room ID"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_ph8p054of_m27sk8mr",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "roomId",
+                              "placeholder": "Enter room ID"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_pokb3gvbg_m27sk8mr",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "className": "w-full"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_a1bqt7znn_m27sk8mr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Join Private Game"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_rj8v08yly_m27sk8mr",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "variant": "outline",
+                          "className": "w-full"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_q2i79pn20_m27sk8mr",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Join Public Game"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_c18p7v0wi_m27sk8mr",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "bg-card rounded-lg p-6 shadow-sm"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_0t339mnvl_m27sk8mr",
+                    "name": "h2",
+                    "type": "h2",
+                    "props": {
+                      "className": "text-xl font-bold mb-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0cwxj3s9y_m27sk8mr",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Current Game"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_84c0vwgvu_m27sk8mr",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid gap-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_h8uuwfhj0_m27sk8mr",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "bg-muted rounded-lg p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_dfz8mg6ct_m27sk8mr",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center justify-between mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_8msm2qqzj_m27sk8mr",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_hfe7ybw5e_m27sk8mr",
+                                    "name": "Avatar",
+                                    "type": "Avatar",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_drn3j6i8r_m27sk8mr",
+                                        "name": "AvatarImage",
+                                        "type": "AvatarImage",
+                                        "props": {
+                                          "src": "/placeholder-user.jpg",
+                                          "alt": "Host"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_se2bhui8m_m27sk8mr",
+                                        "name": "AvatarFallback",
+                                        "type": "AvatarFallback",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_8cksghy8n_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "H"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_zlt19sqap_m27sk8mr",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_b4pr14nqt_m27sk8mr",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "font-bold"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_8l6h0lytq_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Host"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_e61z8ibs4_m27sk8mr",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "text-muted-foreground text-sm"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_qs6jui7w2_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Scrambling word..."
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_h3x3c6cfg_m27sk8mr",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-xl font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_cyolwghst_m27sk8mr",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "120"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_pztajv9xe_m27sk8mr",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "bg-background rounded-lg p-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_1rf42xwh4_m27sk8mr",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-2xl font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_2lyid7iql_m27sk8mr",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "S C R A M B L E D"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_zwnsmz0ad_m27sk8mr",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "mt-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_swpc67pq6_m27sk8mr",
+                                "name": "Label",
+                                "type": "Label",
+                                "props": {
+                                  "htmlFor": "guess",
+                                  "className": "sr-only"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_lgk0xtbgo_m27sk8mr",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Guess"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_1w72zlme8_m27sk8mr",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "relative"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_bikd95dcv_m27sk8mr",
+                                    "name": "Textarea",
+                                    "type": "Textarea",
+                                    "props": {
+                                      "id": "guess",
+                                      "placeholder": "Enter your guess...",
+                                      "className": "pr-16"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_r2ntozoj4_m27sk8mr",
+                                    "name": "Button",
+                                    "type": "Button",
+                                    "props": {
+                                      "type": "submit",
+                                      "size": "icon",
+                                      "className": "absolute top-1/2 -translate-y-1/2 right-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_2tycl9m3e_m27sk8mr",
+                                        "name": "SendIcon",
+                                        "type": "SendIcon",
+                                        "props": {
+                                          "className": "w-5 h-5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_5netj5ghq_m27sk8mr",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "sr-only"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_0dx53p36o_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Submit Guess"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_uso2df92c_m27sk8mr",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "bg-muted rounded-lg p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_1h3ee2ot1_m27sk8mr",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center justify-between mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_6plsoptum_m27sk8mr",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_qdgmmej9n_m27sk8mr",
+                                    "name": "Avatar",
+                                    "type": "Avatar",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_wv81uc1ze_m27sk8mr",
+                                        "name": "AvatarImage",
+                                        "type": "AvatarImage",
+                                        "props": {
+                                          "src": "/placeholder-user.jpg",
+                                          "alt": "Player 1"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_ihs736ofr_m27sk8mr",
+                                        "name": "AvatarFallback",
+                                        "type": "AvatarFallback",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_681curdcs_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "P1"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_45n17u1m1_m27sk8mr",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_c3tdjhwvy_m27sk8mr",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "font-bold"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_s6zmh2edr_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Player 1"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_xr31epk7c_m27sk8mr",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "text-muted-foreground text-sm"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_c74hdv7v4_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Guessed: SCRAMBLED"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_l31kkewmc_m27sk8mr",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-xl font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_rpfaktq6z_m27sk8mr",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "50"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_f7rpqee1w_m27sk8mr",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "bg-muted rounded-lg p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_pwbtiiwxo_m27sk8mr",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center justify-between mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_mvgtv4gbp_m27sk8mr",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_duzs0mjuc_m27sk8mr",
+                                    "name": "Avatar",
+                                    "type": "Avatar",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_kvjbb8gvx_m27sk8mr",
+                                        "name": "AvatarImage",
+                                        "type": "AvatarImage",
+                                        "props": {
+                                          "src": "/placeholder-user.jpg",
+                                          "alt": "Player 2"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_bmwldtbi7_m27sk8mr",
+                                        "name": "AvatarFallback",
+                                        "type": "AvatarFallback",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_kzk0j3g79_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "P2"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_wmnmst3ag_m27sk8mr",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_vsczmturz_m27sk8mr",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "font-bold"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_c1pf0ikur_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Player 2"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_xmvkakd09_m27sk8mr",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "text-muted-foreground text-sm"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_xq5tzs307_m27sk8mr",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Guessed: SCRAMBLE"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_n1zgmn151_m27sk8mr",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-xl font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_soxaw2gda_m27sk8mr",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "30"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]

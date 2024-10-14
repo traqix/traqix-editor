@@ -1,83 +1,110 @@
-"use client"
-
+import React, { useCallback, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Eye, Redo, Undo } from "lucide-react";
-import { useState } from "react";
-import type { TreeItem } from "@/app/(main)/(editor)/types";
+import { Eye, LucideMemoryStick, MemoryStick, MemoryStickIcon, Redo, Undo } from "lucide-react";
+import { TreeItem } from "@/app/(main)/(editor)/types";
+import { useTree } from "@/components/context/tree-context";
+import { EyeClosedIcon, EyeNoneIcon, LockClosedIcon } from "@radix-ui/react-icons";
+import FloatingMemoryInspector from "./floating-memory-inspector";
 
+interface HistoryControlsProps {
+  currentPage?: string; // Optional prop to allow for page changes
+}
 
-import initialData from '@/components/preset-editor/initial-tree.json';
-import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage";
-// import useLocalStorage from "@/hooks/use-local-storage";
+export function HistoryControls({
+  currentPage = "Home",
+}: HistoryControlsProps) {
+  const { undo, redo, onTreeChange } = useTree();
 
+  // Escuta as alterações na árvore
+  useEffect(() => {
+    const handleTreeChange = (updatedItem: TreeItem) => {
+      // Se necessário, faça algo com o item atualizado
+    };
 
-export function HistoryControls() {
+    const unsubscribe = onTreeChange(handleTreeChange);
+    return () => {
+      unsubscribe(); // Remove o listener ao desmontar
+    };
+  }, [onTreeChange]);
 
-  const initialTree: TreeItem[] = initialData;
-  // const [tree, setTree] = useMultipleLocalStorage(["tx_current"], [initialTree])
-  
-  const [currentPage, setCurrentPage] = useState("Home");
-  const [history, setHistory] = useState<Record<string, TreeItem[][]>>({
-    Home: [initialTree],
-  });
-  const [historyIndex, setHistoryIndex] = useState<Record<string, number>>({
-    Home: 0,
-  });
+  const generateSampleData = () => ({
+    count: Math.floor(Math.random() * 100),
+    message: "Hello, World!",
+    items: ["apple", "banana", "cherry"],
+    config: {
+      isEnabled: Math.random() > 0.5,
+      maxRetries: Math.floor(Math.random() * 5) + 1
+    },
+    nestedObject: {
+      level1: {
+        level2: {
+          level3: "Deep nested value"
+        }
+      }
+    },
+    longArray: Array.from({ length: 100 }, (_, i) => `Item ${i + 1}`),
+    timestamp: new Date().toISOString()
+  })
 
-  const [pageContent, setPageContent] = useState<Record<string, TreeItem[]>>({
-    Home: initialTree,
-  });
-
-  const undo = () => {
-    if (historyIndex[currentPage] > 0) {
-      setHistoryIndex((prev) => ({
-        ...prev,
-        [currentPage]: prev[currentPage] - 1,
-      }));
-      const newTree = history[currentPage][historyIndex[currentPage] - 1];
-      // setPageContent((prev) => ({ ...prev, [currentPage]: newTree }));
-      // setTree('tx_current', newTree);
+  const generateGlobalData = () => ({
+    appVersion: "1.0.0",
+    userSettings: {
+      theme: "dark",
+      notifications: true
+    },
+    sessionInfo: {
+      id: "sess_" + Math.random().toString(36).substr(2, 9),
+      startTime: new Date().toISOString()
     }
-  };
+  })
 
-  const redo = () => {
-    if (historyIndex[currentPage] < history[currentPage].length - 1) {
-      setHistoryIndex((prev) => ({
-        ...prev,
-        [currentPage]: prev[currentPage] + 1,
-      }));
-      const newTree = history[currentPage][historyIndex[currentPage] + 1];
-      // setPageContent((prev) => ({ ...prev, [currentPage]: newTree }));
-      // setTree('tx_current', newTree);
-    }
-  };
+  const [isInspectorOpen, setIsInspectorOpen] = useState(false)
+  const [localData, setLocalData] = useState(generateSampleData())
+  const [selectedObjectData, setSelectedObjectData] = useState<Record<string, any> | null>(null)
+  const [globalData] = useState(generateGlobalData())
+
+  const handleRefresh = useCallback(() => {
+    setLocalData(generateSampleData())
+  }, [])
+
+  const handleSelectObject = () => {
+    setSelectedObjectData({
+      selectedItem: localData.items[Math.floor(Math.random() * localData.items.length)],
+      selectionTime: new Date().toISOString()
+    })
+  }
+
 
   return (
-      <div className="flex items-center space-x-2">
-        <Button
-        key={'AA'}
-          variant="outline"
-          size="icon"
-          onClick={undo}
-          disabled={historyIndex[currentPage] === 0}
-        >
-          <Undo className="h-4 w-4" />
-        </Button>
-        <Button
-        key={'AB'}
-          variant="outline"
-          size="icon"
-          onClick={redo}
-          disabled={
-            historyIndex[currentPage] === history[currentPage].length - 1
-          }
-        >
-          <Redo className="h-4 w-4" />
-        </Button>
-        <Button 
-        key={'AC'} variant="outline" size="icon">
-          <Eye className="h-4 w-4" />
-        </Button>
-      </div>
+    <div className="grid gap-2 grid-flow-col justify-stretch">
+      <Button
+        variant="outline"
+        size="icon"
+        onClick={undo}
+        className="w-9 h-9"
+        // O botão de desfazer deve ser desabilitado se não houver mais ações a desfazer
+        disabled={false} // Ajuste conforme necessário para controlar o estado
+      >
+        <Undo className="h-4 w-4" />
+      </Button>
+      <Button
+        variant="outline"
+        size="icon"
+        onClick={redo}
+        className="w-9 h-9"
+        // O botão de refazer deve ser desabilitado se não houver mais ações a refazer
+        disabled={false} // Ajuste conforme necessário para controlar o estado
+      >
+        <Redo className="h-4 w-4" />
+      </Button>
+      <FloatingMemoryInspector
+        data={localData}
+        selectedObjectData={selectedObjectData || undefined}
+        globalData={globalData}
+        isOpen={isInspectorOpen}
+        onToggle={() => setIsInspectorOpen(!isInspectorOpen)}
+        onRefresh={handleRefresh}
+      />
+    </div>
   );
 }

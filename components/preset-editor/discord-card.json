@@ -1,0 +1,270 @@
+[
+  {
+    "id": "id_guyyqd7l8_m26vr6k2",
+    "name": "Discord Card",
+    "type": "Card",
+    "props": {
+      "className": "max-w-md w-full mx-auto bg-gray-900 text-gray-50 dark:bg-gray-50 dark:text-gray-900 overflow-hidden border-0 rounded-2xl"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_qawrenjo3_m26vr6k2",
+        "name": "CardHeader",
+        "type": "CardHeader",
+        "props": {
+          "className": "bg-[#7289da] px-6 py-4 flex items-center justify-between"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_qkcblv7gl_m26vr6k2",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center gap-3"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_ldgy5lmqp_m26vr6k2",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "rounded-full w-10 h-10 bg-gray-800 flex items-center justify-center text-2xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_bi7r0h3cq_m26vr6k2",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "D"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_pozcy23v5_m26vr6k2",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "font-bold text-lg"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_8b3h8h4yp_m26vr6k2",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Acme Discord"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_4zhl1y9g5_m26vr6k2",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "size": "icon",
+              "className": "rounded-full"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_pym44vv0k_m26vr6k2",
+                "name": "XIcon",
+                "type": "XIcon",
+                "props": {
+                  "className": "w-5 h-5"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_zpj8nw1j4_m26vr6k2",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "sr-only"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_cpno8loxf_m26vr6k2",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Close"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_spp4wuwjj_m26vr6k2",
+        "name": "CardContent",
+        "type": "CardContent",
+        "props": {
+          "className": "p-6 grid gap-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_gx87a22oe_m26vr6k2",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center justify-between"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_1exo5rs3q_m26vr6k2",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center gap-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_b0sgh2ow6_m26vr6k2",
+                    "name": "UsersIcon",
+                    "type": "UsersIcon",
+                    "props": {
+                      "className": "w-5 h-5"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_qre1g8xn7_m26vr6k2",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-sm font-medium"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_kl02g7zre_m26vr6k2",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "1,234 members"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_ircf3grng_m26vr6k2",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "secondary",
+                  "size": "sm"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_dkgo7enyj_m26vr6k2",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Join"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_podnmtxjd_m26vr6k2",
+            "name": "Separator",
+            "type": "Separator",
+            "props": {
+              "className": "bg-gray-800"
+            },
+            "allowsChildren": true,
+            "children": []
+          },
+          {
+            "id": "id_d83hfnip7_m26vr6k2",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "grid gap-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_ycfwym9wz_m26vr6k2",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "text-sm font-medium"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_4qy9ppp9j_m26vr6k2",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "About Acme Discord"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_2r604ksei_m26vr6k2",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "text-sm text-gray-400"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_12mgzqegi_m26vr6k2",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Welcome to the official Acme Discord server! Connect with other Acme enthusiasts, discuss the latest\n            products, and get support from our community."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

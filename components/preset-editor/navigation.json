@@ -1,0 +1,686 @@
+[
+  {
+    "id": "id_z01fh4vzx_m27sd0du",
+    "name": "Navigation",
+    "type": "div",
+    "props": {
+      "className": "min-h-screen bg-[#0b0d17] text-white"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_ag3dpmc5t_m27sd0du",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "flex items-center justify-between px-8 py-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_od9t7a1a1_m27sd0du",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center space-x-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_c0gqgrt6j_m27sd0du",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "w-8 h-8 bg-blue-500 rounded-full"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_95u5zutmp_m27sd0du",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "text-xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_vxx1endm5_m27sd0du",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "BookAI"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_20vx3s443_m27sd0du",
+            "name": "Sheet",
+            "type": "Sheet",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_c039x3bmf_m27sd0du",
+                "name": "SheetTrigger",
+                "type": "SheetTrigger",
+                "props": {
+                  "asChild": true
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_oxalbjphr_m27sd0du",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "variant": "ghost",
+                      "size": "icon",
+                      "className": "lg:hidden"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_pmjv0ebb6_m27sd0du",
+                        "name": "MenuIcon",
+                        "type": "MenuIcon",
+                        "props": {
+                          "className": "h-6 w-6"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_cgtcnwfvg_m27sd0du",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "sr-only"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_6czk7t3pp_m27sd0du",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Toggle navigation menu"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_usdxih8j6_m27sd0du",
+                "name": "SheetContent",
+                "type": "SheetContent",
+                "props": {
+                  "side": "right"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_6fl7ydd7a_m27sd0du",
+                    "name": "nav",
+                    "type": "nav",
+                    "props": {
+                      "className": "grid gap-6 text-lg font-medium"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_2fguvfshq_m27sd0du",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-muted-foreground hover:text-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_gr97rypco_m27sd0du",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Features"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_d55k0yla5_m27sd0du",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-muted-foreground hover:text-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_8wopptktx_m27sd0du",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "How It Works"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_vhfi0ssxr_m27sd0du",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-muted-foreground hover:text-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_byj7pjqxa_m27sd0du",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Roadmap"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_prr5m6fyh_m27sd0du",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-muted-foreground hover:text-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_iu3jmlppj_m27sd0du",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "API"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_cjkfslvgg_m27sd0du",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-muted-foreground hover:text-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_wpgflzrgx_m27sd0du",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Price"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_xij29qd85_m27sd0du",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-muted-foreground hover:text-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_fk2tz3p0n_m27sd0du",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Models"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_8cavvbaxc_m27sd0du",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex justify-end"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_c65rwxpm6_m27sd0du",
+                            "name": "Button",
+                            "type": "Button",
+                            "props": {
+                              "variant": "default",
+                              "className": "bg-blue-500 text-white"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_j1kfllgb2_m27sd0du",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Login / Sign Up"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_wovtgkzyy_m27sd0du",
+            "name": "nav",
+            "type": "nav",
+            "props": {
+              "className": "flex space-x-6 text-sm hidden lg:flex"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_tojnb75bp_m27sd0du",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "hover:underline",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_an01g6i02_m27sd0du",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Features"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_0kutsyahg_m27sd0du",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "hover:underline",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_qodm0bc0z_m27sd0du",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "How It Works"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_o5lqrl2a9_m27sd0dv",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "hover:underline",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_wst5vbcu2_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Roadmap"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_gxakelcws_m27sd0dv",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "hover:underline",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_bk6zk8qmz_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "API"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_ay2du25sm_m27sd0dv",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "hover:underline",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_zpa6m8ox4_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Price"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_rlqsno21t_m27sd0dv",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "hover:underline",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_dck8pnx4d_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Models"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_hpsifcxrd_m27sd0dv",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "default",
+                  "className": "bg-blue-500 text-white"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_t4m9j0pn8_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Login / Sign Up"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_2drjm6irf_m27sd0dv",
+        "name": "main",
+        "type": "main",
+        "props": {
+          "className": "flex flex-col items-center justify-center text-center py-20 space-y-6"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_ge29h504g_m27sd0dv",
+            "name": "h2",
+            "type": "h2",
+            "props": {
+              "className": "text-4xl font-bold"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_58ybg9556_m27sd0dv",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Explore the Possibilities of"
+                }
+              },
+              {
+                "id": "id_dolyf9u5c_m27sd0dv",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "text-purple-500"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_yynaim95i_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "AI Book Writing"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_wnqzulerz_m27sd0dv",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "with"
+                }
+              },
+              {
+                "id": "id_d01u4hv2d_m27sd0dv",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "text-white"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_mtu0n3oep_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "BookAI"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_pbl7kskto_m27sd0dv",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-lg text-muted-foreground max-w-2xl"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_84cnaj0zu_m27sd0dv",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Unleash the power of AI to create captivating books in minutes. Download, Distribute wherever you want.\n          Generate unlimited free books."
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_6tfgoi9mt_m27sd0dv",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex space-x-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_o5krbzgp9_m27sd0dv",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "default",
+                  "className": "bg-blue-500 text-white"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_tl0ei76iz_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Get Started"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_wah2ntbhh_m27sd0dv",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "default",
+                  "className": "bg-blue-500 text-white"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_axebvmkq6_m27sd0dv",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Get API Access"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_ao71viquj_m27sd0dv",
+        "name": "footer",
+        "type": "footer",
+        "props": {
+          "className": "text-center py-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_ximk6lhuj_m27sd0dv",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-yellow-500"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_l76v7ufaf_m27sd0dv",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Attention: TryBookAI has been acquired by Indicus AI. Indicus LLM will be used for text and image generation."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

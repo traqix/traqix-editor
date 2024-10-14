@@ -1,0 +1,87 @@
+[
+      {
+        "id": "id_u9kmi8fyx_m219y7id",
+        "name": "Presentation Model",
+        "type": "div",
+        "props": {
+          "className": "min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-800 via-purple-800 to-blue-800 text-white"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_uihkelux8_m219y7id",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "text-center p-8 max-w-2xl"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_t4fic7n31_m219y7id",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "text-4xl font-bold mb-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ib1hr3wwo_m219y7id",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Autonomous Indoor Patient Medical Supply Delivery System"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_ldltocjb3_m219y7id",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-6xl font-bold text-purple-300 mb-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_0nv2nx7p0_m219y7id",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Medi-Runner"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_04mkp51qz_m219y7id",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-lg"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_whp0lonok_m219y7id",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "By John Doe, Jane Smith, and Alex Johnson"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]

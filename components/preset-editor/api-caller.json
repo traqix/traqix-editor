@@ -1,0 +1,139 @@
+[
+  {
+    "id": "id_ibgbivggf_m21adzoq",
+    "name": "API Caller",
+    "type": "div",
+    "props": {
+      "className": "container mx-auto max-w-4xl px-4 py-12 md:px-6 md:py-16"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_vadhxyy0q_m21adzop",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "grid gap-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_p1nea1ylb_m21adzop",
+            "name": "h1",
+            "type": "h1",
+            "props": {
+              "className": "text-3xl font-bold",
+              "content": "API Configuration"
+            },
+            "allowsChildren": false,
+            "children": []
+          },
+          {
+            "id": "id_y02zt8cj0_m21adzop",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-muted-foreground",
+              "content": "Set up your API endpoint and parameters."
+            },
+            "allowsChildren": false,
+            "children": []
+          },
+          {
+            "id": "id_98nzu8445_m21ag8sp",
+            "name": "URL Input",
+            "type": "input",
+            "props": {
+              "className": "p-2 rounded-md border border-gray-300 dark:border-gray-700 mb-4 w-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100",
+              "placeholder": "Enter API URL",
+              "onchange": "var dataSave = JSON.stringify({type:'string',value:e.target.value}); window.localStorage.setItem('traqix_mem_api_url', dataSave);"
+            },
+            "allowsChildren": false,
+            "children": []
+          },
+          {
+            "id": "id_nfhs74jco_m21ag8sp",
+            "name": "Method Select",
+            "type": "select",
+            "props": {
+              "className": "p-2 rounded-md border border-gray-300 dark:border-gray-700 mb-4 w-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100",
+              "onchange": "var dataSave = JSON.stringify({type:'string',value:e.target.value}); window.localStorage.setItem('traqix_mem_api_method', dataSave);"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_a9pt182hw_m21ag8sp",
+                "name": "GET Option",
+                "type": "option",
+                "props": {
+                  "value": "GET",
+                  "content": "GET"
+                },
+                "children": []
+              },
+              {
+                "id": "id_y50fqme5g_m21ag8sp",
+                "name": "POST Option",
+                "type": "option",
+                "props": {
+                  "value": "POST",
+                  "content": "POST"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_qm9yvna7s_m21ag8sp",
+            "name": "Headers Input",
+            "type": "textarea",
+            "props": {
+              "className": "p-2 rounded-md border border-gray-300 dark:border-gray-700 mb-4 w-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100",
+              "placeholder": "Enter Headers (JSON format)",
+              "onchange": "var dataSave = JSON.stringify({type:'string',value:e.target.value}); window.localStorage.setItem('traqix_mem_api_headers', dataSave);"
+            },
+            "allowsChildren": false,
+            "children": []
+          },
+          {
+            "id": "id_1dbmzlgxa_m21ag8sp",
+            "name": "Body Input",
+            "type": "textarea",
+            "props": {
+              "className": "p-2 rounded-md border border-gray-300 dark:border-gray-700 mb-4 w-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100",
+              "placeholder": "Enter Body (for POST requests, JSON format)",
+              "onchange": "var dataSave = JSON.stringify({type:'string',value:e.target.value}); window.localStorage.setItem('traqix_mem_api_body', dataSave);"
+            },
+            "allowsChildren": false,
+            "children": []
+          },
+          {
+            "id": "id_leelk20xw_m21ag8sp",
+            "name": "API Call Button",
+            "type": "button",
+            "props": {
+              "content": "Call API",
+              "className": "px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-300 ease-in-out",
+              "onclick": "var apiUrl = JSON.parse(window.localStorage.getItem('traqix_mem_api_url')).value || ''; var method = JSON.parse(window.localStorage.getItem('traqix_mem_api_method')).value || 'GET'; var headers = JSON.parse(window.localStorage.getItem('traqix_mem_api_headers')).value || '{}'; var body = JSON.parse(window.localStorage.getItem('traqix_mem_api_body')).value || null; fetch(apiUrl, { method: method, headers: JSON.parse(headers), body: method === 'POST' ? body : null }).then(response => response.json()).then(data => { window.localStorage.setItem('traqix_mem_api_result', JSON.stringify({type:'string',value:JSON.stringify(data)})); }).catch(error => { window.localStorage.setItem('traqix_mem_api_result', JSON.stringify({type: 'string', value: 'Error fetching data'})); });"
+            },
+            "allowsChildren": false,
+            "children": []
+          },
+          {
+            "id": "id_16mcoj63v_m21ag8sp",
+            "name": "API Result",
+            "type": "textarea",
+            "props": {
+              "className": "mt-4 p-2 rounded-md border border-gray-300 dark:border-gray-700 w-full focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100",
+              "placeholder": "API response will appear here",
+              "content": "traqix_mem_api_result",
+              "readonly": true
+            },
+            "allowsChildren": false,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

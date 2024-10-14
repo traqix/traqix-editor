@@ -1,0 +1,564 @@
+[
+  {
+    "id": "id_mrg1i818x_m2210ab0",
+    "name": "Chat",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col h-[650px] w-full max-w-md mx-auto border rounded-lg overflow-hidden"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_r9d125m11_m2210ab0",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "bg-primary text-primary-foreground flex items-center gap-3 px-4 py-3 border-b"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_m8fm06wpp_m2210ab0",
+            "name": "Avatar",
+            "type": "Avatar",
+            "props": {
+              "className": "w-10 h-10 border"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_qa4d8feb3_m2210ab0",
+                "name": "AvatarImage",
+                "type": "AvatarImage",
+                "props": {
+                  "src": "/placeholder-user.jpg",
+                  "alt": "Contact"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_nt5d3g3ni_m2210ab0",
+                "name": "AvatarFallback",
+                "type": "AvatarFallback",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_8ddlmht1t_m2210ab0",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "JD"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_oqfj58ucu_m2210ab0",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex-1"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_v91pxjzup_m2210ab0",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "font-medium",
+                  "content": "John Doe"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_7x2sikg0m_m2210ab0",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-xs text-primary-foreground/80",
+                  "content": "Online"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_nf6uvlvrz_m2210ab0",
+            "name": "DropdownMenu",
+            "type": "DropdownMenu",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_uese17sz8_m2210ab0",
+                "name": "DropdownMenuTrigger",
+                "type": "DropdownMenuTrigger",
+                "props": {
+                  "asChild": true
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_0bilb0yra_m2210ab0",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "variant": "ghost",
+                      "size": "icon",
+                      "className": "rounded-full"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_fcs48aiyr_m2210ab0",
+                        "name": "MoveVerticalIcon",
+                        "type": "MoveVerticalIcon",
+                        "props": {
+                          "className": "h-5 w-5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_9xrbhch27_m2210ab0",
+                "name": "DropdownMenuContent",
+                "type": "DropdownMenuContent",
+                "props": {
+                  "align": "end"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_wvf6unhqc_m2210ab0",
+                    "name": "DropdownMenuItem",
+                    "type": "DropdownMenuItem",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_a2su8ft1k_m2210ab0",
+                        "name": "PhoneIcon",
+                        "type": "PhoneIcon",
+                        "props": {
+                          "className": "h-4 w-4 mr-2"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_dw6y05jwo_m2210ab0",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Call"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ohlf5ir6v_m2210ab0",
+                    "name": "DropdownMenuItem",
+                    "type": "DropdownMenuItem",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_iedrt1vzh_m2210ab0",
+                        "name": "VideoIcon",
+                        "type": "VideoIcon",
+                        "props": {
+                          "className": "h-4 w-4 mr-2"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_byv7ep1qz_m2210ab0",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Video Call"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_sx7fqq633_m2210ab0",
+                    "name": "DropdownMenuSeparator",
+                    "type": "DropdownMenuSeparator",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_gsm7aajwb_m2210ab0",
+                    "name": "DropdownMenuItem",
+                    "type": "DropdownMenuItem",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_2nqvjswpe_m2210ab0",
+                        "name": "FileWarningIcon",
+                        "type": "FileWarningIcon",
+                        "props": {
+                          "className": "h-4 w-4 mr-2"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_3wo3bcmt4_m2210ab0",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Report"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_22lywgpxq_m2210ab0",
+        "name": "ScrollArea",
+        "type": "ScrollArea",
+        "props": {
+          "className": "flex-1 overflow-y-auto"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_h26v4loeo_m2210ab0",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "p-4 grid gap-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_47zhefdcf_m2210ab0",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col items-start gap-1"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_erninxoua_m2210ab0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-muted text-muted-foreground px-4 py-2 rounded-r-2xl rounded-bl-2xl max-w-[75%]",
+                      "content": "Hey, how's it going?"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_u14mjxj8d_m2210ab0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "text-xs text-muted-foreground",
+                      "content": "9:15 AM"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_ief3cp289_m2210ab0",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col items-end gap-1"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_30vyqahuu_m2210ab0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-primary text-primary-foreground px-4 py-2 rounded-l-2xl rounded-br-2xl max-w-[75%]",
+                      "content": "I'm doing great, thanks for asking!"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_1eovr79he_m2210ab0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "text-xs text-muted-foreground",
+                      "content": "9:16 AM"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_wzvcidoy8_m2210ab0",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col items-start gap-1"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_pdq2wbgrg_m2210ab0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-muted text-muted-foreground px-4 py-2 rounded-r-2xl rounded-bl-2xl max-w-[75%]",
+                      "content": "That's awesome, I'm glad to hear it. Did you have any plans for the weekend?"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_hsk43gdrw_m2210ab0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "text-xs text-muted-foreground",
+                      "content": "9:17 AM"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_pwivpzwsa_m2210ab0",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col items-end gap-1"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_o5g15aevb_m2210ab0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-primary text-primary-foreground px-4 py-2 rounded-l-2xl rounded-br-2xl max-w-[75%]",
+                      "content": "I was thinking of going to the park for a picnic, would you like to join?"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_hzdlw25kn_m2210ab0",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "text-xs text-muted-foreground",
+                      "content": "9:18 AM"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_a0d1eocub_m2210ab1",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col items-start gap-1"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ei1esu17z_m2210ab1",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-muted text-muted-foreground px-4 py-2 rounded-r-2xl rounded-bl-2xl max-w-[75%]",
+                      "content": "That sounds lovely, I'd love to! What time should we meet?"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_gb85o4o7c_m2210ab1",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "text-xs text-muted-foreground"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_257xxdkzr_m2210ab1",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "9:19 AM"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_781opiugu_m2210ab1",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "bg-muted flex items-center gap-2 px-4 py-3 border-t"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_839out0gf_m2210ab1",
+            "name": "Input",
+            "type": "Input",
+            "props": {
+              "placeholder": "Type your message...",
+              "className": "flex-1 bg-background border-0 focus:ring-0"
+            },
+            "allowsChildren": true,
+            "children": []
+          },
+          {
+            "id": "id_zwatoq7az_m2210ab1",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "size": "icon"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_ajqu8q7ta_m2210ab1",
+                "name": "PaperclipIcon",
+                "type": "PaperclipIcon",
+                "props": {
+                  "className": "h-5 w-5"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_rrnxtrsij_m2210ab1",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "sr-only",
+                  "content": "Attach file"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_5dt3bnwkc_m2210ab1",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "size": "icon"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_iwn2w47yw_m2210ab1",
+                "name": "SmileIcon",
+                "type": "SmileIcon",
+                "props": {
+                  "className": "h-5 w-5"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_9x8gzlicw_m2210ab1",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "sr-only",
+                  "content": "Add emoji"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_3i3mqah0x_m2210ab1",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "size": "icon"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_mpcv8fj37_m2210ab1",
+                "name": "SendIcon",
+                "type": "SendIcon",
+                "props": {
+                  "className": "h-5 w-5"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_iq8c4nehz_m2210ab1",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "sr-only",
+                  "content": "Send message"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

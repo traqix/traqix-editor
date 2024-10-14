@@ -1,7 +1,7 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  darkMode: ["class"], //"media"
+  darkMode: "class", //"media"
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,12 +16,99 @@ const config: Config = {
       ...theme('colors'),
       auto: 'auto',
     }),
+    keyframes: {
+      spin: {
+        to: {
+          transform: 'rotate(360deg)',
+        },
+      },
+      ping: {
+        '75%, 100%': {
+          transform: 'scale(2)',
+          opacity: '0',
+        },
+      },
+      pulse: {
+        '50%': {
+          opacity: '.5',
+        },
+      },
+      bounce: {
+        '0%, 100%': {
+          transform: 'translateY(-25%)',
+          animationTimingFunction: 'cubic-bezier(0.8,0,1,1)',
+        },
+        '50%': {
+          transform: 'none',
+          animationTimingFunction: 'cubic-bezier(0,0,0.2,1)',
+        },
+      },
+      "accordion-down": {
+        from: { height: "0" },
+        to: { height: "var(--radix-accordion-content-height)" },
+      },
+      "accordion-up": {
+        from: { height: "var(--radix-accordion-content-height)" },
+        to: { height: "0" },
+      },
+      wiggle: {
+        "0%, 100%": {
+          transform: "translateX(0%)",
+          transformOrigin: "50% 50%",
+        },
+        "15%": { transform: "translateX(-6px) rotate(-6deg)" },
+        "30%": { transform: "translateX(9px) rotate(6deg)" },
+        "45%": { transform: "translateX(-9px) rotate(-3.6deg)" },
+        "60%": { transform: "translateX(3px) rotate(2.4deg)" },
+        "75%": { transform: "translateX(-2px) rotate(-1.2deg)" },
+      },
+      /**
+       * Original source:
+       * @see https://github.com/juliusmarminge/acme-corp/blob/main/tooling/tailwind/index.ts
+       */
+      "fade-up": {
+        "0%": {
+          opacity: "0",
+          transform: "translateY(10px)",
+        },
+        "75%": {
+          opacity: "0.6",
+        },
+        "100%": {
+          opacity: "1",
+          transform: "translateY(0)",
+        },
+      },
+      "fade-down": {
+        "0%": {
+          opacity: "0",
+          transform: "translateY(-10px)",
+        },
+        "75%": {
+          opacity: "0.6",
+        },
+        "100%": {
+          opacity: "1",
+          transform: "translateY(0)",
+        },
+      },
+      "caret-blink": {
+        "0%,70%,100%": { opacity: "1" },
+        "20%,50%": { opacity: "0" },
+      },
+    },
     animation: {
       none: 'none',
       spin: 'spin 1s linear infinite',
       ping: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
       pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       bounce: 'bounce 1s infinite',
+      "accordion-down": "accordion-down 2s ease-linear",
+      "accordion-up": "accordion-up 2s ease-linear",
+      wiggle: "wiggle 0.8s both",
+      "fade-up": "fade-up 2s ease-linear",
+      "fade-down": "fade-down 2s ease-linear",
+      "caret-blink": "caret-blink 1.25s ease-out infinite",
     },
     aria: {
       busy: 'busy="true"',
@@ -304,7 +391,9 @@ const config: Config = {
       '6xl': '72rem',
       '7xl': '80rem',
     },
-    container: {},
+    container: {
+      center: true,
+    },
     content: {
       none: 'none',
     },
@@ -682,34 +771,6 @@ const config: Config = {
     invert: {
       0: '0',
       DEFAULT: '100%',
-    },
-    keyframes: {
-      spin: {
-        to: {
-          transform: 'rotate(360deg)',
-        },
-      },
-      ping: {
-        '75%, 100%': {
-          transform: 'scale(2)',
-          opacity: '0',
-        },
-      },
-      pulse: {
-        '50%': {
-          opacity: '.5',
-        },
-      },
-      bounce: {
-        '0%, 100%': {
-          transform: 'translateY(-25%)',
-          animationTimingFunction: 'cubic-bezier(0.8,0,1,1)',
-        },
-        '50%': {
-          transform: 'none',
-          animationTimingFunction: 'cubic-bezier(0,0,0.2,1)',
-        },
-      },
     },
     letterSpacing: {
       tighter: '-0.05em',
@@ -1306,70 +1367,6 @@ const config: Config = {
         "tremor-default": ["0.875rem", { lineHeight: "1.25rem" }],
         "tremor-title": ["1.125rem", { lineHeight: "1.75rem" }],
         "tremor-metric": ["1.875rem", { lineHeight: "2.25rem" }],
-      },
-      keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
-        },
-        wiggle: {
-          "0%, 100%": {
-            transform: "translateX(0%)",
-            transformOrigin: "50% 50%",
-          },
-          "15%": { transform: "translateX(-6px) rotate(-6deg)" },
-          "30%": { transform: "translateX(9px) rotate(6deg)" },
-          "45%": { transform: "translateX(-9px) rotate(-3.6deg)" },
-          "60%": { transform: "translateX(3px) rotate(2.4deg)" },
-          "75%": { transform: "translateX(-2px) rotate(-1.2deg)" },
-        },
-        /**
-         * Original source:
-         * @see https://github.com/juliusmarminge/acme-corp/blob/main/tooling/tailwind/index.ts
-         */
-        "fade-up": {
-          "0%": {
-            opacity: "0",
-            transform: "translateY(10px)",
-          },
-          "75%": {
-            opacity: "0.6",
-          },
-          "100%": {
-            opacity: "1",
-            transform: "translateY(0)",
-          },
-        },
-        "fade-down": {
-          "0%": {
-            opacity: "0",
-            transform: "translateY(-10px)",
-          },
-          "75%": {
-            opacity: "0.6",
-          },
-          "100%": {
-            opacity: "1",
-            transform: "translateY(0)",
-          },
-        },
-        "caret-blink": {
-          "0%,70%,100%": { opacity: "1" },
-          "20%,50%": { opacity: "0" },
-        },
-      },
-      /* */
-      animation: {
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
-        wiggle: "wiggle 0.8s both",
-        "fade-up": "fade-up 0.5s ease-out",
-        "fade-down": "fade-down 0.5s ease-out",
-        "caret-blink": "caret-blink 1.25s ease-out infinite",
       },
     },
   },

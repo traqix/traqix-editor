@@ -1,0 +1,482 @@
+[
+  {
+    "id": "id_5ie8rqalh_m20oicmn",
+    "name": "Calculador rev2",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col items-center justify-center min-h-screen bg-gray-200 dark:bg-gray-800"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_8t44khdv1_m20oicmn",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden max-w-lg w-full"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_qwvrk3mea_m20oicmn",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "text-right text-4xl p-4 bg-gray-100 dark:bg-gray-800 dark:text-gray-200"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_bthlmgjfg_m20oicmn",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "traqix_mem_display"
+                },
+                "lastUpdate": 1728406464416
+              }
+            ],
+            "lastUpdate": 1728406341744
+          },
+          {
+            "id": "id_5z842djci_m20oicmn",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "grid grid-cols-4 gap-1 p-4 bg-gray-100 dark:bg-gray-800"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_7lbbtfkxc_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "className": "col-span-2 bg-red-500 text-white",
+                  "onclick": "var newValue = '0'; var dataSave = JSON.stringify({type:'string', value: newValue}); window.localStorage.setItem('traqix_mem_display', dataSave);"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_fo1j4drkj_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "C"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406363887
+              },
+              {
+                "id": "id_tgeeu1sy8_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "className": "bg-yellow-500 text-black",
+                  "onclick": "var displayValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; displayValue = displayValue.slice(0, -1); if (displayValue === '') { displayValue = '0'; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: displayValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_mjhkzy330_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "⌫"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_gs9wjmpr1_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "className": "bg-yellow-500 text-black",
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '/'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ot352t5he_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "/"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_t1aktnkps_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '7'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type:'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_d4d1msdkq_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "7"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406395362
+              },
+              {
+                "id": "id_zsjh1wkzy_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '8'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type:'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_pqy22nkgd_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "8"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406404340
+              },
+              {
+                "id": "id_iexvraxgs_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '9'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type:'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_6ywv09dvj_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "9"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_bwa8xhtnk_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "className": "bg-yellow-500 text-black",
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '*'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ekro4jn03_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "*"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_oelqvge7r_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '4'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_kon9h6srn_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "4"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_wnl2z7lto_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '5'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ld46m5bbm_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "5"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_rnfgdvzv8_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '6'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_n2vs8kf8q_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "6"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_eeqcg8xa4_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "className": "bg-yellow-500 text-black",
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '-'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_eynpcw1ht_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "-"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_flqknh5ds_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '1'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_41qqflrbm_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "1"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_utrkpn0bb_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '2'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_u6g7zj81g_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "2"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_m90shpjt3_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '3'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ye6otv7wb_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "3"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_5dk9rh8jl_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "className": "bg-yellow-500 text-black",
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '+'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_f8ndpncmv_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "+"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_e2wm0dsaa_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '0'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_z92dvedj2_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "0"
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_xsxlxlyf5_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "onclick": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var newValue = '.'; if (oldValue !== '0') { newValue = oldValue + newValue; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: newValue}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_z5bq2jq9p_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "."
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              },
+              {
+                "id": "id_wxt1mydfv_m20oicmn",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "className": "col-span-2 bg-blue-500 text-white",
+                  "onclick": "var displayValue = JSON.parse(window.localStorage.getItem('traqix_mem_display')).value ?? '0'; var result; try { result = eval(displayValue); } catch (e) { result = 'Error'; } window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: result}));"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_6sdoohdkh_m20oicmn",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "="
+                    },
+                    "lastUpdate": 1728406341744
+                  }
+                ],
+                "lastUpdate": 1728406341744
+              }
+            ],
+            "lastUpdate": 1728406341744
+          }
+        ],
+        "lastUpdate": 1728406341744
+      }
+    ],
+    "lastUpdate": 1728406341744
+  }
+]

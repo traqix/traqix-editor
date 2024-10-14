@@ -1,0 +1,1758 @@
+[
+  {
+    "id": "id_pp04wj2bb_m26wr601",
+    "name": "POS 1",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col h-screen"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_ko0se9nga_m26wr601",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "bg-gray-900 text-white py-4 px-6 flex items-center justify-between"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_uwon3rz9h_m26wr601",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_3chw17frp_m26wr601",
+                "name": "img",
+                "type": "img",
+                "props": {
+                  "src": "/placeholder.svg",
+                  "alt": "Company Logo",
+                  "className": "h-8 mr-4"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_svbj3r3k2_m26wr601",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "text-xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_7p1ynd4r6_m26wr601",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Acme POS"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_wy8v0wmzn_m26wr601",
+            "name": "nav",
+            "type": "nav",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_cnqd1bitg_m26wr601",
+                "name": "ul",
+                "type": "ul",
+                "props": {
+                  "className": "flex space-x-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_3dig1umt1_m26wr601",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0zdvdeckb_m26wr601",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "hover:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_52kl3ceym_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Home"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_c30yum162_m26wr601",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_39i2dz4s4_m26wr601",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "hover:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_2ur363zen_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Products"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ybc5ou6w3_m26wr601",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_spq3y47wl_m26wr601",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "hover:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_0q3f16nfw_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Services"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_n33b4cnq5_m26wr601",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_y73zes7s1_m26wr601",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "hover:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_0e6425bwd_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "About"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_r1bgamjyr_m26wr601",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_i3lkb94lp_m26wr601",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "hover:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_wx9nfiexv_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Contact"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_o915jd9oa_m26wr601",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex-1 grid grid-cols-3 gap-6 p-6"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_by8j6xyt3_m26wr601",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "col-span-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_oa9lgje4j_m26wr601",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "mb-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_v27fjt1bg_m26wr601",
+                    "name": "h2",
+                    "type": "h2",
+                    "props": {
+                      "className": "text-2xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_a44nx4ge1_m26wr601",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Products"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_3z4d62gll_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex space-x-4 overflow-x-auto"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0smvy3cd9_m26wr601",
+                        "name": "button",
+                        "type": "button",
+                        "props": {
+                          "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-4 py-2 font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_3a9g1iqkg_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "All"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_i0q8lceh8_m26wr601",
+                        "name": "button",
+                        "type": "button",
+                        "props": {
+                          "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-4 py-2 font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_j8zbso6fj_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Electronics"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_f9hnw6ko3_m26wr601",
+                        "name": "button",
+                        "type": "button",
+                        "props": {
+                          "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-4 py-2 font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_44u31nnb4_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Apparel"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_909rsooxz_m26wr601",
+                        "name": "button",
+                        "type": "button",
+                        "props": {
+                          "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-4 py-2 font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_pgj5xcsas_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Home Goods"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_gkww5mj9t_m26wr601",
+                        "name": "button",
+                        "type": "button",
+                        "props": {
+                          "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-4 py-2 font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_s937gkow0_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Accessories"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_86dan4pks_m26wr601",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid grid-cols-3 gap-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_7drc84flf_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-white rounded-md shadow-md overflow-hidden"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_req69z74e_m26wr601",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Product 1",
+                          "className": "w-full h-40 object-cover"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_ca7cpbzka_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_b21v3zz9z_m26wr601",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_cw1akxm78_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Product 1"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_zr7fk6agb_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-500 mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_7jo9de4d8_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Description of Product 1"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_5b9x1p82w_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-900 font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_99f2c1jqw_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "$19.99"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_bw2zhqsxu_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-900 text-white rounded-md px-4 py-2 mt-2 hover:bg-gray-800"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_3nmdt6ro5_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Add to Cart"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_2awzyv49h_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-white rounded-md shadow-md overflow-hidden"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0l9aoh23k_m26wr601",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Product 2",
+                          "className": "w-full h-40 object-cover"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_3b0jn6djc_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_3ue7ec0wd_m26wr601",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_ediz5dec3_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Product 2"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_rw0j2b8p9_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-500 mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_jx6sgfjph_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Description of Product 2"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_feptg7olz_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-900 font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_hd0os5t9u_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "$24.99"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_0w5wvid3d_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-900 text-white rounded-md px-4 py-2 mt-2 hover:bg-gray-800"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_f117ro9ze_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Add to Cart"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_xw65684hh_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-white rounded-md shadow-md overflow-hidden"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_vzuk69vmo_m26wr601",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Product 3",
+                          "className": "w-full h-40 object-cover"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_wa5y0igtu_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_eq14q6hon_m26wr601",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_ugjm2uci4_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Product 3"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_ht5cuwa28_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-500 mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_iexg8mmg0_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Description of Product 3"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_e4hqs2rk7_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-900 font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_q7om3gz3d_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "$14.99"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_tfcm0ulou_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-900 text-white rounded-md px-4 py-2 mt-2 hover:bg-gray-800"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_iwn3cokag_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Add to Cart"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_y8olzl1li_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-white rounded-md shadow-md overflow-hidden"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_7093hqujq_m26wr601",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Product 4",
+                          "className": "w-full h-40 object-cover"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_1h9n80rpe_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_xpatfwamj_m26wr601",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_7y5urzsza_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Product 4"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_nz4mxsklq_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-500 mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_morumu0oo_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Description of Product 4"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_anceeffpy_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-900 font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_yfmzijvmi_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "$29.99"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_fuijgg5pu_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-900 text-white rounded-md px-4 py-2 mt-2 hover:bg-gray-800"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_zenfs6ory_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Add to Cart"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_xs4flz0yk_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-white rounded-md shadow-md overflow-hidden"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_v4bxb1fxt_m26wr601",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Product 5",
+                          "className": "w-full h-40 object-cover"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_ubo5zeuto_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_izgs2et4k_m26wr601",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_72w765nc8_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Product 5"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_kc25b83t7_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-500 mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_aksvs176r_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Description of Product 5"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_xedxvzhpf_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-900 font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_dsjvrims9_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "$9.99"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_2y27nohdt_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-900 text-white rounded-md px-4 py-2 mt-2 hover:bg-gray-800"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_zxo1u2qwx_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Add to Cart"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_t14tgl6ig_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "bg-white rounded-md shadow-md overflow-hidden"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_yss2n8dy1_m26wr601",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "alt": "Product 6",
+                          "className": "w-full h-40 object-cover"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_czlhn1dgg_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "p-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_icxh10wpi_m26wr601",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_g4lss8fkq_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Product 6"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_azp28c371_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-500 mb-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_cll9upphg_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Description of Product 6"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_l01fh51iz_m26wr601",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-gray-900 font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_cu27t6rbx_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "$39.99"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_0yd46ypit_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-900 text-white rounded-md px-4 py-2 mt-2 hover:bg-gray-800"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_nlszqh19s_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Add to Cart"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_kfgyc6xca_m26wr601",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-white rounded-md shadow-md p-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_5vc82js9i_m26wr601",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-2xl font-bold mb-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ykvq2qap1_m26wr601",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Shopping Cart"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_1c2luzfcz_m26wr601",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "space-y-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_1d90ryo4p_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_z4qp9d1sv_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center space-x-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_zz16av08h_m26wr601",
+                            "name": "img",
+                            "type": "img",
+                            "props": {
+                              "src": "/placeholder.svg",
+                              "alt": "Product 1",
+                              "className": "w-16 h-16 object-cover rounded-md"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_9f04q72it_m26wr601",
+                            "name": "div",
+                            "type": "div",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_py27a8fe0_m26wr601",
+                                "name": "h3",
+                                "type": "h3",
+                                "props": {
+                                  "className": "text-lg font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_faj90g0ze_m26wr601",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Product 1"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_161rbsmic_m26wr601",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "text-gray-500"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_9qb3wizrh_m26wr601",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "$19.99"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_fenywtb84_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center space-x-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_wf3wwvvjm_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-2 py-1"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_oes2wrfru_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "-"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_jpm78n6h2_m26wr601",
+                            "name": "span",
+                            "type": "span",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_qba24q19p_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "1"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_b8v2ykk6l_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-2 py-1"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_4o0ghf4te_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "+"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_rcva5ttkc_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "text-red-500 hover:text-red-600"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_482x5fp3g_m26wr601",
+                                "name": "svg",
+                                "type": "svg",
+                                "props": {
+                                  "xmlns": "http://www.w3.org/2000/svg",
+                                  "className": "h-6 w-6",
+                                  "fill": "none",
+                                  "viewBox": "0 0 24 24",
+                                  "stroke": "currentColor"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_3lyv10wpc_m26wr601",
+                                    "name": "path",
+                                    "type": "path",
+                                    "props": {
+                                      "strokeLinecap": "round",
+                                      "strokeLinejoin": "round",
+                                      "strokeWidth": null,
+                                      "d": "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_86pshzasl_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_dtco0503y_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center space-x-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_n9vm2fxz1_m26wr601",
+                            "name": "img",
+                            "type": "img",
+                            "props": {
+                              "src": "/placeholder.svg",
+                              "alt": "Product 2",
+                              "className": "w-16 h-16 object-cover rounded-md"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_6isb4d3za_m26wr601",
+                            "name": "div",
+                            "type": "div",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_g2t1aqing_m26wr601",
+                                "name": "h3",
+                                "type": "h3",
+                                "props": {
+                                  "className": "text-lg font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_h2i3sg2eo_m26wr601",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Product 2"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_r529q8ae9_m26wr601",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "text-gray-500"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_0fhex8wzy_m26wr601",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "$24.99"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_n1imcuyej_m26wr601",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center space-x-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_70ohco25p_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-2 py-1"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_se1xv37bc_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "-"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_inzvv3rp3_m26wr601",
+                            "name": "span",
+                            "type": "span",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_7wgmpj471_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "2"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_rr7ryhpcv_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "bg-gray-200 hover:bg-gray-300 rounded-md px-2 py-1"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_2dj4d9pe3_m26wr601",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "+"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_ntckhrfxd_m26wr601",
+                            "name": "button",
+                            "type": "button",
+                            "props": {
+                              "className": "text-red-500 hover:text-red-600"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_u6rznhlz0_m26wr601",
+                                "name": "svg",
+                                "type": "svg",
+                                "props": {
+                                  "xmlns": "http://www.w3.org/2000/svg",
+                                  "className": "h-6 w-6",
+                                  "fill": "none",
+                                  "viewBox": "0 0 24 24",
+                                  "stroke": "currentColor"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_ma8obl076_m26wr601",
+                                    "name": "path",
+                                    "type": "path",
+                                    "props": {
+                                      "strokeLinecap": "round",
+                                      "strokeLinejoin": "round",
+                                      "strokeWidth": null,
+                                      "d": "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_d7nq86r3f_m26wr601",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "border-t border-gray-200 pt-4 mt-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_62tdxr2ye_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_g16cx14om_m26wr601",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-gray-500"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_u0bz3vmpr_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Subtotal"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_lt1ne0b00_m26wr601",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-gray-900 font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_x0ox4vtym_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "$44.98"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_510z3xhdz_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_1zawk81zh_m26wr601",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-gray-500"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_efymonxae_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Tax"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_5t9k6glb5_m26wr601",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-gray-900 font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_hm45l3eun_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "$4.50"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_wz3l8wsxu_m26wr601",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_y7eupg44s_m26wr601",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-gray-500"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_r86vzgqov_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Total"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_7px0cke82_m26wr601",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-gray-900 font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_idwr0lzkk_m26wr601",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "$49.48"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ufohj6aod_m26wr601",
+                    "name": "button",
+                    "type": "button",
+                    "props": {
+                      "className": "bg-gray-900 text-white rounded-md px-4 py-2 mt-4 w-full hover:bg-gray-800"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_h4w0taqmr_m26wr601",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Proceed to Checkout"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "id_vl8hgocr4_m27sqqb9",
+    "name": "Hacker News",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col min-h-screen"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_vzgxu1ro1_m27sqqb9",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "bg-background border-b shadow-sm sticky top-0 z-20"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_ssjmal62n_m27sqqb9",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "container mx-auto px-4 md:px-6 flex items-center h-14"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_fjthe9zqt_m27sqqb9",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "text-lg font-bold",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_vz91ymr07_m27sqqb9",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Hacker News"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_z9ro5faop_m27sqqb9",
+                "name": "nav",
+                "type": "nav",
+                "props": {
+                  "className": "ml-6 hidden md:flex gap-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_fva96bw0x_m27sqqb9",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "hover:text-primary",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_v9joezmxj_m27sqqb9",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Top"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_3t6h7utx3_m27sqqb9",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "hover:text-primary",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ligo437v4_m27sqqb9",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "New"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_zrbhmvp14_m27sqqb9",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "hover:text-primary",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_33jw7kj8f_m27sqqb9",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Jobs"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_gw2ylviop_m27sqqb9",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "hover:text-primary",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_6fp1m5tx5_m27sqqb9",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Submit"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_zb4pyvukx_m27sqqb9",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "ml-auto relative max-w-md w-full"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_8pwnx0wbd_m27sqqb9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_5y4v7ru4f_m27sqqb9",
+                    "name": "Input",
+                    "type": "Input",
+                    "props": {
+                      "type": "search",
+                      "placeholder": "Search stories",
+                      "className": "pl-10 pr-4 py-2 rounded-md bg-muted w-full"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_bgvcu2vgw_m27sqqb9",
+        "name": "main",
+        "type": "main",
+        "props": {
+          "className": "container mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-8 py-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_742q7il4d_m27sqqb9",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "grid gap-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_j9d1oildm_m27sqqb9",
+                "name": "article",
+                "type": "article",
+                "props": {
+                  "className": "flex gap-4 items-start"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_wlv662e47_m27sqqb9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_8t149znvj_m27sqqb9",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-lg font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_uqoehflw0_m27sqqb9",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "hover:text-primary",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_jx3pl1y8e_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Introducing the Vercel Design System"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_l1lrjoanx_m27sqqb9",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "text-sm text-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_5lwbd79bo_m27sqqb9",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "hover:text-primary",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_76s6umcmp_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Vercel"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_136ba0bv3_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "• 2 hours ago"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_zoh8a5w2h_m27sqqb9",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground mt-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_1acet5aev_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Vercel has open-sourced its design system, a comprehensive collection of UI components and guidelines to\n                help teams build better web experiences."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_fagn7p4d7_m27sqqb9",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Cover image",
+                      "width": null,
+                      "height": null,
+                      "className": "rounded-md object-cover",
+                      "style": null
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_1s0d8brif_m27sqqb9",
+                "name": "article",
+                "type": "article",
+                "props": {
+                  "className": "flex gap-4 items-start"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ki5f0k1z1_m27sqqb9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_t4vrn9ajo_m27sqqb9",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-lg font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_wskvru99j_m27sqqb9",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "hover:text-primary",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_oqne8ryya_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "The Rise of Generative AI: Opportunities and Challenges"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_7c2kitbsb_m27sqqb9",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "text-sm text-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_86zh7zj36_m27sqqb9",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "hover:text-primary",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_ioeb6xdoz_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "TechCrunch"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_5lcx6rr6e_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "• 6 hours ago"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_q6jl9unqj_m27sqqb9",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground mt-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_v74zms1ly_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Generative AI models like ChatGPT are transforming industries, but also raising concerns about ethics,\n                bias, and the future of work."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_qsuvpfr7t_m27sqqb9",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Cover image",
+                      "width": null,
+                      "height": null,
+                      "className": "rounded-md object-cover",
+                      "style": null
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_b40vu6qw2_m27sqqb9",
+                "name": "article",
+                "type": "article",
+                "props": {
+                  "className": "flex gap-4 items-start"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_aq9zgegn6_m27sqqb9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_jsawoycbo_m27sqqb9",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-lg font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_eibpac4lz_m27sqqb9",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "hover:text-primary",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_axn5zurlp_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "The Future of Web Development: Trends and Predictions"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_u1dx8m2ug_m27sqqb9",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "text-sm text-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_mbm2bd7ld_m27sqqb9",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "hover:text-primary",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_ki4qf0zq3_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Smashing Magazine"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_nkq4xjcku_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "• 12 hours ago"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_h26cdw966_m27sqqb9",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground mt-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_781s708ex_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "From the rise of WebAssembly to the increasing importance of performance and accessibility, we explore\n                the key trends shaping the future of web development."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_3b4reb1m3_m27sqqb9",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Cover image",
+                      "width": null,
+                      "height": null,
+                      "className": "rounded-md object-cover",
+                      "style": null
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_9qjrv8aa3_m27sqqb9",
+                "name": "article",
+                "type": "article",
+                "props": {
+                  "className": "flex gap-4 items-start"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_cuwr4rggx_m27sqqb9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_rqj0q9hma_m27sqqb9",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-lg font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_u1zzjshaz_m27sqqb9",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "hover:text-primary",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_778vse4i3_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "The Importance of Accessibility in Web Design"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_1fs4bf3h0_m27sqqb9",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "text-sm text-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_hhbgcxhvz_m27sqqb9",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "hover:text-primary",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_9k1czbmvl_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "A List Apart"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_cxt54svk6_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "• 1 day ago"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_m5jjv3g56_m27sqqb9",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-muted-foreground mt-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_zgq052ego_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Accessibility is not just a legal requirement, but a moral and ethical imperative. We explore how to\n                build inclusive web experiences for all users."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_zdcmvg8lu_m27sqqb9",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Cover image",
+                      "width": null,
+                      "height": null,
+                      "className": "rounded-md object-cover",
+                      "style": null
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_evcqnaf8r_m27sqqb9",
+            "name": "aside",
+            "type": "aside",
+            "props": {
+              "className": "bg-muted/20 rounded-md p-6 space-y-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_c25ow225f_m27sqqb9",
+                "name": "div",
+                "type": "div",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_e374ayynw_m27sqqb9",
+                    "name": "h3",
+                    "type": "h3",
+                    "props": {
+                      "className": "text-lg font-medium mb-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_z6q5lwnji_m27sqqb9",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Trending Topics"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_24sel7g7p_m27sqqb9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-wrap gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_01f40gn5l_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-accent text-accent-foreground px-3 py-1 rounded-md text-sm hover:bg-accent/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_8f0c0ngrl_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Generative AI"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_1x9g6827u_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-accent text-accent-foreground px-3 py-1 rounded-md text-sm hover:bg-accent/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_bhp7y2nas_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Web Development"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_m6hgi7fu5_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-accent text-accent-foreground px-3 py-1 rounded-md text-sm hover:bg-accent/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_dyna28m8o_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Accessibility"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_7xs4c344q_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-accent text-accent-foreground px-3 py-1 rounded-md text-sm hover:bg-accent/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_6tvga9w7c_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Design Systems"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_y0r9lovyf_m27sqqb9",
+                "name": "div",
+                "type": "div",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_7a9yywnn3_m27sqqb9",
+                    "name": "h3",
+                    "type": "h3",
+                    "props": {
+                      "className": "text-lg font-medium mb-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_yhom4l8n1_m27sqqb9",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Popular Tags"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_p7736lu43_m27sqqb9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-wrap gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_clv8kwzub_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-muted px-3 py-1 rounded-md text-sm hover:bg-muted/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_v4e8da079_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "React"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_rkz0w3c07_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-muted px-3 py-1 rounded-md text-sm hover:bg-muted/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_4o9muo5ny_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "JavaScript"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_0vba7rcdk_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-muted px-3 py-1 rounded-md text-sm hover:bg-muted/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_fqul74ig8_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "CSS"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_6ssw4t82q_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-muted px-3 py-1 rounded-md text-sm hover:bg-muted/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ngsokvhq3_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Node.js"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_ykj28qx90_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-muted px-3 py-1 rounded-md text-sm hover:bg-muted/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_eznospnuh_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Python"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_uk303qxrb_m27sqqb9",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "bg-muted px-3 py-1 rounded-md text-sm hover:bg-muted/80",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_s9bvas5q0_m27sqqb9",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Figma"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_39yipbalu_m27sqqb9",
+                "name": "div",
+                "type": "div",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_zv9d8vc6j_m27sqqb9",
+                    "name": "h3",
+                    "type": "h3",
+                    "props": {
+                      "className": "text-lg font-medium mb-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_i9ydxryqi_m27sqqb9",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "User Statistics"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_mljdu900p_m27sqqb9",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid gap-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_xqxr849xf_m27sqqb9",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center justify-between"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_yhkc2l5yu_m27sqqb9",
+                            "name": "span",
+                            "type": "span",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_c50qcr3jk_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Total Users"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_24ph393f4_m27sqqb9",
+                            "name": "span",
+                            "type": "span",
+                            "props": {
+                              "className": "font-medium"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_h2sb0zi2m_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "10,000+"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_ne8rsln2c_m27sqqb9",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center justify-between"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_03hkvk3f5_m27sqqb9",
+                            "name": "span",
+                            "type": "span",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_1rv8trbjx_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Active Users"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_66ad3xpy4_m27sqqb9",
+                            "name": "span",
+                            "type": "span",
+                            "props": {
+                              "className": "font-medium"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_wofe1ii4v_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "5,000+"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_mk6249meo_m27sqqb9",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center justify-between"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_v0hi467h0_m27sqqb9",
+                            "name": "span",
+                            "type": "span",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_1myeh13g1_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "New Signups (30 days)"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_gwcxmpcy7_m27sqqb9",
+                            "name": "span",
+                            "type": "span",
+                            "props": {
+                              "className": "font-medium"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_vo5nbxkqd_m27sqqb9",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "500+"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

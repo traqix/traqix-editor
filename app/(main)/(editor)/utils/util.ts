@@ -1,4 +1,8 @@
-import type { TreeItem } from "@/app/(main)/(editor)/types";
+import type { Position, TreeFull, TreeItem } from "@/app/(main)/(editor)/types";
+
+import { parse } from "@babel/parser";
+import traverse from "@babel/traverse";
+import generator from "@babel/generator";
 
 import {
   ARTICLE_ACCEPTED_COMPONENTS,
@@ -72,12 +76,13 @@ import {
   TREE_UL_ACCEPTED_COMPONENTS,
   TREE_VIDEO_ACCEPTED_COMPONENTS,
 } from "./accepted-components-tree";
+import { Children } from "react";
 
 export const getAcceptedComponentsTree = (component: string) => {
   if (component === "TREE_DIV") {
     return Object.values(TREE_DIV_ACCEPTED_COMPONENTS);
-  // } else if (component === "TREE_TEXT") {
-  //   return Object.values(TREE_TEXT_ACCEPTED_COMPONENTS);
+    // } else if (component === "TREE_TEXT") {
+    //   return Object.values(TREE_TEXT_ACCEPTED_COMPONENTS);
   } else if (component === "TREE_HEADER") {
     return Object.values(TREE_HEADER_ACCEPTED_COMPONENTS);
   } else if (component === "TREE_SECTION") {
@@ -149,13 +154,11 @@ export const getAcceptedComponentsTree = (component: string) => {
   return [];
 };
 
-
-
 export const getAcceptedComponents = (component: string) => {
   if (component === "DIV") {
     return Object.values(DIV_ACCEPTED_COMPONENTS);
-  // } else if (component === "TEXT") {
-  //   return Object.values(TEXT_ACCEPTED_COMPONENTS);
+    // } else if (component === "TEXT") {
+    //   return Object.values(TEXT_ACCEPTED_COMPONENTS);
   } else if (component === "HEADER") {
     return Object.values(HEADER_ACCEPTED_COMPONENTS);
   } else if (component === "SECTION") {
@@ -227,7 +230,7 @@ export const getAcceptedComponents = (component: string) => {
   return [];
 };
 
-export const onMove = (
+export const onMove3 = (
   draggedId: string,
   targetId: string,
   position: string
@@ -271,7 +274,269 @@ export const onMove = (
   // addToHistory(newTree);
 };
 
-export const onRemove = (id: string) => {
+export const onDuplicate = (targetId: string, tree: TreeItem, setTree: any) => {
+  const duplicateItemWithNewIds = (
+    root: TreeItem,
+    targetId: string
+  ): TreeItem => {
+    // Cria uma cópia do nó raiz para evitar mutações
+    const newRoot: TreeItem = { ...root };
+
+    // Função auxiliar para gerar um novo ID
+    const generateNewId = (): string => {
+      return `id_${Math.random().toString(36).substr(2, 9)}`; // Gera um ID único
+    };
+
+    // Função para clonar um item e seus filhos, atribuindo novos IDs
+    const cloneItem = (item: TreeItem): TreeItem => {
+      const newItem: TreeItem = { ...item, id: generateNewId() }; // Clona o item com novo ID
+      if (item.children) {
+        newItem.children = item.children.map(cloneItem); // Clona os filhos recursivamente
+      }
+      return newItem;
+    };
+
+    // Verifica se o nó raiz tem filhos
+    if (newRoot.children) {
+      // Verifica se o item a ser duplicado está na raiz
+      const indexInRoot = newRoot.children.findIndex(
+        (child) => child.id === targetId
+      );
+
+      if (indexInRoot !== -1) {
+        const itemToDuplicate = newRoot.children[indexInRoot];
+        const newItem = cloneItem(itemToDuplicate); // Duplicata com novos IDs
+        newRoot.children.splice(indexInRoot + 1, 0, newItem); // Adiciona a duplicata como próximo irmão
+        return newRoot; // Retorna a árvore atualizada
+      } else {
+        // Se não encontrado na raiz, verifica nos filhos
+        for (let i = 0; i < newRoot.children.length; i++) {
+          const child = newRoot.children[i];
+          const childIndex = child.children
+            ? child.children.findIndex((c: { id: string }) => c.id === targetId)
+            : -1;
+
+          if (childIndex !== -1 && child.children) {
+            const itemToDuplicate = child.children[childIndex];
+            const newItem = cloneItem(itemToDuplicate); // Duplicata com novos IDs
+            child.children.splice(childIndex + 1, 0, newItem); // Adiciona a duplicata como próximo irmão
+            break; // Sai do loop após duplicar o item
+          }
+        }
+      }
+    }
+
+    // Retorna a árvore atualizada
+    return newRoot;
+  };
+
+  const updatedTree = duplicateItemWithNewIds(tree, targetId); // Chama a função para duplicar o item
+
+  console.log("updatedTree", updatedTree);
+  setTree("root", updatedTree); // Atualiza o estado da árvore com a nova árvore
+};
+
+export const onMove4 = (
+  treeMoved: TreeItem,
+  parent: TreeItem | null, // Pode ser null se for para a raiz
+  target: TreeItem,
+  position: "before" | "after" | "inside",
+  setTree: any
+) => {
+  console.log("===========onMove", parent);
+
+  let changedTreeItems: TreeItem[] = [];
+  if (parent?.children) {
+    console.log("PARENT CHILDREN", parent);
+    const movedIndex = parent.children.findIndex((id) => id === treeMoved.id);
+    if (movedIndex !== -1) {
+      parent.children.splice(movedIndex, 1);
+      changedTreeItems.push({
+        ...parent,
+        lastUpdate: new Date().valueOf(),
+        children: parent.children,
+      });
+      console.log("PARENT CHILDREN SAVE", {
+        ...parent,
+        children: parent.children,
+      });
+    }
+  }
+
+  // Atualizar o item treeMoved com o novo parentId
+  delete treeMoved["parent"];
+  const updatedTreeMoved: TreeItem = {
+    ...treeMoved,
+    parentId: target.id,
+    lastUpdate: new Date().valueOf(),
+  };
+
+  changedTreeItems.push(updatedTreeMoved);
+
+  // Determinar onde inserir o item movido no target
+  let updatedTarget: TreeItem = {
+    ...target,
+    lastUpdate: new Date().valueOf(),
+    children: target.children || [],
+  };
+
+  if (position === "before" || position === "after") {
+    const targetParent = parent; // O parent do target será o novo parent de treeMoved
+    if (targetParent?.children) {
+      let targetIndex = targetParent.children.findIndex(
+        (id) => id === target.id
+      );
+      if (position === "after") {
+        targetIndex += 1;
+      }
+      targetParent.children.splice(targetIndex, 0, treeMoved.id);
+      changedTreeItems.push({
+        ...targetParent,
+        lastUpdate: new Date().valueOf(),
+        children: targetParent.children,
+      });
+    }
+  } else if (position === "inside" && target.allowsChildren) {
+    if (!updatedTarget.children?.includes(treeMoved.id)) {
+      updatedTarget.children?.push(treeMoved.id);
+      changedTreeItems.push(updatedTarget); // Atualiza o target com o novo filho
+    }
+  }
+
+  if (changedTreeItems) {
+    setTree(changedTreeItems);
+  }
+
+  return;
+};
+
+export const onMoveChildren = (
+  targetId: string,
+  direction: "up" | "down",
+  tree: TreeItem,
+  setTree: any
+) => {
+  const moveItem = (
+    root: TreeItem,
+    targetId: string,
+    direction: "up" | "down"
+  ): TreeItem => {
+    // Cria uma cópia do nó raiz para evitar mutações
+    const newRoot: TreeItem = { ...root };
+
+    // Verifica se o nó raiz tem filhos
+    if (newRoot.children) {
+      // Verifica se o item a ser movido está na raiz
+      const indexInRoot = newRoot.children.findIndex(
+        (child) => child.id === targetId
+      );
+
+      if (indexInRoot !== -1) {
+        // O item foi encontrado na lista de filhos do nó raiz
+        const [itemToMove] = newRoot.children.splice(indexInRoot, 1); // Remove o item da lista
+        const newIndex = direction === "up" ? indexInRoot - 1 : indexInRoot + 1;
+
+        // Verifica os limites do array antes de adicionar o item
+        if (newIndex >= 0 && newIndex <= newRoot.children.length) {
+          newRoot.children.splice(newIndex, 0, itemToMove); // Insere o item na nova posição
+        }
+      } else {
+        // Se não encontrado na raiz, verifica nos filhos
+        for (let i = 0; i < newRoot.children.length; i++) {
+          const child = newRoot.children[i];
+          const childIndex = child.children
+            ? child.children.findIndex((c: { id: string }) => c.id === targetId)
+            : -1;
+
+          if (childIndex !== -1 && child.children) {
+            // O item foi encontrado entre os filhos
+            const [itemToMove] = child.children.splice(childIndex, 1); // Remove o item da lista de filhos
+            const newIndex =
+              direction === "up" ? childIndex - 1 : childIndex + 1;
+
+            // Verifica os limites do array antes de adicionar o item
+            if (newIndex >= 0 && newIndex <= child.children.length) {
+              child.children.splice(newIndex, 0, itemToMove); // Insere o item na nova posição
+            }
+            break; // Sai do loop após mover o item
+          }
+        }
+      }
+    }
+
+    // Retorna a árvore atualizada
+    return newRoot;
+  };
+
+  const updatedTree = moveItem(tree, targetId, direction); // Chama a função para mover o item
+
+  console.log("updatedTree", updatedTree);
+  setTree("root", updatedTree); // Atualiza o estado da árvore com a nova árvore
+};
+
+export const onRemove = (
+  tree: TreeItem,
+  parent: TreeItem,
+  setTree: any,
+  removeTree: any
+) => {
+  if (tree.id == "root") {
+    for (;;) {
+      let totalFind = 0;
+      for (var i = 0, len = localStorage.length; i < len; ++i) {
+        const nameKey = localStorage.key(i);
+        if (nameKey && nameKey.startsWith("treeItem_id_")) {
+          removeTree(nameKey);
+          localStorage.removeItem(nameKey);
+          totalFind += 1;
+        }
+      }
+      if (totalFind == 0) {
+        break;
+      }
+    }
+    setTree({ ...tree, children: [], lastUpdate: new Date().valueOf() });
+
+    return;
+  }
+
+  const removeItem = (tree: TreeItem, parent: TreeItem) => {
+    // const newRoot: TreeItem = { ...root };
+
+    if (!tree) {
+      return;
+    }
+
+    if (parent?.children) {
+      const movedIndex = parent.children.findIndex((id) => id === tree.id);
+      if (movedIndex !== -1) {
+        const newParentChildren = parent.children.filter(
+          (id) => id !== tree.id
+        );
+        setTree({
+          ...parent,
+          lastUpdate: new Date().valueOf(),
+          children: newParentChildren,
+        });
+      }
+    }
+
+    if (tree.children) {
+      tree.children.map((child) => {
+        removeTree(child);
+        // if (child.id !== id) {
+        //   const updatedChild = removeItem(child, id);
+        //   if (updatedChild) acc.push(updatedChild);
+        // }
+        // return acc;
+      });
+    }
+
+    removeTree(tree.id);
+  };
+
+  removeItem(tree, parent);
+
   // const newTree = JSON.parse(JSON.stringify(pageContent[currentPage]));
   // const removeItem = (items: TreeItem[]) => {
   //   for (let i = 0; i < items.length; i++) {
@@ -329,7 +594,12 @@ export const addToHistory = (newTree: TreeItem[]) => {
   // }));
 };
 
-export const handleUpdate = (id: string, updates: Partial<TreeItem>, tree: TreeItem[], setTree: any) => {
+export const handleUpdate = (
+  id: string,
+  updates: Partial<TreeItem>,
+  tree: TreeItem[],
+  setTree: any
+) => {
   const updateItem = (items: TreeItem[]): TreeItem[] => {
     return items.map((item) => {
       if (item.id === id) {
@@ -350,11 +620,11 @@ export const handleUpdate = (id: string, updates: Partial<TreeItem>, tree: TreeI
   // Cria uma nova árvore com a atualização
   const newTree = updateItem(tree);
 
-  console.log("newTree", newTree)
-  setTree('tx_current', newTree[0]);
+  console.log("newTree", newTree);
+  setTree("root", newTree[0]);
   // setPageContent((prev) => ({ ...prev, [currentPage]: newTree }));
   // addToHistory(newTree);
-  return
+  return;
 };
 
 export const undo = () => {
@@ -425,56 +695,163 @@ export const importJSON = (e: React.ChangeEvent<HTMLInputElement>) => {
   // }
 };
 
-export const addComponent = (component: TreeItem, parentId?: string) => {
-  // const newTree = JSON.parse(JSON.stringify(pageContent[currentPage]));
-  // const newComponent = { ...component, id: Date.now().toString() };
-  // if (parentId) {
-  //   const addToParent = (items: TreeItem[]) => {
-  //     for (let i = 0; i < items.length; i++) {
-  //       const currentItem = items[i] ?? { allowsChildren: false, children: [] };
-  //       if (currentItem.id === parentId) {
-  //         if (!currentItem.children) currentItem.children = [];
-  //         currentItem.children.push(newComponent);
-  //         return true;
-  //       }
-  //       if (currentItem.children && addToParent(currentItem.children)) {
-  //         return true;
-  //       }
-  //     }
-  //     return false;
-  //   };
-  //   addToParent(newTree);
-  // } else {
-  //   newTree.push(newComponent);
-  // }
-  // setPageContent((prev) => ({ ...prev, [currentPage]: newTree }));
-  // setTree(newTree);
-  // addToHistory(newTree);
-  // setToastMessage("Component added successfully");
-  // setShowToast(true);
+const generateNewId = (): string => {
+  const randomPart = Math.random().toString(36).substr(2, 9);
+  const timestampPart = Date.now().toString(36); // Adiciona parte do timestamp para mais entropia
+  return `id_${randomPart}_${timestampPart}`;
 };
 
-export const addPresetSection = (section: TreeItem) => {
-  // const { currentItem, setCurrent } = useCurrentTreeItem();
-  // setCurrent(null)
-  // const [tree, setTree] = useLocalStorage("tree")
-  // const newTree = tree;
-  // const newSection = section;
-  // newSection.id = Date.now().toString();
-  // const updateIds = (item: TreeItem) => {
-  //   item.id = Date.now().toString() + Math.random().toString(36).substr(2, 9);
-  //   if (item.children) {
-  //     item.children.forEach(updateIds);
-  //   }
+export const addComponent = (
+  newItem: TreeItem,
+  targetId: string,
+  position: Position,
+  tree: TreeItem,
+  setTree: any
+) => {
+  console.log("ININININTT ADDDDDD COMPONNNN");
+
+  const addItem = (
+    root: TreeItem,
+    newItem: TreeItem,
+    targetId: string,
+    position: Position
+  ): TreeItem[] => {
+    const newRoot: TreeItem = { ...root };
+    const cloneNewItem = {
+      ...newItem,
+      parentId: targetId,
+      id: generateNewId(),
+      lastUpdate: new Date().valueOf(),
+    };
+
+    console.log("INIT SET TREE", cloneNewItem.id);
+    // setTree(cloneNewItem.id, cloneNewItem);
+    console.log("END SET TREE");
+
+    if (newRoot.id === targetId) {
+      if (position === "before") {
+        // IMPLEMENTS
+        console.log("SET ITEM BEFORE 1111111111");
+        return [
+          cloneNewItem,
+          {
+            ...newRoot,
+            children: [cloneNewItem.id, ...(newRoot.children || [])],
+            lastUpdate: new Date().valueOf(),
+          },
+        ];
+      } else if (position === "after") {
+        console.log("SET ITEM after 1111111111");
+        // IMPLEMENTS
+        return [
+          cloneNewItem,
+          {
+            ...newRoot,
+            children: [...(newRoot.children || []), cloneNewItem.id],
+            lastUpdate: new Date().valueOf(),
+          },
+        ];
+      } else if (position === "inside") {
+        console.log("SET ITEM inside 1111111111");
+        return [
+          cloneNewItem,
+          {
+            ...newRoot,
+            children: [...(newRoot.children || []), cloneNewItem.id],
+            lastUpdate: new Date().valueOf(),
+          },
+        ];
+      }
+    }
+
+    // if (newRoot.children) {
+    //   for (let i = 0; i < newRoot.children.length; i++) {
+    //     const child = newRoot.children[i];
+    //     const [aaaa] = suseTreeLocalStorage([child])
+
+    //     const updatedChild = addItem(aaaa as unknown as TreeItem, newItem, targetId, position);
+    //     setTree(updatedChild.id, updatedChild)
+    //     newRoot.children[i] = updatedChild.id;
+    //   }
+    // }
+
+    return [cloneNewItem, newRoot];
+  };
+
+  const updatedTree = addItem(tree, newItem, targetId, position);
+
+  console.log("addComponent", updatedTree);
+  setTree(updatedTree);
+  console.log("EEEEEEEEEEEEEEENDDDDDDDDD ADDDDDD COMPONNNN");
+};
+
+export const transformTreeFullToTreeItem = (
+  treeFull: TreeFull,
+  idMap: Map<string, TreeItem>
+): TreeItem => {
+  const newId = generateNewId();
+
+  // Recursivamente transformar os filhos e gerar novos IDs
+  const transformedChildrenIds = treeFull.children
+    ? treeFull.children.map((child) => {
+        const transformedChild = transformTreeFullToTreeItem(child, idMap);
+        return transformedChild.id; // Pegamos o novo ID gerado
+      })
+    : [];
+
+  // Cria o novo TreeItem
+  const newTreeItem: TreeItem = {
+    ...treeFull,
+    id: newId, // Substitui o ID original por um novo ID
+    children: transformedChildrenIds, // Lista de novos IDs dos filhos
+  };
+
+  // Mapeia o novo TreeItem pelo seu novo ID
+  idMap.set(newId, newTreeItem);
+
+  return newTreeItem;
+};
+
+// Função principal para transformar a seção de TreeFull[] em TreeItem[]
+export const transformSectionToTreeItems = (
+  section: TreeFull[]
+): TreeItem[] => {
+  const idMap = new Map<string, TreeItem>(); // Armazena os novos TreeItems mapeados pelos seus IDs
+
+  section.forEach((item) => transformTreeFullToTreeItem(item, idMap));
+
+  // Retorna todos os TreeItems gerados no mapa
+  return Array.from(idMap.values());
+};
+
+export const addPresetSection = (
+  section: TreeFull[],
+  tree: TreeItem,
+  setTree: any
+) => {
+  // const addItemToRoot = (root: TreeItem, section: TreeFull[], setTree: any): TreeItem[] => {
+  //   const newsComponents = transformSectionToTreeItems(section)
+
+  //   return newsComponents;
   // };
-  // updateIds(newSection);
-  // newTree.push(newSection);
-  // console.log("AAAAAAAAA", newSection)
-  // // setPageContent((prev) => ({ ...prev, [currentPage]: newTree }));
-  // setTree(newTree);
-  // addToHistory(newTree);
-  // setToastMessage("Preset section added successfully");
-  // setShowToast(true);
+
+  // const newsComponents = addItemToRoot(tree, section, setTree);
+
+  const newsComponents = transformSectionToTreeItems(section);
+
+  newsComponents.map((el: TreeItem, i: number) => {
+    setTree(el.id, el);
+    // if (i == 0) {
+    //   tree.children?.push(el.id);
+    // }
+  });
+
+  tree.children?.push(newsComponents[0].id);
+  tree.lastUpdate = new Date().valueOf();
+
+  console.log("updatedTree", tree, newsComponents[0]);
+
+  setTree("root", tree);
 };
 
 export const handleRawCodeTsxChange = (
@@ -631,96 +1008,120 @@ export const handleRawCodeChange = (
 //   return setTree(parsedTree);
 // }
 
-export function tsxToJson() {
-  // function parseTsx(tsxCode: string): string {
-  //   let coooo = 0;
-  //   function tsxStringToJson(tsxString: string): object {
-  //     if (typeof tsxString !== "string") {
-  //       throw new TypeError("Input must be a string");
-  //     }
-  //     // console.log("tsxString", tsxString)
-  //     const ast = parse(tsxString, {
-  //       sourceType: "module",
-  //       plugins: ["jsx", "typescript"],
-  //     });
-  //     const result: any = [];
-  //     let level = 0;
-  //     traverse(ast, {
-  //       JSXElement(path: any) {
-  //         level = level + 1;
-  //         if (level > 1) {
-  //           return false;
-  //         }
-  //         const { openingElement, children } = path.node;
-  //         const type = openingElement.name.name;
-  //         const props: Record<string, any> = {};
-  //         // Captura os atributos do elemento
-  //         openingElement.attributes.forEach((attr: any) => {
-  //           if (attr.type === "JSXAttribute") {
-  //             props[attr.name.name] = attr.value
-  //               ? attr.value.type === "StringLiteral"
-  //                 ? attr.value.value
-  //                 : null
-  //               : true;
-  //           }
-  //         });
-  //         // Captura todos os filhos
-  //         const childElements = children
-  //           .map((child: any) => {
-  //             if (child.type === "JSXText") {
-  //               const contentNew = child.value.trim();
-  //               if (contentNew != "") {
-  //                 return [
-  //                   {
-  //                     id:
-  //                       Date.now().toString() +
-  //                       Math.random().toString(36).substr(2, 9),
-  //                     name: "Text",
-  //                     type: "text",
-  //                     allowsChildren: false,
-  //                     children: [],
-  //                     props: {
-  //                       content: contentNew,
-  //                     },
-  //                   },
-  //                 ]; //child.value.trim(); // Captura texto
-  //               }
-  //               return null;
-  //             } else if (child.type === "JSXElement") {
-  //               console.log("child", child.openingElement.name.name);
-  //               if (child.openingElement.name.name == "h2") {
-  //                 console.log(child);
-  //               }
-  //               return tsxStringToJson(generator(child).code); // Gera o código do elemento filho
-  //             }
-  //             return null; // Ignore outros tipos, se necessário
-  //           })
-  //           .filter(Boolean); // Remove valores nulos
-  //         const childElementsAdd: TreeItem[] = [];
-  //         childElements.map((el: any) => {
-  //           childElementsAdd.push(el[0]);
-  //         });
-  //         if (type == "code") {
-  //           props["content"] = tsxString.substring(8, tsxString.length - 9);
-  //           console.log("AAA", props);
-  //         }
-  //         result.push({
-  //           id: Math.random().toString(36).substr(2, 9), // Gera um ID aleatório
-  //           name: type,
-  //           type,
-  //           props,
-  //           allowsChildren: true,
-  //           children: childElementsAdd,
-  //         });
-  //       },
-  //     });
-  //     return result;
-  //   }
-  //   const jsonString = JSON.stringify(tsxStringToJson(tsxCode), null, 2);
-  //   return jsonString ?? "[]";
-  // }
-  // const newTree = JSON.parse(parseTsx(rawCodeTsx));
-  // setPageContent((prev) => ({ ...prev, [currentPage]: newTree }));
+export function tsxToJson(
+  rawCodeTsx: string,
+  treeRoot: TreeItem,
+  setTree: any
+) {
+  function parseTsx(tsxCode: string): string {
+    let coooo = 0;
+    function tsxStringToJson(tsxString: string): object {
+      if (typeof tsxString !== "string") {
+        throw new TypeError("Input must be a string");
+      }
+      // console.log("tsxString", tsxString)
+      const ast = parse(tsxString, {
+        sourceType: "module",
+        plugins: ["jsx", "typescript"],
+      });
+      const result: any = [];
+      let level = 0;
+      traverse(ast, {
+        JSXElement(path: any) {
+          level = level + 1;
+          if (level > 1) {
+            return false;
+          }
+          const { openingElement, children } = path.node;
+          const type = openingElement.name.name;
+          const props: Record<string, any> = {};
+          // Captura os atributos do elemento
+          openingElement.attributes.forEach((attr: any) => {
+            if (attr.type === "JSXAttribute") {
+              props[attr.name.name] = attr.value
+                ? attr.value.type === "StringLiteral"
+                  ? attr.value.value
+                  : null
+                : true;
+            }
+          });
+          // Captura todos os filhos
+          const childElements = children
+            .map((child: any) => {
+              if (child.type === "JSXText") {
+                const contentNew = child.value.trim();
+                if (contentNew != "") {
+                  return [
+                    {
+                      id:
+                        Date.now().toString() +
+                        Math.random().toString(36).substr(2, 9),
+                      name: "Text",
+                      type: "text",
+                      allowsChildren: false,
+                      children: [],
+                      props: {
+                        content: contentNew,
+                      },
+                    },
+                  ];
+                  // return child.value.trim(); // Captura texto
+                }
+                return null;
+              } else if (child.type === "JSXElement") {
+                console.log("child", child.openingElement.name.name);
+                if (child.openingElement.name.name == "h2") {
+                  console.log(child);
+                }
+                return tsxStringToJson(generator(child).code); // Gera o código do elemento filho
+              }
+              return null; // Ignore outros tipos, se necessário
+            })
+            .filter(Boolean); // Remove valores nulos
+          const childElementsAdd: TreeItem[] = [];
+          childElements.map((el: any) => {
+            childElementsAdd.push(el[0]);
+          });
+          if (type == "code") {
+            props["content"] = tsxString.substring(8, tsxString.length - 9);
+            console.log("AAA", props);
+          }
+          result.push({
+            id: Math.random().toString(36).substr(2, 9), // Gera um ID aleatório
+            name: type,
+            type,
+            props,
+            allowsChildren: true,
+            children: childElementsAdd,
+          });
+        },
+      });
+      return result;
+    }
+    const jsonString = JSON.stringify(tsxStringToJson(tsxCode), null, 2);
+    return jsonString ?? "[]";
+  }
+  const newsComponents = transformSectionToTreeItems(
+    JSON.parse(parseTsx(rawCodeTsx)) as TreeFull[]
+  );
+
+  console.log("newsComponents", newsComponents);
+  let newComponents: TreeItem[] = [];
+
+  newsComponents.map((el: TreeItem, i: number) => {
+    newComponents.push(el);
+  });
+
+  if (treeRoot) {
+    treeRoot.children?.push(newsComponents[newsComponents.length - 1].id);
+    treeRoot.lastUpdate = new Date().valueOf();
+
+    newComponents.push(treeRoot);
+  }
+
+  setTree(newComponents);
+
+  // addPresetSection(newTree, tree, setTree);
   // setTree(newTree);
   // addToHistory(newTree);
   // setToastMessage("Preset section added successfully");
@@ -780,3 +1181,154 @@ export const handleSelectPage = (pageName: string) => {
   // setCurrentPage(pageName);
   // setTree(pageContent[pageName]);
 };
+
+// NEWS FEATURES
+
+// Função debounce
+const debounce = (func: Function, delay: number) => {
+  let timeoutId: NodeJS.Timeout;
+  return (...args: any) => {
+    if (timeoutId) clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      func(...args);
+    }, delay);
+  };
+};
+
+export const updateClassName = (
+  tree: TreeItem,
+  updates: Partial<TreeItem>,
+  setTree: any
+) => {
+  const updateItem = (item: TreeItem): TreeItem => {
+    return { ...item, ...updates };
+  };
+
+  const newTree = updateItem(tree);
+
+  setTree([newTree]);
+};
+
+export const convertTreeItemToTreeFull = (
+  treeItem: TreeItem,
+  getTree: (key: string) => TreeItem | undefined
+): TreeFull => {
+  const children = treeItem.children
+    ? (treeItem.children
+        .map((childId) => {
+          const childItem = getTree(childId);
+          return childItem
+            ? convertTreeItemToTreeFull(childItem, getTree)
+            : null;
+        })
+        .filter((child) => child !== null) as TreeFull[])
+    : [];
+
+  const { lastUpdate, ...treeItemProps} = treeItem
+  
+  return {
+    ...treeItemProps,
+    children,
+  };
+};
+
+export const onMove = (
+  treeMovedId: string,  // ID do item arrastado
+  targetId: string,     // ID do item alvo
+  position: "before" | "after" | "inside", // Posição do item em relação ao alvo
+  getTree: any, // Função que retorna o TreeItem completo pelo ID
+  setTree: any, // Função que atualiza a árvore no localStorage
+) => {
+  console.log("===========onMove", treeMovedId, targetId);
+
+  // Recupera o TreeItem movido e o alvo
+  const treeMoved = getTree(treeMovedId);
+  const target = getTree(targetId);
+  if (!treeMoved || !target) return; // Verifica se ambos existem
+
+  // Cria uma cópia da árvore atual a partir do estado localStorage
+  const updatedTree: Record<string, TreeItem> = {
+    [treeMovedId]: treeMoved,
+    [targetId]: target,
+    ...(treeMoved.parentId ? { [treeMoved.parentId]: getTree(treeMoved.parentId) } : {})
+  };
+
+  let parentOfMoved: TreeItem | undefined = treeMoved.parentId ? updatedTree[treeMoved.parentId] : undefined;
+
+  // 1. Remover treeMoved de seu pai atual (se houver)
+  if (parentOfMoved && parentOfMoved.children) {
+    const movedIndex = parentOfMoved.children.findIndex(id => id === treeMovedId);
+    if (movedIndex !== -1) {
+      parentOfMoved.children.splice(movedIndex, 1); // Remove o item movido da lista de filhos do pai atual
+      updatedTree[parentOfMoved.id] = {
+        ...parentOfMoved,
+        lastUpdate: new Date().valueOf(),
+        children: parentOfMoved.children,
+      };
+    }
+  }
+
+  // 2. Atualizar o parentId do item movido
+  updatedTree[treeMovedId] = {
+    ...treeMoved,
+    parentId: position === "inside" ? targetId : target.parentId, // Atualiza o parentId
+    lastUpdate: new Date().valueOf(),
+  };
+
+  // 3. Determinar onde inserir o item movido no novo local
+  if (position === "before" || position === "after") {
+    // Movendo antes ou depois do target, atualiza o pai do target
+    const targetParentId = target.parentId;
+    const targetParent = targetParentId ? getTree(targetParentId) : undefined;
+    
+    if (targetParent?.children) {
+      let targetIndex = targetParent.children.findIndex(id => id === targetId);
+      if (position === "after") {
+        targetIndex += 1; // Inserir após o item-alvo
+      }
+      targetParent.children.splice(targetIndex, 0, treeMovedId); // Insere o item movido
+      if (targetParentId) {
+        updatedTree[targetParentId] = {
+          ...targetParent,
+          lastUpdate: new Date().valueOf(),
+          children: targetParent.children,
+        };
+      }
+    }
+  } else if (position === "inside" && target.allowsChildren) {
+    // Movendo para dentro do target
+    const updatedTarget = {
+      ...target,
+      children: target.children ? [...target.children, treeMovedId] : [treeMovedId],
+      lastUpdate: new Date().valueOf(),
+    };
+    updatedTree[targetId] = updatedTarget; // Atualiza o alvo com o novo filho
+  }
+
+  // 4. Atualizar a árvore no localStorage
+  const treeItemsArray: TreeItem[] = Object.values(updatedTree);
+  
+  setTree(treeItemsArray);
+};
+
+export const convertValueTreeItem = (getMemory: any, tree?: TreeItem) => {
+  if (!tree) return undefined
+
+  if (!tree.props?.content && !tree.props?.content?.startsWith('traqix_mem_')) {
+    return tree
+  }
+ 
+  if (tree.props?.content?.startsWith('traqix_mem_')) {
+    let newContent = ''
+    try {
+      newContent = getMemory(tree.props?.content.replace('traqix_mem_', ''))['value']
+    } catch (e) {
+      newContent = '###'
+      console.log('err', e)
+    }
+    return {...tree, props: { ...tree.props, content:  newContent, value:  newContent }}
+  }
+
+  return tree
+
+}

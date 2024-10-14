@@ -73,3 +73,15 @@
     @apply px-4;
   }
 }
+
+@keyframes pulse {
+  0% {
+    stroke: blue;
+  }
+  50% {
+    stroke: lightblue;
+  }
+  100% {
+    stroke: blue;
+  }
+}

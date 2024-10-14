@@ -1,0 +1,748 @@
+[
+  {
+    "id": "id_9h5ecj40h_m219v50u",
+    "name": "Mobile App",
+    "type": "div",
+    "props": {
+      "className": "max-w-md mx-auto p-4"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_sn94xmlcx_m219v50u",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "flex justify-between items-center mb-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_fu42zdzj4_m219v50u",
+            "name": "MenuIcon",
+            "type": "MenuIcon",
+            "props": {
+              "className": "h-6 w-6"
+            },
+            "allowsChildren": true,
+            "children": []
+          },
+          {
+            "id": "id_18piuu3r7_m219v50u",
+            "name": "SearchIcon",
+            "type": "SearchIcon",
+            "props": {
+              "className": "h-6 w-6"
+            },
+            "allowsChildren": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "id_d7s2ii3de_m219v50u",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "space-y-2"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_theimjhdb_m219v50u",
+            "name": "h1",
+            "type": "h1",
+            "props": {
+              "className": "text-2xl font-bold text-primary"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_7tdjr2ynj_m219v50u",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "All Entries"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_478hbgd3f_m219v50u",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-sm text-muted-foreground"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_attrn4nbi_m219v50u",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "\"Happiness is when what you think, what you say, and what you do are in harmony.\" — Mahatma Gandhi"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_gfr5v6tb3_m219v50u",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex space-x-2 mt-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_7gkmc08qs_m219v50u",
+            "name": "Card",
+            "type": "Card",
+            "props": {
+              "className": "flex-1 h-32 bg-gray-200"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_37asuvg29_m219v50u",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center justify-center h-full"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_odfab5n5v_m219v50u",
+                    "name": "span",
+                    "type": "span",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_4666xytlr_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "All Entries"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_nr7txxvrr_m219v50u",
+            "name": "Card",
+            "type": "Card",
+            "props": {
+              "className": "flex-1 h-32 bg-orange-300"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_9oei409eo_m219v50u",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center justify-center h-full"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_t13fd3xq2_m219v50u",
+                    "name": "span",
+                    "type": "span",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_p17p8y6k3_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "My Journal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_csm4pqx5j_m219v50u",
+            "name": "Card",
+            "type": "Card",
+            "props": {
+              "className": "flex-1 h-32 bg-blue-300"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_276flsxmj_m219v50u",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex items-center justify-center h-full"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_prb64rils_m219v50u",
+                    "name": "span",
+                    "type": "span",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_vg6r7w0te_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Bullet Journal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_vctq2rxhn_m219v50u",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex justify-around mt-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_fd99ftqy3_m219v50u",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "className": "flex flex-col items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_98p92uhhd_m219v50u",
+                "name": "BookOpenIcon",
+                "type": "BookOpenIcon",
+                "props": {
+                  "className": "h-6 w-6"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_70xkmuek2_m219v50u",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "text-xs"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_rnoszwbcv_m219v50u",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Blank"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_0u2tgegu5_m219v50u",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "className": "flex flex-col items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_ha28l5qkj_m219v50u",
+                "name": "FileImageIcon",
+                "type": "FileImageIcon",
+                "props": {
+                  "className": "h-6 w-6"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_5923wzl13_m219v50u",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "text-xs"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_5ttm0lzs7_m219v50u",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Photo"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_bq7nn90ui_m219v50u",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "className": "flex flex-col items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_updy4r95a_m219v50u",
+                "name": "LayoutTemplateIcon",
+                "type": "LayoutTemplateIcon",
+                "props": {
+                  "className": "h-6 w-6"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_2km2opzah_m219v50u",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "text-xs"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_8x8aesvxj_m219v50u",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Template"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_3u1e45q58_m219v50u",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "mt-6"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_a8i6mehnp_m219v50u",
+            "name": "h2",
+            "type": "h2",
+            "props": {
+              "className": "text-lg font-semibold"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_wyt99lasg_m219v50u",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Jul 2020"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_yu32lr1fm_m219v50u",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-start mt-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_nmhw0nkl3_m219v50u",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col items-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_tuk0ijoey_m219v50u",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-lg font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_a4nb4reeb_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "2"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_d4cmwf22f_m219v50u",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-xs"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_qh0ncnbsx_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "THU"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_31rz15h68_m219v50u",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "ml-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_tuv3x3g65_m219v50u",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_kv2xz9w0l_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "It is an amazing morning. Today I am writing after my workout and it feels better"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_1s6p7k15f_m219v50u",
+                    "name": "Badge",
+                    "type": "Badge",
+                    "props": {
+                      "variant": "secondary",
+                      "className": "mt-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_1j1ap9lv2_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "My Journal"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_6leppncjj_m219v50u",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "mt-6"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_v977giqs4_m219v50u",
+            "name": "h2",
+            "type": "h2",
+            "props": {
+              "className": "text-lg font-semibold"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_9hzcimr70_m219v50u",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Jun 2020"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_993twnts9_m219v50u",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-start mt-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_b75w6uqkt_m219v50u",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col items-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_2jgxqzip4_m219v50u",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-lg font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_n5evesl66_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "1"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_avuov95ai_m219v50u",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-xs"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_llzl0fmmy_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "WED"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_p1ukzy3vh_m219v50u",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "ml-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_2stuyo6de_m219v50u",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_l67h5g7zl_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Reflecting on the past month and setting goals for the next."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_vlqu79o61_m219v50u",
+                    "name": "Badge",
+                    "type": "Badge",
+                    "props": {
+                      "variant": "secondary",
+                      "className": "mt-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_8f2n4dabp_m219v50u",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Reflection"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_8p2gbrgtn_m219v50u",
+        "name": "footer",
+        "type": "footer",
+        "props": {
+          "className": "fixed bottom-0 left-0 right-0 flex justify-around bg-white py-2 border-t"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_xzgm4pta0_m219v50u",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "className": "flex flex-col items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_ahmn71mmf_m219v50u",
+                "name": "HomeIcon",
+                "type": "HomeIcon",
+                "props": {
+                  "className": "h-6 w-6"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_jddoj4sq7_m219v50u",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "className": "flex flex-col items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_a24j9fnxo_m219v50u",
+                "name": "CalendarIcon",
+                "type": "CalendarIcon",
+                "props": {
+                  "className": "h-6 w-6"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_i4hbygq6e_m219v50u",
+            "name": "Button",
+            "type": "Button",
+            "props": {
+              "variant": "ghost",
+              "className": "flex flex-col items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_kda5aup1w_m219v50u",
+                "name": "ExpandIcon",
+                "type": "ExpandIcon",
+                "props": {
+                  "className": "h-6 w-6"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

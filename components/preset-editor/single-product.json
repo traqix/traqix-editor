@@ -1,0 +1,621 @@
+[
+    {
+        "id": "id_0euwofk6w_m27t1w1f",
+        "name": "Single Product",
+        "type": "div",
+        "props": {
+            "className": "grid md:grid-cols-2 gap-6 lg:gap-12 items-start max-w-6xl px-4 mx-auto py-6"
+        },
+        "allowsChildren": true,
+        "children": [
+            {
+                "id": "id_ljfjew8o5_m27t1w1f",
+                "name": "div",
+                "type": "div",
+                "props": {
+                    "className": "grid md:grid-cols-5 gap-3 items-start"
+                },
+                "allowsChildren": true,
+                "children": [
+                    {
+                        "id": "id_e031qktwv_m27t1w1f",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                            "className": "hidden md:flex flex-col gap-3 items-start"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                            {
+                                "id": "id_2h0lxy928_m27t1w1f",
+                                "name": "button",
+                                "type": "button",
+                                "props": {
+                                    "className": "border hover:border-gray-900 rounded-lg overflow-hidden transition-colors dark:hover:border-gray-50"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_5mzxj867c_m27t1w1f",
+                                        "name": "img",
+                                        "type": "img",
+                                        "props": {
+                                            "src": "/placeholder.svg",
+                                            "alt": "Preview thumbnail",
+                                            "width": "100",
+                                            "height": "120",
+                                            "className": "aspect-[5/6] object-cover"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "id_ps8vb7idq_m27t1w1f",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                            "className": "sr-only"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_yplfw1oh8_m27t1w1f",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                    "content": "View Image 1"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "id_uv2iy77o0_m27t1w1f",
+                                "name": "button",
+                                "type": "button",
+                                "props": {
+                                    "className": "border hover:border-gray-900 rounded-lg overflow-hidden transition-colors dark:hover:border-gray-50"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_hn63a5tjt_m27t1w1f",
+                                        "name": "img",
+                                        "type": "img",
+                                        "props": {
+                                            "src": "/placeholder.svg",
+                                            "alt": "Preview thumbnail",
+                                            "width": "100",
+                                            "height": "120",
+                                            "className": "aspect-[5/6] object-cover"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "id_c5lr2lhh6_m27t1w1f",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                            "className": "sr-only"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_1gedracep_m27t1w1f",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                    "content": "View Image 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "id_kahasu8lg_m27t1w1f",
+                                "name": "button",
+                                "type": "button",
+                                "props": {
+                                    "className": "border hover:border-gray-900 rounded-lg overflow-hidden transition-colors dark:hover:border-gray-50"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_g31wl6dnv_m27t1w1f",
+                                        "name": "img",
+                                        "type": "img",
+                                        "props": {
+                                            "src": "/placeholder.svg",
+                                            "alt": "Preview thumbnail",
+                                            "width": "100",
+                                            "height": "120",
+                                            "className": "aspect-[5/6] object-cover"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "id_kdjg8emv9_m27t1w1f",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                            "className": "sr-only"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_waxv1gxfu_m27t1w1f",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                    "content": "View Image 3"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "id_ai9z4eq8b_m27t1w1f",
+                                "name": "button",
+                                "type": "button",
+                                "props": {
+                                    "className": "border hover:border-gray-900 rounded-lg overflow-hidden transition-colors dark:hover:border-gray-50"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_kfmuu7fpf_m27t1w1f",
+                                        "name": "img",
+                                        "type": "img",
+                                        "props": {
+                                            "src": "/placeholder.svg",
+                                            "alt": "Preview thumbnail",
+                                            "width": "100",
+                                            "height": "120",
+                                            "className": "aspect-[5/6] object-cover"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "id_6tv5si8og_m27t1w1f",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                            "className": "sr-only"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_bi008bow8_m27t1w1f",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                    "content": "View Image 4"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "id_51jt03wee_m27t1w1f",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                            "className": "md:col-span-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                            {
+                                "id": "id_om3cf91km_m27t1w1f",
+                                "name": "img",
+                                "type": "img",
+                                "props": {
+                                    "src": "/placeholder.svg",
+                                    "alt": "Product Image",
+                                    "width": "600",
+                                    "height": "900",
+                                    "className": "aspect-[2/3] object-cover border border-gray-200 w-full rounded-lg overflow-hidden dark:border-gray-800"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "id_nb108f7t5_m27t1w1f",
+                "name": "div",
+                "type": "div",
+                "props": {
+                    "className": "grid gap-4 md:gap-10 items-start"
+                },
+                "allowsChildren": true,
+                "children": [
+                    {
+                        "id": "id_f9yc2lalz_m27t1w1f",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                            "className": "grid gap-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                            {
+                                "id": "id_sfvs7o21j_m27t1w1f",
+                                "name": "h1",
+                                "type": "h1",
+                                "props": {
+                                    "className": "font-bold text-3xl lg:text-4xl"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_eqg2n5ivy_m27t1w1f",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                            "content": "Acme Circles T-Shirt"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "id_zr18kseet_m27t1w1f",
+                                "name": "div",
+                                "type": "div",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_7pyon8ph6_m27t1w1f",
+                                        "name": "p",
+                                        "type": "p",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_cv75jffbp_m27t1w1f",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                    "content": "60% combed ringspun cotton/40% polyester jersey tee."
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "id_pyurfqpgy_m27t1w1f",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                    "className": "flex items-center gap-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_gaiwaj75g_m27t1w1f",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                            "className": "flex items-center gap-0.5"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_y8y35rgu6_m27t1w1f",
+                                                "name": "StarIcon",
+                                                "type": "StarIcon",
+                                                "props": {
+                                                    "className": "w-5 h-5 fill-primary"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "id_r6qzu9ayn_m27t1w1f",
+                                                "name": "StarIcon",
+                                                "type": "StarIcon",
+                                                "props": {
+                                                    "className": "w-5 h-5 fill-primary"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "id_5xs5pqpm8_m27t1w1f",
+                                                "name": "StarIcon",
+                                                "type": "StarIcon",
+                                                "props": {
+                                                    "className": "w-5 h-5 fill-primary"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "id_c9dh4s5lm_m27t1w1f",
+                                                "name": "StarIcon",
+                                                "type": "StarIcon",
+                                                "props": {
+                                                    "className": "w-5 h-5 fill-muted stroke-muted-foreground"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "id_zy24sv163_m27t1w1f",
+                                                "name": "StarIcon",
+                                                "type": "StarIcon",
+                                                "props": {
+                                                    "className": "w-5 h-5 fill-muted stroke-muted-foreground"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "id_ugp3q4toi_m27t1w1f",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                    "className": "grid gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_nrzayletf_m27t1w1f",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                            "className": "flex items-center justify-between"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_1ruslgwxx_m27t1w1f",
+                                                "name": "span",
+                                                "type": "span",
+                                                "props": {
+                                                    "className": "font-medium"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": [
+                                                    {
+                                                        "id": "id_n5laxmhxd_m27t1w1f",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                            "content": "Unit Price:"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "id_zxe1qt0s6_m27t1w1f",
+                                                "name": "span",
+                                                "type": "span",
+                                                "props": {
+                                                    "className": "font-bold text-2xl"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": [
+                                                    {
+                                                        "id": "id_3xtcoo60m_m27t1w1f",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                            "content": "$99"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "id_rur52f5vv_m27t1w1f",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                            "className": "flex items-center justify-between"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_lz0gwwydq_m27t1w1f",
+                                                "name": "span",
+                                                "type": "span",
+                                                "props": {
+                                                    "className": "font-medium"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": [
+                                                    {
+                                                        "id": "id_9obufa5xj_m27t1w1f",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                            "content": "Store Quantity:"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "id_qwuoj7iuz_m27t1w1f",
+                                                "name": "span",
+                                                "type": "span",
+                                                "props": {
+                                                    "className": "font-bold text-2xl"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": [
+                                                    {
+                                                        "id": "id_o9sj2c1h9_m27t1w1f",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                            "content": "500"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "id_l7qjrloih_m27t1w1f",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                            "className": "flex items-center justify-between"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_15tgy2lx9_m27t1w1f",
+                                                "name": "span",
+                                                "type": "span",
+                                                "props": {
+                                                    "className": "font-medium"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": [
+                                                    {
+                                                        "id": "id_dfwkhq5u5_m27t1w1f",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                            "content": "Warehouse Quantity:"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": "id_8zgssgst3_m27t1w1f",
+                                                "name": "span",
+                                                "type": "span",
+                                                "props": {
+                                                    "className": "font-bold text-2xl"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": [
+                                                    {
+                                                        "id": "id_ltwcv5lzf_m27t1w1f",
+                                                        "name": "Text",
+                                                        "type": "text",
+                                                        "allowsChildren": false,
+                                                        "children": [],
+                                                        "props": {
+                                                            "content": "1000"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "id_aquw79cv3_m27t1w1f",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                    "className": "flex flex-col gap-2"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                    {
+                                        "id": "id_469pqxlts_m27t1w1f",
+                                        "name": "Button",
+                                        "type": "Button",
+                                        "props": {
+                                            "size": "lg"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_gf13k749t_m27t1w1f",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                    "content": "Add to Cart"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "id_wvm3voa9e_m27t1w1f",
+                                        "name": "Button",
+                                        "type": "Button",
+                                        "props": {
+                                            "variant": "outline",
+                                            "size": "lg"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                            {
+                                                "id": "id_n8oojy83i_m27t1w1f",
+                                                "name": "HeartIcon",
+                                                "type": "HeartIcon",
+                                                "props": {
+                                                    "className": "w-4 h-4 mr-2"
+                                                },
+                                                "allowsChildren": true,
+                                                "children": []
+                                            },
+                                            {
+                                                "id": "id_5dx0nzhhv_m27t1w1f",
+                                                "name": "Text",
+                                                "type": "text",
+                                                "allowsChildren": false,
+                                                "children": [],
+                                                "props": {
+                                                    "content": "Add to Wishlist"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -183,7 +183,7 @@
                 "type": "Slider",
                 "props": {
                   "className": "flex-1",
-                  "value": null
+                  "value": [0]
                 },
                 "allowsChildren": true,
                 "children": []

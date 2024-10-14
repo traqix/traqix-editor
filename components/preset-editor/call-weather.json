@@ -1,0 +1,190 @@
+[
+  {
+    "id": "id_x1zanxmk0_m20v0myt",
+    "name": "CALL Weather rev2",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col h-screen bg-gradient-to-r from-blue-500 to-blue-700"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_0wpu589fw_m20v0myo",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col items-center p-6 space-y-4 w-500 mx-auto"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_41yjcz2hi_m20v0myo",
+            "name": "h1",
+            "type": "h1",
+            "props": {
+              "className": "text-2xl font-semibold text-white",
+              "content": "traqix_mem_city_name"
+            },
+            "allowsChildren": true,
+            "children": []
+          },
+          {
+            "id": "id_mka8fmzoe_m20v0myo",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-sm text-gray-200",
+              "content": "Monday, 12 April"
+            },
+            "allowsChildren": true,
+            "children": []
+          },
+          {
+            "id": "id_2rompludr_m20v0myo",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex flex-col items-center space-y-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_a6nwul3dj_m20v0myo",
+                "name": "svg",
+                "type": "svg",
+                "props": {
+                  "className": "h-20 w-20 text-gray-300",
+                  "fill": "none",
+                  "height": "24",
+                  "stroke": "currentColor",
+                  "strokeLinecap": "round",
+                  "strokeLinejoin": "round",
+                  "strokeWidth": "2",
+                  "viewBox": "0 0 24 24",
+                  "width": "24",
+                  "xmlns": "http://www.w3.org/2000/svg"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_77i5kvbe2_m20v0myo",
+                    "name": "path",
+                    "type": "path",
+                    "props": {
+                      "d": "M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_d4ta3km2q_m20v0myo",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-6xl font-bold text-white",
+                  "content": "traqix_mem_temperature"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_7j3hy1g4w_m20v0myo",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-xl text-gray-300",
+                  "content": "traqix_mem_conditions"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_yyxvvnty9_m20v0myo",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex flex-col items-center space-y-4 mt-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_dg77rriur_m20v0myo",
+                "name": "Heading",
+                "type": "h1",
+                "props": {
+                  "className": "text-2xl font-bold text-white",
+                  "content": "Weather Checker"
+                },
+                "allowsChildren": false,
+                "children": []
+              },
+              {
+                "id": "id_5r1jn00ex_m20v0myo",
+                "name": "TextInput",
+                "type": "input",
+                "props": {
+                  "className": "p-2 rounded-md border border-gray-300 dark:border-gray-700 mb-4 focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100",
+                  "placeholder": "Enter city name",
+                  "oninput": "",
+                  "content": "",
+                  "onchange": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_city')) || {}; var dataSave = JSON.stringify({...oldValue, value: e.target.value}); window.localStorage.setItem('traqix_mem_city', dataSave);"
+                },
+                "allowsChildren": false,
+                "children": []
+              },
+              {
+                "id": "id_shanhf0pt_m20v0myo",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "content": "Check Weather",
+                  "className": "px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-300 ease-in-out",
+                  "onclick": "var city = JSON.parse(window.localStorage.getItem('traqix_mem_city')).value ?? ''; if (city !== '') { fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=0d019a678e59d7111413243a36716e41&units=metric`).then(response => response.json()).then(data => { window.localStorage.setItem('traqix_mem_weather', JSON.stringify({type: 'object', value: data})); window.localStorage.setItem('traqix_mem_city_name', JSON.stringify({type: 'string', value: data.name})); window.localStorage.setItem('traqix_mem_temperature', JSON.stringify({type: 'number', value: data.main.temp})); window.localStorage.setItem('traqix_mem_min_temp', JSON.stringify({type: 'number', value: data.main.temp_min})); window.localStorage.setItem('traqix_mem_max_temp', JSON.stringify({type: 'number', value: data.main.temp_max})); window.localStorage.setItem('traqix_mem_humidity', JSON.stringify({type: 'number', value: data.main.humidity})); window.localStorage.setItem('traqix_mem_wind_speed', JSON.stringify({type: 'number', value: data.wind.speed})); window.localStorage.setItem('traqix_mem_conditions', JSON.stringify({type: 'string', value: data.weather[0].description})); var result = `City: ${data.name}\\nTemperature: ${data.main.temp} °C\\nMin Temp: ${data.main.temp_min} °C\\nMax Temp: ${data.main.temp_max} °C\\nHumidity: ${data.main.humidity}%\\nWind Speed: ${data.wind.speed} m/s\\nConditions: ${data.weather[0].description}`; window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: result})); }).catch(error => { window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: 'Error fetching weather data'})); }); }"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_6tf8d1j2j_m20v0myo",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col items-center mt-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_bh9jka2e3_m20v0myo",
+            "name": "h2",
+            "type": "h2",
+            "props": {
+              "content": "Weather Details",
+              "className": "text-lg text-white"
+            },
+            "allowsChildren": true,
+            "children": []
+          },
+          {
+            "id": "id_l8uq6ck27_m20v0myo",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-white",
+              "content": "traqix_mem_display"
+            },
+            "allowsChildren": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

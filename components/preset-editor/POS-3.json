@@ -1,0 +1,1105 @@
+[
+  {
+    "id": "id_9vy0mgf5g_m26wvd74",
+    "name": "POS 3",
+    "type": "div",
+    "props": {
+      "className": "flex h-screen w-full flex-col bg-background"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_odwtv8bpa_m26wvd74",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "flex items-center justify-between border-b bg-card px-6 py-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_1qulwygam_m26wvd74",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center gap-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_hhe6wonov_m26wvd74",
+                "name": "Package2Icon",
+                "type": "Package2Icon",
+                "props": {
+                  "className": "h-6 w-6"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_nhnkiaeqj_m26wvd74",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "text-xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_q2jh7z7p0_m26wvd74",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Acme Cafe"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_ax707tb0o_m26wvd74",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex items-center gap-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_hd5m5pojr_m26wvd74",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "ghost",
+                  "size": "icon"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_k1z8ocw44_m26wvd74",
+                    "name": "SettingsIcon",
+                    "type": "SettingsIcon",
+                    "props": {
+                      "className": "h-5 w-5"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_bo1m02l21_m26wvd74",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "sr-only"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_2n6e72qfp_m26wvd74",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Settings"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_wwg55kup9_m26wvd74",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "ghost",
+                  "size": "icon"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_7ejg3kr81_m26wvd74",
+                    "name": "UserIcon",
+                    "type": "UserIcon",
+                    "props": {
+                      "className": "h-5 w-5"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_cozrmzysc_m26wvd74",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "sr-only"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_b5a0yo114_m26wvd74",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "User"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_w917d66ix_m26wvd74",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-1"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_muyynwos7_m26wvd74",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex-1 border-r"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_xg885m64z_m26wvd74",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex h-full flex-col"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_rcby4i7wg_m26wvd74",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "border-b px-6 py-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_cmjm3lra9_m26wvd74",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-lg font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_30ezpk6p8_m26wvd74",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Current Order"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_b97xjivof_m26wvd74",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex-1 overflow-auto"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_oqvh138or_m26wvd74",
+                        "name": "Table",
+                        "type": "Table",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_0omgsl8bh_m26wvd74",
+                            "name": "TableHeader",
+                            "type": "TableHeader",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_82rtsph4r_m26wvd74",
+                                "name": "TableRow",
+                                "type": "TableRow",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_74w9yi7nw_m26wvd74",
+                                    "name": "TableHead",
+                                    "type": "TableHead",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_orwm8zzxt_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Item"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_vysqfjko5_m26wvd74",
+                                    "name": "TableHead",
+                                    "type": "TableHead",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_t4tvtyrno_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Qty"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_kql54mme1_m26wvd74",
+                                    "name": "TableHead",
+                                    "type": "TableHead",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_4ldz56qgf_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Price"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_73ketfsey_m26wvd74",
+                                    "name": "TableHead",
+                                    "type": "TableHead",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_a3jh2gye9_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Total"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_eg354ycob_m26wvd74",
+                            "name": "TableBody",
+                            "type": "TableBody",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_c863yctfx_m26wvd74",
+                                "name": "TableRow",
+                                "type": "TableRow",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_ip1fr8tx7_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_g4yft27du_m26wvd74",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "font-medium"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_7c7mxa7p5_m26wvd74",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Latte"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_pzkh8sly2_m26wvd74",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "text-xs text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_z9u9uqodq_m26wvd74",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Medium, Iced"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_tbrewmp51_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_8vhaobw09_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "1"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_l6ap7imzq_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_r5s872sps_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$4.50"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_grgz0asju_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_1w0n63y48_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$4.50"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_z6c2bttww_m26wvd74",
+                                "name": "TableRow",
+                                "type": "TableRow",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_6xmnuarqj_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_aiqokxreu_m26wvd74",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "font-medium"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_aqmmnrpsx_m26wvd74",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Croissant"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_rpha3bmih_m26wvd74",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "text-xs text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_jll83yjjs_m26wvd74",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Plain"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_0vylejg0k_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_rs2vx39qt_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "2"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_t4016tjz6_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_x34rw0llk_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$3.25"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_n0mt46vr8_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_l0rxin7b5_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$6.50"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_jsrmz18vg_m26wvd74",
+                                "name": "TableRow",
+                                "type": "TableRow",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_kcpm7tcal_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_i9pqi7egx_m26wvd74",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "font-medium"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_0xooin51h_m26wvd74",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Bagel"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_1jmoc2m0p_m26wvd74",
+                                        "name": "div",
+                                        "type": "div",
+                                        "props": {
+                                          "className": "text-xs text-muted-foreground"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_nrue3l4yy_m26wvd74",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Sesame"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_cfu41xwur_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_45ozag4vc_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "1"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_2ir81z6a0_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_c70qku9l9_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$2.75"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_87lbjs5ri_m26wvd74",
+                                    "name": "TableCell",
+                                    "type": "TableCell",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_4zd7kgwup_m26wvd74",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$2.75"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_a9i9w2ivh_m26wvd74",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "border-t px-6 py-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_7tunkvwbn_m26wvd74",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center justify-between"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_tthxv1b8o_m26wvd74",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_mp2y5w97b_m26wvd74",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Total"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_ay6a85376_m26wvd74",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_qeeuo8rvo_m26wvd74",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "$13.75"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_ohaw6vdtf_m26wvd74",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "w-72 border-r bg-card"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_213q4yrud_m26wvd74",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex h-full flex-col"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_o3cxu08f8_m26wvd74",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "border-b px-6 py-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_y4evuu79m_m26wvd74",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-lg font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_cps3jj4w2_m26wvd74",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Add Item"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_5npm4zs64_m26wvd74",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex-1 overflow-auto"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_l8ho4r8pg_m26wvd74",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid gap-4 p-6"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_807cbu5qp_m26wvd74",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "type": "text",
+                              "placeholder": "Search menu items...",
+                              "className": "w-full"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_wh4a8glm9_m26wvd74",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "grid gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_wln4liulk_m26wvd74",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_hrpk4wwrf_m26wvd74",
+                                    "name": "CoffeeIcon",
+                                    "type": "CoffeeIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 mr-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_bznbvi5mj_m26wvd74",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Latte"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_ki2j8ve03_m26wvd74",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_ua3iklfn5_m26wvd74",
+                                    "name": "CroissantIcon",
+                                    "type": "CroissantIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 mr-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_771i482i0_m26wvd74",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Croissant"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_36xvalc9e_m26wvd74",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_lybpkt2lu_m26wvd74",
+                                    "name": "BarcodeIcon",
+                                    "type": "BarcodeIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 mr-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_cry4szkv5_m26wvd74",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Bagel"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_jqm0imlm0_m26wvd74",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_mpx8cnd7f_m26wvd74",
+                                    "name": "SandwichIcon",
+                                    "type": "SandwichIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 mr-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_2bwcl81df_m26wvd74",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Sandwich"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_c6uybsevg_m26wvd74",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_j41zwzjnj_m26wvd74",
+                                    "name": "CakeIcon",
+                                    "type": "CakeIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 mr-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_2w5xv1xmr_m26wvd74",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Cake"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_lrq07wp4o_m26wvd74",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "border-t px-6 py-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_iofjfd04n_m26wvd74",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid gap-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_1vtxzg4u7_m26wvd74",
+                            "name": "Button",
+                            "type": "Button",
+                            "props": {
+                              "variant": "outline",
+                              "className": "w-full"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_3ea7p1vzn_m26wvd74",
+                                "name": "PercentIcon",
+                                "type": "PercentIcon",
+                                "props": {
+                                  "className": "h-5 w-5 mr-2"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "id_7c9mduumq_m26wvd74",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Apply Discount"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_vdbv3ja79_m26wvd74",
+                            "name": "Button",
+                            "type": "Button",
+                            "props": {
+                              "className": "w-full"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_5ou892q2d_m26wvd74",
+                                "name": "CreditCardIcon",
+                                "type": "CreditCardIcon",
+                                "props": {
+                                  "className": "h-5 w-5 mr-2"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "id_x6gkyneeo_m26wvd74",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Process Payment"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -3,7 +3,7 @@
 // import type { TreeItem } from "@/app/(main)/(editor)/types";
 
 // class TreeItemStorage extends StorageService<TreeItem> {
-//   private currentKey = `tx_current`; // Chave para armazenar o item sendo editado
+//   private currentKey = `root`; // Chave para armazenar o item sendo editado
 
 //   // Obtém o item que está sendo editado (current)
 //   getCurrent(): TreeItem | null {

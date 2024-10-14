@@ -1,0 +1,163 @@
+import {
+  Dispatch,
+  FC,
+  SetStateAction,
+  useRef,
+  useState,
+} from "react";
+import { useDrag, useDrop } from "react-dnd";
+import type { TreeItem } from "@/app/(main)/(editor)/types";
+import { convertValueTreeItem, getAcceptedComponents } from "@/app/(main)/(editor)/utils/util";
+import {
+  matchTailwindClassesWidth,
+  modifyLayoutClassesChild,
+} from "../(main)/(editor)/utils/tailwind";
+import { useTree } from "@/components/context/tree-context";
+import { renderComponent } from "@/components-editor/render-components";
+import { useMemory } from "@/components/context/memory-context";
+
+export const PreviewComponentFinal: FC<{
+  itemId: string;
+  selectedItemId?: string;
+  onSelect: (item: TreeItem) => void;
+  onMove: (
+    draggedId: string,
+    targetId: string,
+    position: "before" | "after" | "inside"
+  ) => void;
+  onRemove: (id: string) => void;
+  onUpdate: (id: string, updates: Partial<TreeItem>) => void;
+  addComponent: (component: TreeItem, parentId?: string) => void;
+  levelHovered?: number;
+  setLevelHovered: Dispatch<SetStateAction<number>>;
+  level: number;
+}> = ({
+  itemId,
+  selectedItemId,
+  onSelect,
+  onMove,
+  onRemove,
+  onUpdate,
+  addComponent,
+  levelHovered,
+  setLevelHovered,
+  level,
+}) => {
+
+  const { getTree } = useTree();
+  const { getMemory } = useMemory();
+  const tree = getTree(itemId)
+  const item = convertValueTreeItem(getMemory, tree)
+
+  // const items: TreeItem[] = JSON.parse(JSON.stringify(tree)) as TreeItem[];
+  // const item: TreeItem = items[0];
+  
+  const [isHovered, setIsHovered] = useState(false);
+
+  const [{ isDragging }, drag, preview] = useDrag({
+    type: `${item?.type?.toUpperCase() ?? "DIV"}`,
+    item: { id: item?.id, type: item?.type },
+    collect: (monitor) => ({
+      isDragging: monitor.isDragging(),
+    }),
+  });
+
+  const [{ isOver, canDrop }, drop] = useDrop({
+    accept: getAcceptedComponents(`${item?.type?.toUpperCase() ?? "DIV"}`),
+    drop: (droppedItem: { id?: string; type: string }, monitor) => {
+      if (!monitor.didDrop()) {
+        const clientOffset = monitor.getClientOffset();
+        const hoverBoundingRect = ref.current?.getBoundingClientRect();
+        if (clientOffset && hoverBoundingRect) {
+          const hoverMiddleY =
+            (hoverBoundingRect.bottom - hoverBoundingRect.top) / 2;
+          const hoverClientY = clientOffset.y - hoverBoundingRect.top;
+          if (droppedItem.id) {
+            if (hoverClientY < hoverMiddleY) {
+              onMove(droppedItem.id, item.id, "before");
+            } else if (hoverClientY > hoverMiddleY) {
+              onMove(droppedItem.id, item.id, "after");
+            }
+          } else {
+            addComponent(
+              {
+                type: droppedItem.type,
+                props: { content: `New ${droppedItem.type}` },
+                id:
+                  Date.now().toString() +
+                  Math.random().toString(36).substr(2, 9),
+                name: `New ${droppedItem.type}`,
+              },
+              item.id
+            );
+          }
+        }
+      }
+    },
+    collect: (monitor) => ({
+      isOver: monitor.isOver({ shallow: true }),
+      canDrop: monitor.canDrop(),
+    }),
+  });
+
+  const ref = useRef<HTMLDivElement>(null);
+  drag(drop(ref));
+
+  // const handleContentChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   onUpdate(item.id, { content: e.target.value })
+  // }
+
+  // const handleClassChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   onUpdate(item.id, { props: { ...item.props, className: e.target.value } })
+  // }
+
+  // const handleBackgroundChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   onUpdate(item.id, { props: { ...item.props, style: { background: e.target.value } } })
+  // }
+
+
+  const { parentClasses } = modifyLayoutClassesChild(
+    item?.props?.className ?? ""
+  );
+  // const containsColSpan = item?.props?.className?.includes("col-span-2")
+  //   ? "col-span-2"
+  //   : "";
+
+  const setHovered = (hovered: boolean, level: number) => {
+    setIsHovered(hovered);
+    setLevelHovered(level);
+  };
+
+  const matchesWidth = matchTailwindClassesWidth(item?.props?.className ?? '')
+  if (matchesWidth.length) {
+    let add = true
+    matchesWidth.map((el) => {
+      if (el.startsWith('w-')) {
+        add = false
+      }
+    })
+
+    if (add) {
+      parentClasses.push('w-full')
+    }
+  }
+
+  return (
+    renderComponent(
+      itemId, 
+      selectedItemId, 
+      isOver, 
+      ref, 
+      item,
+      onSelect,
+      onMove,
+      onRemove,
+      onUpdate,
+      addComponent,
+      levelHovered,
+      setLevelHovered,
+      level,
+      getTree,
+    )
+  )
+};

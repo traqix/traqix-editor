@@ -28,6 +28,8 @@ export const DIV_ACCEPTED_COMPONENTS = {
   DETAILS: "DETAILS",
   SUMMARY: "SUMMARY",
 
+  CARD: "CARD",
+  
   // Cabeçalhos
   H1: "H1",
   H2: "H2",

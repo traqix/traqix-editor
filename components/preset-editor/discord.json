@@ -1,0 +1,1736 @@
+[
+      {
+        "id": "id_gqeu0s9x4_m26q93tt",
+        "name": "Discord",
+        "type": "div",
+        "props": {
+          "className": "grid min-h-screen w-full grid-cols-[auto_1fr_auto] overflow-hidden"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_2ahwlwt2u_m26q93tt",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex flex-col items-center gap-2 bg-gray-950 p-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_xbps4xctd_m26q93tt",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "mt-2",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_rt18fqcbh_m26q93tt",
+                    "name": "DiscIcon",
+                    "type": "DiscIcon",
+                    "props": {
+                      "className": "h-8 w-8 text-white"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_dah83nbha_m26q93tt",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col items-center gap-2 overflow-auto py-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ktqqrftqp_m26q93tt",
+                    "name": "Avatar",
+                    "type": "Avatar",
+                    "props": {
+                      "className": "border-2 border-gray-700 hover:border-gray-500"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_tc6s8jpx7_m26q93tt",
+                        "name": "AvatarImage",
+                        "type": "AvatarImage",
+                        "props": {
+                          "src": "/placeholder-user.jpg",
+                          "alt": "Server 1"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_eqajmam0w_m26q93tt",
+                        "name": "AvatarFallback",
+                        "type": "AvatarFallback",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ya97tlemz_m26q93tt",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "S1"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_6ccj57koa_m26q93tt",
+                    "name": "Avatar",
+                    "type": "Avatar",
+                    "props": {
+                      "className": "border-2 border-gray-700 hover:border-gray-500"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_cd2ahjbsj_m26q93tt",
+                        "name": "AvatarImage",
+                        "type": "AvatarImage",
+                        "props": {
+                          "src": "/placeholder-user.jpg",
+                          "alt": "Server 2"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_czdpsgc8z_m26q93tt",
+                        "name": "AvatarFallback",
+                        "type": "AvatarFallback",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_52gqimiv1_m26q93tt",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "S2"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_r3nbam64y_m26q93tt",
+                    "name": "Avatar",
+                    "type": "Avatar",
+                    "props": {
+                      "className": "border-2 border-gray-700 hover:border-gray-500"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ltn2wi32n_m26q93tt",
+                        "name": "AvatarImage",
+                        "type": "AvatarImage",
+                        "props": {
+                          "src": "/placeholder-user.jpg",
+                          "alt": "Server 3"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_sczuv5u9a_m26q93tt",
+                        "name": "AvatarFallback",
+                        "type": "AvatarFallback",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ypnfnlaol_m26q93tt",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "S3"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_xz0b4hs8y_m26q93tt",
+                    "name": "Avatar",
+                    "type": "Avatar",
+                    "props": {
+                      "className": "border-2 border-gray-700 hover:border-gray-500"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_y6izis7as_m26q93tt",
+                        "name": "AvatarImage",
+                        "type": "AvatarImage",
+                        "props": {
+                          "src": "/placeholder-user.jpg",
+                          "alt": "Server 4"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_s0exyrm6i_m26q93tt",
+                        "name": "AvatarFallback",
+                        "type": "AvatarFallback",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_y25bn5uyx_m26q93tt",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "S4"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_h6bphy34z_m26q93tt",
+                    "name": "Avatar",
+                    "type": "Avatar",
+                    "props": {
+                      "className": "border-2 border-gray-700 hover:border-gray-500"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ryasfj8zv_m26q93tt",
+                        "name": "AvatarImage",
+                        "type": "AvatarImage",
+                        "props": {
+                          "src": "/placeholder-user.jpg",
+                          "alt": "Server 5"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_f4aegj94o_m26q93tt",
+                        "name": "AvatarFallback",
+                        "type": "AvatarFallback",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_h2f4w9v6x_m26q93tt",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "S5"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_twyhhetx3_m26q93tt",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex flex-col"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_98b90qt09_m26q93tt",
+                "name": "header",
+                "type": "header",
+                "props": {
+                  "className": "flex h-14 items-center justify-between bg-gray-950 px-4 text-white"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_m4dfwsb3i_m26q93tt",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_qqwqk98ti_m26q93tt",
+                        "name": "ChevronLeftIcon",
+                        "type": "ChevronLeftIcon",
+                        "props": {
+                          "className": "h-5 w-5 cursor-pointer hover:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_h3s1etfen_m26q93tt",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-lg font-medium"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_0rrlani93_m26q93tt",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "General"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_znaxbwsxq_m26q93tt",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center gap-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ist42q57n_m26q93tt",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "variant": "ghost",
+                          "size": "icon",
+                          "className": "hover:bg-gray-800"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_3hvt0gc2i_m26q93tt",
+                            "name": "SearchIcon",
+                            "type": "SearchIcon",
+                            "props": {
+                              "className": "h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_e07ftg2in_m26q93tt",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "variant": "ghost",
+                          "size": "icon",
+                          "className": "hover:bg-gray-800"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_auz57lysk_m26q93tt",
+                            "name": "InboxIcon",
+                            "type": "InboxIcon",
+                            "props": {
+                              "className": "h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_wijmvm980_m26q93tt",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "variant": "ghost",
+                          "size": "icon",
+                          "className": "hover:bg-gray-800"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_47ox60g4q_m26q93tt",
+                            "name": "CircleHelpIcon",
+                            "type": "CircleHelpIcon",
+                            "props": {
+                              "className": "h-5 w-5"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_xqyf151eu_m26q93tt",
+                        "name": "Avatar",
+                        "type": "Avatar",
+                        "props": {
+                          "className": "border-2 border-gray-700 hover:border-gray-500"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_nb0qir9h7_m26q93tt",
+                            "name": "AvatarImage",
+                            "type": "AvatarImage",
+                            "props": {
+                              "src": "/placeholder-user.jpg",
+                              "alt": "User Avatar"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_63cbg3m4w_m26q93tt",
+                            "name": "AvatarFallback",
+                            "type": "AvatarFallback",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_13kzftzm5_m26q93tt",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "JD"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_q2vbhd72q_m26q93tt",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-1 overflow-hidden"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_k0zb3wpeu_m26q93tt",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex w-60 flex-col bg-gray-900 p-2 text-gray-400"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_fyn5nsoeu_m26q93tt",
+                        "name": "Collapsible",
+                        "type": "Collapsible",
+                        "props": {
+                          "className": "grid gap-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_3tbeg69vx_m26q93tt",
+                            "name": "CollapsibleTrigger",
+                            "type": "CollapsibleTrigger",
+                            "props": {
+                              "className": "flex items-center justify-between rounded-md px-2 py-1 text-sm font-medium hover:bg-gray-800 hover:text-gray-200 [&[data-state=open]>svg]:rotate-90"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_chcxuy9dd_m26q93tt",
+                                "name": "span",
+                                "type": "span",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_mv4ov62e9_m26q93tt",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Channels"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_fz4h32e8e_m26q93tt",
+                                "name": "ChevronRightIcon",
+                                "type": "ChevronRightIcon",
+                                "props": {
+                                  "className": "h-4 w-4 transition-transform"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_fl2pxjlfv_m26q93tt",
+                            "name": "CollapsibleContent",
+                            "type": "CollapsibleContent",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_sw4514fvq_m26q93tt",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-1 pl-4"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_elif3nwzp_m26q93tt",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-2 rounded-md px-2 py-1 text-sm hover:bg-gray-800 hover:text-gray-200",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_9ufu5wbhg_m26q93tt",
+                                        "name": "HashIcon",
+                                        "type": "HashIcon",
+                                        "props": {
+                                          "className": "h-4 w-4"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_75u2ehkct_m26q93tt",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_9u7niqevs_m26q93tt",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "general"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_im19cp3yx_m26q93tt",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-2 rounded-md px-2 py-1 text-sm hover:bg-gray-800 hover:text-gray-200",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_irxgat5jx_m26q93tt",
+                                        "name": "HashIcon",
+                                        "type": "HashIcon",
+                                        "props": {
+                                          "className": "h-4 w-4"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_cxyt4i0lp_m26q93tt",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_yda4wtywz_m26q93tt",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "announcements"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_opsj0k5iv_m26q93tt",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex items-center gap-2 rounded-md px-2 py-1 text-sm hover:bg-gray-800 hover:text-gray-200",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_in8jsqqtg_m26q93tt",
+                                        "name": "HashIcon",
+                                        "type": "HashIcon",
+                                        "props": {
+                                          "className": "h-4 w-4"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_up42du22p_m26q93tt",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {},
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_opb10qydu_m26q93tt",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "random"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_wvzi794bu_m26q93tt",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-1 flex-col bg-gray-950 text-gray-400"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_o7ez9edd8_m26q93tt",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex-1 overflow-auto p-4 space-y-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_pf1lzv3r5_m26q93tt",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-start gap-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_lo3yytafi_m26q93tt",
+                                "name": "Avatar",
+                                "type": "Avatar",
+                                "props": {
+                                  "className": "border-2 border-gray-700"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_lj6ab6lvk_m26q93tt",
+                                    "name": "AvatarImage",
+                                    "type": "AvatarImage",
+                                    "props": {
+                                      "src": "/placeholder-user.jpg",
+                                      "alt": "User Avatar"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_wte2xbrze_m26q93tt",
+                                    "name": "AvatarFallback",
+                                    "type": "AvatarFallback",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_f9jahcf4q_m26q93tt",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "JD"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_rsbw82mcs_m26q93tt",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-1"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_fja8u5j40_m26q93tt",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_pqjzh70ol_m26q93tt",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "font-medium text-gray-200"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_tcry40vca_m26q93tt",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "John Doe"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_mze3xm6v6_m26q93tt",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-xs text-gray-500"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_wu8loevlc_m26q93tt",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "12:34 PM"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_ykz2d5zu4_m26q93tu",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "text-sm"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_y5fu6pgdj_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Hey everyone, how's it going?"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_ukwucynrt_m26q93tu",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-start gap-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_kfthd6od9_m26q93tu",
+                                "name": "Avatar",
+                                "type": "Avatar",
+                                "props": {
+                                  "className": "border-2 border-gray-700"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_3co3sve22_m26q93tu",
+                                    "name": "AvatarImage",
+                                    "type": "AvatarImage",
+                                    "props": {
+                                      "src": "/placeholder-user.jpg",
+                                      "alt": "User Avatar"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_jgvke02k0_m26q93tu",
+                                    "name": "AvatarFallback",
+                                    "type": "AvatarFallback",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_jb1eeiia0_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "JD"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_i8fg5m196_m26q93tu",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-1"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_r4lksy8r9_m26q93tu",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_l3x6wkfry_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "font-medium text-gray-200"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_8ex99c0dt_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Jane Doe"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_4ivkyrnd1_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-xs text-gray-500"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_b2iaryztb_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "12:35 PM"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_lgkpzgj9u_m26q93tu",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "text-sm"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_ngsoulak7_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Doing great, thanks for asking!"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_qok4cksep_m26q93tu",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-start gap-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_60v6k2aqa_m26q93tu",
+                                "name": "Avatar",
+                                "type": "Avatar",
+                                "props": {
+                                  "className": "border-2 border-gray-700"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_ppw6404lh_m26q93tu",
+                                    "name": "AvatarImage",
+                                    "type": "AvatarImage",
+                                    "props": {
+                                      "src": "/placeholder-user.jpg",
+                                      "alt": "User Avatar"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_bavunlbq8_m26q93tu",
+                                    "name": "AvatarFallback",
+                                    "type": "AvatarFallback",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_2op5ef5pl_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "JD"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_944s3tpr7_m26q93tu",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-1"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_euok7t51b_m26q93tu",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_in16icpm5_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "font-medium text-gray-200"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_tnbvakb48_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Bob Smith"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_ioznkddlf_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-xs text-gray-500"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_zknapeotp_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "12:36 PM"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_9zgli5gh7_m26q93tu",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "text-sm"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_1zs63rvcy_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Hey, what's up?"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_kbub81g6h_m26q93tu",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-start gap-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_lyxy4ta35_m26q93tu",
+                                "name": "Avatar",
+                                "type": "Avatar",
+                                "props": {
+                                  "className": "border-2 border-gray-700"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_g07m1nlzm_m26q93tu",
+                                    "name": "AvatarImage",
+                                    "type": "AvatarImage",
+                                    "props": {
+                                      "src": "/placeholder-user.jpg",
+                                      "alt": "User Avatar"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_0t6k0bqnl_m26q93tu",
+                                    "name": "AvatarFallback",
+                                    "type": "AvatarFallback",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_q04s8p8mn_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "JD"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_gd1ofc1pn_m26q93tu",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "grid gap-1"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_kbeg3s40o_m26q93tu",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center gap-2"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_3nv3oq6lo_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "font-medium text-gray-200"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_k7tohbkjl_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Alice Johnson"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_4z2nsnezs_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-xs text-gray-500"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_kh89l49s9_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "12:37 PM"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_4hut8s0ha_m26q93tu",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "text-sm"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_9kzpc4ir7_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Hi there, how's everyone doing?"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_wb9mj1oys_m26q93tu",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "bg-gray-900 p-2 sticky bottom-0"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_dhae8ixfa_m26q93tu",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "relative"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_7retrfibi_m26q93tu",
+                                "name": "Textarea",
+                                "type": "Textarea",
+                                "props": {
+                                  "placeholder": "Message #general",
+                                  "name": "message",
+                                  "id": "message",
+                                  "rows": null,
+                                  "className": "min-h-[48px] w-full rounded-2xl resize-none bg-gray-800 p-4 text-sm text-gray-200 placeholder:text-gray-500 focus:outline-none"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "id_99tyquknn_m26q93tu",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "type": "submit",
+                                  "size": "icon",
+                                  "className": "absolute top-3 right-3 w-8 h-8"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_um8srbkpx_m26q93tu",
+                                    "name": "ArrowUpIcon",
+                                    "type": "ArrowUpIcon",
+                                    "props": {
+                                      "className": "h-4 w-4 text-gray-200"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_2l9k8apwr_m26q93tu",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex w-60 flex-col bg-gray-900 p-2 text-gray-400"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_clqe2enwf_m26q93tu",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center justify-between rounded-md bg-gray-800 px-2 py-1 text-sm font-medium text-gray-200"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_rlx1r7h0g_m26q93tu",
+                            "name": "span",
+                            "type": "span",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_tktqkecda_m26q93tu",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Online - 3"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_ms4tggd09_m26q93tu",
+                            "name": "ChevronDownIcon",
+                            "type": "ChevronDownIcon",
+                            "props": {
+                              "className": "h-4 w-4"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_ouqx10iad_m26q93tu",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "mt-2 flex flex-col gap-2 overflow-auto"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_s2qbg2qhf_m26q93tu",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_u4z7fn0tp_m26q93tu",
+                                "name": "Avatar",
+                                "type": "Avatar",
+                                "props": {
+                                  "className": "border-2 border-gray-700"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_9trqqh6uc_m26q93tu",
+                                    "name": "AvatarImage",
+                                    "type": "AvatarImage",
+                                    "props": {
+                                      "src": "/placeholder-user.jpg",
+                                      "alt": "User Avatar"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_ivhwgkr4y_m26q93tu",
+                                    "name": "AvatarFallback",
+                                    "type": "AvatarFallback",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_5z9d3ty8m_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "JD"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_1h8ykbxwq_m26q93tu",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex-1"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_5qi3namdi_m26q93tu",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center justify-between"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_zfhmsborj_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-sm font-medium text-gray-200"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_vae0uukji_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "John Doe"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_is0exqaiv_m26q93tu",
+                                        "name": "DotIcon",
+                                        "type": "DotIcon",
+                                        "props": {
+                                          "className": "h-3 w-3 text-green-500"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_26dbfdbw4_m26q93tu",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {
+                                      "className": "text-xs text-gray-500"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_gz4wgpxt8_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Online"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_0dm462hf6_m26q93tu",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_swvwkl5qb_m26q93tu",
+                                "name": "Avatar",
+                                "type": "Avatar",
+                                "props": {
+                                  "className": "border-2 border-gray-700"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_vhtlkj650_m26q93tu",
+                                    "name": "AvatarImage",
+                                    "type": "AvatarImage",
+                                    "props": {
+                                      "src": "/placeholder-user.jpg",
+                                      "alt": "User Avatar"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_xsfxg68l9_m26q93tu",
+                                    "name": "AvatarFallback",
+                                    "type": "AvatarFallback",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_wu15en67j_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "JD"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_58ch41hif_m26q93tu",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex-1"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_7xu1mx32h_m26q93tu",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center justify-between"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_2pnn6fuij_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-sm font-medium text-gray-200"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_pr2e385k3_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Jane Doe"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_ai82pv0eo_m26q93tu",
+                                        "name": "DotIcon",
+                                        "type": "DotIcon",
+                                        "props": {
+                                          "className": "h-3 w-3 text-green-500"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_qqoxc1ls4_m26q93tu",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {
+                                      "className": "text-xs text-gray-500"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_5c0qef67i_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Online"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_p28d4qmyd_m26q93tu",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "flex items-center gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_4txok4vt3_m26q93tu",
+                                "name": "Avatar",
+                                "type": "Avatar",
+                                "props": {
+                                  "className": "border-2 border-gray-700"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_4e21wrdqz_m26q93tu",
+                                    "name": "AvatarImage",
+                                    "type": "AvatarImage",
+                                    "props": {
+                                      "src": "/placeholder-user.jpg",
+                                      "alt": "User Avatar"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  },
+                                  {
+                                    "id": "id_o4gkfwn74_m26q93tu",
+                                    "name": "AvatarFallback",
+                                    "type": "AvatarFallback",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_f8nioou32_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "JD"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_pfgjnfa7d_m26q93tu",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex-1"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_r1g8gg6ez_m26q93tu",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "flex items-center justify-between"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_juqopk3xv_m26q93tu",
+                                        "name": "span",
+                                        "type": "span",
+                                        "props": {
+                                          "className": "text-sm font-medium text-gray-200"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_h8nddch4z_m26q93tu",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Bob Smith"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_4na43x6qz_m26q93tu",
+                                        "name": "DotIcon",
+                                        "type": "DotIcon",
+                                        "props": {
+                                          "className": "h-3 w-3 text-green-500"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_w55h2s0zj_m26q93tu",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {
+                                      "className": "text-xs text-gray-500"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_pbt1jji9h_m26q93tu",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Online"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]

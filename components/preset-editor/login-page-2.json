@@ -1,0 +1,468 @@
+[
+  {
+    "id": "id_vdd8jdc0y_m27q0vky",
+    "name": "Login Page 2",
+    "type": "div",
+    "props": {
+      "className": "flex min-h-screen"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_n4hyc2mkg_m27q0vky",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex-1 bg-[#00aaff] flex items-center justify-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_b8my9gofs_m27q0vky",
+            "name": "img",
+            "type": "img",
+            "props": {
+              "src": "/placeholder.svg",
+              "alt": "Illustration",
+              "width": "300",
+              "height": "300",
+              "style": null
+            },
+            "allowsChildren": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "id_b2zoxi92k_m27q0vky",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex-1 flex items-center justify-center bg-white"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_wf7uk01lk_m27q0vky",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "w-full max-w-md p-8 space-y-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_ye55yn9ra_m27q0vky",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-2xl font-bold text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_1mjryahx3_m27q0vky",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "LOGIN"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_d63v6v4l8_m27q0vky",
+                "name": "form",
+                "type": "form",
+                "props": {
+                  "className": "space-y-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_8fex17w9p_m27q0vky",
+                    "name": "div",
+                    "type": "div",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_z8gtttia5_m27q0vky",
+                        "name": "label",
+                        "type": "label",
+                        "props": {
+                          "htmlFor": "username",
+                          "className": "block text-sm font-medium text-gray-700"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_428z0mze6_m27q0vky",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Username"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_igh4k0nk4_m27q0vky",
+                        "name": "input",
+                        "type": "input",
+                        "props": {
+                          "id": "username",
+                          "name": "username",
+                          "type": "text",
+                          "required": true,
+                          "className": "mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm",
+                          "placeholder": "@mail.com"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_6ey6lgj64_m27q0vky",
+                    "name": "div",
+                    "type": "div",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_a4f7uhtto_m27q0vky",
+                        "name": "label",
+                        "type": "label",
+                        "props": {
+                          "htmlFor": "password",
+                          "className": "block text-sm font-medium text-gray-700"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_65rh7w9xo_m27q0vky",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Password"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_ymy03rphk_m27q0vky",
+                        "name": "input",
+                        "type": "input",
+                        "props": {
+                          "id": "password",
+                          "name": "password",
+                          "type": "password",
+                          "required": true,
+                          "className": "mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm",
+                          "placeholder": "password"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_cbs3m2sfj_m27q0vky",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_edg92vf7m_m27q0vky",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ohtt9o1vy_m27q0vky",
+                            "name": "input",
+                            "type": "input",
+                            "props": {
+                              "id": "remember_me",
+                              "name": "remember_me",
+                              "type": "checkbox",
+                              "className": "h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_vauvh00sw_m27q0vky",
+                            "name": "label",
+                            "type": "label",
+                            "props": {
+                              "htmlFor": "remember_me",
+                              "className": "ml-2 block text-sm text-gray-900"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_kidpj0g5y_m27q0vky",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Remember me"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_90cqn7xvh_m27q0vky",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_lp3puytdb_m27q0vky",
+                            "name": "a",
+                            "type": "a",
+                            "props": {
+                              "href": "#",
+                              "className": "font-medium text-blue-600 hover:text-blue-500"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_zf1ejdtlg_m27q0vky",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Esqueceu a Senha?"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_v7ytwt1v6_m27q0vky",
+                    "name": "div",
+                    "type": "div",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_pennqoy1c_m27q0vky",
+                        "name": "button",
+                        "type": "button",
+                        "props": {
+                          "type": "submit",
+                          "className": "w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_z401c7lxz_m27q0vky",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Entrar"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_gfwoipia5_m27q0vky",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_1jpbkr1w0_m27q0vky",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-sm text-gray-600"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_06jscsguj_m27q0vky",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Não Tem Uma Conta?"
+                        }
+                      },
+                      {
+                        "id": "id_6tbh6ndpz_m27q0vky",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "font-medium text-blue-600 hover:text-blue-500"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_eli2wddap_m27q0vky",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Inscrever-se"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_6nmyqgbd1_m27q0vky",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_4m8wbywii_m27q0vky",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-sm text-gray-600"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_p6jycdc8i_m27q0vky",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Logar Com"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_g3icr3f28_m27q0vky",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex justify-center space-x-4 mt-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ldtflbs7k_m27q0vky",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "text-blue-600"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ikl7essat_m27q0vky",
+                            "name": "FacebookIcon",
+                            "type": "FacebookIcon",
+                            "props": {
+                              "className": "h-6 w-6"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_8xdsuj98u_m27q0vky",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "text-red-600"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_niqvvnxe2_m27q0vky",
+                            "name": "ChromeIcon",
+                            "type": "ChromeIcon",
+                            "props": {
+                              "className": "h-6 w-6"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_t03nibgvu_m27q0vky",
+                        "name": "a",
+                        "type": "a",
+                        "props": {
+                          "href": "#",
+                          "className": "text-black"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_uikjsbue9_m27q0vky",
+                            "name": "AppleIcon",
+                            "type": "AppleIcon",
+                            "props": {
+                              "className": "h-6 w-6"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

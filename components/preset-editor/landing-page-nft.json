@@ -1,0 +1,1944 @@
+[
+  {
+    "id": "id_twa7eplx3_m27rgg2u",
+    "name": "Landing Page NFT",
+    "type": "div",
+    "props": {
+      "className": "flex min-h-dvh flex-col"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_uowe3pgh4_m27rgg2u",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "bg-background px-4 lg:px-6 h-14 flex items-center shadow"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_w726b34r0_m27rgg2u",
+            "name": "Link",
+            "type": "Link",
+            "props": {
+              "href": "#",
+              "className": "flex items-center justify-center",
+              "prefetch": null
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_t5gsvjeyf_m27rgg2u",
+                "name": "MountainIcon",
+                "type": "MountainIcon",
+                "props": {
+                  "className": "size-6"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_eey771eb5_m27rgg2u",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "sr-only"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ttdfilhyd_m27rgg2u",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Acme NFT Generator"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_n5hh7fb74_m27rgg2u",
+            "name": "NavigationMenu",
+            "type": "NavigationMenu",
+            "props": {
+              "className": "ml-auto hidden lg:flex"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_dqcibrtnu_m27rgg2u",
+                "name": "NavigationMenuList",
+                "type": "NavigationMenuList",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_3k3vlzn54_m27rgg2u",
+                    "name": "NavigationMenuLink",
+                    "type": "NavigationMenuLink",
+                    "props": {
+                      "asChild": true
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_cd070in8y_m27rgg2u",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_zzntl83k8_m27rgg2u",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Features"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_yqck822rg_m27rgg2u",
+                    "name": "NavigationMenuLink",
+                    "type": "NavigationMenuLink",
+                    "props": {
+                      "asChild": true
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_cy2wi000p_m27rgg2u",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ni8skoxqn_m27rgg2u",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Pricing"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_c2h6gpok3_m27rgg2u",
+                    "name": "NavigationMenuLink",
+                    "type": "NavigationMenuLink",
+                    "props": {
+                      "asChild": true
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ndinpu5mi_m27rgg2u",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "group inline-flex h-9 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_orgwq47j8_m27rgg2u",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Login"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_77siw2yw6_m27rgg2u",
+                    "name": "NavigationMenuLink",
+                    "type": "NavigationMenuLink",
+                    "props": {
+                      "asChild": true
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_p230c6mft_m27rgg2u",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "group inline-flex h-9 w-max items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus:bg-primary focus:text-primary-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-primary/50 data-[state=open]:bg-primary/50",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_rhqp3wanu_m27rgg2u",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Sign Up"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_w4o7xqrsf_m27rgg2u",
+            "name": "Sheet",
+            "type": "Sheet",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_i6rsx7mam_m27rgg2u",
+                "name": "SheetTrigger",
+                "type": "SheetTrigger",
+                "props": {
+                  "asChild": true
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_mip82osks_m27rgg2u",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "variant": "outline",
+                      "size": "icon",
+                      "className": "ml-auto lg:hidden"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_rffr7haj9_m27rgg2u",
+                        "name": "MenuIcon",
+                        "type": "MenuIcon",
+                        "props": {
+                          "className": "h-6 w-6"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_e5qiz2sh2_m27rgg2u",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "sr-only"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ha3j02gxv_m27rgg2u",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Toggle navigation menu"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_frqirmxe0_m27rgg2u",
+                "name": "SheetContent",
+                "type": "SheetContent",
+                "props": {
+                  "side": "left"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_rrji6ix1e_m27rgg2u",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-start gap-6 px-4 py-6"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_khu2bzcf4_m27rgg2u",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_5djju81o6_m27rgg2u",
+                            "name": "MountainIcon",
+                            "type": "MountainIcon",
+                            "props": {
+                              "className": "h-6 w-6"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_os8k7vn0f_m27rgg2u",
+                            "name": "span",
+                            "type": "span",
+                            "props": {
+                              "className": "sr-only"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_003bevtke_m27rgg2u",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Acme NFT Generator"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_9foih29ce_m27rgg2u",
+                        "name": "NavigationMenu",
+                        "type": "NavigationMenu",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_whjqec3ul_m27rgg2u",
+                            "name": "NavigationMenuList",
+                            "type": "NavigationMenuList",
+                            "props": {},
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_dariai7x_m27rgg2u",
+                                "name": "NavigationMenuLink",
+                                "type": "NavigationMenuLink",
+                                "props": {
+                                  "asChild": true
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_izwik2bky_m27rgg2u",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex w-full items-center py-2 text-lg font-semibold",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_zskmttjpi_m27rgg2u",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Features"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_3gm6s4cv8_m27rgg2u",
+                                "name": "NavigationMenuLink",
+                                "type": "NavigationMenuLink",
+                                "props": {
+                                  "asChild": true
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_k2qzbpi0h_m27rgg2u",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex w-full items-center py-2 text-lg font-semibold",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_cp7p25phd_m27rgg2u",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Pricing"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_m3awjb5aj_m27rgg2u",
+                                "name": "NavigationMenuLink",
+                                "type": "NavigationMenuLink",
+                                "props": {
+                                  "asChild": true
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_ttmuksty9_m27rgg2u",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex w-full items-center py-2 text-lg font-semibold",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_6fn0nqxeu_m27rgg2u",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Login"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_eh39jdo1h_m27rgg2v",
+                                "name": "NavigationMenuLink",
+                                "type": "NavigationMenuLink",
+                                "props": {
+                                  "asChild": true
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_keo8oxybg_m27rgg2v",
+                                    "name": "Link",
+                                    "type": "Link",
+                                    "props": {
+                                      "href": "#",
+                                      "className": "flex w-full items-center py-2 text-lg font-semibold",
+                                      "prefetch": null
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_x83kw0cmw_m27rgg2v",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Sign Up"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_cxglptrja_m27rgg2v",
+        "name": "main",
+        "type": "main",
+        "props": {
+          "className": "flex-1"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_n48bkpp6s_m27rgg2v",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32 border-b"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_3b4fo18gx_m27rgg2v",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container px-4 md:px-6 space-y-10 xl:space-y-16"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_v8d9hhy83_m27rgg2v",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_kvim634pk_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_0lgmcjsjn_m27rgg2v",
+                            "name": "h1",
+                            "type": "h1",
+                            "props": {
+                              "className": "lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_6zt8u2hcd_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Create Unique NFTs with Our Powerful Generator"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_2vo2ry4vi_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex flex-col items-start space-y-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_3pf6qg4qd_m27rgg2v",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "mx-auto max-w-[700px] text-muted-foreground md:text-xl"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_vqtbdos2c_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Our NFT generator allows you to easily create and mint unique digital assets. Unleash your creativity\n                  and join the world of NFTs."
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_8yca88pxy_m27rgg2v",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "space-x-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_wect7mgox_m27rgg2v",
+                                "name": "Link",
+                                "type": "Link",
+                                "props": {
+                                  "href": "#",
+                                  "className": "inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+                                  "prefetch": null
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_gc0p4g50b_m27rgg2v",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Generate NFT"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_tzfxetgxm_m27rgg2v",
+                                "name": "Link",
+                                "type": "Link",
+                                "props": {
+                                  "href": "#",
+                                  "className": "inline-flex h-9 items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+                                  "prefetch": null
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_dkrr6ujc7_m27rgg2v",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Learn More"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_r2c1mo4wu_m27rgg2v",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "width": "1270",
+                      "height": "300",
+                      "alt": "Hero",
+                      "className": "mx-auto aspect-[3/1] overflow-hidden rounded-t-xl object-cover"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_ojh3utkji_m27rgg2v",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_0wl4wblyl_m27rgg2v",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container space-y-12 px-4 md:px-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_2gsekxzmu_m27rgg2v",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-center justify-center space-y-4 text-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_lqpyp1be7_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_k0p9zz0ua_m27rgg2v",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "inline-block rounded-lg bg-muted px-3 py-1 text-sm"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_sou2mbq7t_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Key Features"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_dv5wourfi_m27rgg2v",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-3xl font-bold tracking-tighter sm:text-5xl"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_w5nehl897_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Powerful Tools for NFT Creation"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_97g3xplpz_m27rgg2v",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_rqcnl0w2u_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Our NFT generator offers a wide range of features to help you create unique and valuable digital\n                  assets."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_rkgkl98nk_m27rgg2v",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_oxv8jzcwi_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid gap-1"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ctd30ua1x_m27rgg2v",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_bcvrzmynm_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Customizable Templates"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_527b1okal_m27rgg2v",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_83mrziybg_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Choose from a variety of customizable templates to create your unique NFT."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_knxliykho_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid gap-1"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_umligxd0s_m27rgg2v",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_sg16x6jsm_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Layered Design"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_lccmwt1ce_m27rgg2v",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_d58zam278_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Layer different elements to create complex and visually stunning NFTs."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_v4kky1tkd_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid gap-1"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_s8xzhheh2_m27rgg2v",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_kbjnhevow_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Randomization"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_yv84cucu4_m27rgg2v",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_puzoqyqn0_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Generate random NFTs with unique combinations of elements."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_kthwurhyc_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid gap-1"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_e23tp7u6x_m27rgg2v",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_cf623s4bb_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Metadata Integration"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_j5nsvkx6l_m27rgg2v",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_xmr52r3av_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Easily add metadata to your NFTs for better discoverability and value."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_sulfw9qhd_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid gap-1"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_1rct4u8kr_m27rgg2v",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_iwvxthbjg_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Seamless Minting"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_uk0z6798j_m27rgg2v",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_3lafprlqv_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Mint your NFTs directly to popular blockchain networks with our integrated minting process."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_12bk4bghr_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid gap-1"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_aoeysr7ob_m27rgg2v",
+                            "name": "h3",
+                            "type": "h3",
+                            "props": {
+                              "className": "text-lg font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_qt2z7zgc9_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Secure and Reliable"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_01lnmcimp_m27rgg2v",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_lvochw13k_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Our platform ensures the security and authenticity of your NFTs."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_04k529av7_m27rgg2v",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32 bg-muted"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_r655dlwy2_m27rgg2v",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container grid items-center gap-4 px-4 md:px-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_r5cwkrfw2_m27rgg2v",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "space-y-3"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_zyidtmmd3_m27rgg2v",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-3xl font-bold tracking-tighter md:text-4xl/tight"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ipjdflqg8_m27rgg2v",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Pricing for Every Need"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_ildav63c6_m27rgg2v",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_jiox959vi_m27rgg2v",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Choose the plan that best suits your NFT creation needs and budget."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_wg1c9bwas_m27rgg2v",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "mx-auto w-full max-w-sm space-y-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_1yx3kes7u_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid grid-cols-2 gap-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_hspl8ucf0_m27rgg2v",
+                            "name": "Button",
+                            "type": "Button",
+                            "props": {
+                              "variant": "outline"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_xfbj6o0nz_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Monthly"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_xr3a12j6q_m27rgg2v",
+                            "name": "Button",
+                            "type": "Button",
+                            "props": {
+                              "variant": "outline"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_ky5n8mbv1_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Annually"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_4oa81cbad_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_81ftix8rl_m27rgg2v",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "grid gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_c4tpo0d93_m27rgg2v",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center justify-between"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_uekcdfwn8_m27rgg2v",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-2xl font-bold"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_pislbecaf_m27rgg2v",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$29"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_t3jgxx76u_m27rgg2v",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_irn8qfzyj_m27rgg2v",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "per month"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_340v1luwz_m27rgg2v",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_owriz8wis_m27rgg2v",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Basic Plan"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_40tz3u657_m27rgg2v",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_6f9kyzsim_m27rgg2v",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Get Started"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_2m1t534o9_m27rgg2v",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "grid gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_9va13bh1p_m27rgg2v",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center justify-between"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_e6ttf0urt_m27rgg2v",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-2xl font-bold"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_jk318wffi_m27rgg2v",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$99"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_jeuifxbs2_m27rgg2v",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_q8rrnur9v_m27rgg2v",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "per month"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_sige1fhmr_m27rgg2v",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_94igkbpqt_m27rgg2v",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Pro Plan"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_sraw9hywp_m27rgg2v",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_mhwh079um_m27rgg2v",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Get Started"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_5now2910q_m27rgg2v",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "grid gap-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_sdoy078gb_m27rgg2v",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "flex items-center justify-between"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_2mmaenh8r_m27rgg2v",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-2xl font-bold"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_52la647fd_m27rgg2v",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "$199"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_kaj8zk4fy_m27rgg2v",
+                                    "name": "div",
+                                    "type": "div",
+                                    "props": {
+                                      "className": "text-sm text-muted-foreground"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_1w8ornxkt_m27rgg2v",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "per month"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_rpmthh1fp_m27rgg2v",
+                                "name": "p",
+                                "type": "p",
+                                "props": {
+                                  "className": "text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_2cflkdooq_m27rgg2v",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Enterprise Plan"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_c7rzfc8m6_m27rgg2v",
+                                "name": "Button",
+                                "type": "Button",
+                                "props": {
+                                  "className": "w-full"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_vg46rmghj_m27rgg2v",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "Get Started"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_c3sh16pwi_m27rgg2v",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_28pd98qfu_m27rgg2v",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container space-y-12 px-4 md:px-6"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ul51zp48o_m27rgg2v",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-center justify-center space-y-4 text-center"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_35mbhcaxv_m27rgg2v",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_d1bv31nl3_m27rgg2v",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "inline-block rounded-lg bg-muted px-3 py-1 text-sm"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_9w3vnmrs0_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Testimonials"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_59rkb8dul_m27rgg2v",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-3xl font-bold tracking-tighter sm:text-5xl"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_hi2ic3oin_m27rgg2v",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "What Our Creators Say"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_prtle8vbp_m27rgg2w",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_2o2mb755h_m27rgg2w",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Hear from our satisfied creators about how our NFT generator has helped them create unique and\n                  valuable digital assets."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_hm8074fwx_m27rgg2w",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_t7nkt4up4_m27rgg2w",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex flex-col justify-center space-y-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_9gowhczut_m27rgg2w",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "grid gap-1"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_kz086px6x_m27rgg2w",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-lg font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_u2luo3821_m27rgg2w",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "\"I've never seen an NFT generator as powerful and user-friendly as this one.\""
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_2r4799ss3_m27rgg2w",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_ke8icma2e_m27rgg2w",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- Jane Doe, Digital Artist"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_v1bohli45_m27rgg2w",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "grid gap-1"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_rs7he8sk9_m27rgg2w",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-lg font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_5fzer2ej7_m27rgg2w",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "\"This platform has revolutionized the way I create and sell NFTs.\""
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_3zxwgmiv2_m27rgg2w",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_ccnmrggpg_m27rgg2w",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- John Smith, NFT Collector"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_kh6woflw9_m27rgg2w",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "grid gap-1"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_8jo2vgbbq_m27rgg2w",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-lg font-bold"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_6x5wd3b2a_m27rgg2w",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "\"The NFTs I've created with this generator have sold for incredible prices.\""
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_49ocd4thb_m27rgg2w",
+                                "name": "div",
+                                "type": "div",
+                                "props": {
+                                  "className": "text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_6u6qxrfbu_m27rgg2w",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- Sarah Lee, Digital Artist"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_1pl4sse3b_m27rgg2w",
+                        "name": "img",
+                        "type": "img",
+                        "props": {
+                          "src": "/placeholder.svg",
+                          "width": "550",
+                          "height": "310",
+                          "alt": "Testimonials",
+                          "className": "mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_dgjfbruqy_m27rgg2w",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "w-full py-12 md:py-24 lg:py-32 bg-muted"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_74726be3z_m27rgg2w",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_445eyjnh1_m27rgg2w",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "space-y-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_8s3gzjl9h_m27rgg2w",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-3xl font-bold tracking-tighter sm:text-4xl"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_3zt83h22s_m27rgg2w",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Start Creating Your NFTs Today"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

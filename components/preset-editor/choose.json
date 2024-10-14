@@ -1,0 +1,272 @@
+[
+  {
+    "id": "id_931zsdg1e_m27q5nvd",
+    "name": "Choose Role",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col items-center justify-center h-screen bg-background"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_pvbelld5q_m27q5nvd",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "max-w-md w-full space-y-6 text-center"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_cpm0rg78l_m27q5nvd",
+            "name": "h1",
+            "type": "h1",
+            "props": {
+              "className": "text-4xl font-bold"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_z0yab9f9g_m27q5nvd",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Choose Your Role"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_f2kty711o_m27q5nvd",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-muted-foreground"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_1igj1cyn1_m27q5nvd",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Select the role that best fits your needs."
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_dliaa50w3_m27q5nvd",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "grid grid-cols-1 sm:grid-cols-3 gap-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_oerqh0epm_m27q5nvd",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "group flex flex-col items-center justify-center p-6 rounded-lg border border-input hover:border-primary transition-colors",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_j919p78q8_m27q5nvd",
+                    "name": "UserIcon",
+                    "type": "UserIcon",
+                    "props": {
+                      "className": "h-12 w-12 text-primary"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_3gfinmib9_m27q5nvd",
+                    "name": "h3",
+                    "type": "h3",
+                    "props": {
+                      "className": "mt-4 text-lg font-semibold group-hover:text-primary"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_wt9g3kv5v_m27q5nvd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Admin"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_wyqgfs0vc_m27q5nvd",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "mt-2 text-muted-foreground text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_vqyzpp98i_m27q5nvd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Manage users and content."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_4hm8yyo9u_m27q5nvd",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "group flex flex-col items-center justify-center p-6 rounded-lg border border-input hover:border-primary transition-colors",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_8po5s7axm_m27q5nvd",
+                    "name": "ClapperboardIcon",
+                    "type": "ClapperboardIcon",
+                    "props": {
+                      "className": "h-12 w-12 text-primary"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_i10ofodt5_m27q5nvd",
+                    "name": "h3",
+                    "type": "h3",
+                    "props": {
+                      "className": "mt-4 text-lg font-semibold group-hover:text-primary"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_v5bdoghgu_m27q5nvd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Instructor"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_o2hinfbdw_m27q5nvd",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "mt-2 text-muted-foreground text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_wcwap44jv_m27q5nvd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Create and manage courses."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_ktdg41bnp_m27q5nvd",
+                "name": "Link",
+                "type": "Link",
+                "props": {
+                  "href": "#",
+                  "className": "group flex flex-col items-center justify-center p-6 rounded-lg border border-input hover:border-primary transition-colors",
+                  "prefetch": null
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_aiowerv9w_m27q5nvd",
+                    "name": "SchoolIcon",
+                    "type": "SchoolIcon",
+                    "props": {
+                      "className": "h-12 w-12 text-primary"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_v96c6tbx0_m27q5nvd",
+                    "name": "h3",
+                    "type": "h3",
+                    "props": {
+                      "className": "mt-4 text-lg font-semibold group-hover:text-primary"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_8okgu8o6g_m27q5nvd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Student"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_fm5x4db0o_m27q5nvd",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "mt-2 text-muted-foreground text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_fmjgd9dl4_m27q5nvd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Enroll in and attend courses."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

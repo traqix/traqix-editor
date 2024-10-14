@@ -1,0 +1,827 @@
+[
+  {
+    "id": "id_b9sop3gmy_m26wj9cc",
+    "name": "Pricing 2",
+    "type": "div",
+    "props": {
+      "className": "min-h-screen bg-black text-white p-8"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_t534edmrl_m26wj9cc",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "text-center mb-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_g2537had0_m26wj9cc",
+            "name": "h1",
+            "type": "h1",
+            "props": {
+              "className": "text-4xl font-bold"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_8wmbznxsb_m26wj9cc",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Pricing"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_ooq3vgr4l_m26wj9cc",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-3xl font-semibold mt-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_fgr2dstyu_m26wj9cc",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Save hours of repetitive code, ship fast, get profitable!"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_pwmrnth50_m26wj9cc",
+            "name": "p",
+            "type": "p",
+            "props": {
+              "className": "text-green-500 mt-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_lzmrberp7_m26wj9cc",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "💰 $100 off for the first 4080 customers (10 left)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_4a5bvad4e_m26wj9cc",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col md:flex-row justify-center gap-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_w3y45x9to_m26wj9cc",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-gray-800 p-6 rounded-lg w-full md:w-1/3"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_i9qrcq9eu_m26wj9cc",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_66afqvicr_m26wj9cc",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Starter"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_822f085z2_m26wj9cc",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "text-3xl font-bold mt-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_0n9u76rg9_m26wj9cc",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "line-through text-gray-500"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_rm0r1em31_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "$269"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_u69c8ro9r_m26wj9cc",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "$169"
+                    }
+                  },
+                  {
+                    "id": "id_dodt564eq_m26wj9cc",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_nlczroku4_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "USD"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_gqo3l9gw9_m26wj9cc",
+                "name": "ul",
+                "type": "ul",
+                "props": {
+                  "className": "mt-4 space-y-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_1ucxvpksy_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_cz21o65hg_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ NextJS boilerplate"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_7yajmkwr0_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_flo9hwjwh_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ SEO & Blog"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_i2tos5dye_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_nzv4dzuhs_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Mailgun emails"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_u60fvyxci_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_i9ygb5zzn_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Stripe / Lemon Squeezy"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_igv5nvmrs_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_5yyqywl5v_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ MongoDB / Supabase"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_prv1ue4se_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_at7sbhzeb_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Google Oauth & Magic Links"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_4ysf9g06h_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_x3xwcxgjh_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Components & animations"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_vtke1dh7y_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_nendadhv6_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "❌ ChatGPT prompts for terms & privacy"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_6fojaupyd_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_1ieaq692j_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "❌ Discord community & Leaderboard"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_3nmfzscbx_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_05677sahe_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "❌ Lifetime updates"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_wzpjwj1h6_m26wj9cc",
+                "name": "button",
+                "type": "button",
+                "props": {
+                  "className": "mt-6 w-full bg-yellow-500 text-black py-2 rounded-lg font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_oy189rp5g_m26wj9cc",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "⚡ Get ShipFast"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_oukmdyos1_m26wj9cc",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-center mt-2 text-gray-400"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_xiu9jy46p_m26wj9cc",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Pay once. Build unlimited projects!"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_bnmosu4w7_m26wj9cc",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-gray-800 p-6 rounded-lg w-full md:w-1/3 border border-yellow-500"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_qpts3ekas_m26wj9cc",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex justify-between"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_dk9e3hc8e_m26wj9cc",
+                    "name": "h2",
+                    "type": "h2",
+                    "props": {
+                      "className": "text-xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_tulzs5w64_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "All-in"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ersffyyvk_m26wj9cc",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "bg-yellow-500 text-black px-2 py-1 rounded-lg font-semibold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_fb2th3t5y_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "POPULAR"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_gl2zhqcx9_m26wj9cc",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "text-3xl font-bold mt-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_bwa5ss1wp_m26wj9cc",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "line-through text-gray-500"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_j49rizt8v_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "$299"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ajjiolwub_m26wj9cc",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "$199"
+                    }
+                  },
+                  {
+                    "id": "id_bjgqmoshj_m26wj9cc",
+                    "name": "span",
+                    "type": "span",
+                    "props": {
+                      "className": "text-sm"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_maz6qb8l3_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "USD"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_vw6gcsvqx_m26wj9cc",
+                "name": "ul",
+                "type": "ul",
+                "props": {
+                  "className": "mt-4 space-y-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_1ru4liqlr_m26wj9cc",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_b091vtrch_m26wj9cc",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ NextJS boilerplate"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ot46a372d_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0alt23sbj_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ SEO & Blog"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_e8k9ct2jt_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_5ksqtoesi_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Mailgun emails"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_e5jmwqdop_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_oj2cvt1z7_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Stripe / Lemon Squeezy"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_z1nf17iro_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_xy9cxk38l_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ MongoDB / Supabase"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_4l8ywnlg2_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_uqrfs608e_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Google Oauth & Magic Links"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ia1qe30lg_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_o0is2hdtr_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Components & animations"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_omnn6q8gx_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_nq9qakxqn_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ ChatGPT prompts for terms & privacy"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_hon0dzbqf_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_xhaok8g93_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Discord community & Leaderboard"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_gtwl8o800_m26wj9cd",
+                    "name": "li",
+                    "type": "li",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_rmu0o9xek_m26wj9cd",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "✔️ Lifetime updates"
+                        }
+                      },
+                      {
+                        "id": "id_wjz4fttnv_m26wj9cd",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "bg-green-500 text-black px-2 py-1 rounded-lg text-xs"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_mka0coggm_m26wj9cd",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Updated 2 months ago"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_e3lmv6hy3_m26wj9cd",
+                "name": "button",
+                "type": "button",
+                "props": {
+                  "className": "mt-6 w-full bg-yellow-500 text-black py-2 rounded-lg font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_d5he6w1ma_m26wj9cd",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "⚡ Get ShipFast"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_h71651z7i_m26wj9cd",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-center mt-2 text-gray-400"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_oguc5tkj0_m26wj9cd",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Pay once. Build unlimited projects!"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

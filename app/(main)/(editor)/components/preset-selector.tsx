@@ -36,7 +36,7 @@ export function PresetSelector({ presets, ...props }: PresetSelectorProps) {
   const [selectedPreset, setSelectedPreset] = React.useState<Preset>()
   const router = useRouter()
 
-  const { data, error, isLoading } = useSWR('/traqix-editor/api/presets', fetcher);
+  const { data, error, isLoading } = useSWR('/api/presets', fetcher);
 
   if (isLoading) return <div>Carregando...</div>;
   if (error) return <div>Erro ao carregar dados</div>;

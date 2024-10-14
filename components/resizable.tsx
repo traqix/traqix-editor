@@ -5,14 +5,14 @@ import clsx from "clsx";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 
 interface ExampleProps {
-  mode: string;
+  mode?: string;
   containerClassName: string;
   contentClassName: string;
   paddingClassName: string;
   children?: React.ReactNode;
 }
 
-export default function ResizableExample({
+export default function ResizableComponent({
   mode,
   containerClassName,
   contentClassName,
@@ -47,15 +47,23 @@ export default function ResizableExample({
   }, []);
 
   useEffect(() => {
+    let newSize = 0
     if (mode == "desktop") {
-      widthResize.set(1280);
-      setContainerContentWidth(1280);
+      newSize = 1280 + 30
     } else if (mode == "tablet") {
-      widthResize.set(768);
-      setContainerContentWidth(768);
+      newSize = 768 + 30;
     } else if (mode == "mobile") {
-      widthResize.set(375);
-      setContainerContentWidth(375);
+      newSize = 375 + 30;
+    }
+    if (newSize) {
+      setTimeout(() => {
+        setWidthResize2(newSize-Math.ceil(newSize/10))
+      }, 20);
+      setTimeout(() => {
+        // widthResize.set(newSize);
+        setWidthResize2(newSize)
+        setContainerContentWidth(newSize);
+      }, 200);
     }
   }, [mode]);
 
@@ -65,6 +73,7 @@ export default function ResizableExample({
   const [fisrtClick, setFisrtClick] = useState(false);
   const [containerContentWidth, setContainerContentWidth] = useState(0);
 
+  const [widthResize2, setWidthResize2] = useState<number | undefined>(undefined); // Valor inicial sem "px"
   const widthResize = useTransform([leftX, rightX], ([left, right]) => {
     const containerWidth = containerRef.current?.clientWidth ?? 0;
     if (!fisrtClick) {
@@ -112,6 +121,7 @@ export default function ResizableExample({
       ref={containerRef}
       className="relative h-full"
     >
+      {/* mode:{mode}= */}
       {/* style={{ marginLeft: leftStyle, marginRight: rightStyle }} */}
       <div
         ref={constraintsRef}
@@ -119,7 +129,9 @@ export default function ResizableExample({
       >
         <div className={containerClassName}>
           <motion.div
+            animate={{ width: widthResize2 }}
             style={{ width: widthResize }}
+            transition={{ duration: 0.5, ease: "easeInOut" }} // Duração e tipo de transição
             className={clsx(
               "not-prose relative mx-auto h-full max-w-full overflow-hidden",
             )}

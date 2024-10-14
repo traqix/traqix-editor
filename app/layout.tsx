@@ -6,7 +6,13 @@ import "./build.css";
 import { GeistSans } from 'geist/font/sans';
 import Script from "next/script";
 import { Providers } from "@/components/providers/providers";
+import { TreeProvider } from "@/components/context/tree-context";
 // import { GeistMono } from 'geist/font/mono';
+import initialData from "@/components/preset-editor/initial-tree.json";
+import { TreeItem } from "./(main)/(editor)/types";
+import { MemoryProvider } from "@/components/context/memory-context";
+import { MqttProvider } from "@/components/providers/mqtt-provider";
+import NotificationComponent from "@/components/NotificationComponent";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,13 +35,24 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const initialTreeRoot: TreeItem[] = initialData;
+  const initialValues: TreeItem[] = [{...initialTreeRoot[0], lastUpdate: new Date().valueOf()}]
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${GeistSans.className}  antialiased`}
       >
         <Providers attribute="class" defaultTheme="dark" enableSystem>
-          {children}
+          <MemoryProvider>
+            <MqttProvider>
+              <TreeProvider initialKeys={['root']} initialValues={initialValues}>
+                {children}
+                <NotificationComponent />
+              </TreeProvider>
+            </MqttProvider>
+          </MemoryProvider>
         </Providers>
         <Script
 					defer

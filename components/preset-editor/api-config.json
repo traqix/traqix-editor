@@ -1,0 +1,419 @@
+[
+  {
+    "id": "id_w96cwgjh3_m21btpds",
+    "name": "API Config",
+    "type": "div",
+    "props": {
+      "className": "container mx-auto max-w-4xl px-4 py-12 md:px-6 md:py-16"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_vmta2dbx2_m21btpdj",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "grid gap-8"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_wa73acc6v_m21btpdj",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "space-y-2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_4xfk7745g_m21btpdj",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "text-3xl font-bold",
+                  "content": "API Configuration"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_3gm4j01ni_m21btpdj",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-muted-foreground",
+                  "content": "Set up your API endpoint and parameters."
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_nvyx1jlrx_m21btpdj",
+            "name": "Card",
+            "type": "Card",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_owulxvt5o_m21btpdj",
+                "name": "CardHeader",
+                "type": "CardHeader",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_0tungqw8i_m21btpdj",
+                    "name": "CardTitle",
+                    "type": "CardTitle",
+                    "allowsChildren": true,
+                    "props": {
+                      "content": "API Settings"
+                    },
+                    "children": []
+                  },
+                  {
+                    "id": "id_b24i5igv8_m21btpdj",
+                    "name": "CardDescription",
+                    "type": "CardDescription",
+                    "props": {
+                      "content": "Enter the details of your API endpoint."
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_hxrpzowsx_m21btpdj",
+                "name": "CardContent",
+                "type": "CardContent",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_5wf5mdp93_m21btpdj",
+                    "name": "form",
+                    "type": "form",
+                    "props": {
+                      "className": "grid gap-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_xnhl7w83q_m21btpdj",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "grid grid-cols-2 gap-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_6232ffats_m21btpdj",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "space-y-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_yeq865l6u_m21btpdj",
+                                "name": "Label",
+                                "type": "Label",
+                                "props": {
+                                  "htmlFor": "endpoint",
+                                  "content": "Endpoint URL"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "id_iy0ckk4tx_m21btpdj",
+                                "name": "Input",
+                                "type": "Input",
+                                "props": {
+                                  "id": "endpoint",
+                                  "placeholder": "https://api.example.com/v1/users",
+                                  "onchange": "var dataSave = JSON.stringify({type:'string',value:e.target.value}); window.localStorage.setItem('traqix_mem_api_url', dataSave);"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_5a86s8kqs_m21btpdj",
+                            "name": "div",
+                            "type": "div",
+                            "props": {
+                              "className": "space-y-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_1dgvhe1fh_m21btpdj",
+                                "name": "Label",
+                                "type": "Label",
+                                "props": {
+                                  "htmlFor": "method",
+                                  "content": "HTTP Method",
+                                  "onchange": "var dataSave = JSON.stringify({type:'string',value:e.target.value}); window.localStorage.setItem('traqix_mem_api_method', dataSave);"
+                                },
+                                "allowsChildren": true,
+                                "children": []
+                              },
+                              {
+                                "id": "id_a442gt7s2_m21btpdj",
+                                "name": "Select",
+                                "type": "Select",
+                                "props": {
+                                  "id": "method",
+                                  "defaultValue": "GET"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_e0wbf5ns6_m21btpdj",
+                                    "name": "SelectTrigger",
+                                    "type": "SelectTrigger",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_7j3j0ay12_m21btpdj",
+                                        "name": "SelectValue",
+                                        "type": "SelectValue",
+                                        "props": {
+                                          "placeholder": "Select method"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_zepnxa1xf_m21btpdj",
+                                    "name": "SelectContent",
+                                    "type": "SelectContent",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_33g8wlxqy_m21btpdj",
+                                        "name": "SelectItem",
+                                        "type": "SelectItem",
+                                        "props": {
+                                          "value": "GET",
+                                          "content": "GET"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_uasd00j6e_m21btpdj",
+                                        "name": "SelectItem",
+                                        "type": "SelectItem",
+                                        "props": {
+                                          "value": "POST",
+                                          "content": "POST"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_q3doru8i4_m21btpdj",
+                                        "name": "SelectItem",
+                                        "type": "SelectItem",
+                                        "props": {
+                                          "value": "PUT",
+                                          "content": "PUT"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      },
+                                      {
+                                        "id": "id_jro2dam18_m21btpdj",
+                                        "name": "SelectItem",
+                                        "type": "SelectItem",
+                                        "props": {
+                                          "value": "DELETE",
+                                          "content": "DELETE"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_1d2p5gk0s_m21btpdj",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_xw95po7b4_m21btpdj",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "params",
+                              "content": "Request Parameters",
+                              "onchange": "var dataSave = JSON.stringify({type:'string',value:e.target.value}); window.localStorage.setItem('traqix_mem_api_headers', dataSave);"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_ugcpgudkt_m21btpdj",
+                            "name": "Textarea",
+                            "type": "Textarea",
+                            "props": {
+                              "id": "params",
+                              "placeholder": "Enter parameters as JSON",
+                              "className": "min-h-[100px]"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_zlf7hs6ps_m21btpdj",
+                "name": "CardFooter",
+                "type": "CardFooter",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_nm0rkw8ch_m21btpdj",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "type": "submit",
+                      "content": "Send Request",
+                      "onclick": "var apiUrl = JSON.parse(window.localStorage.getItem('traqix_mem_api_url')).value || ''; var method = JSON.parse(window.localStorage.getItem('traqix_mem_api_method')).value || 'GET'; var headers = JSON.parse(window.localStorage.getItem('traqix_mem_api_headers')).value || '{}'; var body = JSON.parse(window.localStorage.getItem('traqix_mem_api_body')).value || null; fetch(apiUrl, { method: method, headers: JSON.parse(headers), body: method === 'POST' ? body : null }).then(response => response.json()).then(data => { window.localStorage.setItem('traqix_mem_api_result', JSON.stringify({type:'string',value:JSON.stringify(data, undefined, 2)})); }).catch(error => { window.localStorage.setItem('traqix_mem_api_result', JSON.stringify({type: 'string', value: 'Error fetching data'}, undefined, 2)); });"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_mzskegl79_m21btpdj",
+            "name": "Card",
+            "type": "Card",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_duojtlqfw_m21btpdj",
+                "name": "CardHeader",
+                "type": "CardHeader",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_pkcrda74x_m21btpdj",
+                    "name": "CardTitle",
+                    "type": "CardTitle",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_vevrr9jas_m21btpdj",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "API Response Preview"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_lngq227ho_m21btpdj",
+                    "name": "CardDescription",
+                    "type": "CardDescription",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0xmzrur2u_m21btpdj",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "See the response from your API configuration."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_0sctsd4o9_m21btpdj",
+                "name": "CardContent",
+                "type": "CardContent",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_1p3bjr51a_m21btpdj",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "prose max-w-4xl max-h-[800px] overflow-auto"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_bug66roc1_m21btpdj",
+                        "name": "pre",
+                        "type": "pre",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_j8hqtmqsj_m21btpdj",
+                            "name": "code",
+                            "type": "code",
+                            "props": {
+                              "content": "traqix_mem_api_result"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "parentId": "root"
+  }
+]

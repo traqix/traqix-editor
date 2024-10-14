@@ -1,0 +1,360 @@
+[
+  {
+    "id": "id_6xn2314pf_m219o0vj",
+    "name": "Link Tree",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-[#9b59b6] to-[#8e44ad] text-white"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_khxv9id3x_m219o0vj",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "max-w-md w-full px-6 py-12 bg-[#2c3e50] rounded-lg shadow-lg"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_8ftmky25u_m219o0vj",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex flex-col items-center space-y-4"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_rdcnzbtn6_m219o0vj",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "w-24 h-24 rounded-full overflow-hidden"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_5n0qcoyt4_m219o0vj",
+                    "name": "img",
+                    "type": "img",
+                    "props": {
+                      "src": "/placeholder.svg",
+                      "alt": "Profile",
+                      "className": "w-full h-full object-cover"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "id_r1ctgmjuz_m219o0vj",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-2xl font-bold"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_mmzwy0pi1_m219o0vj",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "John Doe"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_h53hhz0ak_m219o0vj",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-gray-300 text-sm"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ks40klbd7_m219o0vj",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Software Engineer | Tech Enthusiast"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_pwwn74bwl_m219o0vj",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "grid grid-cols-2 gap-4 mt-8"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_g9aijmfdh_m219o0vj",
+                "name": "a",
+                "type": "a",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center justify-center bg-[#1da1f2] rounded-lg py-3 transition-colors hover:bg-[#0c85d0]"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_y8bamrihr_m219o0vj",
+                    "name": "svg",
+                    "type": "svg",
+                    "props": {
+                      "xmlns": "http://www.w3.org/2000/svg",
+                      "className": "h-6 w-6 mr-2",
+                      "fill": "none",
+                      "viewBox": "0 0 24 24",
+                      "stroke": "currentColor"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_f9vpdf1wa_m219o0vj",
+                        "name": "path",
+                        "type": "path",
+                        "props": {
+                          "strokeLinecap": "round",
+                          "strokeLinejoin": "round",
+                          "strokeWidth": null,
+                          "d": "M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ufugs8b67_m219o0vj",
+                    "name": "span",
+                    "type": "span",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_djpdcdob7_m219o0vj",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Twitter"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_93baiw8kw_m219o0vj",
+                "name": "a",
+                "type": "a",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center justify-center bg-[#e1306c] rounded-lg py-3 transition-colors hover:bg-[#c13584]"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_3zxv88ml0_m219o0vj",
+                    "name": "svg",
+                    "type": "svg",
+                    "props": {
+                      "xmlns": "http://www.w3.org/2000/svg",
+                      "className": "h-6 w-6 mr-2",
+                      "fill": "none",
+                      "viewBox": "0 0 24 24",
+                      "stroke": "currentColor"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_9l7vavn6l_m219o0vj",
+                        "name": "path",
+                        "type": "path",
+                        "props": {
+                          "strokeLinecap": "round",
+                          "strokeLinejoin": "round",
+                          "strokeWidth": null,
+                          "d": "M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_0zvqnk5uh_m219o0vj",
+                        "name": "path",
+                        "type": "path",
+                        "props": {
+                          "strokeLinecap": "round",
+                          "strokeLinejoin": "round",
+                          "strokeWidth": null,
+                          "d": "M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_7fr1jqg6e_m219o0vj",
+                    "name": "span",
+                    "type": "span",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_lx1c6p8zf_m219o0vj",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Instagram"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_8bmzcly2n_m219o0vj",
+                "name": "a",
+                "type": "a",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center justify-center bg-[#0077b5] rounded-lg py-3 transition-colors hover:bg-[#005e8c]"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_0gqn377c5_m219o0vj",
+                    "name": "svg",
+                    "type": "svg",
+                    "props": {
+                      "xmlns": "http://www.w3.org/2000/svg",
+                      "className": "h-6 w-6 mr-2",
+                      "fill": "none",
+                      "viewBox": "0 0 24 24",
+                      "stroke": "currentColor"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0nknt5dgy_m219o0vj",
+                        "name": "path",
+                        "type": "path",
+                        "props": {
+                          "strokeLinecap": "round",
+                          "strokeLinejoin": "round",
+                          "strokeWidth": null,
+                          "d": "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_wlnwjtfup_m219o0vj",
+                    "name": "span",
+                    "type": "span",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_4vzl97ib7_m219o0vj",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "LinkedIn"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_u5fdc20np_m219o0vj",
+                "name": "a",
+                "type": "a",
+                "props": {
+                  "href": "#",
+                  "className": "flex items-center justify-center bg-[#1877f2] rounded-lg py-3 transition-colors hover:bg-[#1366d6]"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_lzjmu427f_m219o0vj",
+                    "name": "svg",
+                    "type": "svg",
+                    "props": {
+                      "xmlns": "http://www.w3.org/2000/svg",
+                      "className": "h-6 w-6 mr-2",
+                      "fill": "none",
+                      "viewBox": "0 0 24 24",
+                      "stroke": "currentColor"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_b6pgfo291_m219o0vj",
+                        "name": "path",
+                        "type": "path",
+                        "props": {
+                          "strokeLinecap": "round",
+                          "strokeLinejoin": "round",
+                          "strokeWidth": null,
+                          "d": "M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_rcn6kqubz_m219o0vj",
+                    "name": "span",
+                    "type": "span",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0l0o1ezrn_m219o0vj",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Facebook"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

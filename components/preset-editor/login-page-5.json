@@ -1,0 +1,205 @@
+[
+  {
+    "id": "id_pu156ny9k_m27sfl9i",
+    "name": "Login Page 5 - Concept",
+    "type": "div",
+    "props": {
+      "className": "flex min-h-[100dvh] flex-col items-center justify-center bg-background px-4 py-12 sm:px-6 lg:px-8"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_7vzve68lt_m27sfl9i",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "mx-auto max-w-md"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_s7bphnygn_m27sfl9i",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "relative mx-auto mb-8 h-[300px] w-[300px] sm:h-[400px] sm:w-[400px]"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_ephbzzdny_m27sfl9i",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "absolute top-0 left-0 h-full w-full rounded-full bg-[#f0f0f0]"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_ouycs6100_m27sfl9i",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "absolute top-1/2 left-1/2 h-[200px] w-[200px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#e0e0e0]"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_gah869aho_m27sfl9i",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "absolute top-[30%] left-[20%] h-[100px] w-[100px] rounded-full bg-[#d0d0d0]"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_rf90664qn_m27sfl9i",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "absolute top-[60%] left-[70%] h-[80px] w-[80px] rounded-full bg-[#c0c0c0]"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_t89gx403t_m27sfl9i",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "absolute top-[20%] left-[50%] h-[50px] w-[50px] -translate-x-1/2 rounded-full bg-[#b0b0b0]"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_nn3lo5cnw_m27sfl9i",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "absolute top-[80%] left-[30%] h-[30px] w-[30px] rounded-full bg-[#a0a0a0]"
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "id_shjeoldb3_m27sfl9i",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "space-y-4 text-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_arf6rg044_m27sfl9i",
+                "name": "h1",
+                "type": "h1",
+                "props": {
+                  "className": "text-3xl font-bold tracking-tight text-foreground sm:text-4xl"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_v4706ap84_m27sfl9i",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Welcome to the Admin Panel"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_15yps0bax_m27sfl9i",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-muted-foreground"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_c3q24uaay_m27sfl9i",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Please log in to access the chat bot management tools."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_hqswb9aoo_m27sfl9i",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "flex flex-col gap-2 min-[400px]:flex-row justify-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_57pyaeb90_m27sfl9i",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_dgc0k3uob_m27sfl9i",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Log In"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_i4f29bpnp_m27sfl9i",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_3n16fo791_m27sfl9i",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Sign Up"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

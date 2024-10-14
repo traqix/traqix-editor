@@ -1,0 +1,887 @@
+[
+  {
+    "id": "id_aokfkb749_m26wl6z4",
+    "name": "Pricing 3",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col items-center justify-center min-h-screen bg-background text-foreground"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_dxsyh45kl_m26wl6z4",
+        "name": "h1",
+        "type": "h1",
+        "props": {
+          "className": "text-3xl font-bold mb-4"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_8q62hqxq1_m26wl6z4",
+            "name": "Text",
+            "type": "text",
+            "allowsChildren": false,
+            "children": [],
+            "props": {
+              "content": "Pricing"
+            }
+          }
+        ]
+      },
+      {
+        "id": "id_zbt9d7npg_m26wl6z4",
+        "name": "h2",
+        "type": "h2",
+        "props": {
+          "className": "text-4xl font-extrabold text-center mb-2"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_jln0c24kr_m26wl6z4",
+            "name": "Text",
+            "type": "text",
+            "allowsChildren": false,
+            "children": [],
+            "props": {
+              "content": "Save hours of repetitive code, ship fast, get profitable!"
+            }
+          }
+        ]
+      },
+      {
+        "id": "id_19im7r8ws_m26wl6z4",
+        "name": "p",
+        "type": "p",
+        "props": {
+          "className": "text-green-500 mb-6"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_5wksx8qfn_m26wl6z4",
+            "name": "Text",
+            "type": "text",
+            "allowsChildren": false,
+            "children": [],
+            "props": {
+              "content": "💸 $100 off for the first 4080 customers (10 left)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "id_ishbqi1tk_m26wl6z4",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col md:flex-row gap-6"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_gheuyry27_m26wl6z4",
+            "name": "Card",
+            "type": "Card",
+            "props": {
+              "className": "w-full max-w-sm bg-card"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_h7cwdf88y_m26wl6z4",
+                "name": "CardHeader",
+                "type": "CardHeader",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_aw8o7xjor_m26wl6z4",
+                    "name": "CardTitle",
+                    "type": "CardTitle",
+                    "props": {
+                      "className": "text-xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_4t8cbj6e9_m26wl6z4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Starter"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_8ixyjpkgg_m26wl6z4",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-baseline space-x-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_mqmtoagsi_m26wl6z4",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "line-through text-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_qhm7g489x_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "$269"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_dmuph5dft_m26wl6z4",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-4xl font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_25g3bugra_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "$169"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_1f5r3281b_m26wl6z4",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_kcwxovw09_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "USD"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_0ihcil1js_m26wl6z4",
+                "name": "CardContent",
+                "type": "CardContent",
+                "props": {
+                  "className": "space-y-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_jei6g4onv_m26wl6z4",
+                    "name": "ul",
+                    "type": "ul",
+                    "props": {
+                      "className": "space-y-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_0nkz2kunr_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_cs30xdls3_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ NextJS boilerplate"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_bx9ku5egw_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_xn2b3smp5_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ SEO & Blog"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_nfv3vtvww_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_simdkliq3_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Mailgun emails"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_28r44slku_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ux2f4wgew_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Stripe / Lemon Squeezy"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_389mfaxl8_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_vhj59zyaz_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ MongoDB / Supabase"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_6ecf3t442_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_40v486l9e_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Google OAuth & Magic Links"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_5oincphp2_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_f8bl4gfux_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Components & animations"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_a40jismld_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_s362rswuc_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "❌ ChatGPT prompts for terms & privacy"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_ekxv8f9er_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_caxu2t6b6_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "❌ Discord community & Leaderboard"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_am5sqxocq_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_th108m27b_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "❌ Lifetime updates"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_7vzf1h0gm_m26wl6z4",
+                "name": "CardFooter",
+                "type": "CardFooter",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_xf0eq7c98_m26wl6z4",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "className": "w-full bg-primary text-primary-foreground"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_aj2ki3m76_m26wl6z4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "⚡ Get ShipFast"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_mdglyb999_m26wl6z4",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-center text-muted-foreground mt-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_b8ntzvme7_m26wl6z4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Pay once. Build unlimited projects!"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_mg9u1yffg_m26wl6z4",
+            "name": "Card",
+            "type": "Card",
+            "props": {
+              "className": "w-full max-w-sm bg-card border border-primary"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_upq0tw4ow_m26wl6z4",
+                "name": "CardHeader",
+                "type": "CardHeader",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_4snxwa1ta_m26wl6z4",
+                    "name": "Badge",
+                    "type": "Badge",
+                    "props": {
+                      "variant": "secondary",
+                      "className": "absolute top-0 right-0 mt-2 mr-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_75mdkf7u8_m26wl6z4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "POPULAR"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_n99ox1vpn_m26wl6z4",
+                    "name": "CardTitle",
+                    "type": "CardTitle",
+                    "props": {
+                      "className": "text-xl font-bold"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ftxtfud94_m26wl6z4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "All-in"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_4jvz5kjsg_m26wl6z4",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-baseline space-x-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_gubmnbgcj_m26wl6z4",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "line-through text-muted-foreground"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_fiuyjlrs9_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "$299"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_r5ukiutkz_m26wl6z4",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-4xl font-bold"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_le7m51z0e_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "$199"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_qepe2hix9_m26wl6z4",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "text-sm"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_mvdbkdwd4_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "USD"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_x5nadj7vh_m26wl6z4",
+                "name": "CardContent",
+                "type": "CardContent",
+                "props": {
+                  "className": "space-y-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_c7t5lj4ft_m26wl6z4",
+                    "name": "ul",
+                    "type": "ul",
+                    "props": {
+                      "className": "space-y-1"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_hmn097gxv_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_h46chjasy_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ NextJS boilerplate"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_2blyzztk8_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_kwkkx4xz7_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ SEO & Blog"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_fzp1vs6td_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_jkcptt2un_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Mailgun emails"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_8re1hp22w_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_h6xvokgtu_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Stripe / Lemon Squeezy"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_m546z2s5b_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_mfbpd96nv_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ MongoDB / Supabase"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_8fevf5bjf_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_zufr43ae4_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Google OAuth & Magic Links"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_6p8zj5ga0_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_g7tq0ce8y_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Components & animations"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_nlnsef9yq_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ijle1xpra_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ ChatGPT prompts for terms & privacy"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_hb9ahyt18_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_wvxd6i3he_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Discord community & Leaderboard"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_3kghvos0q_m26wl6z4",
+                        "name": "li",
+                        "type": "li",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_6pb5w7vnb_m26wl6z4",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "✔️ Lifetime updates"
+                            }
+                          },
+                          {
+                            "id": "id_f4j78ms2s_m26wl6z4",
+                            "name": "Badge",
+                            "type": "Badge",
+                            "props": {
+                              "variant": "default",
+                              "className": "ml-2"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_bje3y5d8d_m26wl6z4",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Updated 2 months ago"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_qhm23m6wp_m26wl6z4",
+                "name": "CardFooter",
+                "type": "CardFooter",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_558eggkqy_m26wl6z4",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "className": "w-full bg-primary text-primary-foreground"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_9yp7htrsj_m26wl6z4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "⚡ Get ShipFast"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_l49c82hie_m26wl6z4",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-center text-muted-foreground mt-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_63l6kdo4h_m26wl6z4",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Pay once. Build unlimited projects!"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

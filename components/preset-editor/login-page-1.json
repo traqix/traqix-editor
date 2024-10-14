@@ -1,0 +1,288 @@
+[
+  {
+    "id": "id_xeqy169ws_m27pydnw",
+    "name": "Login Page 1",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col items-center justify-center min-h-[100dvh] bg-background"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_4an7gw1rt_m27pydnw",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "w-full max-w-md px-4 py-8 space-y-6"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_qx496wkrk_m27pydnw",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "flex justify-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_izelap19j_m27pydnw",
+                "name": "MountainIcon",
+                "type": "MountainIcon",
+                "props": {
+                  "className": "h-8 w-8"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_to63iqpl7_m27pydnw",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "sr-only"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ykptqpxok_m27pydnw",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Acme Inc"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_ave36b92o_m27pydnw",
+            "name": "Card",
+            "type": "Card",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_v0ny06f8w_m27pydnw",
+                "name": "CardHeader",
+                "type": "CardHeader",
+                "props": {
+                  "className": "space-y-1 text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_wh9prmqyp_m27pydnw",
+                    "name": "CardTitle",
+                    "type": "CardTitle",
+                    "props": {
+                      "className": "text-2xl"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_9bogdcnw6_m27pydnw",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Sign in to your account"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ex6y932sg_m27pydnw",
+                    "name": "CardDescription",
+                    "type": "CardDescription",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ncy3yp7ax_m27pydnw",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Enter your username and password below to access your account."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_azwvwfnc7_m27pydnw",
+                "name": "CardContent",
+                "type": "CardContent",
+                "props": {
+                  "className": "grid gap-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_940x4dkqh_m27pydnw",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_v67r6hb8l_m27pydnw",
+                        "name": "Label",
+                        "type": "Label",
+                        "props": {
+                          "htmlFor": "username"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_o5t3osvn2_m27pydnw",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Username"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_plxg0ofox_m27pydnw",
+                        "name": "Input",
+                        "type": "Input",
+                        "props": {
+                          "id": "username",
+                          "placeholder": "Enter your username"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_d0i3i9hk6_m27pydnw",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "grid gap-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_p6enjd6px_m27pydnw",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "flex items-center justify-between"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_p9tn7vr0r_m27pydnw",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "password"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_0t4ng8mbl_m27pydnw",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Password"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_ujpqfdrnd_m27pydnw",
+                            "name": "Link",
+                            "type": "Link",
+                            "props": {
+                              "href": "#",
+                              "className": "text-sm underline underline-offset-4",
+                              "prefetch": null
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_8um6u7849_m27pydnw",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Forgot password?"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_6hwawllp8_m27pydnw",
+                        "name": "Input",
+                        "type": "Input",
+                        "props": {
+                          "id": "password",
+                          "type": "password",
+                          "placeholder": "Enter your password"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_j447s143e_m27pydnw",
+                "name": "CardFooter",
+                "type": "CardFooter",
+                "props": {},
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_b0rzdc19n_m27pydnw",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "className": "w-full"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_l324dfz63_m27pydnw",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Sign in"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

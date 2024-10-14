@@ -1,0 +1,618 @@
+[
+  {
+    "id": "id_ay4u0p52a_m27sa3ge",
+    "name": "Login Page 4",
+    "type": "div",
+    "props": {
+      "className": "flex justify-center items-center h-screen bg-gradient-to-br from-[#ff6b6b] to-[#ffa500]"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_hrus3kmm8_m27sa3ge",
+        "name": "Card",
+        "type": "Card",
+        "props": {
+          "className": "w-full max-w-md p-6 bg-white rounded-lg shadow-lg"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_o78jx63hx_m27sa3ge",
+            "name": "CardHeader",
+            "type": "CardHeader",
+            "props": {},
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_72xb24ulh_m27sa3ge",
+                "name": "CardTitle",
+                "type": "CardTitle",
+                "props": {
+                  "className": "text-3xl font-bold text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_i3zrp8x4z_m27sa3ge",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Welcome Back"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_6v142fgre_m27sa3ge",
+                "name": "CardDescription",
+                "type": "CardDescription",
+                "props": {
+                  "className": "text-center text-muted-foreground"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_zm9qzxbq7_m27sa3ge",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Sign in to your account"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_x8xn372sl_m27sa3ge",
+            "name": "Tabs",
+            "type": "Tabs",
+            "props": {
+              "defaultValue": "account",
+              "className": "w-full"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_99z8aixhn_m27sa3ge",
+                "name": "TabsList",
+                "type": "TabsList",
+                "props": {
+                  "className": "grid w-full grid-cols-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_uwv5am842_m27sa3ge",
+                    "name": "TabsTrigger",
+                    "type": "TabsTrigger",
+                    "props": {
+                      "value": "account"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_57x8tah2b_m27sa3ge",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Account"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_3if37r7jb_m27sa3ge",
+                    "name": "TabsTrigger",
+                    "type": "TabsTrigger",
+                    "props": {
+                      "value": "login"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_jj980xh08_m27sa3ge",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Login"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_kp7fk8raw_m27sa3ge",
+                "name": "TabsContent",
+                "type": "TabsContent",
+                "props": {
+                  "value": "account"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_b0cfdizhu_m27sa3ge",
+                    "name": "CardContent",
+                    "type": "CardContent",
+                    "props": {
+                      "className": "space-y-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_qkalo6is0_m27sa3ge",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_b42v64ff3_m27sa3ge",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "name"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_syfakcc5e_m27sa3ge",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Name"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_6kfkek7sh_m27sa3ge",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "name",
+                              "placeholder": "Enter your name"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_cxjrymgqa_m27sa3ge",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_795kekwqq_m27sa3ge",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "phone"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_3vkdn1gjh_m27sa3ge",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Phone Number"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_3qvj3dmn4_m27sa3ge",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "phone",
+                              "type": "tel",
+                              "placeholder": "Enter your phone number"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_18s1u45n0_m27sa3ge",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_nr79sz1qf_m27sa3ge",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "email"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_j3c810l9c_m27sa3ge",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Email"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_0e3v8fybn_m27sa3ge",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "email",
+                              "type": "email",
+                              "placeholder": "Enter your email"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_3mw3k2219_m27sa3ge",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_0oxomhoeg_m27sa3ge",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "password"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_rv0nbhclc_m27sa3ge",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Password"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_v95m1idq8_m27sa3ge",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "password",
+                              "type": "password",
+                              "placeholder": "Enter your password"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_xattvbkud_m27sa3ge",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_78a7yzu7y_m27sa3ge",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "confirmPassword"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_2j9dppveu_m27sa3ge",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Confirm Password"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_y5l72ukuh_m27sa3ge",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "confirmPassword",
+                              "type": "password",
+                              "placeholder": "Confirm your password"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_aiwf6lz1j_m27sa3ge",
+                "name": "TabsContent",
+                "type": "TabsContent",
+                "props": {
+                  "value": "login"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_02ibjms2t_m27sa3ge",
+                    "name": "CardContent",
+                    "type": "CardContent",
+                    "props": {
+                      "className": "space-y-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_1q6qcrtpj_m27sa3ge",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_fosxz6j66_m27sa3ge",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "email"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_4axw5jq9x_m27sa3ge",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Email"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_iq07a13cv_m27sa3ge",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "email",
+                              "type": "email",
+                              "placeholder": "Enter your email"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_07tvz7460_m27sa3ge",
+                        "name": "div",
+                        "type": "div",
+                        "props": {
+                          "className": "space-y-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_5fviwzp70_m27sa3ge",
+                            "name": "Label",
+                            "type": "Label",
+                            "props": {
+                              "htmlFor": "password"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_b00ytrhk9_m27sa3ge",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Password"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_5oiyju6sk_m27sa3ge",
+                            "name": "Input",
+                            "type": "Input",
+                            "props": {
+                              "id": "password",
+                              "type": "password",
+                              "placeholder": "Enter your password"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_kdc7b623d_m27sa3ge",
+            "name": "Separator",
+            "type": "Separator",
+            "props": {
+              "className": "my-4"
+            },
+            "allowsChildren": true,
+            "children": []
+          },
+          {
+            "id": "id_gjs36ti1s_m27sa3ge",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "text-center text-muted-foreground"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_20kdghhct_m27sa3ge",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "or sign in with"
+                }
+              }
+            ]
+          },
+          {
+            "id": "id_y443xef7x_m27sa3ge",
+            "name": "CardFooter",
+            "type": "CardFooter",
+            "props": {
+              "className": "flex justify-between items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_unc66alg4_m27sa3ge",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "outline",
+                  "className": "text-[#ff6b6b] hover:bg-[#ff6b6b] hover:text-white"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_ut22iycyn_m27sa3ge",
+                    "name": "ChromeIcon",
+                    "type": "ChromeIcon",
+                    "props": {
+                      "className": "h-5 w-5 mr-2"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_zpuneewh3_m27sa3ge",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Google"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_72zpis6c8_m27sa3ge",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "variant": "outline",
+                  "className": "text-[#ff6b6b] hover:bg-[#ff6b6b] hover:text-white"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_4c1wufvj6_m27sa3ge",
+                    "name": "FacebookIcon",
+                    "type": "FacebookIcon",
+                    "props": {
+                      "className": "h-5 w-5 mr-2"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_pmmg59t52_m27sa3ge",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Facebook"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_wlgo7hxxc_m27sa3ge",
+                "name": "Button",
+                "type": "Button",
+                "props": {
+                  "className": "bg-[#ff6b6b] text-white hover:bg-[#ffa500]"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_kvstm6orq_m27sa3ge",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Sign In"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

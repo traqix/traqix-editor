@@ -1,17 +1,16 @@
 "use client";
 
 import {
-  AlertCircle,
-  Archive,
-  ArchiveX,
-  File,
-  Inbox,
-  MessagesSquare,
+  Book,
+  Bot,
+  Code2,
+  LifeBuoy,
   Search,
-  Send,
-  ShoppingCart,
-  Trash2,
-  Users2,
+  Settings2,
+  SquareTerminal,
+  SquareUser,
+  Table2,
+  Triangle,
 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
@@ -21,32 +20,76 @@ import {
   ResizablePanel,
   ResizablePanelGroup,
 } from "@/components/ui/resizable";
-import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 // import { AccountSwitcher } from "@/app/(main)/(editor)/components/account-switcher"
 // import { EditorDisplay } from "@/app/(main)/(editor)/components/editor-display"
-import { EditorList } from "@/app/(main)/(editor)/components/editor-left";
-import { Nav } from "@/app/(main)/(editor)/components/nav";
+import { EditorLeft } from "@/app/(main)/(editor)/components/editor-left";
 import { type Editor } from "@/app/(main)/(editor)/data";
 import { PresetSelector } from "@/app/(main)/(editor)/components/preset-selector";
 import { PresetSave } from "@/app/(main)/(editor)/components/preset-save";
 import { CodeViewer } from "@/app/(main)/(editor)/components/code-viewer";
 import { PresetShare } from "@/app/(main)/(editor)/components/preset-share";
 import { PresetActions } from "@/app/(main)/(editor)/components/preset-actions";
-import PlaygroundPage from "./board";
+import MainEditor from "./editor-main";
 import { ResponsiveControl } from "./responsive-control";
 import { ThemeSwitch } from "./theme-switch";
 import { HistoryControls } from "./history-controls";
 
 // import useLocalStorage from "@/hooks/use-local-storage";
 import { PresetControls } from "./preset-controls";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { TreeItem } from "../types";
+import { useTree } from "@/components/context/tree-context";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { DialogTableMemory } from "./table-memory";
+import Link from "next/link";
+
+// import initialData from "@/components/preset-editor/initial-tree.json";
+// import { Icons } from "@/components/icons";
 
 export function Editor() {
-  const defaultLayout = [3.6, 7.7, 48];
+  
+  const defaultLayout = [3.6, 8.5, 48];
   const navCollapsedSize = 3.6;
   const [isCollapsed, setIsCollapsed] = useState(false);
+
+  // const initialTreeRoot: TreeItem[] = initialData;
+
+  // console.log("ININITNITNITNTI ", initialTreeRoot)
+  // const init: TreeItem = {...initialTreeRoot[0], lastUpdate: new Date().valueOf()}
+
+  const { getTree, setTree } = useTree();
+  const treeRoot = getTree('root')
+
+  const [modeResponsive, setModeResponsive] = useState('desktop')
+
+  const [messageFromIframe, setMessageFromIframe] = useState<TreeItem | undefined>(undefined);
+  const [selectedItemId, setSelectedItemId] = useState<string | undefined>(undefined);
+  const [selectedItem, setSelectedItem] = useState<TreeItem | undefined>(undefined);
+
+  useEffect(() => {
+    const handleReceiveMessage = (event: MessageEvent) => {
+      // Aqui você pode adicionar verificações de origem se necessário
+      if (event.origin === window.location.origin) {
+        if (event.data?.data) {
+          setMessageFromIframe(event.data.data); // Atualiza a mensagem recebida do iframe
+        }
+      }
+    };
+
+    window.addEventListener("message", handleReceiveMessage);
+
+    return () => {
+      window.removeEventListener("message", handleReceiveMessage);
+    };
+  }, []);
+
+  useEffect(() => {
+    setSelectedItem(messageFromIframe);
+    setSelectedItemId(messageFromIframe?.id ?? undefined)
+    // sendMessageToIframe(messageFromIframe);
+  }, [messageFromIframe]);
 
   return (
     <TooltipProvider delayDuration={0}>
@@ -78,8 +121,8 @@ export function Editor() {
             )}`;
           }}
           className={cn(
-            isCollapsed &&
-              "min-w-[49px] transition-all duration-300 ease-in-out pt-2"
+            "bg-muted dark:bg-dark-tremor-background-subtle",
+            isCollapsed && "min-w-[49px] transition-all duration-300 ease-in-out"
           )}
         >
           {/* <div
@@ -91,7 +134,7 @@ export function Editor() {
             <AccountSwitcher isCollapsed={isCollapsed} accounts={accounts} />
           </div>
           <Separator /> */}
-          <Nav
+          {/* <Nav
             isCollapsed={isCollapsed}
             links={[
               {
@@ -167,7 +210,131 @@ export function Editor() {
                 variant: "ghost",
               },
             ]}
-          />
+          /> */}
+          <div className="mx-auto">
+            <div className="border-b dark:border-tremor-background-emphasis p-4 text-center">
+              <Button variant="outline" size="icon" aria-label="Home" className="bg-gradient-to-tr from-yellow-500/20 via-green-500/20 to-blue-500/20">
+                <h1 className="font-bold text-3xl relative -right-1 h-full top-0.5">
+                  T<small className="-left-1.5 top-2.5 relative text-3xl font-normal">*</small>
+                </h1>
+              </Button>
+            </div>
+            <nav className="grid gap-1 p-4">
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-lg mx-auto border-[0.5px] dark:border-tremor-background-emphasis bg-background/20"
+                    aria-label="Playground"
+                  >
+                    <SquareTerminal className="size-5" />
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent side="right" sideOffset={5}>
+                  Playground
+                </TooltipContent>
+              </Tooltip>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Link
+                    href="/flow"
+                  >
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="rounded-lg mx-auto w-full"
+                      aria-label="Models"
+                    >
+                      <Bot className="size-5" />
+                    </Button>
+                  </Link>
+                </TooltipTrigger>
+                <TooltipContent side="right" sideOffset={5}>
+                  Models
+                </TooltipContent>
+              </Tooltip>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <DialogTableMemory />
+                  {/* <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-lg mx-auto"
+                    aria-label="API"
+                    
+                  >
+                    <Table2 className="size-5" />
+                  </Button> */}
+                </TooltipTrigger>
+                <TooltipContent side="right" sideOffset={5}>
+                  API
+                </TooltipContent>
+              </Tooltip>
+              {/* <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-lg mx-auto"
+                    aria-label="Documentation"
+                  >
+                    <Book className="size-5" />
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent side="right" sideOffset={5}>
+                  Documentation
+                </TooltipContent>
+              </Tooltip>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-lg mx-auto"
+                    aria-label="Settings"
+                  >
+                    <Settings2 className="size-5" />
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent side="right" sideOffset={5}>
+                  Settings
+                </TooltipContent>
+              </Tooltip> */}
+            </nav>
+            {/* <nav className="mt-auto grid gap-1 p-2">
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="mt-auto rounded-lg mx-auto"
+                    aria-label="Help"
+                  >
+                    <LifeBuoy className="size-5" />
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent side="right" sideOffset={5}>
+                  Help
+                </TooltipContent>
+              </Tooltip>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="mt-auto rounded-lg mx-auto"
+                    aria-label="Account"
+                  >
+                    <SquareUser className="size-5" />
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent side="right" sideOffset={5}>
+                  Account
+                </TooltipContent>
+              </Tooltip>
+            </nav> */}
+          </div>
         </ResizablePanel>
 
         <ResizableHandle withHandle />
@@ -175,6 +342,7 @@ export function Editor() {
           defaultSize={defaultLayout[1]}
           minSize={14}
           maxSize={22}
+          className="bg-background"
         >
           <Tabs defaultValue="all">
             <div className="flex items-center p-4">
@@ -184,13 +352,13 @@ export function Editor() {
                   value="all"
                   className="text-zinc-600 dark:text-zinc-200"
                 >
-                  All editor
+                  Layers
                 </TabsTrigger>
                 <TabsTrigger
                   value="unread"
                   className="text-zinc-600 dark:text-zinc-200"
                 >
-                  Unread
+                  Pages
                 </TabsTrigger>
               </TabsList>
             </div>
@@ -203,10 +371,10 @@ export function Editor() {
               </form>
             </div>
             <TabsContent value="all" className="m-0">
-              <EditorList key={`eddd`} />
+              <EditorLeft key={`eddd`} treeRoot={treeRoot} selectedItemId={selectedItemId} />
             </TabsContent>
             <TabsContent value="unread" className="m-0">
-              {/* <EditorList key={`easd`} /> */}
+              {/* <EditorLeft key={`easd`} /> */}
               VVVV
             </TabsContent>
           </Tabs>
@@ -217,11 +385,11 @@ export function Editor() {
             <h2 className="text-lg font-semibold">Playground</h2>
             <div className="ml-auto hidden md:flex w-full space-x-2 sm:justify-end">
               <ThemeSwitch />
-              <ResponsiveControl />
-              <PresetControls />
+              {/* <ResponsiveControl setModeResponsive={setModeResponsive} /> */}
+              <PresetControls treeRoot={treeRoot} setTree={setTree} />
               <PresetSelector presets={[]} />
               <PresetSave />
-              <HistoryControls />
+              {/* <HistoryControls /> */}
               <div className="hidden space-x-2 md:flex">
                 <CodeViewer />
                 <PresetShare />
@@ -233,7 +401,7 @@ export function Editor() {
           {/* <EditorDisplay
             editor={mails.find((item) => item.id === editor.selected) || null}
           /> */}
-          <PlaygroundPage />
+          <MainEditor selectedItem={selectedItem} />
         </ResizablePanel>
       </ResizablePanelGroup>
     </TooltipProvider>

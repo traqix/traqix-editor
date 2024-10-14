@@ -1,0 +1,77 @@
+[
+  {
+    "id": "id_uwubs5sdx_m20pgedg",
+    "name": "Call API",
+    "type": "div",
+    "allowsChildren": true,
+    "props": {
+      "className": "flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 p-4"
+    },
+    "children": [
+      {
+        "id": "id_title_m20pgedc",
+        "name": "Heading",
+        "type": "h1",
+        "props": {
+          "className": "text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6",
+          "content": "Weather Checker"
+        },
+        "allowsChildren": false,
+        "children": [],
+        "lastUpdate": 1728409708744
+      },
+      {
+        "id": "id_oyw1m1vvd_m20pgedc",
+        "name": "TextInput",
+        "type": "input",
+        "props": {
+          "className": "p-2 rounded-md border border-gray-300 dark:border-gray-700 mb-4 focus:outline-none focus:ring focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-100",
+          "placeholder": "Enter city name",
+          "oninput": "",
+          "content": "",
+          "onchange": "var oldValue = JSON.parse(window.localStorage.getItem('traqix_mem_city'));var dataSave = JSON.stringify({...oldValue, value: e.target.value});window.localStorage.setItem('traqix_mem_city', dataSave);"
+        },
+        "allowsChildren": false,
+        "children": [],
+        "lastUpdate": 1728409708744
+      },
+      {
+        "id": "id_afb3dicfb_m20pgedc",
+        "name": "Button",
+        "type": "Button",
+        "props": {
+          "className": "px-4 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-300 ease-in-out",
+          "onclick": "var city = JSON.parse(window.localStorage.getItem('traqix_mem_city')).value ?? ''; if (city !== '') { fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=0d019a678e59d7111413243a36716e41&units=metric`).then(response => response.json()).then(data => { window.localStorage.setItem('traqix_mem_weather', JSON.stringify({type: 'object', value: data})); var result = `City: ${data.name}\\nTemperature: ${data.main.temp} °C\\nMin Temp: ${data.main.temp_min} °C\\nMax Temp: ${data.main.temp_max} °C\\nHumidity: ${data.main.humidity}%\\nWind Speed: ${data.wind.speed} m/s\\nConditions: ${data.weather[0].description}`; window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: result})); }).catch(error => { window.localStorage.setItem('traqix_mem_display', JSON.stringify({type: 'string', value: 'Error fetching weather data'})); }); }"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_qfah0u8hk_m20pgedc",
+            "name": "Text",
+            "type": "text",
+            "props": {
+              "content": "Get Weather"
+            },
+            "lastUpdate": 1728407930307,
+            "children": []
+          }
+        ],
+        "lastUpdate": 1728407933602
+      },
+      {
+        "id": "id_20r07no30_m20pgedc",
+        "name": "Display",
+        "type": "pre",
+        "allowsChildren": false,
+        "children": [],
+        "props": {
+          "className": "mt-4 text-lg font-medium text-gray-800 dark:text-gray-200 whitespace-pre-wrap",
+          "content": "traqix_mem_display"
+        },
+        "lastUpdate": 1728407930307
+      }
+    ],
+    "lastUpdate": 1728407951987,
+    "parentId": "root"
+  }
+]

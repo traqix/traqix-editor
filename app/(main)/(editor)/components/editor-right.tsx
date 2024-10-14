@@ -16,26 +16,27 @@ import { X } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import type { TreeItem } from "@/app/(main)/(editor)/types";
 import { Separator } from "@/components/ui/separator";
-import useMultipleLocalStorage from "@/hooks/use-multiple-local-storage";
+import { updateClassName } from "../utils/util";
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
+import { EditorRightContent } from "./editor-right-content";
+import { EditorRightClasses } from "./editor-right-classes";
+import { Textarea } from "@/components/ui/textarea";
+import { EditorRightEvents } from "./editor-right-events";
 
 interface RightSidebarProps {
-  selectedItem: TreeItem | null;
+  selectedItem?: TreeItem;
   onUpdate: (id: string, updates: Partial<TreeItem>) => void;
 }
 
 interface ComponentOptionsProps {
-  selectedItem: TreeItem | null;
-  onUpdate: (id: string, updates: Partial<TreeItem>, tree: TreeItem[], setTree: (key: string, value: any) => void) => void;
+  selectedItem?: TreeItem;
+  setTree: any;
 }
 
 export const EditorRight: React.FC<ComponentOptionsProps> = ({
   selectedItem,
-  onUpdate
+  setTree,
 }) => {
-
-
-  const [tree, setTree] = useMultipleLocalStorage(["tx_current"]);
-
   const [classes, setClasses] = useState<string[]>([]);
   const [newClass, setNewClass] = useState("");
   const [background, setBackground] = useState("");
@@ -52,9 +53,14 @@ export const EditorRight: React.FC<ComponentOptionsProps> = ({
 
   const handleChange = (key: string, value: any) => {
     console.log("selectedItem", selectedItem, key);
-    onUpdate(selectedItem.id, {
-      props: { ...selectedItem.props, [key]: value },
-    }, tree, setTree);
+    updateClassName(
+      selectedItem,
+      {
+        props: { ...selectedItem.props, [key]: value },
+        lastUpdate: new Date().valueOf(),
+      },
+      setTree
+    );
   };
 
   function handleChangeBackground(background: any) {
@@ -68,12 +74,14 @@ export const EditorRight: React.FC<ComponentOptionsProps> = ({
   }
 
   const handleAddClass = (newClass: string) => {
-    if (newClass && !classes.includes(newClass)) {
-      const updatedClasses = [...classes, newClass];
-      setClasses(updatedClasses);
-      handleChange("className", updatedClasses.join(" "));
-      setNewClass("");
-    }
+    let updatedClasses = classes;
+    newClass.split(" ").map((itemClass) => {
+      if (itemClass && !classes.includes(itemClass)) {
+        updatedClasses = [...updatedClasses, itemClass];
+      }
+    });
+    setClasses(updatedClasses);
+    handleChange("className", updatedClasses.join(" "));
   };
 
   const handleRemoveClass = (classToRemove: string) => {
@@ -183,129 +191,196 @@ export const EditorRight: React.FC<ComponentOptionsProps> = ({
     </div>
   );
 
-
-
   return (
-    <div className="space-y-4 mt-4">
-      <Separator />
-      <h3 className="text-lg font-semibold">{selectedItem.name?.toUpperCase()} Options</h3>
-      <p className="text-md font-normal">Type: {selectedItem.type?.toUpperCase()}</p>
-      <Tabs defaultValue="classes">
-        <TabsList>
-          <TabsTrigger value="classes">Classes</TabsTrigger>
-          <TabsTrigger value="content">Content</TabsTrigger>
-          {(selectedItem.type === "div" || selectedItem.type === "section") && (
-            <TabsTrigger value="layout">Layout</TabsTrigger>
-          )}
-        </TabsList>
-
-        <TabsContent value="classes">
-          <div className="space-y-4">
-            <div className="flex space-x-2">
-              <Input
-                value={newClass}
-                onChange={(e) => setNewClass(e.target.value)}
-                placeholder="Add custom class"
-              />
-              <Button onClick={() => handleAddClass(newClass)}>Add</Button>
-            </div>
-
-            <div className="space-y-2">
-              <Label>Applied Classes</Label>
-              <div className="flex flex-wrap gap-2">
-                {classes.map((cls) => (
-                  <Button
-                    key={cls}
-                    variant="secondary"
-                    size="sm"
-                    onClick={() => handleRemoveClass(cls)}
-                  >
-                    {cls}
-                    <X className="w-4 h-4 ml-2" />
-                  </Button>
-                ))}
-              </div>
-            </div>
-
-            {renderClassOptions(colorOptions, "Colors")}
-            {renderClassOptions(fontOptions, "Fonts")}
-            {renderClassOptions(roundedOptions, "Rounded Edges")}
-            {renderClassOptions(commonOptions, "Common Options")}
-          </div>
-        </TabsContent>
-
-        <TabsContent value="content">
-          <div className="space-y-4">
-            <div className="space-y-2">
-              <Label htmlFor="content">Content</Label>
-              <Input
-                id="content"
-                value={selectedItem.props?.content || ""}
-                onChange={(e) => handleChange("content", e.target.value)}
-              />
-            </div>
-            {selectedItem.type === "input" && (
-              <div className="space-y-2">
-                <Label htmlFor="placeholder">Placeholder</Label>
-                <Input
-                  id="placeholder"
-                  value={selectedItem.props?.placeholder || ""}
-                  onChange={(e) => handleChange("placeholder", e.target.value)}
-                />
-              </div>
+    <div className="mt-4">
+      <HoverCard openDelay={200}>
+        <HoverCardTrigger asChild>
+          <span className="text-sm font-light opacity-50 leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+            Classes
+          </span>
+        </HoverCardTrigger>
+        <HoverCardContent
+          className="w-[320px] text-sm"
+          side="left"
+        >
+          Choose the interface that best suits your task. You can
+          provide: a simple prompt to complete, starting and
+          ending text to insert a completion within, or some text
+          with instructions to edit it.
+        </HoverCardContent>
+      </HoverCard>
+      <div className="p-4 border-[0.5px] rounded-lg">
+        <h3 className="text-lg font-semibold">
+          {selectedItem.name?.toUpperCase()} Options
+        </h3>
+        <p className="text-md font-normal">
+          Type: {selectedItem.type?.toUpperCase()}
+        </p>
+        <Tabs defaultValue="classes">
+          <TabsList className="grid grid-cols-3 mb-4">
+            <TabsTrigger value="classes">Classes</TabsTrigger>
+            <TabsTrigger value="content">Content</TabsTrigger>
+            {(selectedItem.type === "div" || selectedItem.type === "section") && (
+              <TabsTrigger value="layout">Layout</TabsTrigger>
             )}
-          </div>
-        </TabsContent>
+          </TabsList>
 
-        {/* {(selectedItem.type === "div" || selectedItem.type === "section") && (
-          <TabsContent value="layout">
-            <PickerBackground
-              background={background}
-              setBackground={handleChangeBackground}
-            />
-            <LayoutBuilder
-              classes={classes}
-              handleRemoveClass={handleRemoveClass}
-              handleAddClass={handleAddClass}
-            />
-            {renderClassOptions(layoutOptions, "Layout Options")}
+          <TabsContent value="classes">
+            <div className="space-y-4">
+              {/* <div className="flex space-x-2">
+                <Input
+                  value={newClass}
+                  onChange={(e) => setNewClass(e.target.value)}
+                  placeholder="Add custom class"
+                />
+                <Button onClick={() => handleAddClass(newClass)}>Add</Button>
+              </div> */}
+              <EditorRightClasses handleAddClass={handleAddClass} />
+
+              <div className="space-y-2">
+                <Label>Applied Classes</Label>
+                <div className="flex flex-wrap gap-2">
+                  {classes.map((cls) => (
+                    <Button
+                      key={cls}
+                      variant="secondary"
+                      size="sm"
+                      onClick={() => handleRemoveClass(cls)}
+                    >
+                      {cls}
+                      <X className="w-4 h-4 ml-2" />
+                    </Button>
+                  ))}
+                </div>
+              </div>
+
+              {renderClassOptions(colorOptions, "Colors")}
+              {renderClassOptions(fontOptions, "Fonts")}
+              {renderClassOptions(roundedOptions, "Rounded Edges")}
+              {renderClassOptions(commonOptions, "Common Options")}
+            </div>
           </TabsContent>
-        )} */}
-      </Tabs>
 
-      {selectedItem.type === "button" && (
-        <div className="space-y-2">
-          <Label htmlFor="variant">Button Variant</Label>
-          <Select onValueChange={(value) => handleChange("variant", value)}>
-            <SelectTrigger>
-              <SelectValue placeholder="Select variant" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="default">Default</SelectItem>
-              <SelectItem value="secondary">Secondary</SelectItem>
-              <SelectItem value="outline">Outline</SelectItem>
-              <SelectItem value="ghost">Ghost</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-      )}
+          <TabsContent value="content">
+            <div className="space-y-4">
+              <div className="space-y-2">
+                <Label htmlFor="content">Content</Label>
+                {/* <Input
+                  id="content"
+                  value={selectedItem.props?.content || ""}
+                  onChange={(e) => handleChange("content", e.target.value)}
+                /> */}
+                <EditorRightContent key={`${selectedItem.id}-content`} handleChange={handleChange} selectedItem={selectedItem} />
+              </div>
+              {selectedItem.type === "input" && (
+                <div className="space-y-2">
+                  <Label htmlFor="placeholder">Placeholder</Label>
+                  <Input
+                    id="placeholder"
+                    value={selectedItem.props?.placeholder || ""}
+                    onChange={(e) => handleChange("placeholder", e.target.value)}
+                  />
+                </div>
+              )}
 
-      {selectedItem.type === "input" && (
-        <div className="space-y-2">
-          <Label htmlFor="type">Input Type</Label>
-          <Select onValueChange={(value) => handleChange("type", value)}>
-            <SelectTrigger>
-              <SelectValue placeholder="Select input type" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="text">Text</SelectItem>
-              <SelectItem value="password">Password</SelectItem>
-              <SelectItem value="email">Email</SelectItem>
-              <SelectItem value="number">Number</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-      )}
+              <EditorRightEvents key={`${selectedItem.id}-events`} handleChange={handleChange} selectedItem={selectedItem} />
+
+              {/* <div className="space-y-2">
+                <Label htmlFor="content">Content</Label>
+                {/* <Input
+                  id="content"
+                  value={selectedItem.props?.content || ""}
+                  onChange={(e) => handleChange("content", e.target.value)}
+                /> * /}
+                <EditorRightContent handleChange={handleChange} selectedItem={selectedItem} />
+              </div> */}
+
+              {/* {selectedItem.type === "button" && (
+                <div className="space-y-2">
+                  <Label htmlFor="placeholder">event onclick</Label>
+                  <Textarea
+                    id="onclick"
+                    value={selectedItem.props?.onclick}
+                    onChange={(e) => handleChange("onclick", e.target.value)}
+                  />
+                </div>
+              )} */}
+
+
+              {selectedItem.type.toLowerCase() === "button" && (
+                <div className="space-y-2">
+                  <Label htmlFor="variant">Button Variant</Label>
+                  <Select onValueChange={(value) => handleChange("variant", value)}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Select variant" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="default">Default</SelectItem>
+                      <SelectItem value="destructive">Destructive</SelectItem>
+                      <SelectItem value="ghost">Ghost</SelectItem>
+                      <SelectItem value="link">Link</SelectItem>
+                      <SelectItem value="outline">Outline</SelectItem>
+                      <SelectItem value="secondary">Secondary</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
+
+              {selectedItem.type.toLowerCase() === "button" && (
+                <div className="space-y-2">
+                  <Label htmlFor="variant">Button Sizes</Label>
+                  <Select value="" onValueChange={(value) => handleChange("size", value)}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Select variant" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="default">Default</SelectItem>
+                      <SelectItem value="sm">Small</SelectItem>
+                      <SelectItem value="lg">Large</SelectItem>
+                      <SelectItem value="icon">Icon</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
+
+              {selectedItem.type.toLowerCase() === "input" && (
+                <div className="space-y-2">
+                  <Label htmlFor="type">Input Type</Label>
+                  <Select onValueChange={(value) => handleChange("type", value)}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Select input type" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="text">Text</SelectItem>
+                      <SelectItem value="password">Password</SelectItem>
+                      <SelectItem value="email">Email</SelectItem>
+                      <SelectItem value="number">Number</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+              )}
+            </div>
+          </TabsContent>
+
+          {/* {(selectedItem.type === "div" || selectedItem.type === "section") && (
+            <TabsContent value="layout">
+              <PickerBackground
+                background={background}
+                setBackground={handleChangeBackground}
+              />
+              <LayoutBuilder
+                classes={classes}
+                handleRemoveClass={handleRemoveClass}
+                handleAddClass={handleAddClass}
+              />
+              {renderClassOptions(layoutOptions, "Layout Options")}
+            </TabsContent>
+          )} */}
+        </Tabs>
+
+        
+        
+      </div>
     </div>
   );
 };

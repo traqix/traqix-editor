@@ -1,0 +1,642 @@
+[
+  {
+    "id": "id_oeeb2wg9l_m26vu78k",
+    "name": "Discord Landing",
+    "type": "div",
+    "props": {
+      "className": "flex flex-col min-h-[100dvh]"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_p62jvr7qt_m26vu78k",
+        "name": "header",
+        "type": "header",
+        "props": {
+          "className": "bg-[#5865F2] px-4 lg:px-6 py-4 flex items-center justify-between"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_gyhjihcu2_m26vu78k",
+            "name": "Link",
+            "type": "Link",
+            "props": {
+              "href": "#",
+              "className": "flex items-center gap-2",
+              "prefetch": null
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_k1b79nmic_m26vu78k",
+                "name": "DiscIcon",
+                "type": "DiscIcon",
+                "props": {
+                  "className": "h-8 w-8 text-white"
+                },
+                "allowsChildren": true,
+                "children": []
+              },
+              {
+                "id": "id_crj1kaqk8_m26vu78k",
+                "name": "span",
+                "type": "span",
+                "props": {
+                  "className": "text-white font-bold text-xl"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_buc2rtuyi_m26vu78k",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Discord"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_b75dierku_m26vu78k",
+            "name": "Link",
+            "type": "Link",
+            "props": {
+              "href": "#",
+              "className": "inline-flex items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium text-[#5865F2] shadow-sm transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#5865F2] focus:ring-offset-2",
+              "prefetch": null
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_x5huogy7f_m26vu78k",
+                "name": "Text",
+                "type": "text",
+                "allowsChildren": false,
+                "children": [],
+                "props": {
+                  "content": "Download"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_ecceg13m2_m26vu78k",
+        "name": "main",
+        "type": "main",
+        "props": {
+          "className": "flex-1"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_s9vm1fgeg_m26vu78k",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "bg-[#5865F2] py-12 md:py-24 lg:py-32"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_tosdm8tqc_m26vu78k",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container px-4 md:px-6 flex flex-col items-center text-center"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_v809ihiov_m26vu78k",
+                    "name": "DiscIcon",
+                    "type": "DiscIcon",
+                    "props": {
+                      "className": "h-16 w-16 text-white"
+                    },
+                    "allowsChildren": true,
+                    "children": []
+                  },
+                  {
+                    "id": "id_kys71j5eo_m26vu78k",
+                    "name": "h1",
+                    "type": "h1",
+                    "props": {
+                      "className": "text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_6kq2cnjk1_m26vu78k",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Your place to talk"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_bzw1p6jpn_m26vu78k",
+                    "name": "p",
+                    "type": "p",
+                    "props": {
+                      "className": "text-lg md:text-xl text-white max-w-3xl mt-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_ru83b1yt4_m26vu78k",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Whether you're part of a school club, a gaming group, a worldwide art community, or just a handful of\n              friends that want to spend time together, Discord makes it easy to talk every day and hang out more often."
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_12pe80d2l_m26vu78k",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-lg font-medium text-[#5865F2] shadow-sm transition-colors hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#5865F2] focus:ring-offset-2 mt-6",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_mcpcdwr5w_m26vu78k",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Download for Windows"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_v0i8l87zd_m26vu78k",
+            "name": "section",
+            "type": "section",
+            "props": {
+              "className": "py-12 md:py-24 lg:py-32"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_dvxhfejgb_m26vu78k",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-8"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_q70cfx908_m26vu78k",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-start"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_itof8o5w3_m26vu78k",
+                        "name": "VoicemailIcon",
+                        "type": "VoicemailIcon",
+                        "props": {
+                          "className": "h-12 w-12 text-[#5865F2]"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_e42ephryd_m26vu78k",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-3xl font-bold mt-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_erm7wy3kb_m26vu78k",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Voice Channels"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_px5mrhh5j_m26vu78k",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-lg text-muted-foreground mt-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_3ui8kx1ka_m26vu78k",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Talk, chat, and hang out with your friends. Voice channels make it easy."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_4z1ml0pb3_m26vu78k",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-start"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_mp4jo4i0y_m26vu78k",
+                        "name": "TextIcon",
+                        "type": "TextIcon",
+                        "props": {
+                          "className": "h-12 w-12 text-[#5865F2]"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_q1sznvs36_m26vu78k",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-3xl font-bold mt-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_bl1ggayaf_m26vu78k",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Text Channels"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_uzaomzcfp_m26vu78k",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-lg text-muted-foreground mt-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_tck9mw7tx_m26vu78k",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Organize your conversations into topic-based channels."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_2kr3vrtpf_m26vu78k",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-start"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_4bfofu2t4_m26vu78k",
+                        "name": "ServerIcon",
+                        "type": "ServerIcon",
+                        "props": {
+                          "className": "h-12 w-12 text-[#5865F2]"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_kiqocuxyn_m26vu78k",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-3xl font-bold mt-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_mz2nutuqb_m26vu78k",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Server Management"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_hhp7tostc_m26vu78k",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-lg text-muted-foreground mt-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_gd25lub4q_m26vu78k",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Customize your server with roles, permissions, and more."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_9drqakor7_m26vu78k",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex flex-col items-start"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_joyczrx7v_m26vu78k",
+                        "name": "AppWindowIcon",
+                        "type": "AppWindowIcon",
+                        "props": {
+                          "className": "h-12 w-12 text-[#5865F2]"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_cs4sr4gqo_m26vu78k",
+                        "name": "h2",
+                        "type": "h2",
+                        "props": {
+                          "className": "text-3xl font-bold mt-4"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_akw5tmmjc_m26vu78k",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Mobile App"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_rbw5x0z02_m26vu78k",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-lg text-muted-foreground mt-2"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_nlzf367h4_m26vu78k",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Stay connected with your friends on the go with the Discord mobile app."
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "id_h3z75lp0q_m26vu78k",
+        "name": "footer",
+        "type": "footer",
+        "props": {
+          "className": "bg-[#23272A] text-white py-6 w-full"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_ruihpkp6m_m26vu78k",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "container px-4 md:px-6 flex flex-col md:flex-row items-center justify-between"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_zm0ov1vjk_m26vu78k",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "text-sm"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_omof8pflq_m26vu78k",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "© 2024 Discord, Inc."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_7f8vp5zw1_m26vu78k",
+                "name": "nav",
+                "type": "nav",
+                "props": {
+                  "className": "flex gap-4 md:gap-6 mt-4 md:mt-0"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_junmjvnjw_m26vu78k",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "text-sm hover:underline",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_oy0pakdbi_m26vu78k",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Privacy"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_1lw1tadkh_m26vu78k",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "text-sm hover:underline",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_4x5h1mtkw_m26vu78k",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Terms"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_4atks4w3d_m26vu78k",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "text-sm hover:underline",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_h1pziqx9z_m26vu78k",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Status"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_zibxkiycz_m26vu78k",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "text-sm hover:underline",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_dh1o8roy6_m26vu78k",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Twitter"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_5oejdtnna_m26vu78k",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "text-sm hover:underline",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_8akmwhuol_m26vu78k",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Instagram"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

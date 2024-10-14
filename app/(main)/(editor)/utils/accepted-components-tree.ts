@@ -28,6 +28,8 @@ export const TREE_DIV_ACCEPTED_COMPONENTS = {
   DETAILS: "TREE_DETAILS",
   SUMMARY: "TREE_SUMMARY",
 
+  CARD: "TREE_CARD",
+
   // Cabeçalhos
   H1: "TREE_H1",
   H2: "TREE_H2",
@@ -425,14 +427,15 @@ export const TREE_I_ACCEPTED_COMPONENTS = {
 } as const;
 
 // 43
-export const TREE_BUTTON_ACCEPTED_COMPONENTS = {
-  SPAN: "TREE_SPAN",
-  STRONG: "TREE_STRONG",
+export const TREE_BUTTON_ACCEPTED_COMPONENTS = TREE_DIV_ACCEPTED_COMPONENTS
+// {
+//   SPAN: "TREE_SPAN",
+//   STRONG: "TREE_STRONG",
 
-  // Traqix
-  CUSTOM: "TREE_CUSTOM",
-  TEXT: "TREE_TEXT",
-} as const;
+//   // Traqix
+//   CUSTOM: "TREE_CUSTOM",
+//   TEXT: "TREE_TEXT",
+// } as const;
 
 // 44
 export const TREE_INPUT_ACCEPTED_COMPONENTS = {

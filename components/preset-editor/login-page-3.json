@@ -1,0 +1,437 @@
+[
+  {
+    "id": "id_rixri03gv_m27rb4g7",
+    "name": "Login Page 3",
+    "type": "div",
+    "props": {
+      "className": "min-h-screen bg-gradient-to-br from-purple-300 to-purple-100 flex justify-center items-center p-4"
+    },
+    "allowsChildren": true,
+    "children": [
+      {
+        "id": "id_f7ke3x0a4_m27rb4g7",
+        "name": "div",
+        "type": "div",
+        "props": {
+          "className": "flex flex-col md:flex-row rounded-lg overflow-hidden shadow-lg max-w-4xl w-full"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_k5a1rshmr_m27rb4g7",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-white p-8 w-full md:w-1/2"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_oohyatbr2_m27rb4g7",
+                "name": "h2",
+                "type": "h2",
+                "props": {
+                  "className": "text-2xl font-bold mb-2"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_2noyyqqdl_m27rb4g7",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Login"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "id_oa55xjcoy_m27rb4g7",
+                "name": "p",
+                "type": "p",
+                "props": {
+                  "className": "mb-8 text-sm text-gray-600"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_15kdmjz28_m27rb4g7",
+                    "name": "Text",
+                    "type": "text",
+                    "allowsChildren": false,
+                    "children": [],
+                    "props": {
+                      "content": "Doesn't have an account yet?"
+                    }
+                  },
+                  {
+                    "id": "id_fjmrlk7v1_m27rb4g7",
+                    "name": "Link",
+                    "type": "Link",
+                    "props": {
+                      "href": "#",
+                      "className": "text-purple-600 hover:underline",
+                      "prefetch": null
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_2bd4yy9gn_m27rb4g7",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "Sign Up"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "id_j1075sytd_m27rb4g7",
+                "name": "form",
+                "type": "form",
+                "props": {
+                  "className": "space-y-4"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_vky5tezru_m27rb4g7",
+                    "name": "div",
+                    "type": "div",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_3d8x3oo9d_m27rb4g7",
+                        "name": "label",
+                        "type": "label",
+                        "props": {
+                          "htmlFor": "email",
+                          "className": "block text-sm font-medium text-gray-700"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_qbajepeqr_m27rb4g7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Email Address"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_pgdniqoxg_m27rb4g7",
+                        "name": "Input",
+                        "type": "Input",
+                        "props": {
+                          "id": "email",
+                          "type": "email",
+                          "placeholder": "you@example.com",
+                          "className": "mt-1"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_c3wsggqlh_m27rb4g7",
+                    "name": "div",
+                    "type": "div",
+                    "props": {},
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_pljlyckrp_m27rb4g7",
+                        "name": "label",
+                        "type": "label",
+                        "props": {
+                          "htmlFor": "password",
+                          "className": "block text-sm font-medium text-gray-700"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_hvacy0wo0_m27rb4g7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Password"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_94u3xvtvx_m27rb4g7",
+                        "name": "Input",
+                        "type": "Input",
+                        "props": {
+                          "id": "password",
+                          "type": "password",
+                          "placeholder": "Enter 6 character or more",
+                          "className": "mt-1"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_3rjmnpi9u_m27rb4g7",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "text-sm text-purple-600 hover:underline",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_6vlwcwdbz_m27rb4g7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Forgot Password?"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_yevorip6h_m27rb4g7",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_mxi5hndw3_m27rb4g7",
+                        "name": "Checkbox",
+                        "type": "Checkbox",
+                        "props": {
+                          "id": "remember-me"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_yy8w1xkj5_m27rb4g7",
+                        "name": "label",
+                        "type": "label",
+                        "props": {
+                          "htmlFor": "remember-me",
+                          "className": "ml-2 block text-sm text-gray-900"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_648w1vmx4_m27rb4g7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Remember me"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_l5hgitbrg_m27rb4g7",
+                    "name": "Button",
+                    "type": "Button",
+                    "props": {
+                      "className": "w-full bg-purple-600 text-white"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_uhgfqmkmw_m27rb4g7",
+                        "name": "Text",
+                        "type": "text",
+                        "allowsChildren": false,
+                        "children": [],
+                        "props": {
+                          "content": "LOGIN"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_bvgtwm33u_m27rb4g7",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between mt-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_7f98ijjpa_m27rb4g7",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "w-1/5 border-b dark:border-gray-600 lg:w-1/4"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      },
+                      {
+                        "id": "id_g8dgfmtpe_m27rb4g7",
+                        "name": "p",
+                        "type": "p",
+                        "props": {
+                          "className": "text-xs text-center text-gray-500 uppercase dark:text-gray-400"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_v24gpy83m_m27rb4g7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "or login with"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_lwuu8q7yd_m27rb4g7",
+                        "name": "span",
+                        "type": "span",
+                        "props": {
+                          "className": "w-1/5 border-b dark:border-gray-400 lg:w-1/4"
+                        },
+                        "allowsChildren": true,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_e4bau21zf_m27rb4g7",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-center mt-4"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_kt914cn6r_m27rb4g7",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "className": "mr-2 bg-white border border-gray-200 text-gray-900"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_0l7qxf3xp_m27rb4g7",
+                            "name": "ChromeIcon",
+                            "type": "ChromeIcon",
+                            "props": {
+                              "className": "w-4 h-4 mr-2"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_uqxx9aglv_m27rb4g7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Google"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_jic28lqxi_m27rb4g7",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "className": "bg-white border border-gray-200 text-gray-900"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ofjqfv9g5_m27rb4g7",
+                            "name": "FacebookIcon",
+                            "type": "FacebookIcon",
+                            "props": {
+                              "className": "w-4 h-4 mr-2"
+                            },
+                            "allowsChildren": true,
+                            "children": []
+                          },
+                          {
+                            "id": "id_6vbiwb615_m27rb4g7",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Facebook"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_h4nzybo57_m27rb4g7",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "bg-purple-500 w-full md:w-1/2 p-8 flex justify-center items-center"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_8auqb3l4o_m27rb4g7",
+                "name": "img",
+                "type": "img",
+                "props": {
+                  "src": "/placeholder.svg",
+                  "alt": "Illustration of a person working",
+                  "className": "max-w-full h-auto",
+                  "width": "300",
+                  "height": "300",
+                  "style": null
+                },
+                "allowsChildren": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

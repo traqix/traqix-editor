@@ -1,0 +1,1815 @@
+[
+      {
+        "id": "id_d61lh0tcf_m21a29fk",
+        "name": "Acme API",
+        "type": "div",
+        "props": {
+          "className": "flex min-h-[100dvh] flex-col bg-background"
+        },
+        "allowsChildren": true,
+        "children": [
+          {
+            "id": "id_3ef6ajqkw_m21a29fk",
+            "name": "header",
+            "type": "header",
+            "props": {
+              "className": "bg-primary text-primary-foreground py-6 px-4 md:px-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_hlrc34f50_m21a29fk",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "container max-w-5xl"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_mjub6lrxf_m21a29fk",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "flex items-center justify-between"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_mkr5ezz8t_m21a29fk",
+                        "name": "div",
+                        "type": "div",
+                        "props": {},
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_jt4oq5hfp_m21a29fk",
+                            "name": "h1",
+                            "type": "h1",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_v57h22ee9_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Acme API"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_xus4whecy_m21a29fk",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "text-sm text-primary-foreground/80"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_cpjemerf1_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "A powerful API for managing your business data."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_9y55kl7du_m21a29fk",
+                        "name": "Button",
+                        "type": "Button",
+                        "props": {
+                          "variant": "secondary"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_ah3qt8dbe_m21a29fk",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Get API Key"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "id_7dny9sqyk_m21a29fk",
+            "name": "div",
+            "type": "div",
+            "props": {
+              "className": "container max-w-5xl py-12 px-4 md:px-6"
+            },
+            "allowsChildren": true,
+            "children": [
+              {
+                "id": "id_lpe0xj5kd_m21a29fk",
+                "name": "div",
+                "type": "div",
+                "props": {
+                  "className": "grid grid-cols-[200px_1fr] gap-8"
+                },
+                "allowsChildren": true,
+                "children": [
+                  {
+                    "id": "id_04brh502h_m21a29fk",
+                    "name": "nav",
+                    "type": "nav",
+                    "props": {
+                      "className": "space-y-2"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_n9vk3pk0t_m21a29fk",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "block rounded-md px-3 py-2 text-sm font-medium hover:bg-muted hover:text-muted-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_w2z0xdts4_m21a29fk",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Introduction"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_0nrj3qyex_m21a29fk",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "block rounded-md px-3 py-2 text-sm font-medium hover:bg-muted hover:text-muted-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_tukj2any6_m21a29fk",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Authentication"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_vuq1t7ngx_m21a29fk",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "block rounded-md px-3 py-2 text-sm font-medium hover:bg-muted hover:text-muted-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_vnkp0su9v_m21a29fk",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Rate Limiting"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_676tcdack_m21a29fk",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "block rounded-md px-3 py-2 text-sm font-medium hover:bg-muted hover:text-muted-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_60xwpezhn_m21a29fk",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Error Handling"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_kj5wlc4qa_m21a29fk",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "block rounded-md px-3 py-2 text-sm font-medium hover:bg-muted hover:text-muted-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_duvii6qfl_m21a29fk",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Requests and Responses"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_41mhaxofv_m21a29fk",
+                        "name": "Link",
+                        "type": "Link",
+                        "props": {
+                          "href": "#",
+                          "className": "block rounded-md px-3 py-2 text-sm font-medium hover:bg-muted hover:text-muted-foreground",
+                          "prefetch": null
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_9ggp1ako6_m21a29fk",
+                            "name": "Text",
+                            "type": "text",
+                            "allowsChildren": false,
+                            "children": [],
+                            "props": {
+                              "content": "Examples"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "id_ckh9kpz71_m21a29fk",
+                    "name": "div",
+                    "type": "div",
+                    "props": {
+                      "className": "space-y-12"
+                    },
+                    "allowsChildren": true,
+                    "children": [
+                      {
+                        "id": "id_01alcidac_m21a29fk",
+                        "name": "section",
+                        "type": "section",
+                        "props": {
+                          "id": "introduction"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_sbixqfixn_m21a29fk",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_2az38w05s_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Introduction"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_2ygdo9wqb_m21a29fk",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "mt-4 text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_c2dq1e3in_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "The Acme API is a RESTful API that allows you to manage your business data. You can use this API to\n                create, read, update, and delete your data."
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_l42a2gvxy_m21a29fk",
+                        "name": "section",
+                        "type": "section",
+                        "props": {
+                          "id": "authentication"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_yk4imi7rh_m21a29fk",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_omr56hep4_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Authentication"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_hfml5przt_m21a29fk",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "mt-4 text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_wn84ki2q4_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "To use the Acme API, you need to authenticate with an API key. You can obtain an API key by signing up\n                for an account on our website."
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_q2hvx4fim_m21a29fk",
+                            "name": "Collapsible",
+                            "type": "Collapsible",
+                            "props": {
+                              "className": "mt-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_djfbn4u5v_m21a29fk",
+                                "name": "CollapsibleTrigger",
+                                "type": "CollapsibleTrigger",
+                                "props": {
+                                  "className": "flex w-full items-center justify-between rounded-md bg-muted px-4 py-2 text-sm font-medium text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_6p29g55cm_m21a29fk",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_nwwud9aec_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "How to authenticate"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_u87vjj2lb_m21a29fk",
+                                    "name": "ChevronDownIcon",
+                                    "type": "ChevronDownIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 transition-transform"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_vri81a68q_m21a29fk",
+                                "name": "CollapsibleContent",
+                                "type": "CollapsibleContent",
+                                "props": {
+                                  "className": "rounded-md border border-muted bg-background p-4 text-sm text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_zgjjb141p_m21a29fk",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_d06xe8qf7_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "To authenticate with the Acme API, you need to include your API key in the"
+                                        }
+                                      },
+                                      {
+                                        "id": "id_3lnzxeet4_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "thorizati"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_va4aoeah2_m21a29fk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Authorization"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_k2fbfwvg8_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "header of your HTTP requests. The header should be formatted as follows:"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_2hr2kgcz2_m21a29fk",
+                                    "name": "pre",
+                                    "type": "pre",
+                                    "props": {
+                                      "className": "mt-4 rounded-md bg-muted p-4 font-mono"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_abgfdsurc_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "thorization: Bearer &lt;your-api-key&g"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_bv4gsv5lz_m21a29fk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Authorization: Bearer <your-api-key>"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_2ajf3c37z_m21a29fk",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "mt-4"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_jyol77yci_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "You can obtain your API key by signing up for an account on our website and navigating to the \"API\n                    Keys\" section."
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_fqc6b1upn_m21a29fk",
+                        "name": "section",
+                        "type": "section",
+                        "props": {
+                          "id": "rate-limiting"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_85rb0td94_m21a29fk",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_ensud5ybm_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Rate Limiting"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_2hzp376p1_m21a29fk",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "mt-4 text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_yppb3yvp6_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "The Acme API has rate limiting in place to prevent abuse and ensure fair usage for all users. The\n                current rate limit is"
+                                }
+                              },
+                              {
+                                "id": "id_3row5s558_m21a29fk",
+                                "name": "strong",
+                                "type": "strong",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_zv0f40fja_m21a29fk",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "100 requests per minute"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_sobmg78xv_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "per API key."
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_otpbt0j5v_m21a29fk",
+                            "name": "Collapsible",
+                            "type": "Collapsible",
+                            "props": {
+                              "className": "mt-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_aa2e3n2jo_m21a29fk",
+                                "name": "CollapsibleTrigger",
+                                "type": "CollapsibleTrigger",
+                                "props": {
+                                  "className": "flex w-full items-center justify-between rounded-md bg-muted px-4 py-2 text-sm font-medium text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_w12f5uash_m21a29fk",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_hwu8k9pem_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "How to handle rate limiting"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_5me930lua_m21a29fk",
+                                    "name": "ChevronDownIcon",
+                                    "type": "ChevronDownIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 transition-transform"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_jxa3k4p33_m21a29fk",
+                                "name": "CollapsibleContent",
+                                "type": "CollapsibleContent",
+                                "props": {
+                                  "className": "rounded-md border border-muted bg-background p-4 text-sm text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_c560pvted_m21a29fk",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_9n97kfqhv_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "If you exceed the rate limit, the API will respond with a"
+                                        }
+                                      },
+                                      {
+                                        "id": "id_fb0yndpvm_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "9 Too Many Reques"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_aemmxotfi_m21a29fk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "429 Too Many Requests"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_w1djwosq6_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "status code. The response will also include the following\n                    headers:"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_pe10a0eg3_m21a29fk",
+                                    "name": "pre",
+                                    "type": "pre",
+                                    "props": {
+                                      "className": "mt-4 rounded-md bg-muted p-4 font-mono"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_r0w01a4vh_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "RateLimit-Limit: 100 X-RateLimit-Remaining: 0 X-RateLimit-Reset: "
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_yg80r8kr6_m21a29fk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "X-RateLimit-Limit: 100 X-RateLimit-Remaining: 0 X-RateLimit-Reset: 60"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_n80q6l9ct_m21a29fk",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "mt-4"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_zz6fhtg27_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "The"
+                                        }
+                                      },
+                                      {
+                                        "id": "id_m0a9uk04z_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "RateLimit-Res"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_5lj0p4qhn_m21a29fk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "X-RateLimit-Reset"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_rsrv64ep3_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "header indicates the number of seconds until the rate limit\n                    window resets. You should wait for the reset time before making additional requests."
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_i20d3wr56_m21a29fk",
+                        "name": "section",
+                        "type": "section",
+                        "props": {
+                          "id": "error-handling"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_6l3h9f639_m21a29fk",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_btn7g8h6m_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Error Handling"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_nlbjvhpoc_m21a29fk",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "mt-4 text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_pkivykctv_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "The Acme API uses standard HTTP status codes to indicate the success or failure of a request. Here are\n                some common error codes and their meanings:"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_2sqj0mrlu_m21a29fk",
+                            "name": "ul",
+                            "type": "ul",
+                            "props": {
+                              "className": "mt-4 space-y-2 text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_fwrs18ad9_m21a29fk",
+                                "name": "li",
+                                "type": "li",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_9h6084z9g_m21a29fk",
+                                    "name": "strong",
+                                    "type": "strong",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_tdwwt5kw9_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "400 Bad Request"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_8210akrma_m21a29fk",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- The request was malformed or invalid."
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_8gkwrkg1s_m21a29fk",
+                                "name": "li",
+                                "type": "li",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_pgiprww97_m21a29fk",
+                                    "name": "strong",
+                                    "type": "strong",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_7qhph23g6_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "401 Unauthorized"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_ldgukq9ea_m21a29fk",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- The API key is missing or invalid."
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_c718pknih_m21a29fk",
+                                "name": "li",
+                                "type": "li",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_cwyzz111z_m21a29fk",
+                                    "name": "strong",
+                                    "type": "strong",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_7mbtjbxuy_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "403 Forbidden"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_demspes0p_m21a29fk",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- The API key does not have permission to perform the requested action."
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_xh5k1upfn_m21a29fk",
+                                "name": "li",
+                                "type": "li",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_o2xbcqlr1_m21a29fk",
+                                    "name": "strong",
+                                    "type": "strong",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_y350qr6sv_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "404 Not Found"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_xi7jc5vr1_m21a29fk",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- The requested resource was not found."
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_0aetuprko_m21a29fk",
+                                "name": "li",
+                                "type": "li",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_4tlz0zhbx_m21a29fk",
+                                    "name": "strong",
+                                    "type": "strong",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_7e1v4wtd5_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "429 Too Many Requests"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_cs5ew03vb_m21a29fk",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- The rate limit has been exceeded."
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_f4gs8gbuu_m21a29fk",
+                                "name": "li",
+                                "type": "li",
+                                "props": {},
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_fyn3vn8c0_m21a29fk",
+                                    "name": "strong",
+                                    "type": "strong",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_w536ge4pe_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "500 Internal Server Error"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_4ko286lmq_m21a29fk",
+                                    "name": "Text",
+                                    "type": "text",
+                                    "allowsChildren": false,
+                                    "children": [],
+                                    "props": {
+                                      "content": "- An unexpected error occurred on the server."
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_yd5f0f0b9_m21a29fk",
+                        "name": "section",
+                        "type": "section",
+                        "props": {
+                          "id": "requests-and-responses"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_gs9vnp80l_m21a29fk",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_nrw72sqpy_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Requests and Responses"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_n7i8zd16s_m21a29fk",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "mt-4 text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_2b942fwc2_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "The Acme API uses standard HTTP methods and JSON payloads for requests and responses."
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_xp93lhbaa_m21a29fk",
+                            "name": "Collapsible",
+                            "type": "Collapsible",
+                            "props": {
+                              "className": "mt-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_8ojgkn68j_m21a29fk",
+                                "name": "CollapsibleTrigger",
+                                "type": "CollapsibleTrigger",
+                                "props": {
+                                  "className": "flex w-full items-center justify-between rounded-md bg-muted px-4 py-2 text-sm font-medium text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_29xbao69i_m21a29fk",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_ydzu90lfn_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Request Format"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_3lwg4sqiz_m21a29fk",
+                                    "name": "ChevronDownIcon",
+                                    "type": "ChevronDownIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 transition-transform"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_7fgkq0n37_m21a29fk",
+                                "name": "CollapsibleContent",
+                                "type": "CollapsibleContent",
+                                "props": {
+                                  "className": "rounded-md border border-muted bg-background p-4 text-sm text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_bz7kguibx_m21a29fk",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_ykku1ejjj_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "All requests to the Acme API should include the following headers:"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_rtwy0y5fd_m21a29fk",
+                                    "name": "pre",
+                                    "type": "pre",
+                                    "props": {
+                                      "className": "mt-4 rounded-md bg-muted p-4 font-mono"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_scr8aty5r_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "ntent-Type: application/json Authorization: Bearer &lt;your-api-key&g"
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_fefm0dp56_m21a29fk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "Content-Type: application/json Authorization: Bearer <your-api-key>"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_h6ycmhf70_m21a29fk",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "mt-4"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_6i9mj58vc_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "The request body should be a JSON object with the appropriate data for the endpoint you are calling."
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_1r8g5s5xb_m21a29fk",
+                            "name": "Collapsible",
+                            "type": "Collapsible",
+                            "props": {
+                              "className": "mt-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_j89bt9zal_m21a29fk",
+                                "name": "CollapsibleTrigger",
+                                "type": "CollapsibleTrigger",
+                                "props": {
+                                  "className": "flex w-full items-center justify-between rounded-md bg-muted px-4 py-2 text-sm font-medium text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_u6xc402sg_m21a29fk",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_wob0z8a7b_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Response Format"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_g75if89oo_m21a29fk",
+                                    "name": "ChevronDownIcon",
+                                    "type": "ChevronDownIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 transition-transform"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_qby7rhbt6_m21a29fk",
+                                "name": "CollapsibleContent",
+                                "type": "CollapsibleContent",
+                                "props": {
+                                  "className": "rounded-md border border-muted bg-background p-4 text-sm text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_kx9jjdjub_m21a29fk",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_x6cjaetff_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "The Acme API will respond with a JSON object containing the requested data or an error message. The\n                    response will also include the appropriate HTTP status code."
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_xgbax0a6g_m21a29fk",
+                                    "name": "pre",
+                                    "type": "pre",
+                                    "props": {
+                                      "className": "mt-4 rounded-md bg-muted p-4 font-mono"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_mejsxk7xe_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "\n{\n  \"data\": {\n    \"id\": \"123\",\n    \"name\": \"Acme Product\",\n    \"description\": \"A great product from Acme\"\n  },\n  \"meta\": {\n    \"total_count\": 100,\n    \"page\": 1,\n    \"per_page\": 20\n  }\n}\n                      "
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_r5itokk5z_m21a29fk",
+                                    "name": "p",
+                                    "type": "p",
+                                    "props": {
+                                      "className": "mt-4"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_93uwcxaq6_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "The"
+                                        }
+                                      },
+                                      {
+                                        "id": "id_yjabzk059_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": ""
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_ctvtu6hec_m21a29fk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "data"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_uny0i8mjd_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "object will contain the requested data, and the"
+                                        }
+                                      },
+                                      {
+                                        "id": "id_7441xo5w5_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": ""
+                                        },
+                                        "allowsChildren": true,
+                                        "children": [
+                                          {
+                                            "id": "id_1g1slh18w_m21a29fk",
+                                            "name": "Text",
+                                            "type": "text",
+                                            "allowsChildren": false,
+                                            "children": [],
+                                            "props": {
+                                              "content": "meta"
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "id_6ofpxe6a9_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "object will\n                    contain pagination information (if applicable)."
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "id_pb89ahur1_m21a29fk",
+                        "name": "section",
+                        "type": "section",
+                        "props": {
+                          "id": "examples"
+                        },
+                        "allowsChildren": true,
+                        "children": [
+                          {
+                            "id": "id_w1r78bent_m21a29fk",
+                            "name": "h2",
+                            "type": "h2",
+                            "props": {
+                              "className": "text-2xl font-bold"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_azdkuejqj_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Examples"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_qwkm6rdlf_m21a29fk",
+                            "name": "p",
+                            "type": "p",
+                            "props": {
+                              "className": "mt-4 text-muted-foreground"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_vnfl89ign_m21a29fk",
+                                "name": "Text",
+                                "type": "text",
+                                "allowsChildren": false,
+                                "children": [],
+                                "props": {
+                                  "content": "Here are some examples of how to use the Acme API in different programming languages."
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_4r54ohc5u_m21a29fk",
+                            "name": "Collapsible",
+                            "type": "Collapsible",
+                            "props": {
+                              "className": "mt-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_tjaby0eui_m21a29fk",
+                                "name": "CollapsibleTrigger",
+                                "type": "CollapsibleTrigger",
+                                "props": {
+                                  "className": "flex w-full items-center justify-between rounded-md bg-muted px-4 py-2 text-sm font-medium text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_imowp2dqs_m21a29fk",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_6jkangtoh_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "JavaScript"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_t3ww76q34_m21a29fk",
+                                    "name": "ChevronDownIcon",
+                                    "type": "ChevronDownIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 transition-transform"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_3y5ghbt4d_m21a29fk",
+                                "name": "CollapsibleContent",
+                                "type": "CollapsibleContent",
+                                "props": {
+                                  "className": "rounded-md border border-muted bg-background p-4 text-sm text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_ha99are0f_m21a29fk",
+                                    "name": "pre",
+                                    "type": "pre",
+                                    "props": {
+                                      "className": "rounded-md bg-muted p-4 font-mono"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_ua5jxah2d_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "\nconst apiKey = 'your-api-key';\n\nfetch('https://api.acme.com/users', {\n  headers: {\n    'Authorization': \\`Bearer \\${apiKey}\\`,\n    'Content-Type': 'application/json'\n  },\n  method: 'GET'\n})\n.then(response => response.json())\n.then(data => {\n  console.log(data);\n})\n.catch(error => {\n  console.error(error);\n});\n                      "
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_112bdedsp_m21a29fk",
+                            "name": "Collapsible",
+                            "type": "Collapsible",
+                            "props": {
+                              "className": "mt-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_64jsvc7ot_m21a29fk",
+                                "name": "CollapsibleTrigger",
+                                "type": "CollapsibleTrigger",
+                                "props": {
+                                  "className": "flex w-full items-center justify-between rounded-md bg-muted px-4 py-2 text-sm font-medium text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_z985u655h_m21a29fk",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_hm7mnezsb_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Python"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_mod6m6gb4_m21a29fk",
+                                    "name": "ChevronDownIcon",
+                                    "type": "ChevronDownIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 transition-transform"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_5uigzet4g_m21a29fk",
+                                "name": "CollapsibleContent",
+                                "type": "CollapsibleContent",
+                                "props": {
+                                  "className": "rounded-md border border-muted bg-background p-4 text-sm text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_2hrzi2yx1_m21a29fk",
+                                    "name": "pre",
+                                    "type": "pre",
+                                    "props": {
+                                      "className": "rounded-md bg-muted p-4 font-mono"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_hwdyti9gv_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "\nimport requests\n\napi_key = 'your-api-key'\nurl = 'https://api.acme.com/users'\nheaders = {\n    'Authorization': f'Bearer {api_key}',\\n    'Content-Type': 'application/json'\n}\n\nresponse = requests.get(url, headers=headers)\ndata = response.json()\nprint(data)\n                      "
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "id": "id_211vc2rfm_m21a29fk",
+                            "name": "Collapsible",
+                            "type": "Collapsible",
+                            "props": {
+                              "className": "mt-4"
+                            },
+                            "allowsChildren": true,
+                            "children": [
+                              {
+                                "id": "id_1y152wsv5_m21a29fk",
+                                "name": "CollapsibleTrigger",
+                                "type": "CollapsibleTrigger",
+                                "props": {
+                                  "className": "flex w-full items-center justify-between rounded-md bg-muted px-4 py-2 text-sm font-medium text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_qb7cxa83k_m21a29fk",
+                                    "name": "span",
+                                    "type": "span",
+                                    "props": {},
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_40drhzrmy_m21a29fk",
+                                        "name": "Text",
+                                        "type": "text",
+                                        "allowsChildren": false,
+                                        "children": [],
+                                        "props": {
+                                          "content": "Go"
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "id_7whlx27ao_m21a29fk",
+                                    "name": "ChevronDownIcon",
+                                    "type": "ChevronDownIcon",
+                                    "props": {
+                                      "className": "h-5 w-5 transition-transform"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "id_s5v2td7m0_m21a29fk",
+                                "name": "CollapsibleContent",
+                                "type": "CollapsibleContent",
+                                "props": {
+                                  "className": "rounded-md border border-muted bg-background p-4 text-sm text-muted-foreground"
+                                },
+                                "allowsChildren": true,
+                                "children": [
+                                  {
+                                    "id": "id_76hmk5a29_m21a29fk",
+                                    "name": "pre",
+                                    "type": "pre",
+                                    "props": {
+                                      "className": "rounded-md bg-muted p-4 font-mono"
+                                    },
+                                    "allowsChildren": true,
+                                    "children": [
+                                      {
+                                        "id": "id_13d4bgdev_m21a29fk",
+                                        "name": "code",
+                                        "type": "code",
+                                        "props": {
+                                          "content": "\npackage main\n\nimport (\n    \"fmt\"\n    \"io/ioutil\"\n    \"net/http\"\n)\n\nfunc main() {\n    apiKey := \"your-api-key\"\n    url := \"https://api.acme.com/users\"\n    req, _ := http.NewRequest(\"GET\", url, nil)\n    req.Header.Set(\"Authorization\", fmt.Sprintf(\"Bearer %s\", apiKey))\n    req.Header.Set(\"Content-Type\", \"application/json\")\n\n    client := &http.Client{}\n    resp, _ := client.Do(req)\n    defer resp.Body.Close()\n\n    body, _ := ioutil.ReadAll(resp.Body)\n    fmt.Println(string(body))\n}\n                      "
+                                        },
+                                        "allowsChildren": true,
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
